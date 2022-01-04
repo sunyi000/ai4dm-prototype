@@ -1,0 +1,26 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div
+                    leaflet
+                    style="height: 600px;width: 100%"
+                    [leafletOptions]="options"
+                    [leafletBaseLayers]="baseLayers"
+                    [leafletLayersControlOptions]="layersControlOptions"
+                    [leafletMarkerCluster]="markerClusterData"
+                    [leafletMarkerClusterOptions]="markerClusterOptions"
+                    (leafletMarkerClusterReady)="markerClusterReady($event)"
+                >
+                </div>
+            </div>
+            <div class="row">
+                <app-airport-table></app-airport-table>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+
+

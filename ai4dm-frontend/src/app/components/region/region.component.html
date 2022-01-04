@@ -1,0 +1,27 @@
+<mat-card>
+    <mat-card-title>Region {{region_id}}</mat-card-title>
+  
+        <div class="Row">
+            <div class=ColumnInfo>
+                <div class="block">
+                    <label>Region Code </label>
+                    <input class="info" readonly name="code" type="text" value="{{code}}"/>
+                </div>        
+                <div class="block">
+                    <label>Continent</label>
+                    <input class="info" readonly name="continent" type="text" value="{{continent}}"/>
+                </div>        
+                <div class="block">
+                    <label>Wiki Link</label>
+                    <input class="info" readonly name="wiki" type="text" value="{{wiki}}"/>
+                </div>
+                <div class="block">
+                    <label>country</label>
+                    <a class="info" name="country" type="text" routerLink = "/country/{{country}}">{{country}}</a>
+                </div>
+           </div>
+
+
+
+        </div>   
+</mat-card>

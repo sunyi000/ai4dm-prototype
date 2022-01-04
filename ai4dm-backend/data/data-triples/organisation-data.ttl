@@ -1,0 +1,93 @@
+# baseURI: http://dbpedia.org/ontology/data/ai4dm/organisation-data
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://dbpedia.org/ontology/cv/ai4dm/
+
+@prefix ai4dm: <http://dbpedia.org/ontology/ai4dm/> .
+@prefix ai4dm-data: <http://dbpedia.org/ontology/data/ai4dm/> .
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ai4dm-data:organisation-Air%20France-KLM a ai4dm:Organisation ;
+    ai4dm:foundedBy ai4dm-data:person-Peter%20Hartman ;
+    ai4dm:foundedDate "1933-10-07"^^xsd:date ;
+    ai4dm:hasCountry ai4dm-data:country-FR ;
+    ai4dm:hasRegion ai4dm-data:region-FR-IDF ;
+    skos:hiddenLabel "Air France-KLM"^^xsd:string ;
+    skos:prefLabel "Air France-KLM"^^xsd:string .
+
+ai4dm-data:organisation-China%20Southern%20Air%20Holding a ai4dm:Organisation ;
+    ai4dm:foundedDate "1988-07-01"^^xsd:date ;
+    ai4dm:hasCountry ai4dm-data:country-CN ;
+    ai4dm:hasRegion ai4dm-data:region-CN-44 ;
+    skos:hiddenLabel "China Southern Air Holding"^^xsd:string ;
+    skos:prefLabel "China Southern Air Holding"^^xsd:string .
+
+ai4dm-data:organisation-International%20Airlines%20Group a ai4dm:Organisation ;
+    ai4dm:foundedDate "2011-01-21"^^xsd:date ;
+    ai4dm:hasCountry ai4dm-data:country-GB ;
+    ai4dm:hasRegion ai4dm-data:region-GB-ENG ;
+    ai4dm:hasWikiLink "http://www.iairgroup.com/"^^xsd:anyURI ;
+    skos:hiddenLabel "International Airlines Group"^^xsd:string ;
+    skos:prefLabel "International Airlines Group"^^xsd:string .
+
+ai4dm-data:organisation-Lufthansa%20Group a ai4dm:Organisation ;
+    ai4dm:foundedBy ai4dm-data:person-Carsten%20Sphor ;
+    ai4dm:hasCountry ai4dm-data:country-DE ;
+    ai4dm:hasRegion ai4dm-data:region-DE-NW ;
+    ai4dm:hasWikiLink "htpps://lufthansagroup.com"^^xsd:anyURI ;
+    skos:hiddenLabel "Lufthansa Group"^^xsd:string ;
+    skos:prefLabel "Lufthansa Group"^^xsd:string .
+
+ai4dm-data:organisation-MRUD%20Iran a ai4dm:Organisation ;
+    ai4dm:foundedDate "2001-01-01"^^xsd:date ;
+    ai4dm:hasCountry ai4dm-data:country-IR ;
+    ai4dm:hasRegion ai4dm-data:region-IR-07 ;
+    ai4dm:hasWikiLink "https://www.mrud.ir"^^xsd:anyURI ;
+    skos:hiddenLabel "MRUD Iran"^^xsd:string ;
+    skos:prefLabel "MRUD Iran"^^xsd:string .
+
+ai4dm-data:organisation-Qantas%20Group a ai4dm:Organisation ;
+    ai4dm:foundedBy ai4dm-data:person-Alan%20Joyce ;
+    ai4dm:foundedDate "1920-11-16"^^xsd:date ;
+    ai4dm:hasCountry ai4dm-data:country-AU ;
+    ai4dm:hasRegion ai4dm-data:region-AU-NSW ;
+    ai4dm:hasWikiLink "https://qantas.com"^^xsd:anyURI ;
+    skos:hiddenLabel "Qantas Group"^^xsd:string ;
+    skos:prefLabel "Qantas Group"^^xsd:string .
+
+ai4dm-data:organisation-Swire%20Pacific a ai4dm:Organisation ;
+    ai4dm:foundedBy ai4dm-data:person-Barnaby%20Swire ;
+    ai4dm:foundedDate "1816-01-01"^^xsd:date ;
+    ai4dm:hasCountry ai4dm-data:country-CN ;
+    ai4dm:hasRegion ai4dm-data:region-CN-91 ;
+    ai4dm:hasWikiLink "https://swire.com"^^xsd:anyURI ;
+    skos:hiddenLabel "Swire Pacific"^^xsd:string ;
+    skos:prefLabel "Swire Pacific"^^xsd:string .
+
+ai4dm-data:organisation-The%20Emirates%20Group a ai4dm:Organisation ;
+    ai4dm:foundedBy ai4dm-data:person-Sheikh%20Ahmed%20bin%20Saeed%20Al%20Maktoum ;
+    ai4dm:foundedDate "1959-01-01"^^xsd:date ;
+    ai4dm:hasCountry ai4dm-data:country-UAE ;
+    ai4dm:hasRegion ai4dm-data:region-AE-DU ;
+    ai4dm:hasWikiLink "https://theemiratesgroup.com"^^xsd:anyURI ;
+    skos:hiddenLabel "The Emirates Group"^^xsd:string ;
+    skos:prefLabel "The Emirates Group"^^xsd:string .
+
+ai4dm-data:organisation-United%20Airlines%20Holdings a ai4dm:Organisation ;
+    ai4dm:foundedBy ai4dm-data:person-Oscar%20Munoz ;
+    ai4dm:foundedDate "1968-12-30"^^xsd:date ;
+    ai4dm:hasCountry ai4dm-data:country-US ;
+    ai4dm:hasRegion ai4dm-data:region-US-IL ;
+    ai4dm:hasWikiLink "https://ir.united.com"^^xsd:anyURI ;
+    skos:hiddenLabel "United Airlines Holdings"^^xsd:string ;
+    skos:prefLabel "United Airlines Holdings"^^xsd:string .
+
+ai4dm-data:organisation-Wizz%20Air%20Holdings%20plc a ai4dm:Organisation ;
+    skos:hiddenLabel "Wizz Air Holdings plc"^^xsd:string ;
+    skos:prefLabel "Wizz Air Holdings plc"^^xsd:string .
+
+ai4dm-data:organisation-data a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+

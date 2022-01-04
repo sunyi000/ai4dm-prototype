@@ -1,0 +1,299 @@
+# baseURI: http://dbpedia.org/ontology/data/ai4dm/airline-data
+# imports: http://www.w3.org/2004/02/skos/core
+
+
+@prefix ai4dm: <http://dbpedia.org/ontology/ai4dm/> .
+@prefix ai4dm-data: <http://dbpedia.org/ontology/data/ai4dm/> .
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ai4dm-data:airline-AF a ai4dm:Airline ;
+    ai4dm:foundedDate "1933-10-07"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-CZ,
+        ai4dm-data:airline-DL ;
+    ai4dm:hasBase ai4dm-data:airport-CDG,
+        ai4dm-data:airport-ORY ;
+    ai4dm:hasCountry ai4dm-data:country-FR ;
+    ai4dm:hasFocusRegion ai4dm-data:region-FR-ARA,
+        ai4dm-data:region-FR-GES,
+        ai4dm-data:region-FR-NOR ;
+    ai4dm:hasHeadquarter ai4dm-data:region-FR-IDF ;
+    ai4dm:hasIcaoCode "AFR"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Benjamin%20Smith ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-Air%20France-KLM ;
+    ai4dm:netIncome "EUR293m"^^xsd:string ;
+    ai4dm:targetAirport ai4dm-data:airport-BOD,
+        ai4dm-data:airport-LYS ;
+    dct:description "Air France"^^xsd:string ;
+    ai4dm:hasCallsign "AIRFRANS"^^xsd:string ;
+    ai4dm:hasFleetSize 213 ;
+    skos:hiddenLabel "airline-AF"^^xsd:string ;
+    skos:prefLabel "airline-AF"^^xsd:string .
+
+ai4dm-data:airline-BA a ai4dm:Airline ;
+    ai4dm:foundedDate "1974-03-31"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-CX,
+        ai4dm-data:airline-EK,
+        ai4dm-data:airline-JL,
+        ai4dm-data:airline-QF ;
+    ai4dm:hasBase ai4dm-data:airport-LHR ;
+    ai4dm:hasCountry ai4dm-data:country-UK ;
+    ai4dm:hasHeadquarter ai4dm-data:region-GB-ENG ;
+    ai4dm:hasIcaoCode "BAW"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Sean%20Doyle ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-International%20Airlines%20Group ;
+    ai4dm:netIncome "GBP1952m"^^xsd:string ;
+    dct:description "British Airways"^^xsd:string ;
+    ai4dm:hasCallsign "SPEEDBIRD"^^xsd:string ;
+    ai4dm:hasFleetSize 254 ;
+    skos:hiddenLabel "airline-BA"^^xsd:string ;
+    skos:prefLabel "airline-BA"^^xsd:string .
+
+ai4dm-data:airline-CX a ai4dm:Airline ;
+    ai4dm:foundedDate "1946-09-24"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-BA,
+        ai4dm-data:airline-EK,
+        ai4dm-data:airline-QF ;
+    ai4dm:hasBase ai4dm-data:airport-HKG ;
+    ai4dm:hasCountry ai4dm-data:country-CN ;
+    ai4dm:hasFocusRegion ai4dm-data:region-TPE ;
+    ai4dm:hasHeadquarter ai4dm-data:region-CN-91 ;
+    ai4dm:hasIcaoCode "CPA"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Patrick%20Healy ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-Swire%20Pacific ;
+    ai4dm:netIncome "HKD2.345b"^^xsd:string ;
+    ai4dm:targetAirport ai4dm-data:airport-TPE ;
+    dct:description "Cathay Pacific"^^xsd:string ;
+    ai4dm:hasCallsign "CATHAY"^^xsd:string ;
+    ai4dm:hasFleetSize 161 ;
+    skos:hiddenLabel "airline-CX"^^xsd:string ;
+    skos:prefLabel "airline-CX"^^xsd:string .
+
+ai4dm-data:airline-CZ a ai4dm:Airline ;
+    ai4dm:foundedDate "1988-07-01"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-AF,
+        ai4dm-data:airline-DL ;
+    ai4dm:hasBase ai4dm-data:airport-CAN ;
+    ai4dm:hasCountry ai4dm-data:country-CN ;
+    ai4dm:hasFocusRegion ai4dm-data:region-CN-33,
+        ai4dm-data:region-CN-34,
+        ai4dm-data:region-CN-35,
+        ai4dm-data:region-CN-36 ;
+    ai4dm:hasHeadquarter ai4dm-data:region-CN-44 ;
+    ai4dm:hasIcaoCode "CSN"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Tan%20Wangeng ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-China%20Southern%20Air%20Holding ;
+    ai4dm:netIncome "RMB9.156b"^^xsd:string ;
+    ai4dm:targetAirport ai4dm-data:airport-BKK ;
+    dct:description "China Southern Airlines"^^xsd:string ;
+    ai4dm:hasCallsign "CHINA SOUTHERN"^^xsd:string ;
+    ai4dm:hasFleetSize 635 ;
+    skos:hiddenLabel "airline-CZ"^^xsd:string ;
+    skos:prefLabel "airline-CZ"^^xsd:string .
+
+ai4dm-data:airline-DL a ai4dm:Airline ;
+    ai4dm:foundedDate "1925-03-02"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-AF,
+        ai4dm-data:airline-CZ ;
+    ai4dm:hasBase ai4dm-data:airport-ATL ;
+    ai4dm:hasCountry ai4dm-data:country-US ;
+    ai4dm:hasFocusRegion ai4dm-data:region-US-NC ;
+    ai4dm:hasHeadquarter ai4dm-data:region-US-GA ;
+    ai4dm:hasIcaoCode "DAL"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Ed%20Bastian ;
+    ai4dm:netIncome "US4.77m"^^xsd:string ;
+    ai4dm:targetAirport ai4dm-data:airport-RDU ;
+    dct:description "Delta Air Lines"^^xsd:string ;
+    ai4dm:hasCallsign "DELTA"^^xsd:string ;
+    ai4dm:hasFleetSize 750 ;
+    skos:hiddenLabel "airline-DL"^^xsd:string ;
+    skos:prefLabel "airline-DL"^^xsd:string .
+
+ai4dm-data:airline-EK a ai4dm:Airline ;
+    ai4dm:foundedDate "1985-03-25"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-BA,
+        ai4dm-data:airline-QF ;
+    ai4dm:hasBase ai4dm-data:airport-DUB ;
+    ai4dm:hasCountry ai4dm-data:country-AE ;
+    ai4dm:hasHeadquarter ai4dm-data:region-AE-DU ;
+    ai4dm:hasIcaoCode "UAE"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Tim%20Clark ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-The%20Emirates%20Group ;
+    ai4dm:netIncome "US5.5b"^^xsd:string ;
+    dct:description "Emirates"^^xsd:string ;
+    ai4dm:hasCallsign "EMIRATES"^^xsd:string ;
+    ai4dm:hasFleetSize 252 ;
+    skos:hiddenLabel "airline-EK"^^xsd:string ;
+    skos:prefLabel "airline-EK"^^xsd:string .
+
+ai4dm-data:airline-IR a ai4dm:Airline ;
+    ai4dm:foundedDate "1962-02-24"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-IKA,
+        ai4dm-data:airline-THR ;
+    ai4dm:hasBase ai4dm-data:airport-THR ;
+    ai4dm:hasCountry ai4dm-data:country-IR ;
+    ai4dm:hasFocusRegion ai4dm-data:region-IR-04,
+        ai4dm-data:region-IR-07 ;
+    ai4dm:hasHeadquarter ai4dm-data:region-IR-07 ;
+    ai4dm:hasIcaoCode "IRA"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Alireza%20Barkhor ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-MRUD%20Iran ;
+    ai4dm:netIncome "US -477m"^^xsd:string ;
+    ai4dm:targetAirport ai4dm-data:airport-BND,
+        ai4dm-data:airport-IFN ;
+    dct:description "Iran Air"^^xsd:string ;
+    ai4dm:hasCallsign "IRANAIR"^^xsd:string ;
+    ai4dm:hasFleetSize 80 ;
+    skos:hiddenLabel "airline-IR"^^xsd:string ;
+    skos:prefLabel "airline-IR"^^xsd:string .
+
+ai4dm-data:airline-JL a ai4dm:Airline ;
+    ai4dm:foundedDate "1951-08-01"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-EK,
+        ai4dm-data:airline-MU,
+        ai4dm-data:airline-QF ;
+    ai4dm:hasBase ai4dm-data:airport-NRT ;
+    ai4dm:hasCountry ai4dm-data:country-JP ;
+    ai4dm:hasFocusRegion ai4dm-data:region-JP-40,
+        ai4dm-data:region-JP-47 ;
+    ai4dm:hasHeadquarter ai4dm-data:region-JP-13 ;
+    ai4dm:hasIcaoCode "JAL"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Yoshiharu%20Ueki ;
+    ai4dm:netIncome "JP-57.4b"^^xsd:string ;
+    ai4dm:targetAirport ai4dm-data:airport-ITM,
+        ai4dm-data:airport-KIX ;
+    dct:description "Japan Airlines"^^xsd:string ;
+    ai4dm:hasCallsign "JAPANAIR"^^xsd:string ;
+    ai4dm:hasFleetSize 158 ;
+    skos:hiddenLabel "airline-JL"^^xsd:string ;
+    skos:prefLabel "airline-JL"^^xsd:string .
+
+ai4dm-data:airline-LH a ai4dm:Airline ;
+    ai4dm:foundedDate "1953-01-06"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-SQ,
+        ai4dm-data:airline-UA ;
+    ai4dm:hasBase ai4dm-data:airport-FRA,
+        ai4dm-data:airport-MUC ;
+    ai4dm:hasCountry ai4dm-data:country-DE ;
+    ai4dm:hasHeadquarter ai4dm-data:region-DE-NW ;
+    ai4dm:hasIcaoCode "DLH"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Carsten%20Spohr ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-Lufthansa%20Group ;
+    ai4dm:netIncome "EUR-1.21b"^^xsd:string ;
+    dct:description "Lufthansa"^^xsd:string ;
+    ai4dm:hasCallsign "LUFTHANSA"^^xsd:string ;
+    ai4dm:hasFleetSize 263 ;
+    skos:hiddenLabel "airline-LH"^^xsd:string ;
+    skos:prefLabel "airline-LH"^^xsd:string .
+
+ai4dm-data:airline-QF a ai4dm:Airline ;
+    ai4dm:foundedDate "1920-11-16"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-EK,
+        ai4dm-data:airline-JL,
+        ai4dm-data:airline-MU,
+        ai4dm-data:airline-QF ;
+    ai4dm:hasBase ai4dm-data:airport-BNE,
+        ai4dm-data:airport-MEL,
+        ai4dm-data:airport-SYD ;
+    ai4dm:hasCountry ai4dm-data:country-AU ;
+    ai4dm:hasFocusRegion ai4dm-data:region-AU-NT,
+        ai4dm-data:region-SG-01,
+        ai4dm-data:region-SG-02 ;
+    ai4dm:hasHeadquarter ai4dm-data:region-AU-NSW ;
+    ai4dm:hasIcaoCode "QFA"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Richard%20Goyder ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-Qantas%20Group ;
+    ai4dm:netIncome "AUD-1.64b"^^xsd:string ;
+    ai4dm:targetAirport ai4dm-data:airport-CNS,
+        ai4dm-data:airport-DRW,
+        ai4dm-data:airport-SIN ;
+    dct:description "Qantas"^^xsd:string ;
+    ai4dm:hasCallsign "QANTAS"^^xsd:string ;
+    ai4dm:hasFleetSize 126 ;
+    skos:hiddenLabel "airline-QF"^^xsd:string ;
+    skos:prefLabel "airline-QF"^^xsd:string .
+
+ai4dm-data:airline-SR a ai4dm:Airline ;
+    ai4dm:foundedDate "1931-03-26"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-LH,
+        ai4dm-data:airline-SQ,
+        ai4dm-data:airline-UA ;
+    ai4dm:hasBase ai4dm-data:airport-ZRH ;
+    ai4dm:hasCountry ai4dm-data:country-CH ;
+    ai4dm:hasFocusRegion ai4dm-data:region-CH-GE ;
+    ai4dm:hasHeadquarter ai4dm-data:region-CH-BS ;
+    ai4dm:hasIcaoCode "SWR"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Dieter%20Vranckx ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-Lufthansa%20Group ;
+    ai4dm:netIncome "CHF561m"^^xsd:string ;
+    ai4dm:targetAirport ai4dm-data:airport-GVA ;
+    dct:description "Swissair"^^xsd:string ;
+    ai4dm:hasCallsign "Swissair"^^xsd:string ;
+    ai4dm:hasFleetSize 92 ;
+    skos:hiddenLabel "airline-SR"^^xsd:string ;
+    skos:prefLabel "airline-SR"^^xsd:string .
+
+ai4dm-data:airline-UA a ai4dm:Airline ;
+    ai4dm:foundedDate "1926-04-06"^^xsd:date ;
+    ai4dm:hasAlliance ai4dm-data:airline-LH,
+        ai4dm-data:airline-SQ,
+        ai4dm-data:airline-UA ;
+    ai4dm:hasBase ai4dm-data:airport-DEN,
+        ai4dm-data:airport-IAH,
+        ai4dm-data:airport-ORD,
+        ai4dm-data:airport-SFO ;
+    ai4dm:hasCountry ai4dm-data:country-US ;
+    ai4dm:hasFocusRegion ai4dm-data:region-FR-ARA,
+        ai4dm-data:region-FR-GES,
+        ai4dm-data:region-FR-NOR,
+        ai4dm-data:region-US-AK,
+        ai4dm-data:region-US-AL,
+        ai4dm-data:region-US-AR,
+        ai4dm-data:region-US-AZ,
+        ai4dm-data:region-US-CA,
+        ai4dm-data:region-US-CO,
+        ai4dm-data:region-US-CT,
+        ai4dm-data:region-US-DC,
+        ai4dm-data:region-US-DE,
+        ai4dm-data:region-US-FL,
+        ai4dm-data:region-US-GA,
+        ai4dm-data:region-US-HI,
+        ai4dm-data:region-US-IA,
+        ai4dm-data:region-US-ID,
+        ai4dm-data:region-US-IL ;
+    ai4dm:hasHeadquarter ai4dm-data:region-US-IL ;
+    ai4dm:hasIcaoCode "UAL"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Scott%20Kirby ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-United%20Airlines%20Holdings ;
+    ai4dm:netIncome "US3.009m"^^xsd:string ;
+    ai4dm:targetAirport ai4dm-data:airport-BRU,
+        ai4dm-data:airport-PEK,
+        ai4dm-data:airport-SYD ;
+    dct:description "United Airlines"^^xsd:string ;
+    ai4dm:hasCallsign "UNITED"^^xsd:string ;
+    ai4dm:hasFleetSize 853 ;
+    skos:hiddenLabel "airline-UA"^^xsd:string ;
+    skos:prefLabel "airline-UA"^^xsd:string .
+
+ai4dm-data:airline-W6 a ai4dm:Airline ;
+    ai4dm:foundedDate "2003-09-01"^^xsd:date ;
+    ai4dm:hasCountry ai4dm-data:country-HU ;
+    ai4dm:hasHeadquarter ai4dm-data:region-HU-BU ;
+    ai4dm:hasIcaoCode "WZZ"^^xsd:string ;
+    ai4dm:hasKeyPeople ai4dm-data:person-Jozsef%20Varadi ;
+    ai4dm:isSubsidaryOf ai4dm-data:organisation-Wizz%20Air%20Holdings%20plc ;
+    ai4dm:netIncome "EUR281m"^^xsd:string ;
+    dct:description "Wizz Air"^^xsd:string ;
+    ai4dm:hasCallsign "WIZZ AIR"^^xsd:string ;
+    ai4dm:hasFleetSize 146 ;
+    skos:hiddenLabel "airline-W6"^^xsd:string ;
+    skos:prefLabel "airline-W6"^^xsd:string .
+
+ai4dm-data:ai4dm-data a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+

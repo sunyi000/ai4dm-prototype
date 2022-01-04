@@ -1,0 +1,504 @@
+# baseURI: http://dbpedia.org/ontology/data/ai4dm/person-data
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://dbpedia.org/ontology/cv/ai4dm/
+
+@prefix ai4dm: <http://dbpedia.org/ontology/ai4dm/> .
+@prefix ai4dm-data: <http://dbpedia.org/ontology/data/ai4dm/> .
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ai4dm-data:person-Abdullahi%20Umar%20Ganduje a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-QF14229 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AU-TAS ;
+    ai4dm:hasEmployer ai4dm-data:airline-JL ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20Tasmania ;
+    skos:hiddenLabel "19"^^xsd:string ;
+    skos:prefLabel "Abdullahi%20Umar%20Ganduje"^^xsd:string ;
+    foaf:name "Abdullahi%20Umar%20Ganduje"^^xsd:string .
+
+ai4dm-data:person-Adebayo%20Clement%20Adeyeye a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-QF32415 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AU-VIC ;
+    ai4dm:hasEmployer ai4dm-data:airline-BA ;
+    ai4dm:hasNationality ai4dm-data:country-AU ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Monash%20Unviersity ;
+    skos:hiddenLabel "5"^^xsd:string ;
+    skos:prefLabel "Adebayo%20Clement%20Adeyeye"^^xsd:string ;
+    foaf:name "Adebayo%20Clement%20Adeyeye"^^xsd:string .
+
+ai4dm-data:person-Adebola%20Babatunde%20Ekanola a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-QF32415 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AU-WA ;
+    ai4dm:hasEmployer ai4dm-data:airline-UA ;
+    ai4dm:hasNationality ai4dm-data:country-AU ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20Western%20Australia ;
+    skos:hiddenLabel "29"^^xsd:string ;
+    skos:prefLabel "Adebola%20Babatunde%20Ekanola"^^xsd:string ;
+    foaf:name "Adebola%20Babatunde%20Ekanola"^^xsd:string .
+
+ai4dm-data:person-Adesina%20Fagbenro a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-LH53779 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-DE-BE ;
+    ai4dm:hasEmployer ai4dm-data:airline-BA ;
+    ai4dm:hasNationality ai4dm-data:country-DE ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Freie%20Universitaet%20Berlin ;
+    skos:hiddenLabel "6"^^xsd:string ;
+    skos:prefLabel "Adesina%20Fagbenro"^^xsd:string ;
+    foaf:name "Adesina%20Fagbenro"^^xsd:string .
+
+ai4dm-data:person-Adesola%20Kazeem%20Adeduntan a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-LH76265 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-DE-BR ;
+    ai4dm:hasEmployer ai4dm-data:airline-BA ;
+    ai4dm:hasNationality ai4dm-data:country-DE ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Technical%20University%20of%20Brandenburg ;
+    skos:hiddenLabel "7"^^xsd:string ;
+    skos:prefLabel "Adesola%20Kazeem%20Adeduntan"^^xsd:string ;
+    foaf:name "Adesola%20Kazeem%20Adeduntan"^^xsd:string .
+
+ai4dm-data:person-Akinwunmi%20Isola a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-IR87406 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-PS-NGZ ;
+    ai4dm:hasEmployer ai4dm-data:airline-LH ;
+    ai4dm:hasNationality ai4dm-data:country-PS ;
+    skos:hiddenLabel "21"^^xsd:string ;
+    skos:prefLabel "Akinwunmi%20Isola"^^xsd:string ;
+    foaf:name "Akinwunmi%20Isola"^^xsd:string .
+
+ai4dm-data:person-Alan%20Joyce a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-IE-D ;
+    ai4dm:hasEmployer ai4dm-data:airline-QF ;
+    ai4dm:hasNationality ai4dm-data:country-IE ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Trinity%20College%20Dublin ;
+    skos:hiddenLabel "65"^^xsd:string ;
+    skos:prefLabel "Alan%20Joyce"^^xsd:string ;
+    foaf:name "Alan%20Joyce"^^xsd:string .
+
+ai4dm-data:person-Alexander%20Animalu a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-IR29666 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AF-DAY ;
+    ai4dm:hasEmployer ai4dm-data:airline-LH ;
+    ai4dm:hasNationality ai4dm-data:country-AF ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Kabul%20University ;
+    skos:hiddenLabel "22"^^xsd:string ;
+    skos:prefLabel "Alexander%20Animalu"^^xsd:string ;
+    foaf:name "Alexander%20Animalu"^^xsd:string .
+
+ai4dm-data:person-Alexander%20Ogomudia a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-LH36171 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AF-FRA ;
+    ai4dm:hasNationality ai4dm-data:country-AF ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Kateb%20Unviersity ;
+    skos:hiddenLabel "23"^^xsd:string ;
+    skos:prefLabel "Alexander%20Ogomudia"^^xsd:string ;
+    foaf:name "Alexander%20Ogomudia"^^xsd:string .
+
+ai4dm-data:person-Alireza%20Barkhor a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-IR-07 ;
+    ai4dm:hasEmployer ai4dm-data:airline-IR ;
+    ai4dm:hasNationality ai4dm-data:country-IR ;
+    ai4dm:isAlumniOf ai4dm-data:institution-nan ;
+    skos:hiddenLabel "97"^^xsd:string ;
+    skos:prefLabel "Alireza%20Barkhor"^^xsd:string ;
+    foaf:name "Alireza%20Barkhor"^^xsd:string .
+
+ai4dm-data:person-Babatunde%20Idowu a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-LH21804 ;
+    ai4dm:hasEmployer ai4dm-data:airline-EK ;
+    ai4dm:hasNationality ai4dm-data:country-GR ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Athens%20University ;
+    skos:hiddenLabel "12"^^xsd:string ;
+    skos:prefLabel "Babatunde%20Idowu"^^xsd:string ;
+    foaf:name "Babatunde%20Idowu"^^xsd:string .
+
+ai4dm-data:person-Balogun%20Yakub%20Abiodun a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-IR69318 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-PS-KYS ;
+    ai4dm:hasEmployer ai4dm-data:airline-IR ;
+    ai4dm:hasNationality ai4dm-data:country-PS ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Arab%20American%20University ;
+    skos:hiddenLabel "18"^^xsd:string ;
+    skos:prefLabel "Balogun%20Yakub%20Abiodun"^^xsd:string ;
+    foaf:name "Balogun%20Yakub%20Abiodun"^^xsd:string .
+
+ai4dm-data:person-Barnaby%20Swire a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-GB-ENG ;
+    ai4dm:hasEmployer ai4dm-data:airline-BA ;
+    ai4dm:hasNationality ai4dm-data:country-GB ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20Oxford ;
+    skos:hiddenLabel "53"^^xsd:string ;
+    skos:prefLabel "Barnaby%20Swire"^^xsd:string ;
+    foaf:name "Barnaby%20Swire"^^xsd:string .
+
+ai4dm-data:person-Beatrice%20Aboyade a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-IR32408 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-PS-NBS ;
+    ai4dm:hasNationality ai4dm-data:country-PS ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Birzeit%20University ;
+    skos:hiddenLabel "2"^^xsd:string ;
+    skos:prefLabel "Beatrice%20Aboyade"^^xsd:string ;
+    foaf:name "Beatrice%20Aboyade"^^xsd:string .
+
+ai4dm-data:person-Benjamin%20Smith a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-GB-ENG ;
+    ai4dm:hasEmployer ai4dm-data:airline-nan ;
+    ai4dm:hasNationality ai4dm-data:country-CA ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Unviersity%20of%20Western%20Ontario ;
+    skos:hiddenLabel "73"^^xsd:string ;
+    skos:prefLabel "Benjamin%20Smith"^^xsd:string ;
+    foaf:name "Benjamin%20Smith"^^xsd:string .
+
+ai4dm-data:person-Bola%20Ige a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-BA37347 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-GB-ENG ;
+    ai4dm:hasEmployer ai4dm-data:airline-BA ;
+    ai4dm:hasNationality ai4dm-data:country-GB ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Unviersity%20of%20Manchester ;
+    skos:hiddenLabel "33"^^xsd:string ;
+    skos:prefLabel "Bola%20Ige"^^xsd:string ;
+    foaf:name "Bola%20Ige"^^xsd:string .
+
+ai4dm-data:person-Carsten%20Sphor a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-DE-BW ;
+    ai4dm:hasEmployer ai4dm-data:airline-LH ;
+    ai4dm:hasNationality ai4dm-data:country-DE ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Univerisity%20of%20Karlsruhe ;
+    skos:hiddenLabel "61"^^xsd:string ;
+    skos:prefLabel "Carsten%20Sphor"^^xsd:string ;
+    foaf:name "Carsten%20Sphor"^^xsd:string .
+
+ai4dm-data:person-Chukwuemeka%20Ike a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-LH17657 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-FI-01 ;
+    ai4dm:hasEmployer ai4dm-data:airline-SR ;
+    ai4dm:hasNationality ai4dm-data:country-FI ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Aalto%20University ;
+    skos:hiddenLabel "27"^^xsd:string ;
+    skos:prefLabel "Chukwuemeka%20Ike"^^xsd:string ;
+    foaf:name "Chukwuemeka%20Ike"^^xsd:string .
+
+ai4dm-data:person-Dawud%20Shittu%20Noibi a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-QF23538 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AU-ACT ;
+    ai4dm:hasEmployer ai4dm-data:airline-W7 ;
+    ai4dm:hasNationality ai4dm-data:country-AU ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Australian%20National%20Univeristy ;
+    skos:hiddenLabel "31"^^xsd:string ;
+    skos:prefLabel "Dawud%20Shittu%20Noibi"^^xsd:string ;
+    foaf:name "Dawud%20Shittu%20Noibi"^^xsd:string .
+
+ai4dm-data:person-Dele%20Odule a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-LH61910 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-FI-02 ;
+    ai4dm:hasEmployer ai4dm-data:airline-SR ;
+    ai4dm:hasNationality ai4dm-data:country-FI ;
+    skos:hiddenLabel "28"^^xsd:string ;
+    skos:prefLabel "Dele%20Odule"^^xsd:string ;
+    foaf:name "Dele%20Odule"^^xsd:string .
+
+ai4dm-data:person-Dieter%20Vranckx a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-BE-BRU ;
+    ai4dm:hasEmployer ai4dm-data:airline-SR ;
+    ai4dm:hasNationality ai4dm-data:country-BE ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Univeristy%20of%20Brussel ;
+    skos:hiddenLabel "109"^^xsd:string ;
+    skos:prefLabel "Dieter%20Vranckx"^^xsd:string ;
+    foaf:name "Dieter%20Vranckx"^^xsd:string .
+
+ai4dm-data:person-Ed%20Bastian a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-US-NY ;
+    ai4dm:hasEmployer ai4dm-data:airline-DL ;
+    ai4dm:hasNationality ai4dm-data:country-US ;
+    ai4dm:isAlumniOf ai4dm-data:institution-St%20Bonaventure%20University ;
+    skos:hiddenLabel "89"^^xsd:string ;
+    skos:prefLabel "Ed%20Bastian"^^xsd:string ;
+    foaf:name "Ed%20Bastian"^^xsd:string .
+
+ai4dm-data:person-Femi%20Osofisan a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-QF14229 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AU-QLD ;
+    ai4dm:hasEmployer ai4dm-data:airline-AF ;
+    ai4dm:hasNationality ai4dm-data:country-AU ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Griffith%20%20Unviersity ;
+    skos:hiddenLabel "3"^^xsd:string ;
+    skos:prefLabel "Femi%20Osofisan"^^xsd:string ;
+    foaf:name "Femi%20Osofisan"^^xsd:string .
+
+ai4dm-data:person-Femi%20Oyebode a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-FR-GES ;
+    ai4dm:hasEmployer ai4dm-data:airline-CZ ;
+    ai4dm:hasNationality ai4dm-data:country-FR ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Sorbonne%20University ;
+    skos:hiddenLabel "10"^^xsd:string ;
+    skos:prefLabel "Femi%20Oyebode"^^xsd:string ;
+    foaf:name "Femi%20Oyebode"^^xsd:string .
+
+ai4dm-data:person-Gabriel%20Olutola a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-LH24671 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-GR-U-A ;
+    ai4dm:hasEmployer ai4dm-data:airline-EK ;
+    ai4dm:hasNationality ai4dm-data:country-GR ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Athens%20University ;
+    skos:hiddenLabel "13"^^xsd:string ;
+    skos:prefLabel "Gabriel%20Olutola"^^xsd:string ;
+    foaf:name "Gabriel%20Olutola"^^xsd:string .
+
+ai4dm-data:person-George%20Noah a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-QF14229 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AU-NSW ;
+    ai4dm:hasEmployer ai4dm-data:airline-JL ;
+    ai4dm:hasNationality ai4dm-data:country-AU ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20Sydney ;
+    skos:hiddenLabel "16"^^xsd:string ;
+    skos:prefLabel "George%20Noah"^^xsd:string ;
+    foaf:name "George%20Noah"^^xsd:string .
+
+ai4dm-data:person-Jacob%20Veldhuyzen%20van%20Zanten a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-BA37347 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-PS-JEN ;
+    ai4dm:hasEmployer ai4dm-data:airline-BA ;
+    ai4dm:hasNationality ai4dm-data:country-PS ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Al-Quds%20University ;
+    skos:hiddenLabel "4"^^xsd:string ;
+    skos:prefLabel "Jacob%20Veldhuyzen%20van%20Zanten"^^xsd:string ;
+    foaf:name "Jacob%20Veldhuyzen%20van%20Zanten"^^xsd:string .
+
+ai4dm-data:person-Jerome%20Nriagu a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-FR-ARA ;
+    ai4dm:hasEmployer ai4dm-data:airline-EK ;
+    ai4dm:hasNationality ai4dm-data:country-FR ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Sorbonne%20University ;
+    skos:hiddenLabel "14"^^xsd:string ;
+    skos:prefLabel "Jerome%20Nriagu"^^xsd:string ;
+    foaf:name "Jerome%20Nriagu"^^xsd:string .
+
+ai4dm-data:person-Jimmy%20Adegoke a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-FR-COR ;
+    ai4dm:hasEmployer ai4dm-data:airline-QF ;
+    ai4dm:hasNationality ai4dm-data:country-FR ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Sorbonne%20University ;
+    skos:hiddenLabel "26"^^xsd:string ;
+    skos:prefLabel "Jimmy%20Adegoke"^^xsd:string ;
+    foaf:name "Jimmy%20Adegoke"^^xsd:string .
+
+ai4dm-data:person-Jones%20Arogbofa a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-LH36171 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-FI-03 ;
+    ai4dm:hasEmployer ai4dm-data:airline-W8 ;
+    ai4dm:hasNationality ai4dm-data:country-FI ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Aalto%20University ;
+    skos:hiddenLabel "32"^^xsd:string ;
+    skos:prefLabel "Jones%20Arogbofa"^^xsd:string ;
+    foaf:name "Jones%20Arogbofa"^^xsd:string .
+
+ai4dm-data:person-Jozsef%20Varadi a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-HU-BU ;
+    ai4dm:hasEmployer ai4dm-data:airline-W6 ;
+    ai4dm:hasNationality ai4dm-data:country-HU ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20London ;
+    skos:hiddenLabel "117"^^xsd:string ;
+    skos:prefLabel "Jozsef%20Varadi"^^xsd:string ;
+    foaf:name "Jozsef%20Varadi"^^xsd:string .
+
+ai4dm-data:person-Mabel%20Evwierhoma a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-LH76265 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AF-FYB ;
+    ai4dm:hasEmployer ai4dm-data:airline-LH ;
+    ai4dm:hasNationality ai4dm-data:country-AF ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20Panjshir ;
+    skos:hiddenLabel "24"^^xsd:string ;
+    skos:prefLabel "Mabel%20Evwierhoma"^^xsd:string ;
+    foaf:name "Mabel%20Evwierhoma"^^xsd:string .
+
+ai4dm-data:person-Mary%20Lazarus a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-BA96535 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-GB-NIR ;
+    ai4dm:hasEmployer ai4dm-data:airline-BA ;
+    ai4dm:hasNationality ai4dm-data:country-GB ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Unviersity%20of%20Manchester ;
+    skos:hiddenLabel "34"^^xsd:string ;
+    skos:prefLabel "Mary%20Lazarus"^^xsd:string ;
+    foaf:name "Mary%20Lazarus"^^xsd:string .
+
+ai4dm-data:person-Mejai%20Bola%20Avoseh a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-BA31147 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-GB-SCT ;
+    ai4dm:hasEmployer ai4dm-data:airline-BA ;
+    ai4dm:hasNationality ai4dm-data:country-GB ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Unviersity%20of%20Manchester ;
+    skos:hiddenLabel "45"^^xsd:string ;
+    skos:prefLabel "Mejai%20Bola%20Avoseh"^^xsd:string ;
+    foaf:name "Mejai%20Bola%20Avoseh"^^xsd:string .
+
+ai4dm-data:person-Melissa%20Shusterman a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-IR49691 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-PS-JRH ;
+    ai4dm:hasEmployer ai4dm-data:airline-IR ;
+    skos:hiddenLabel "17"^^xsd:string ;
+    skos:prefLabel "Melissa%20Shusterman"^^xsd:string ;
+    foaf:name "Melissa%20Shusterman"^^xsd:string .
+
+ai4dm-data:person-Michael%20Omolewa a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-BA41826 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-GB-U-A ;
+    ai4dm:hasEmployer ai4dm-data:airline-IR ;
+    ai4dm:hasNationality ai4dm-data:country-GB ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20Cambridge ;
+    skos:hiddenLabel "20"^^xsd:string ;
+    skos:prefLabel "Michael%20Omolewa"^^xsd:string ;
+    foaf:name "Michael%20Omolewa"^^xsd:string .
+
+ai4dm-data:person-Oscar%20Munoz a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-US-CA ;
+    ai4dm:hasEmployer ai4dm-data:airline-UA ;
+    ai4dm:hasNationality ai4dm-data:country-US ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20North%20Florida ;
+    skos:hiddenLabel "69"^^xsd:string ;
+    skos:prefLabel "Oscar%20Munoz"^^xsd:string ;
+    foaf:name "Oscar%20Munoz"^^xsd:string .
+
+ai4dm-data:person-Patrick%20Healy a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-GB-ENG ;
+    ai4dm:hasEmployer ai4dm-data:airline-CX ;
+    ai4dm:hasNationality ai4dm-data:country-GB ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20Cambridge ;
+    skos:hiddenLabel "81"^^xsd:string ;
+    skos:prefLabel "Patrick%20Healy"^^xsd:string ;
+    foaf:name "Patrick%20Healy"^^xsd:string .
+
+ai4dm-data:person-Peter%20Hartman a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-NL-NH ;
+    ai4dm:hasEmployer ai4dm-data:airline-AF ;
+    ai4dm:hasNationality ai4dm-data:country-NL ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Erasmus%20University ;
+    skos:hiddenLabel "47"^^xsd:string ;
+    skos:prefLabel "Peter%20Hartman"^^xsd:string ;
+    foaf:name "Peter%20Hartman"^^xsd:string .
+
+ai4dm-data:person-Richard%20Goyder a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AU-WA ;
+    ai4dm:hasEmployer ai4dm-data:airline-QF ;
+    ai4dm:hasNationality ai4dm-data:country-AU ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20Western%20Australia ;
+    skos:hiddenLabel "105"^^xsd:string ;
+    skos:prefLabel "Richard%20Goyder"^^xsd:string ;
+    foaf:name "Richard%20Goyder"^^xsd:string .
+
+ai4dm-data:person-Roberts%20Orya a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-QF14229 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AU-SA ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20Adelaide ;
+    skos:hiddenLabel "8"^^xsd:string ;
+    skos:prefLabel "Roberts%20Orya"^^xsd:string ;
+    foaf:name "Roberts%20Orya"^^xsd:string .
+
+ai4dm-data:person-Saburi%20Adesanya a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-GB-WLS ;
+    ai4dm:hasEmployer ai4dm-data:airline-nan ;
+    ai4dm:hasNationality ai4dm-data:country-GB ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20Cambridge ;
+    skos:hiddenLabel "46"^^xsd:string ;
+    skos:prefLabel "Saburi%20Adesanya"^^xsd:string ;
+    foaf:name "Saburi%20Adesanya"^^xsd:string .
+
+ai4dm-data:person-Scott%20Kirby a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-nan ;
+    ai4dm:hasEmployer ai4dm-data:airline-UA ;
+    ai4dm:hasNationality ai4dm-data:country-US ;
+    ai4dm:isAlumniOf ai4dm-data:institution-George%20Washington%20University ;
+    skos:hiddenLabel "113"^^xsd:string ;
+    skos:prefLabel "Scott%20Kirby"^^xsd:string ;
+    foaf:name "Scott%20Kirby"^^xsd:string .
+
+ai4dm-data:person-Sean%20Doyle a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-IE-D ;
+    ai4dm:hasEmployer ai4dm-data:airline-BA ;
+    skos:hiddenLabel "77"^^xsd:string ;
+    skos:prefLabel "Sean%20Doyle"^^xsd:string ;
+    foaf:name "Sean%20Doyle"^^xsd:string .
+
+ai4dm-data:person-Sheikh%20Ahmed%20bin%20Saeed%20Al%20Maktoum a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AE-DU ;
+    ai4dm:hasEmployer ai4dm-data:airline-EK ;
+    ai4dm:hasNationality ai4dm-data:country-AE ;
+    ai4dm:isAlumniOf ai4dm-data:institution-The%20British%20Unviersity%20in%20Dubai ;
+    skos:hiddenLabel "57"^^xsd:string ;
+    skos:prefLabel "Sheikh%20Ahmed%20bin%20Saeed%20Al%20Maktoum"^^xsd:string ;
+    foaf:name "Sheikh%20Ahmed%20bin%20Saeed%20Al%20Maktoum"^^xsd:string .
+
+ai4dm-data:person-Tan%20Wangeng a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-CN-44 ;
+    ai4dm:hasEmployer ai4dm-data:airline-CZ ;
+    ai4dm:hasNationality ai4dm-data:country-CN ;
+    ai4dm:isAlumniOf ai4dm-data:institution-nan ;
+    skos:hiddenLabel "85"^^xsd:string ;
+    skos:prefLabel "Tan%20Wangeng"^^xsd:string ;
+    foaf:name "Tan%20Wangeng"^^xsd:string .
+
+ai4dm-data:person-Temba%20Maqubela a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-LH76265 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AF-GHA ;
+    ai4dm:hasEmployer ai4dm-data:airline-W6 ;
+    ai4dm:hasNationality ai4dm-data:country-AF ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Salam%20University ;
+    skos:hiddenLabel "30"^^xsd:string ;
+    skos:prefLabel "Temba%20Maqubela"^^xsd:string ;
+    foaf:name "Temba%20Maqubela"^^xsd:string .
+
+ai4dm-data:person-Tim%20Clark a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-GB-ENG ;
+    ai4dm:hasEmployer ai4dm-data:airline-EK ;
+    ai4dm:isAlumniOf ai4dm-data:institution-University%20of%20London ;
+    skos:hiddenLabel "93"^^xsd:string ;
+    skos:prefLabel "Tim%20Clark"^^xsd:string ;
+    foaf:name "Tim%20Clark"^^xsd:string .
+
+ai4dm-data:person-Uba%20Sani a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-FR-BFC ;
+    ai4dm:hasEmployer ai4dm-data:airline-EK ;
+    ai4dm:hasNationality ai4dm-data:country-FR ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Sorbonne%20University ;
+    skos:hiddenLabel "15"^^xsd:string ;
+    skos:prefLabel "Uba%20Sani"^^xsd:string ;
+    foaf:name "Uba%20Sani"^^xsd:string .
+
+ai4dm-data:person-Wande%20Abimbola a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-FR-CVL ;
+    ai4dm:hasEmployer ai4dm-data:airline-CZ ;
+    ai4dm:hasNationality ai4dm-data:country-FR ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Sorbonne%20University ;
+    skos:hiddenLabel "9"^^xsd:string ;
+    skos:prefLabel "Wande%20Abimbola"^^xsd:string ;
+    foaf:name "Wande%20Abimbola"^^xsd:string .
+
+ai4dm-data:person-William%20Kumuyi a foaf:Person ;
+    ai4dm:boardFlight ai4dm-data:flight-QF32415 ;
+    ai4dm:hasBirthPlace ai4dm-data:region-AU-NT ;
+    ai4dm:hasEmployer ai4dm-data:airline-DL ;
+    ai4dm:hasNationality ai4dm-data:country-AU ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Charles%20Darwin%20University ;
+    skos:hiddenLabel "11"^^xsd:string ;
+    skos:prefLabel "William%20Kumuyi"^^xsd:string ;
+    foaf:name "William%20Kumuyi"^^xsd:string .
+
+ai4dm-data:person-Yahaya%20Kuta a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-FR-BRE ;
+    ai4dm:hasNationality ai4dm-data:country-FR ;
+    ai4dm:isAlumniOf ai4dm-data:institution-Sorbonne%20University ;
+    skos:hiddenLabel "25"^^xsd:string ;
+    skos:prefLabel "Yahaya%20Kuta"^^xsd:string ;
+    foaf:name "Yahaya%20Kuta"^^xsd:string .
+
+ai4dm-data:person-Yoshiharu%20Ueki a foaf:Person ;
+    ai4dm:hasBirthPlace ai4dm-data:region-JP-26 ;
+    skos:hiddenLabel "101"^^xsd:string ;
+    skos:prefLabel "Yoshiharu%20Ueki"^^xsd:string ;
+    foaf:name "Yoshiharu%20Ueki"^^xsd:string .
+
+ai4dm-data:person-data a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+

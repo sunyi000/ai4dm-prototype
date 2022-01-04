@@ -1,0 +1,359 @@
+# baseURI: http://dbpedia.org/ontology/data/ai4dm/events-data
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://dbpedia.org/ontology/cv/ai4dm/
+
+@prefix ai4dm: <http://dbpedia.org/ontology/ai4dm/> .
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ai4dm-data: <http://dbpedia.org/ontology/data/ai4dm/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ai4dm-data:event-10 a ai4dm:Event ;
+    ai4dm:eventDate "1978-09-12"^^xsd:date ;
+    ai4dm:eventName "LOCI-I-WF8493-28745"^^xsd:string ;
+    ai4dm:hasEventID "10"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:LOCI-I ;
+    ai4dm:hasRegion ai4dm-data:region-LV-VM ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-297 ;
+    skos:prefLabel "10"^^xsd:string .
+
+ai4dm-data:event-11 a ai4dm:Event ;
+    ai4dm:eventDate "1977-04-08"^^xsd:date ;
+    ai4dm:eventName "LOCI-I-CA2528-28223"^^xsd:string ;
+    ai4dm:hasEventID "11"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:LOCI-I ;
+    ai4dm:hasRegion ai4dm-data:region-MA-HOC ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-161 ;
+    skos:prefLabel "11"^^xsd:string .
+
+ai4dm-data:event-12 a ai4dm:Event ;
+    ai4dm:eventDate "1996-01-22"^^xsd:date ;
+    ai4dm:eventName "SCF-QL9950-35086"^^xsd:string ;
+    ai4dm:hasEventID "12"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:SCF ;
+    ai4dm:hasRegion ai4dm-data:region-MA-KES ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-226 ;
+    skos:prefLabel "12"^^xsd:string .
+
+ai4dm-data:event-13 a ai4dm:Event ;
+    ai4dm:eventDate "1998-03-01"^^xsd:date ;
+    ai4dm:eventName "SCF-SQ1725-35855"^^xsd:string ;
+    ai4dm:hasEventID "13"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:SCF ;
+    ai4dm:hasRegion ai4dm-data:region-MA-KHN ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-60 ;
+    skos:prefLabel "13"^^xsd:string .
+
+ai4dm-data:event-14 a ai4dm:Event ;
+    ai4dm:eventDate "2002-07-28"^^xsd:date ;
+    ai4dm:eventName "SCF-8L1263-37465"^^xsd:string ;
+    ai4dm:hasEventID "14"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:SCF ;
+    ai4dm:hasRegion ai4dm-data:region-MA-LAA ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-161 ;
+    skos:prefLabel "14"^^xsd:string .
+
+ai4dm-data:event-15 a ai4dm:Event ;
+    ai4dm:eventDate "1993-02-12"^^xsd:date ;
+    ai4dm:eventName "SCF-KM7071-34012"^^xsd:string ;
+    ai4dm:hasEventID "15"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:SCF ;
+    ai4dm:hasRegion ai4dm-data:region-NO-11 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-60 ;
+    skos:prefLabel "15"^^xsd:string .
+
+ai4dm-data:event-16 a ai4dm:Event ;
+    ai4dm:eventDate "1993-05-01"^^xsd:date ;
+    ai4dm:eventName "SCF-LO5966-34090"^^xsd:string ;
+    ai4dm:hasEventID "16"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:SCF ;
+    ai4dm:hasRegion ai4dm-data:region-NO-12 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-56 ;
+    skos:prefLabel "16"^^xsd:string .
+
+ai4dm-data:event-17 a ai4dm:Event ;
+    ai4dm:eventDate "1993-12-24"^^xsd:date ;
+    ai4dm:eventName "FIRE-TF9288-34327"^^xsd:string ;
+    ai4dm:hasEventID "17"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:FIRE ;
+    ai4dm:hasRegion ai4dm-data:region-JO-AJ ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-649 ;
+    skos:prefLabel "17"^^xsd:string .
+
+ai4dm-data:event-18 a ai4dm:Event ;
+    ai4dm:eventDate "1986-07-18"^^xsd:date ;
+    ai4dm:eventName "USOS-VY4524-31611"^^xsd:string ;
+    ai4dm:hasEventID "18"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:USOS ;
+    ai4dm:hasRegion ai4dm-data:region-JO-AZ ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-60 ;
+    skos:prefLabel "18"^^xsd:string .
+
+ai4dm-data:event-19 a ai4dm:Event ;
+    ai4dm:eventDate "2002-12-15"^^xsd:date ;
+    ai4dm:eventName "CFIT-US4884-37605"^^xsd:string ;
+    ai4dm:hasEventID "19"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-ID-JT ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-56 ;
+    skos:prefLabel "19"^^xsd:string .
+
+ai4dm-data:event-2 a ai4dm:Event ;
+    ai4dm:eventDate "1999-04-10"^^xsd:date ;
+    ai4dm:eventName "RE-AZ8426-36260"^^xsd:string ;
+    ai4dm:hasEventID "2"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:RE ;
+    ai4dm:hasRegion ai4dm-data:region-AF-BAM ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-427,
+        ai4dm-data:aircraft-434 ;
+    skos:prefLabel "2"^^xsd:string .
+
+ai4dm-data:event-20 a ai4dm:Event ;
+    ai4dm:eventDate "1986-10-16"^^xsd:date ;
+    ai4dm:eventName "CFIT-BK7793-31701"^^xsd:string ;
+    ai4dm:hasEventID "20"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-ID-KS ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-161 ;
+    skos:prefLabel "20"^^xsd:string .
+
+ai4dm-data:event-21 a ai4dm:Event ;
+    ai4dm:eventDate "1992-11-04"^^xsd:date ;
+    ai4dm:eventName "CFIT-W65216-33912"^^xsd:string ;
+    ai4dm:hasEventID "21"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-ID-KU ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-58 ;
+    skos:prefLabel "21"^^xsd:string .
+
+ai4dm-data:event-22 a ai4dm:Event ;
+    ai4dm:eventDate "1989-02-20"^^xsd:date ;
+    ai4dm:eventName "CFIT-AZ1916-32559"^^xsd:string ;
+    ai4dm:hasEventID "22"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-ID-LA ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-58 ;
+    skos:prefLabel "22"^^xsd:string .
+
+ai4dm-data:event-23 a ai4dm:Event ;
+    ai4dm:eventDate "1980-07-16"^^xsd:date ;
+    ai4dm:eventName "FIRE-UN6674-29418"^^xsd:string ;
+    ai4dm:hasEventID "23"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:FIRE ;
+    ai4dm:hasRegion ai4dm-data:region-ID-PA ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-156 ;
+    skos:prefLabel "23"^^xsd:string .
+
+ai4dm-data:event-24 a ai4dm:Event ;
+    ai4dm:eventDate "1999-01-03"^^xsd:date ;
+    ai4dm:eventName "FIRE-AF1239-36163"^^xsd:string ;
+    ai4dm:hasEventID "24"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:FIRE ;
+    ai4dm:hasRegion ai4dm-data:region-ID-SA ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-58 ;
+    skos:prefLabel "24"^^xsd:string .
+
+ai4dm-data:event-25 a ai4dm:Event ;
+    ai4dm:eventDate "1990-09-09"^^xsd:date ;
+    ai4dm:eventName "FIRE-PX410-33125"^^xsd:string ;
+    ai4dm:hasEventID "25"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:FIRE ;
+    ai4dm:hasRegion ai4dm-data:region-ID-SB ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-303 ;
+    skos:prefLabel "25"^^xsd:string .
+
+ai4dm-data:event-26 a ai4dm:Event ;
+    ai4dm:eventDate "2006-11-15"^^xsd:date ;
+    ai4dm:eventName "FIRE-BA942-39036"^^xsd:string ;
+    ai4dm:hasEventID "26"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:FIRE ;
+    ai4dm:hasRegion ai4dm-data:region-ID-SG ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-155 ;
+    skos:prefLabel "26"^^xsd:string .
+
+ai4dm-data:event-27 a ai4dm:Event ;
+    ai4dm:eventDate "2002-12-18"^^xsd:date ;
+    ai4dm:eventName "FIRE-AZ7655-37608"^^xsd:string ;
+    ai4dm:hasEventID "27"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:FIRE ;
+    ai4dm:hasRegion ai4dm-data:region-ID-SS ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-56 ;
+    skos:prefLabel "27"^^xsd:string .
+
+ai4dm-data:event-28 a ai4dm:Event ;
+    ai4dm:eventDate "1990-07-26"^^xsd:date ;
+    ai4dm:eventName "FIRE-AA9969-33080"^^xsd:string ;
+    ai4dm:hasEventID "28"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:FIRE ;
+    ai4dm:hasRegion ai4dm-data:region-ID-SU ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-427 ;
+    skos:prefLabel "28"^^xsd:string .
+
+ai4dm-data:event-29 a ai4dm:Event ;
+    ai4dm:eventDate "1976-12-10"^^xsd:date ;
+    ai4dm:eventName "FIRE-GA7970-28104"^^xsd:string ;
+    ai4dm:hasEventID "29"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:FIRE ;
+    ai4dm:hasRegion ai4dm-data:region-SI-144 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-56 ;
+    skos:prefLabel "29"^^xsd:string .
+
+ai4dm-data:event-3 a ai4dm:Event ;
+    ai4dm:eventDate "1978-10-24"^^xsd:date ;
+    ai4dm:eventName "RE-6E2584-28787"^^xsd:string ;
+    ai4dm:hasEventID "3"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:RE ;
+    ai4dm:hasRegion ai4dm-data:region-AF-BDG ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-58 ;
+    skos:prefLabel "3"^^xsd:string .
+
+ai4dm-data:event-30 a ai4dm:Event ;
+    ai4dm:eventDate "1982-07-25"^^xsd:date ;
+    ai4dm:eventName "CFIT-UA6241-30157"^^xsd:string ;
+    ai4dm:hasEventID "30"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-SI-146 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-161 ;
+    skos:prefLabel "30"^^xsd:string .
+
+ai4dm-data:event-31 a ai4dm:Event ;
+    ai4dm:eventDate "2001-05-05"^^xsd:date ;
+    ai4dm:eventName "CFIT-YC3765-37016"^^xsd:string ;
+    ai4dm:hasEventID "31"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-SI-147 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-256 ;
+    skos:prefLabel "31"^^xsd:string .
+
+ai4dm-data:event-32 a ai4dm:Event ;
+    ai4dm:eventDate "1999-06-16"^^xsd:date ;
+    ai4dm:eventName "CFIT-QS3099-36327"^^xsd:string ;
+    ai4dm:hasEventID "32"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-SI-148 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-161 ;
+    skos:prefLabel "32"^^xsd:string .
+
+ai4dm-data:event-33 a ai4dm:Event ;
+    ai4dm:eventDate "1984-01-04"^^xsd:date ;
+    ai4dm:eventName "CFIT-LT7848-30685"^^xsd:string ;
+    ai4dm:hasEventID "33"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-SI-150 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-256 ;
+    skos:prefLabel "33"^^xsd:string .
+
+ai4dm-data:event-34 a ai4dm:Event ;
+    ai4dm:eventDate "1994-06-24"^^xsd:date ;
+    ai4dm:eventName "CFIT-AF4349-34509"^^xsd:string ;
+    ai4dm:hasEventID "34"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-SI-151 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-63 ;
+    skos:prefLabel "34"^^xsd:string .
+
+ai4dm-data:event-35 a ai4dm:Event ;
+    ai4dm:eventDate "1985-09-14"^^xsd:date ;
+    ai4dm:eventName "CFIT-PS416-31304"^^xsd:string ;
+    ai4dm:hasEventID "35"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-SI-152 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-156 ;
+    skos:prefLabel "35"^^xsd:string .
+
+ai4dm-data:event-36 a ai4dm:Event ;
+    ai4dm:eventDate "2015-05-01"^^xsd:date ;
+    ai4dm:eventName "SCF-AS7465-42125"^^xsd:string ;
+    ai4dm:hasEventID "36"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:SCF ;
+    ai4dm:hasRegion ai4dm-data:region-SI-153 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-262 ;
+    skos:prefLabel "36"^^xsd:string .
+
+ai4dm-data:event-37 a ai4dm:Event ;
+    ai4dm:eventDate "2000-05-28"^^xsd:date ;
+    ai4dm:eventName "SCF-IR9032-36674"^^xsd:string ;
+    ai4dm:hasEventID "37"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:SCF ;
+    ai4dm:hasRegion ai4dm-data:region-SI-154 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-49 ;
+    skos:prefLabel "37"^^xsd:string .
+
+ai4dm-data:event-38 a ai4dm:Event ;
+    ai4dm:eventDate "1984-03-04"^^xsd:date ;
+    ai4dm:eventName "FIRE-AB7477-30745"^^xsd:string ;
+    ai4dm:hasEventID "38"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:FIRE ;
+    ai4dm:hasRegion ai4dm-data:region-SI-157 ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-305 ;
+    skos:prefLabel "38"^^xsd:string .
+
+ai4dm-data:event-39 a ai4dm:Event ;
+    ai4dm:eventDate "1992-11-04"^^xsd:date ;
+    ai4dm:eventName "CFIT-W65216-33912"^^xsd:string ;
+    ai4dm:hasEventID "39"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:CFIT ;
+    ai4dm:hasRegion ai4dm-data:region-ID-KU ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-76 ;
+    skos:prefLabel "39"^^xsd:string .
+
+ai4dm-data:event-4 a ai4dm:Event ;
+    ai4dm:eventDate "1999-04-09"^^xsd:date ;
+    ai4dm:eventName "RE-TF794-36259"^^xsd:string ;
+    ai4dm:hasEventID "4"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:RE ;
+    ai4dm:hasRegion ai4dm-data:region-LV-MA ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-306 ;
+    skos:prefLabel "4"^^xsd:string .
+
+ai4dm-data:event-5 a ai4dm:Event ;
+    ai4dm:eventDate "1979-11-06"^^xsd:date ;
+    ai4dm:eventName "ARC-UA2918-29165"^^xsd:string ;
+    ai4dm:hasEventID "5"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:ARC ;
+    ai4dm:hasRegion ai4dm-data:region-LV-TA ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-162,
+        ai4dm-data:aircraft-163 ;
+    skos:prefLabel "5"^^xsd:string .
+
+ai4dm-data:event-6 a ai4dm:Event ;
+    ai4dm:eventDate "1980-04-07"^^xsd:date ;
+    ai4dm:eventName "FIRE-S73015-29318"^^xsd:string ;
+    ai4dm:hasEventID "6"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:FIRE ;
+    ai4dm:hasRegion ai4dm-data:region-LV-TU ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-58 ;
+    skos:prefLabel "6"^^xsd:string .
+
+ai4dm-data:event-7 a ai4dm:Event ;
+    ai4dm:eventDate "2015-04-15"^^xsd:date ;
+    ai4dm:eventName "LOCI-I-UA1131-42109"^^xsd:string ;
+    ai4dm:hasEventID "7"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:LOCI-I ;
+    ai4dm:hasRegion ai4dm-data:region-LV-VE ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-161 ;
+    skos:prefLabel "7"^^xsd:string .
+
+ai4dm-data:event-8 a ai4dm:Event ;
+    ai4dm:eventDate "1978-07-29"^^xsd:date ;
+    ai4dm:eventName "LOCI-I-FB5354-28700"^^xsd:string ;
+    ai4dm:hasEventID "8"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:LOCI-I ;
+    ai4dm:hasRegion ai4dm-data:region-LV-VEN ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-439 ;
+    skos:prefLabel "8"^^xsd:string .
+
+ai4dm-data:event-9 a ai4dm:Event ;
+    ai4dm:eventDate "1986-06-05"^^xsd:date ;
+    ai4dm:eventName "LOCI-I-FB4192-31568"^^xsd:string ;
+    ai4dm:hasEventID "9"^^xsd:string ;
+    ai4dm:hasEventType cv-ai4dm:LOCI-I ;
+    ai4dm:hasRegion ai4dm-data:region-LV-VK ;
+    ai4dm:isAircraftEventOf ai4dm-data:aircraft-60 ;
+    skos:prefLabel "9"^^xsd:string .
+
+ai4dm-data:events-data a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+

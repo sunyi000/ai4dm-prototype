@@ -1,0 +1,59 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/event-types
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:event-types
+  a owl:Ontology ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+cv-ai4dm:CFIT a skos:Concept ;
+    skos:hiddenLabel "CFIT"^^xsd:string ;
+    skos:prefLabel "CONTROLLED FLIGHT INTO TERRAIN"^^xsd:string ;
+    skos:definition "In-flight collision with terrain, water, or obstacle without indication of loss of control."^^xsd:string .
+
+cv-ai4dm:LOC-I a skos:Concept ;
+    skos:hiddenLabel "LOC-I"^^xsd:string ;
+    skos:prefLabel "Loss of Control in-Flight"^^xsd:string ;
+    skos:definition "Loss of aircraft control while in flight, and not primarily due to SCF."^^xsd:string .
+
+cv-ai4dm:RE a skos:Concept ;
+    skos:hiddenLabel "RE"^^xsd:string ;
+    skos:prefLabel "Runway Excursion"^^xsd:string ;
+    skos:definition "A lateral veer-off or longitudinal overrun off the runway surface, and not primarily due to SCF or ARC."^^xsd:string .
+
+cv-ai4dm:FIRE a skos:Concept ;
+    skos:hiddenLabel "FIRE"^^xsd:string ;
+    skos:prefLabel "Fire"^^xsd:string ;
+    skos:definition "Fire or smoke inside or outside of the aircraft, in flight or on the ground, and regardless of whether the fire results from an impact (F-POST) or not (F-NI)."^^xsd:string .
+
+cv-ai4dm:ARC a skos:Concept ;
+    skos:hiddenLabel "ARC"^^xsd:string ;
+    skos:prefLabel "Abnormal Runway Contact"^^xsd:string ;
+    skos:definition "Any takeoff or landing involving abnormal runway contact, and not primarily due to SCF, leading to an accident. Hard landings and tail strikes are included in this category."^^xsd:string .
+
+cv-ai4dm:SCF a skos:Concept ;
+    skos:hiddenLabel "SCF"^^xsd:string ;
+    skos:prefLabel "System/Component Failure or Malfunction"^^xsd:string ;
+    skos:definition "Failure or malfunction of an aircraft system or component, related to its design, the manufacturing process, or a maintenance issue, which leads to an accident."^^xsd:string .
+
+cv-ai4dm:USOS a skos:Concept ;
+    skos:hiddenLabel "USOS"^^xsd:string ;
+    skos:prefLabel "Undershoot/Overshoot"^^xsd:string ;
+    skos:definition "Touchdown off the runway surface in close proximity to the runway. It includes offside touchdowns."^^xsd:string .
+
+
+cv-ai4dm:events
+  a skos:Collection ;
+  skos:prefLabel "events concepts" ;
+  skos:member cv-ai4dm:USOS ;
+  skos:member cv-ai4dm:SCF ;
+  skos:member cv-ai4dm:ARC ;
+  skos:member cv-ai4dm:FIRE ;
+  skos:member cv-ai4dm:RE ;
+  skos:member cv-ai4dm:LOC-I ;
+  skos:member cv-ai4dm:CFIT ;
+.

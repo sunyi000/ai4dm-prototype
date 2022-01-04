@@ -1,0 +1,2607 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/aircraft-model
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:1121A_Jet_Commander a skos:Concept ;
+    skos:hiddenLabel 522 ;
+    skos:prefLabel "1121A Jet Commander"^^xsd:string .
+
+cv-ai4dm:1121B_Commodore a skos:Concept ;
+    skos:hiddenLabel 523 ;
+    skos:prefLabel "1121B Commodore"^^xsd:string .
+
+cv-ai4dm:1121_Jet_Commander a skos:Concept ;
+    skos:hiddenLabel 19 ;
+    skos:prefLabel "1121 Jet Commander"^^xsd:string .
+
+cv-ai4dm:1123_Westwind a skos:Concept ;
+    skos:hiddenLabel 524 ;
+    skos:prefLabel "1123 Westwind"^^xsd:string .
+
+cv-ai4dm:1124A_Westwind_II a skos:Concept ;
+    skos:hiddenLabel 526 ;
+    skos:prefLabel "1124A Westwind II"^^xsd:string .
+
+cv-ai4dm:1124_Westwind_I a skos:Concept ;
+    skos:hiddenLabel 525 ;
+    skos:prefLabel "1124 Westwind I"^^xsd:string .
+
+cv-ai4dm:1125_Astra a skos:Concept ;
+    skos:hiddenLabel 527 ;
+    skos:prefLabel "1125 Astra"^^xsd:string .
+
+cv-ai4dm:1125_Astra_Galaxy a skos:Concept ;
+    skos:hiddenLabel 528 ;
+    skos:prefLabel "1125 Astra Galaxy"^^xsd:string .
+
+cv-ai4dm:1125_Astra_SP_and_SPX a skos:Concept ;
+    skos:hiddenLabel 529 ;
+    skos:prefLabel "1125 Astra SP and SPX"^^xsd:string .
+
+cv-ai4dm:140A a skos:Concept ;
+    skos:hiddenLabel 319 ;
+    skos:prefLabel "120, 140/140A"^^xsd:string .
+
+cv-ai4dm:A150_Aerobat a skos:Concept ;
+    skos:hiddenLabel 320 ;
+    skos:prefLabel "150, A150 Aerobat"^^xsd:string .
+
+cv-ai4dm:A152_Aerobat a skos:Concept ;
+    skos:hiddenLabel 321 ;
+    skos:prefLabel "152, A152 Aerobat"^^xsd:string .
+
+cv-ai4dm:162_Skycatcher a skos:Concept ;
+    skos:hiddenLabel 322 ;
+    skos:prefLabel "162 Skycatcher"^^xsd:string .
+
+cv-ai4dm:170 a skos:Concept ;
+    skos:hiddenLabel 318 ;
+    skos:prefLabel "170"^^xsd:string .
+
+cv-ai4dm:172_Cutlass a skos:Concept ;
+    skos:hiddenLabel 323 ;
+    skos:prefLabel "172 Cutlass, 172RG and Cutlass RG"^^xsd:string .
+
+cv-ai4dm:172_Skyhawk a skos:Concept ;
+    skos:hiddenLabel 325 ;
+    skos:prefLabel "172 Skyhawk, 172S Skyhawk SP, 172 Hawk XP-R172"^^xsd:string .
+
+cv-ai4dm:172_Skyhawk_Turbo a skos:Concept ;
+    skos:hiddenLabel 324 ;
+    skos:prefLabel "172 Skyhawk Turbo JT-A (aka a Turbo Skyhawk)"^^xsd:string .
+
+cv-ai4dm:175_Skylark a skos:Concept ;
+    skos:hiddenLabel 326 ;
+    skos:prefLabel "175 Skylark"^^xsd:string .
+
+cv-ai4dm:177_Cardinal a skos:Concept ;
+    skos:hiddenLabel 327 ;
+    skos:prefLabel "177 Cardinal"^^xsd:string .
+
+cv-ai4dm:177_Cardinal_RG a skos:Concept ;
+    skos:hiddenLabel 328 ;
+    skos:prefLabel "177 Cardinal RG"^^xsd:string .
+
+cv-ai4dm:180_Skywagon a skos:Concept ;
+    skos:hiddenLabel 329 ;
+    skos:prefLabel "180 Skywagon"^^xsd:string .
+
+cv-ai4dm:182_Skylane a skos:Concept ;
+    skos:hiddenLabel 330 ;
+    skos:prefLabel "182 Skylane RG, Turbo Skylane, T182T Turbo Skylane"^^xsd:string .
+
+cv-ai4dm:185_Skywagon a skos:Concept ;
+    skos:hiddenLabel 331 ;
+    skos:prefLabel "185 Skywagon"^^xsd:string .
+
+cv-ai4dm:185_Skywagon a skos:Concept ;
+    skos:hiddenLabel 332 ;
+    skos:prefLabel "185 Skywagon (A185 Agcarryall)"^^xsd:string .
+
+cv-ai4dm:185_Skywagon_Amphibian a skos:Concept ;
+    skos:hiddenLabel 333 ;
+    skos:prefLabel "185 Skywagon Amphibian"^^xsd:string .
+
+cv-ai4dm:185_Skywagon_Floatplane a skos:Concept ;
+    skos:hiddenLabel 334 ;
+    skos:prefLabel "185 Skywagon Floatplane"^^xsd:string .
+
+cv-ai4dm:188_AgPickup a skos:Concept ;
+    skos:hiddenLabel 335 ;
+    skos:prefLabel "188 AgPickup/AgTruck/AgWagon, T188 Aghusky (4,400 lbs.)"^^xsd:string .
+
+cv-ai4dm:195_Businessliner a skos:Concept ;
+    skos:hiddenLabel 336 ;
+    skos:prefLabel "190/195 Businessliner"^^xsd:string .
+
+cv-ai4dm:1900C a skos:Concept ;
+    skos:hiddenLabel 100 ;
+    skos:prefLabel "1900C"^^xsd:string .
+
+cv-ai4dm:1900D a skos:Concept ;
+    skos:hiddenLabel 101 ;
+    skos:prefLabel "1900D"^^xsd:string .
+
+cv-ai4dm:2-111 a skos:Concept ;
+    skos:hiddenLabel 317 ;
+    skos:prefLabel "2-111"^^xsd:string .
+
+cv-ai4dm:205_Skywagon a skos:Concept ;
+    skos:hiddenLabel 337 ;
+    skos:prefLabel "205 Skywagon"^^xsd:string .
+
+cv-ai4dm:206_Stationair a skos:Concept ;
+    skos:hiddenLabel 339 ;
+    skos:prefLabel "206 Stationair, 206H Stationair, T206H Turbo Stationair"^^xsd:string .
+
+cv-ai4dm:206_Stationair_Turbo_HD a skos:Concept ;
+    skos:hiddenLabel 338 ;
+    skos:prefLabel "206 Stationair Turbo HD"^^xsd:string .
+
+cv-ai4dm:207_Skywagon a skos:Concept ;
+    skos:hiddenLabel 340 ;
+    skos:prefLabel "207 Skywagon (C207), T207 Turbo Skywagon (C07T), 207A Stationair 8 (C207)"^^xsd:string .
+
+cv-ai4dm:208B_Grand_Caravan_EX a skos:Concept ;
+    skos:hiddenLabel 343 ;
+    skos:prefLabel "208B Grand Caravan EX/Super Cargomaster EX"^^xsd:string .
+
+cv-ai4dm:208B_Grand_Caravan_EX_Amphibian a skos:Concept ;
+    skos:hiddenLabel 342 ;
+    skos:prefLabel "208B Grand Caravan EX Amphibian"^^xsd:string .
+
+cv-ai4dm:208_Caravan a skos:Concept ;
+    skos:hiddenLabel 341 ;
+    skos:prefLabel "208 Caravan"^^xsd:string .
+
+cv-ai4dm:210_Centurion a skos:Concept ;
+    skos:hiddenLabel 344 ;
+    skos:prefLabel "210 Centurion (C210), Pressurised P-210R (P210), 210T Turbo (C10T)"^^xsd:string .
+
+cv-ai4dm:2150A_Kachina a skos:Concept ;
+    skos:hiddenLabel 565 ;
+    skos:prefLabel "2150, 2150A Kachina, and 2150ATG"^^xsd:string .
+
+cv-ai4dm:269D_333 a skos:Concept ;
+    skos:hiddenLabel 632 ;
+    skos:prefLabel "269D 333"^^xsd:string .
+
+cv-ai4dm:303_T303_Crusader a skos:Concept ;
+    skos:hiddenLabel 345 ;
+    skos:prefLabel "303 (T303) Crusader"^^xsd:string .
+
+cv-ai4dm:310_Model_T310R a skos:Concept ;
+    skos:hiddenLabel 346 ;
+    skos:prefLabel "310 (Model T310R)"^^xsd:string .
+
+cv-ai4dm:401 a skos:Concept ;
+    skos:hiddenLabel 349 ;
+    skos:prefLabel "401 (initial model, lighter, less powerful than the 402)"^^xsd:string .
+
+cv-ai4dm:402C_Utililinera skos:Concept ;
+    skos:hiddenLabel 350 ;
+    skos:prefLabel "402C Utililiner/Businessliner (no tip tanks) -- turbocharged"^^xsd:string .
+
+cv-ai4dm:404_Titan a skos:Concept ;
+    skos:hiddenLabel 351 ;
+    skos:prefLabel "404 Titan"^^xsd:string .
+
+cv-ai4dm:411A a skos:Concept ;
+    skos:hiddenLabel 352 ;
+    skos:prefLabel "411A (landing gear based on 310, wings from 414)"^^xsd:string .
+
+cv-ai4dm:414A_Chancellor a skos:Concept ;
+    skos:hiddenLabel 353 ;
+    skos:prefLabel "414A Chancellor (a less powerfull but lighter 421)"^^xsd:string .
+
+cv-ai4dm:421C_Golden_Eagle a skos:Concept ;
+    skos:hiddenLabel 354 ;
+    skos:prefLabel "421C Golden Eagle"^^xsd:string .
+
+cv-ai4dm:425_Corsair a skos:Concept ;
+    skos:hiddenLabel 355 ;
+    skos:prefLabel "425 Corsair/Conquest I"^^xsd:string .
+
+cv-ai4dm:441_Conquest_II a skos:Concept ;
+    skos:hiddenLabel 356 ;
+    skos:prefLabel "441 Conquest II"^^xsd:string .
+
+<cv-ai4dm:600/600A/600E_Aerostar_(see_Piper_PA-60/61)> a skos:Concept ;
+    skos:hiddenLabel 32 ;
+    skos:prefLabel "600/600A/600E Aerostar (see Piper PA-60/61)"^^xsd:string .
+
+cv-ai4dm:680-T_Turbo_Commander a skos:Concept ;
+    skos:hiddenLabel 20 ;
+    skos:prefLabel "680-T Turbo Commander"^^xsd:string .
+
+cv-ai4dm:680-V_Turbo_Commander a skos:Concept ;
+    skos:hiddenLabel 21 ;
+    skos:prefLabel "680-V Turbo Commander"^^xsd:string .
+
+cv-ai4dm:680-W_Turbo_Commander a skos:Concept ;
+    skos:hiddenLabel 22 ;
+    skos:prefLabel "680-W Turbo Commander"^^xsd:string .
+
+cv-ai4dm:681_Hawk_Commander a skos:Concept ;
+    skos:hiddenLabel 23 ;
+    skos:prefLabel "681 Hawk Commander"^^xsd:string .
+
+cv-ai4dm:690-B_Twin_Commander a skos:Concept ;
+    skos:hiddenLabel 25 ;
+    skos:prefLabel "690-B Twin Commander"^^xsd:string .
+
+cv-ai4dm:690-C_JetProp_840 a skos:Concept ;
+    skos:hiddenLabel 26 ;
+    skos:prefLabel "690-C JetProp 840"^^xsd:string .
+
+cv-ai4dm:690-D_JetProp_900 a skos:Concept ;
+    skos:hiddenLabel 27 ;
+    skos:prefLabel "690-D JetProp 900"^^xsd:string .
+
+<cv-ai4dm:690/690-A_Twin_Commander> a skos:Concept ;
+    skos:hiddenLabel 24 ;
+    skos:prefLabel "690/690-A Twin Commander"^^xsd:string .
+
+cv-ai4dm:695-A_JetProp_Commanger_1000 a skos:Concept ;
+    skos:hiddenLabel 29 ;
+    skos:prefLabel "695-A JetProp Commanger 1000"^^xsd:string .
+
+cv-ai4dm:695-B_JetProp_Commanger_1000 a skos:Concept ;
+    skos:hiddenLabel 30 ;
+    skos:prefLabel "695-B JetProp Commanger 1000"^^xsd:string .
+
+cv-ai4dm:695_JetProp_900_(the_840_with_733_shp) a skos:Concept ;
+    skos:hiddenLabel 28 ;
+    skos:prefLabel "695 JetProp 900 (the 840 with 733 shp)"^^xsd:string .
+
+<cv-ai4dm:707-320B/C> a skos:Concept ;
+    skos:hiddenLabel 139 ;
+    skos:prefLabel "707-320B/C"^^xsd:string .
+
+cv-ai4dm:717-200 a skos:Concept ;
+    skos:hiddenLabel 140 ;
+    skos:prefLabel "717-200"^^xsd:string .
+
+cv-ai4dm:717-200_HGW_Option a skos:Concept ;
+    skos:hiddenLabel 141 ;
+    skos:prefLabel "717-200 HGW Option"^^xsd:string .
+
+cv-ai4dm:720B a skos:Concept ;
+    skos:hiddenLabel 142 ;
+    skos:prefLabel "720B"^^xsd:string .
+
+cv-ai4dm:727-100_and_-100C_Basic a skos:Concept ;
+    skos:hiddenLabel 143 ;
+    skos:prefLabel "727-100 and -100C Basic"^^xsd:string .
+
+cv-ai4dm:727-100_and_-100C_Option a skos:Concept ;
+    skos:hiddenLabel 144 ;
+    skos:prefLabel "727-100 and -100C Option"^^xsd:string .
+
+cv-ai4dm:727-200_Basic a skos:Concept ;
+    skos:hiddenLabel 145 ;
+    skos:prefLabel "727-200 Basic"^^xsd:string .
+
+cv-ai4dm:727-200_Basic_with_winglets a skos:Concept ;
+    skos:hiddenLabel 146 ;
+    skos:prefLabel "727-200 Basic with winglets"^^xsd:string .
+
+cv-ai4dm:727-200_Option a skos:Concept ;
+    skos:hiddenLabel 147 ;
+    skos:prefLabel "727-200 Option"^^xsd:string .
+
+cv-ai4dm:727-200_Option_with_winglets a skos:Concept ;
+    skos:hiddenLabel 148 ;
+    skos:prefLabel "727-200 Option with winglets"^^xsd:string .
+
+cv-ai4dm:737-100 a skos:Concept ;
+    skos:hiddenLabel 149 ;
+    skos:prefLabel "737-100"^^xsd:string .
+
+cv-ai4dm:737-200 a skos:Concept ;
+    skos:hiddenLabel 150 ;
+    skos:prefLabel "737-200"^^xsd:string .
+
+<cv-ai4dm:737-200,_-200C,_-200QC,_and_Advanced_737-200> a skos:Concept ;
+    skos:hiddenLabel 151 ;
+    skos:prefLabel "737-200, -200C, -200QC, and Advanced 737-200"^^xsd:string .
+
+cv-ai4dm:737-300 a skos:Concept ;
+    skos:hiddenLabel 152 ;
+    skos:prefLabel "737-300"^^xsd:string .
+
+cv-ai4dm:737-300_with_winglets a skos:Concept ;
+    skos:hiddenLabel 153 ;
+    skos:prefLabel "737-300 with winglets"^^xsd:string .
+
+cv-ai4dm:737-400 a skos:Concept ;
+    skos:hiddenLabel 154 ;
+    skos:prefLabel "737-400"^^xsd:string .
+
+cv-ai4dm:737-500 a skos:Concept ;
+    skos:hiddenLabel 155 ;
+    skos:prefLabel "737-500"^^xsd:string .
+
+cv-ai4dm:737-600 a skos:Concept ;
+    skos:hiddenLabel 156 ;
+    skos:prefLabel "737-600"^^xsd:string .
+
+cv-ai4dm:737-600_with_winglets a skos:Concept ;
+    skos:hiddenLabel 157 ;
+    skos:prefLabel "737-600 with winglets"^^xsd:string .
+
+<cv-ai4dm:737-700,_-700C> a skos:Concept ;
+    skos:hiddenLabel 159 ;
+    skos:prefLabel "737-700, -700C"^^xsd:string .
+
+cv-ai4dm:737-700_with_winglets a skos:Concept ;
+    skos:hiddenLabel 158 ;
+    skos:prefLabel "737-700 with winglets"^^xsd:string .
+
+cv-ai4dm:737-800 a skos:Concept ;
+    skos:hiddenLabel 160 ;
+    skos:prefLabel "737-800"^^xsd:string .
+
+cv-ai4dm:737-800_with_upper_and_lower_winglets a skos:Concept ;
+    skos:hiddenLabel 161 ;
+    skos:prefLabel "737-800 with upper and lower winglets"^^xsd:string .
+
+cv-ai4dm:737-800_with_winglets a skos:Concept ;
+    skos:hiddenLabel 162 ;
+    skos:prefLabel "737-800 with winglets"^^xsd:string .
+
+cv-ai4dm:737-900 a skos:Concept ;
+    skos:hiddenLabel 163 ;
+    skos:prefLabel "737-900"^^xsd:string .
+
+cv-ai4dm:737-900ER a skos:Concept ;
+    skos:hiddenLabel 166 ;
+    skos:prefLabel "737-900ER"^^xsd:string .
+
+cv-ai4dm:737-900ER_with_winglets a skos:Concept ;
+    skos:hiddenLabel 167 ;
+    skos:prefLabel "737-900ER with winglets"^^xsd:string .
+
+cv-ai4dm:737-900_with_upper_and_lower_winglets a skos:Concept ;
+    skos:hiddenLabel 164 ;
+    skos:prefLabel "737-900 with upper and lower winglets"^^xsd:string .
+
+cv-ai4dm:737-900_with_winglets a skos:Concept ;
+    skos:hiddenLabel 165 ;
+    skos:prefLabel "737-900 with winglets"^^xsd:string .
+
+cv-ai4dm:737-BB2 a skos:Concept ;
+    skos:hiddenLabel 168 ;
+    skos:prefLabel "737-BB2"^^xsd:string .
+
+cv-ai4dm:737-BBJ a skos:Concept ;
+    skos:hiddenLabel 169 ;
+    skos:prefLabel "737-BBJ"^^xsd:string .
+
+<cv-ai4dm:747-100,_-100B> a skos:Concept ;
+    skos:hiddenLabel 170 ;
+    skos:prefLabel "747-100, -100B"^^xsd:string .
+
+cv-ai4dm:747-100B_SR a skos:Concept ;
+    skos:hiddenLabel 171 ;
+    skos:prefLabel "747-100B SR"^^xsd:string .
+
+cv-ai4dm:747-100SF_(Swingtail_Freighter) a skos:Concept ;
+    skos:hiddenLabel 172 ;
+    skos:prefLabel "747-100SF (Swingtail Freighter)"^^xsd:string .
+
+<cv-ai4dm:747-200B,_-200B_COMBI> a skos:Concept ;
+    skos:hiddenLabel 173 ;
+    skos:prefLabel "747-200B, -200B COMBI"^^xsd:string .
+
+<cv-ai4dm:747-200C,_200F> a skos:Concept ;
+    skos:hiddenLabel 174 ;
+    skos:prefLabel "747-200C, 200F"^^xsd:string .
+
+<cv-ai4dm:747-300,_-300_COMBI> a skos:Concept ;
+    skos:hiddenLabel 175 ;
+    skos:prefLabel "747-300, -300 COMBI"^^xsd:string .
+
+cv-ai4dm:747-300SR a skos:Concept ;
+    skos:hiddenLabel 176 ;
+    skos:prefLabel "747-300SR"^^xsd:string .
+
+<cv-ai4dm:747-400,_400_COMBI> a skos:Concept ;
+    skos:hiddenLabel 178 ;
+    skos:prefLabel "747-400, 400 COMBI"^^xsd:string .
+
+cv-ai4dm:747-400ER a skos:Concept ;
+    skos:hiddenLabel 179 ;
+    skos:prefLabel "747-400ER"^^xsd:string .
+
+cv-ai4dm:747-400ER_F a skos:Concept ;
+    skos:hiddenLabel 180 ;
+    skos:prefLabel "747-400ER F"^^xsd:string .
+
+cv-ai4dm:747-400F a skos:Concept ;
+    skos:hiddenLabel 181 ;
+    skos:prefLabel "747-400F"^^xsd:string .
+
+cv-ai4dm:747-400_DOMESTIC a skos:Concept ;
+    skos:hiddenLabel 177 ;
+    skos:prefLabel "747-400 DOMESTIC"^^xsd:string .
+
+cv-ai4dm:747-8 a skos:Concept ;
+    skos:hiddenLabel 182 ;
+    skos:prefLabel "747-8"^^xsd:string .
+
+cv-ai4dm:747-8F a skos:Concept ;
+    skos:hiddenLabel 183 ;
+    skos:prefLabel "747-8F"^^xsd:string .
+
+cv-ai4dm:747-SP a skos:Concept ;
+    skos:hiddenLabel 184 ;
+    skos:prefLabel "747-SP"^^xsd:string .
+
+<cv-ai4dm:757-200,_-200PF> a skos:Concept ;
+    skos:hiddenLabel 185 ;
+    skos:prefLabel "757-200, -200PF"^^xsd:string .
+
+<cv-ai4dm:757-200,_-200PF_with_winglets> a skos:Concept ;
+    skos:hiddenLabel 186 ;
+    skos:prefLabel "757-200, -200PF with winglets"^^xsd:string .
+
+cv-ai4dm:757-300 a skos:Concept ;
+    skos:hiddenLabel 187 ;
+    skos:prefLabel "757-300"^^xsd:string .
+
+cv-ai4dm:757-300_with_winglets a skos:Concept ;
+    skos:hiddenLabel 188 ;
+    skos:prefLabel "757-300 with winglets"^^xsd:string .
+
+cv-ai4dm:767-200 a skos:Concept ;
+    skos:hiddenLabel 189 ;
+    skos:prefLabel "767-200"^^xsd:string .
+
+cv-ai4dm:767-200ER a skos:Concept ;
+    skos:hiddenLabel 190 ;
+    skos:prefLabel "767-200ER"^^xsd:string .
+
+cv-ai4dm:767-300 a skos:Concept ;
+    skos:hiddenLabel 191 ;
+    skos:prefLabel "767-300"^^xsd:string .
+
+cv-ai4dm:767-300ER a skos:Concept ;
+    skos:hiddenLabel 193 ;
+    skos:prefLabel "767-300ER"^^xsd:string .
+
+cv-ai4dm:767-300ER_with_winglets a skos:Concept ;
+    skos:hiddenLabel 194 ;
+    skos:prefLabel "767-300ER with winglets"^^xsd:string .
+
+cv-ai4dm:767-300_Freighter a skos:Concept ;
+    skos:hiddenLabel 192 ;
+    skos:prefLabel "767-300 Freighter"^^xsd:string .
+
+cv-ai4dm:767-400ER a skos:Concept ;
+    skos:hiddenLabel 195 ;
+    skos:prefLabel "767-400ER"^^xsd:string .
+
+cv-ai4dm:777-200 a skos:Concept ;
+    skos:hiddenLabel 196 ;
+    skos:prefLabel "777-200"^^xsd:string .
+
+cv-ai4dm:777-200ER a skos:Concept ;
+    skos:hiddenLabel 198 ;
+    skos:prefLabel "777-200ER"^^xsd:string .
+
+cv-ai4dm:777-200LR a skos:Concept ;
+    skos:hiddenLabel 199 ;
+    skos:prefLabel "777-200LR"^^xsd:string .
+
+cv-ai4dm:777-200_(HGW_Option) a skos:Concept ;
+    skos:hiddenLabel 197 ;
+    skos:prefLabel "777-200 (HGW Option)"^^xsd:string .
+
+cv-ai4dm:777-300 a skos:Concept ;
+    skos:hiddenLabel 200 ;
+    skos:prefLabel "777-300"^^xsd:string .
+
+cv-ai4dm:777-300ER a skos:Concept ;
+    skos:hiddenLabel 201 ;
+    skos:prefLabel "777-300ER"^^xsd:string .
+
+cv-ai4dm:777-300F a skos:Concept ;
+    skos:hiddenLabel 202 ;
+    skos:prefLabel "777-300F"^^xsd:string .
+
+cv-ai4dm:787-10_Dreamliner_(Preliminary_Data) a skos:Concept ;
+    skos:hiddenLabel 203 ;
+    skos:prefLabel "787-10 Dreamliner (Preliminary Data)"^^xsd:string .
+
+cv-ai4dm:787-8_Dreamliner a skos:Concept ;
+    skos:hiddenLabel 204 ;
+    skos:prefLabel "787-8 Dreamliner"^^xsd:string .
+
+cv-ai4dm:787-9_Dreamliner a skos:Concept ;
+    skos:hiddenLabel 205 ;
+    skos:prefLabel "787-9 Dreamliner"^^xsd:string .
+
+cv-ai4dm:7ECA_Citabria_Aurora a skos:Concept ;
+    skos:hiddenLabel 82 ;
+    skos:prefLabel "7ECA Citabria Aurora"^^xsd:string .
+
+cv-ai4dm:7EC_Champ a skos:Concept ;
+    skos:hiddenLabel 81 ;
+    skos:prefLabel "7EC Champ"^^xsd:string .
+
+cv-ai4dm:7GCAA_Citabria_Adventure a skos:Concept ;
+    skos:hiddenLabel 83 ;
+    skos:prefLabel "7GCAA Citabria Adventure"^^xsd:string .
+
+cv-ai4dm:7GCBC_Citabria_Explorer a skos:Concept ;
+    skos:hiddenLabel 84 ;
+    skos:prefLabel "7GCBC Citabria Explorer"^^xsd:string .
+
+cv-ai4dm:7GCBC_Citabria_High_Country_Explorer a skos:Concept ;
+    skos:hiddenLabel 85 ;
+    skos:prefLabel "7GCBC Citabria High Country Explorer"^^xsd:string .
+
+cv-ai4dm:8GCBC_Denali_Scout a skos:Concept ;
+    skos:hiddenLabel 86 ;
+    skos:prefLabel "8GCBC Denali Scout"^^xsd:string .
+
+cv-ai4dm:8GCBC_Scout a skos:Concept ;
+    skos:hiddenLabel 87 ;
+    skos:prefLabel "8GCBC Scout"^^xsd:string .
+
+cv-ai4dm:8KCAB_Super_Decathlon a skos:Concept ;
+    skos:hiddenLabel 88 ;
+    skos:prefLabel "8KCAB Super Decathlon"^^xsd:string .
+
+cv-ai4dm:8KCAB_Xtreme_Decathon a skos:Concept ;
+    skos:hiddenLabel 89 ;
+    skos:prefLabel "8KCAB Xtreme Decathon"^^xsd:string .
+
+cv-ai4dm:A-500 a skos:Concept ;
+    skos:hiddenLabel 4 ;
+    skos:prefLabel "A-500"^^xsd:string .
+
+cv-ai4dm:A-700_AdamJet a skos:Concept ;
+    skos:hiddenLabel 5 ;
+    skos:prefLabel "A-700 AdamJet"^^xsd:string .
+
+cv-ai4dm:A-9_Quail_Commander_(A9B-M) a skos:Concept ;
+    skos:hiddenLabel 31 ;
+    skos:prefLabel "A-9 Quail Commander (A9B-M)"^^xsd:string .
+
+cv-ai4dm:A109_Airedale a skos:Concept ;
+    skos:hiddenLabel 93 ;
+    skos:prefLabel "A.109 Airedale"^^xsd:string .
+
+cv-ai4dm:A220-100 a skos:Concept ;
+    skos:hiddenLabel 44 ;
+    skos:prefLabel "A220-100"^^xsd:string .
+
+cv-ai4dm:A220-300 a skos:Concept ;
+    skos:hiddenLabel 45 ;
+    skos:prefLabel "A220-300"^^xsd:string .
+
+cv-ai4dm:A300-100_(A300-B4-100) a skos:Concept ;
+    skos:hiddenLabel 46 ;
+    skos:prefLabel "A300-100 (A300-B4-100)"^^xsd:string .
+
+cv-ai4dm:A300-200_(A300-B4-200) a skos:Concept ;
+    skos:hiddenLabel 47 ;
+    skos:prefLabel "A300-200 (A300-B4-200)"^^xsd:string .
+
+<cv-ai4dm:A300-200_(A300-C4-200,_F4-200)> a skos:Concept ;
+    skos:hiddenLabel 48 ;
+    skos:prefLabel "A300-200 (A300-C4-200, F4-200)"^^xsd:string .
+
+cv-ai4dm:A300-600R_(B4-600R) a skos:Concept ;
+    skos:hiddenLabel 51 ;
+    skos:prefLabel "A300-600R (B4-600R)"^^xsd:string .
+
+<cv-ai4dm:A300-600_(B4/C4-600)> a skos:Concept ;
+    skos:hiddenLabel 49 ;
+    skos:prefLabel "A300-600 (B4/C4-600)"^^xsd:string .
+
+cv-ai4dm:A300-600_(F4-600) a skos:Concept ;
+    skos:hiddenLabel 50 ;
+    skos:prefLabel "A300-600 (F4-600)"^^xsd:string .
+
+cv-ai4dm:A310-200 a skos:Concept ;
+    skos:hiddenLabel 52 ;
+    skos:prefLabel "A310-200"^^xsd:string .
+
+cv-ai4dm:A310-300 a skos:Concept ;
+    skos:hiddenLabel 53 ;
+    skos:prefLabel "A310-300"^^xsd:string .
+
+cv-ai4dm:A318-100 a skos:Concept ;
+    skos:hiddenLabel 54 ;
+    skos:prefLabel "A318-100"^^xsd:string .
+
+cv-ai4dm:A319-100 a skos:Concept ;
+    skos:hiddenLabel 55 ;
+    skos:prefLabel "A319-100"^^xsd:string .
+
+cv-ai4dm:A319-100_Sharklet a skos:Concept ;
+    skos:hiddenLabel 56 ;
+    skos:prefLabel "A319-100 Sharklet"^^xsd:string .
+
+cv-ai4dm:A319neo_Sharklet a skos:Concept ;
+    skos:hiddenLabel 57 ;
+    skos:prefLabel "A319neo Sharklet"^^xsd:string .
+
+cv-ai4dm:A320-200 a skos:Concept ;
+    skos:hiddenLabel 58 ;
+    skos:prefLabel "A320-200"^^xsd:string .
+
+cv-ai4dm:A320-200_Sharklet a skos:Concept ;
+    skos:hiddenLabel 59 ;
+    skos:prefLabel "A320-200 Sharklet"^^xsd:string .
+
+cv-ai4dm:A320neo_Sharklet a skos:Concept ;
+    skos:hiddenLabel 60 ;
+    skos:prefLabel "A320neo Sharklet"^^xsd:string .
+
+cv-ai4dm:A321-100 a skos:Concept ;
+    skos:hiddenLabel 61 ;
+    skos:prefLabel "A321-100"^^xsd:string .
+
+cv-ai4dm:A321-100_Sharklet a skos:Concept ;
+    skos:hiddenLabel 62 ;
+    skos:prefLabel "A321-100 Sharklet"^^xsd:string .
+
+cv-ai4dm:A321-200 a skos:Concept ;
+    skos:hiddenLabel 63 ;
+    skos:prefLabel "A321-200"^^xsd:string .
+
+cv-ai4dm:A321-200_Sharklet a skos:Concept ;
+    skos:hiddenLabel 64 ;
+    skos:prefLabel "A321-200 Sharklet"^^xsd:string .
+
+cv-ai4dm:A321neo_Sharklet a skos:Concept ;
+    skos:hiddenLabel 65 ;
+    skos:prefLabel "A321neo Sharklet"^^xsd:string .
+
+cv-ai4dm:A330-200 a skos:Concept ;
+    skos:hiddenLabel 66 ;
+    skos:prefLabel "A330-200"^^xsd:string .
+
+cv-ai4dm:A330-200F a skos:Concept ;
+    skos:hiddenLabel 67 ;
+    skos:prefLabel "A330-200F"^^xsd:string .
+
+cv-ai4dm:A330-300 a skos:Concept ;
+    skos:hiddenLabel 68 ;
+    skos:prefLabel "A330-300"^^xsd:string .
+
+cv-ai4dm:A340-200 a skos:Concept ;
+    skos:hiddenLabel 69 ;
+    skos:prefLabel "A340-200"^^xsd:string .
+
+cv-ai4dm:A340-300 a skos:Concept ;
+    skos:hiddenLabel 70 ;
+    skos:prefLabel "A340-300"^^xsd:string .
+
+cv-ai4dm:A340-500 a skos:Concept ;
+    skos:hiddenLabel 71 ;
+    skos:prefLabel "A340-500"^^xsd:string .
+
+cv-ai4dm:A340-600 a skos:Concept ;
+    skos:hiddenLabel 72 ;
+    skos:prefLabel "A340-600"^^xsd:string .
+
+cv-ai4dm:A350-1000 a skos:Concept ;
+    skos:hiddenLabel 73 ;
+    skos:prefLabel "A350-1000"^^xsd:string .
+
+cv-ai4dm:A350-900 a skos:Concept ;
+    skos:hiddenLabel 74 ;
+    skos:prefLabel "A350-900"^^xsd:string .
+
+cv-ai4dm:A380-800 a skos:Concept ;
+    skos:hiddenLabel 75 ;
+    skos:prefLabel "A380-800"^^xsd:string .
+
+cv-ai4dm:A5_Amphibious_Light_Sport_(S-LSA) a skos:Concept ;
+    skos:hiddenLabel 521 ;
+    skos:prefLabel "A5 Amphibious Light Sport (S-LSA)"^^xsd:string .
+
+cv-ai4dm:A61_Terrier a skos:Concept ;
+    skos:hiddenLabel 94 ;
+    skos:prefLabel "A.61 Terrier"^^xsd:string .
+
+cv-ai4dm:AA-1A_Trainer a skos:Concept ;
+    skos:hiddenLabel 79 ;
+    skos:prefLabel "AA-1A Trainer"^^xsd:string .
+
+cv-ai4dm:AA-1B_Trainer_and_TR-2 a skos:Concept ;
+    skos:hiddenLabel 489 ;
+    skos:prefLabel "AA-1B Trainer and TR-2"^^xsd:string .
+
+cv-ai4dm:AA-1C_Lynx_and_T-Cat a skos:Concept ;
+    skos:hiddenLabel 513 ;
+    skos:prefLabel "AA-1C Lynx and T-Cat"^^xsd:string .
+
+cv-ai4dm:AA-1_Yankee_Clipper a skos:Concept ;
+    skos:hiddenLabel 78 ;
+    skos:prefLabel "AA-1 Yankee Clipper"^^xsd:string .
+
+cv-ai4dm:AA-5A_Cheetah a skos:Concept ;
+    skos:hiddenLabel 80 ;
+    skos:prefLabel "AA-5A Cheetah"^^xsd:string .
+
+cv-ai4dm:AA-5B_Tiger a skos:Concept ;
+    skos:hiddenLabel 486 ;
+    skos:prefLabel "AA-5B Tiger"^^xsd:string .
+
+cv-ai4dm:AA-5_Traveler a skos:Concept ;
+    skos:hiddenLabel 485 ;
+    skos:prefLabel "AA-5 Traveler"^^xsd:string .
+
+cv-ai4dm:AB-115_BS a skos:Concept ;
+    skos:hiddenLabel 15 ;
+    skos:prefLabel "AB-115 BS"^^xsd:string .
+
+cv-ai4dm:AB-150_Ag a skos:Concept ;
+    skos:hiddenLabel 16 ;
+    skos:prefLabel "AB-150 Ag"^^xsd:string .
+
+cv-ai4dm:AB-180_RVR a skos:Concept ;
+    skos:hiddenLabel 17 ;
+    skos:prefLabel "AB-180 RVR"^^xsd:string .
+
+cv-ai4dm:AB-95 a skos:Concept ;
+    skos:hiddenLabel 18 ;
+    skos:prefLabel "AB-95"^^xsd:string .
+
+cv-ai4dm:ACJ320neo_(Corporate_Jet_version)0 a skos:Concept ;
+    skos:hiddenLabel 76 ;
+    skos:prefLabel "ACJ320neo (Corporate Jet version)0"^^xsd:string .
+
+cv-ai4dm:AG-5B_Tiger a skos:Concept ;
+    skos:hiddenLabel 488 ;
+    skos:prefLabel "AG-5B Tiger"^^xsd:string .
+
+cv-ai4dm:AL-60-B2 a skos:Concept ;
+    skos:hiddenLabel 7 ;
+    skos:prefLabel "AL-60-B2"^^xsd:string .
+
+cv-ai4dm:AM-3CM_Bosbok a skos:Concept ;
+    skos:hiddenLabel 8 ;
+    skos:prefLabel "AM-3CM Bosbok"^^xsd:string .
+
+cv-ai4dm:AN-2_Antek a skos:Concept ;
+    skos:hiddenLabel 627 ;
+    skos:prefLabel "AN-2 Antek"^^xsd:string .
+
+<cv-ai4dm:APM_20_Lionceau_(Lion_cub),_APM_21_Lion> a skos:Concept ;
+    skos:hiddenLabel 530 ;
+    skos:prefLabel "APM 20 Lionceau (Lion cub), APM 21 Lion"^^xsd:string .
+
+cv-ai4dm:ARJ21-700_Xiangeng_(Flying_Phoenix)_ER a skos:Concept ;
+    skos:hiddenLabel 388 ;
+    skos:prefLabel "ARJ21-700 Xiangeng (Flying Phoenix) ER"^^xsd:string .
+
+cv-ai4dm:ARJ21-700_Xiangeng_(Flying_Phoenix)_STD a skos:Concept ;
+    skos:hiddenLabel 389 ;
+    skos:prefLabel "ARJ21-700 Xiangeng (Flying Phoenix) STD"^^xsd:string .
+
+cv-ai4dm:ARJ21-900_Xiangeng_(Flying_Phoenix)_ER a skos:Concept ;
+    skos:hiddenLabel 390 ;
+    skos:prefLabel "ARJ21-900 Xiangeng (Flying Phoenix) ER"^^xsd:string .
+
+cv-ai4dm:ARJ21-900_Xiangeng_(Flying_Phoenix)_STD a skos:Concept ;
+    skos:hiddenLabel 391 ;
+    skos:prefLabel "ARJ21-900 Xiangeng (Flying Phoenix) STD"^^xsd:string .
+
+cv-ai4dm:ARJ21F_(proposed_business_jet_version) a skos:Concept ;
+    skos:hiddenLabel 392 ;
+    skos:prefLabel "ARJ21F (proposed business jet version)"^^xsd:string .
+
+cv-ai4dm:ARJ21F_(proposed_freighter_version) a skos:Concept ;
+    skos:hiddenLabel 393 ;
+    skos:prefLabel "ARJ21F (proposed freighter version)"^^xsd:string .
+
+<cv-ai4dm:AT-300/301> a skos:Concept ;
+    skos:hiddenLabel 33 ;
+    skos:prefLabel "AT-300/301"^^xsd:string .
+
+cv-ai4dm:AT-302 a skos:Concept ;
+    skos:hiddenLabel 34 ;
+    skos:prefLabel "AT-302"^^xsd:string .
+
+cv-ai4dm:AT-402B a skos:Concept ;
+    skos:hiddenLabel 35 ;
+    skos:prefLabel "AT-402B"^^xsd:string .
+
+cv-ai4dm:AT-502B a skos:Concept ;
+    skos:hiddenLabel 36 ;
+    skos:prefLabel "AT-502B"^^xsd:string .
+
+cv-ai4dm:AT-502XP a skos:Concept ;
+    skos:hiddenLabel 37 ;
+    skos:prefLabel "AT-502XP"^^xsd:string .
+
+cv-ai4dm:AT-503T a skos:Concept ;
+    skos:hiddenLabel 38 ;
+    skos:prefLabel "AT-503T"^^xsd:string .
+
+cv-ai4dm:AT-504 a skos:Concept ;
+    skos:hiddenLabel 39 ;
+    skos:prefLabel "AT-504"^^xsd:string .
+
+cv-ai4dm:AT-602 a skos:Concept ;
+    skos:hiddenLabel 40 ;
+    skos:prefLabel "AT-602"^^xsd:string .
+
+cv-ai4dm:AT-802A a skos:Concept ;
+    skos:hiddenLabel 41 ;
+    skos:prefLabel "AT-802A"^^xsd:string .
+
+cv-ai4dm:AT-802F a skos:Concept ;
+    skos:hiddenLabel 42 ;
+    skos:prefLabel "AT-802F, AT-802F Fire Boss"^^xsd:string .
+
+cv-ai4dm:AT-802U a skos:Concept ;
+    skos:hiddenLabel 43 ;
+    skos:prefLabel "AT-802U"^^xsd:string .
+
+cv-ai4dm:A_2-A_Cadet_(same_as_Ercoupe_415-C) a skos:Concept ;
+    skos:hiddenLabel 545 ;
+    skos:prefLabel "A 2-A Cadet (same as Ercoupe 415-C)"^^xsd:string .
+
+cv-ai4dm:Acro_Sport a skos:Concept ;
+    skos:hiddenLabel 0 ;
+    skos:prefLabel "Acro Sport"^^xsd:string .
+
+cv-ai4dm:Acro_Sport_II a skos:Concept ;
+    skos:hiddenLabel 1 ;
+    skos:prefLabel "Acro Sport II"^^xsd:string .
+
+cv-ai4dm:Airvan_10 a skos:Concept ;
+    skos:hiddenLabel 543 ;
+    skos:prefLabel "Airvan 10"^^xsd:string .
+
+cv-ai4dm:Airvan_8_Turbo a skos:Concept ;
+    skos:hiddenLabel 544 ;
+    skos:prefLabel "Airvan 8 Turbo"^^xsd:string .
+
+<cv-ai4dm:An-72,_An-74> a skos:Concept ;
+    skos:hiddenLabel 90 ;
+    skos:prefLabel "An-72, An-74"^^xsd:string .
+
+<cv-ai4dm:Avro_748,_HS_748> a skos:Concept ;
+    skos:hiddenLabel 305 ;
+    skos:prefLabel "Avro 748, HS 748"^^xsd:string .
+
+<cv-ai4dm:Avro_RJ100/115> a skos:Concept ;
+    skos:hiddenLabel 306 ;
+    skos:prefLabel "Avro RJ100/115"^^xsd:string .
+
+cv-ai4dm:Avro_RJ70 a skos:Concept ;
+    skos:hiddenLabel 307 ;
+    skos:prefLabel "Avro RJ70"^^xsd:string .
+
+cv-ai4dm:Avro_RJ85 a skos:Concept ;
+    skos:hiddenLabel 308 ;
+    skos:prefLabel "Avro RJ85"^^xsd:string .
+
+cv-ai4dm:B121_Pup a skos:Concept ;
+    skos:hiddenLabel 95 ;
+    skos:prefLabel "B.121 Pup"^^xsd:string .
+
+cv-ai4dm:B125_Bulldog a skos:Concept ;
+    skos:hiddenLabel 99 ;
+    skos:prefLabel "B.125 Bulldog"^^xsd:string .
+
+cv-ai4dm:B206 a skos:Concept ;
+    skos:hiddenLabel 96 ;
+    skos:prefLabel "B.206"^^xsd:string .
+
+cv-ai4dm:BAC_One-Eleven_200 a skos:Concept ;
+    skos:hiddenLabel 312 ;
+    skos:prefLabel "BAC One-Eleven 200 (aka 111 or 1-11)"^^xsd:string .
+
+<cv-ai4dm:BAC_One-Eleven_300/400> a skos:Concept ;
+    skos:hiddenLabel 313 ;
+    skos:prefLabel "BAC One-Eleven 300/400"^^xsd:string .
+
+cv-ai4dm:BAC_One-Eleven_475 a skos:Concept ;
+    skos:hiddenLabel 314 ;
+    skos:prefLabel "BAC One-Eleven 475"^^xsd:string .
+
+cv-ai4dm:BAC_One-Eleven_500 a skos:Concept ;
+    skos:hiddenLabel 315 ;
+    skos:prefLabel "BAC One-Eleven 500"^^xsd:string .
+
+cv-ai4dm:BAe_146_100 a skos:Concept ;
+    skos:hiddenLabel 309 ;
+    skos:prefLabel "BAe 146-100, 100QC, 100QT"^^xsd:string .
+
+cv-ai4dm:BAe_146-200 a skos:Concept ;
+    skos:hiddenLabel 310 ;
+    skos:prefLabel "BAe 146-200, 200QC"^^xsd:string .
+
+cv-ai4dm:BAe_146-300 a skos:Concept ;
+    skos:hiddenLabel 311 ;
+    skos:prefLabel "BAe 146-300, 300QC, 300QT"^^xsd:string .
+
+cv-ai4dm:BN-2A_Mk_III-2_Trislander a skos:Concept ;
+    skos:hiddenLabel 316 ;
+    skos:prefLabel "BN-2A Mk III-2 Trislander"^^xsd:string .
+
+cv-ai4dm:Baron_55 a skos:Concept ;
+    skos:hiddenLabel 102 ;
+    skos:prefLabel "Baron 55"^^xsd:string .
+
+cv-ai4dm:Baron_56_TC_Turbo_Baron a skos:Concept ;
+    skos:hiddenLabel 103 ;
+    skos:prefLabel "Baron 56 TC Turbo Baron"^^xsd:string .
+
+cv-ai4dm:Baron_58 a skos:Concept ;
+    skos:hiddenLabel 104 ;
+    skos:prefLabel "Baron 58 (and current G58)"^^xsd:string .
+
+cv-ai4dm:Basler_BT-76 a skos:Concept ;
+    skos:hiddenLabel 92 ;
+    skos:prefLabel "Basler BT-76 (a DC-3 conversion)"^^xsd:string .
+
+cv-ai4dm:Beech_390_Premier a skos:Concept ;
+    skos:hiddenLabel 105 ;
+    skos:prefLabel "Beech 390 Premier I, IA, II (Raytheon Premier I)"^^xsd:string .
+
+cv-ai4dm:Beechjet_400A_(became_Raytheon_Beechjet_400A) a skos:Concept ;
+    skos:hiddenLabel 107 ;
+    skos:prefLabel "Beechjet 400A (became Raytheon Beechjet 400A)"^^xsd:string .
+
+cv-ai4dm:Beechjet_400_(from/same_as_MU-300-10_Diamond_II)> a skos:Concept ;
+    skos:hiddenLabel 106 ;
+    skos:prefLabel "Beechjet 400 (from/same as MU-300-10 Diamond II)"^^xsd:string .
+
+cv-ai4dm:Bonanza_33_(F33A) a skos:Concept ;
+    skos:hiddenLabel 108 ;
+    skos:prefLabel "Bonanza 33 (F33A)"^^xsd:string .
+
+cv-ai4dm:Bonanza_35_(G35) a skos:Concept ;
+    skos:hiddenLabel 109 ;
+    skos:prefLabel "Bonanza 35 (G35)"^^xsd:string .
+
+cv-ai4dm:Bonanza_35_(P35) a skos:Concept ;
+    skos:hiddenLabel 110 ;
+    skos:prefLabel "Bonanza 35 (P35)"^^xsd:string .
+
+cv-ai4dm:Bonanza_35_(V35TC)_rare_as_only_7_built a skos:Concept ;
+    skos:hiddenLabel 111 ;
+    skos:prefLabel "Bonanza 35 (V35TC) rare as only 7 built"^^xsd:string .
+
+cv-ai4dm:Bonanza_36_(G36) a skos:Concept ;
+    skos:hiddenLabel 112 ;
+    skos:prefLabel "Bonanza 36 (G36)"^^xsd:string .
+
+cv-ai4dm:Bushby_Mustang_2 a skos:Concept ;
+    skos:hiddenLabel 568 ;
+    skos:prefLabel "Bushby Mustang 2"^^xsd:string .
+
+<cv-ai4dm:C-130H,_J> a skos:Concept ;
+    skos:hiddenLabel 541 ;
+    skos:prefLabel "C-130H, J"^^xsd:string .
+
+cv-ai4dm:C-130J-30 a skos:Concept ;
+    skos:hiddenLabel 542 ;
+    skos:prefLabel "C-130J-30"^^xsd:string .
+
+cv-ai4dm:C-1_Skimmer_(two_seat) a skos:Concept ;
+    skos:hiddenLabel 386 ;
+    skos:prefLabel "C-1 Skimmer (two seat)"^^xsd:string .
+
+cv-ai4dm:C-2_Skimmer_IV_(four_seat) a skos:Concept ;
+    skos:hiddenLabel 387 ;
+    skos:prefLabel "C-2 Skimmer IV (four seat)"^^xsd:string .
+
+cv-ai4dm:C919 a skos:Concept ;
+    skos:hiddenLabel 394 ;
+    skos:prefLabel "C919"^^xsd:string .
+
+cv-ai4dm:C919_ER a skos:Concept ;
+    skos:hiddenLabel 395 ;
+    skos:prefLabel "C919 ER"^^xsd:string .
+
+cv-ai4dm:CM-170R_Magister a skos:Concept ;
+    skos:hiddenLabel 647 ;
+    skos:prefLabel "CM-170R Magister"^^xsd:string .
+
+<cv-ai4dm:CRJ_100_200_440_ER> a skos:Concept ;
+    skos:hiddenLabel 256 ;
+    skos:prefLabel "CRJ 100/200/440 ER (CL-600-2B19)"^^xsd:string .
+
+<cv-ai4dm:CRJ_100_200_440_LR> a skos:Concept ;
+    skos:hiddenLabel 257 ;
+    skos:prefLabel "CRJ 100/200/440 LR (CL-600-2B19)"^^xsd:string .
+
+<cv-ai4dm:CRJ_100_200_Standard> a skos:Concept ;
+    skos:hiddenLabel 255 ;
+    skos:prefLabel "CRJ 100/200 Standard"^^xsd:string .
+
+cv-ai4dm:CRJ_1000_EL a skos:Concept ;
+    skos:hiddenLabel 258 ;
+    skos:prefLabel "CRJ 1000 EL"^^xsd:string .
+
+cv-ai4dm:CRJ_1000_ER a skos:Concept ;
+    skos:hiddenLabel 259 ;
+    skos:prefLabel "CRJ 1000 ER"^^xsd:string .
+
+cv-ai4dm:CRJ_1000_Standard a skos:Concept ;
+    skos:hiddenLabel 260 ;
+    skos:prefLabel "CRJ 1000 Standard"^^xsd:string .
+
+<cv-ai4dm:CRJ_700/701/702_ER> a skos:Concept ;
+    skos:hiddenLabel 261 ;
+    skos:prefLabel "CRJ 700/701/702 ER"^^xsd:string .
+
+<cv-ai4dm:CRJ_700/701/702_LR> a skos:Concept ;
+    skos:hiddenLabel 262 ;
+    skos:prefLabel "CRJ 700/701/702 LR"^^xsd:string .
+
+<cv-ai4dm:CRJ_700/701/702_Standard> a skos:Concept ;
+    skos:hiddenLabel 263 ;
+    skos:prefLabel "CRJ 700/701/702 Standard"^^xsd:string .
+
+cv-ai4dm:CRJ_705_(based_on_CRJ_900) a skos:Concept ;
+    skos:hiddenLabel 264 ;
+    skos:prefLabel "CRJ 705 (based on CRJ 900)"^^xsd:string .
+
+cv-ai4dm:CRJ_900_ER a skos:Concept ;
+    skos:hiddenLabel 265 ;
+    skos:prefLabel "CRJ 900 ER"^^xsd:string .
+
+cv-ai4dm:CRJ_900_LR a skos:Concept ;
+    skos:hiddenLabel 266 ;
+    skos:prefLabel "CRJ 900 LR"^^xsd:string .
+
+cv-ai4dm:CRJ_900_Standard a skos:Concept ;
+    skos:hiddenLabel 267 ;
+    skos:prefLabel "CRJ 900 Standard"^^xsd:string .
+
+cv-ai4dm:CTLSi a skos:Concept ;
+    skos:hiddenLabel 467 ;
+    skos:prefLabel "CTLSi"^^xsd:string .
+
+cv-ai4dm:Canadair_CL-215T_Scooper_Retrofit_(Land) a skos:Concept ;
+    skos:hiddenLabel 243 ;
+    skos:prefLabel "Canadair CL-215T Scooper Retrofit (Land)"^^xsd:string .
+
+cv-ai4dm:Canadair_CL-215T_Scooper_Retrofit_(Water) a skos:Concept ;
+    skos:hiddenLabel 244 ;
+    skos:prefLabel "Canadair CL-215T Scooper Retrofit (Water)"^^xsd:string .
+
+cv-ai4dm:Canadair_CL-215_Scooper_(Land) a skos:Concept ;
+    skos:hiddenLabel 240 ;
+    skos:prefLabel "Canadair CL-215 Scooper (Land)"^^xsd:string .
+
+cv-ai4dm:Canadair_CL-215_Scooper_(Water) a skos:Concept ;
+    skos:hiddenLabel 242 ;
+    skos:prefLabel "Canadair CL-215 Scooper (Water)"^^xsd:string .
+
+<cv-ai4dm:Canadair_CL-215_Scooper_(Water_modified_per_CSB_#_CL215-124)> a skos:Concept ;
+    skos:hiddenLabel 241 ;
+    skos:prefLabel "Canadair CL-215 Scooper (Water modified per CSB # CL215-124)"^^xsd:string .
+
+cv-ai4dm:Canadair_CL-415_Super_Scooper_(Land) a skos:Concept ;
+    skos:hiddenLabel 245 ;
+    skos:prefLabel "Canadair CL-415 Super Scooper (Land)"^^xsd:string .
+
+cv-ai4dm:Canadair_CL-415_Super_Scooper_(Water) a skos:Concept ;
+    skos:hiddenLabel 246 ;
+    skos:prefLabel "Canadair CL-415 Super Scooper (Water)"^^xsd:string .
+
+cv-ai4dm:Challenger_(BD-100-1A10)_300 a skos:Concept ;
+    skos:hiddenLabel 247 ;
+    skos:prefLabel "Challenger (BD-100-1A10) 300"^^xsd:string .
+
+<cv-ai4dm:Challenger_(BD-100-1A10)_350_(the_300_with_sn/_20501_and_subsequent)> a skos:Concept ;
+    skos:hiddenLabel 248 ;
+    skos:prefLabel "Challenger (BD-100-1A10) 350 (the 300 with sn/ 20501 and subsequent)"^^xsd:string .
+
+cv-ai4dm:Challenger_(CL-600-1A11)_600 a skos:Concept ;
+    skos:hiddenLabel 249 ;
+    skos:prefLabel "Challenger (CL-600-1A11) 600"^^xsd:string .
+
+cv-ai4dm:Challenger_(CL-600-2A12)_601 a skos:Concept ;
+    skos:hiddenLabel 250 ;
+    skos:prefLabel "Challenger (CL-600-2A12) 601"^^xsd:string .
+
+cv-ai4dm:Challenger_(CL-600-2B16)_601-3A_and_-3R a skos:Concept ;
+    skos:hiddenLabel 251 ;
+    skos:prefLabel "Challenger (CL-600-2B16) 601-3A and -3R"^^xsd:string .
+
+cv-ai4dm:Challenger_(CL-600-2B16)_604 a skos:Concept ;
+    skos:hiddenLabel 252 ;
+    skos:prefLabel "Challenger (CL-600-2B16) 604"^^xsd:string .
+
+<cv-ai4dm:Challenger_604/605_?> a skos:Concept ;
+    skos:hiddenLabel 253 ;
+    skos:prefLabel "Challenger 604/605 ?"^^xsd:string .
+
+cv-ai4dm:Challenger_650 a skos:Concept ;
+    skos:hiddenLabel 254 ;
+    skos:prefLabel "Challenger 650"^^xsd:string .
+
+cv-ai4dm:CitationJet a skos:Concept ;
+    skos:hiddenLabel 379 ;
+    skos:prefLabel "CitationJet"^^xsd:string .
+
+<cv-ai4dm:Citation_CJ1+_(Model_C525)> a skos:Concept ;
+    skos:hiddenLabel 358 ;
+    skos:prefLabel "Citation CJ1+ (Model C525)"^^xsd:string .
+
+cv-ai4dm:Citation_CJ1_(Model_C525) a skos:Concept ;
+    skos:hiddenLabel 357 ;
+    skos:prefLabel "Citation CJ1 (Model C525)"^^xsd:string .
+
+<cv-ai4dm:Citation_CJ2+_(Model_C525A)> a skos:Concept ;
+    skos:hiddenLabel 360 ;
+    skos:prefLabel "Citation CJ2+ (Model C525A)"^^xsd:string .
+
+cv-ai4dm:Citation_CJ2_(Model_C525A) a skos:Concept ;
+    skos:hiddenLabel 359 ;
+    skos:prefLabel "Citation CJ2 (Model C525A)"^^xsd:string .
+
+<cv-ai4dm:Citation_CJ3,_CJ3+_(Model_C525B)> a skos:Concept ;
+    skos:hiddenLabel 361 ;
+    skos:prefLabel "Citation CJ3, CJ3+ (Model C525B)"^^xsd:string .
+
+cv-ai4dm:Citation_CJ4_(Model_C525C) a skos:Concept ;
+    skos:hiddenLabel 362 ;
+    skos:prefLabel "Citation CJ4 (Model C525C)"^^xsd:string .
+
+<cv-ai4dm:Citation_Encore,_Encore+> a skos:Concept ;
+    skos:hiddenLabel 363 ;
+    skos:prefLabel "Citation Encore, Encore+"^^xsd:string .
+
+cv-ai4dm:Citation_Excel a skos:Concept ;
+    skos:hiddenLabel 364 ;
+    skos:prefLabel "Citation Excel"^^xsd:string .
+
+<cv-ai4dm:Citation_I,_I/SP_(Model_C500/501)> a skos:Concept ;
+    skos:hiddenLabel 365 ;
+    skos:prefLabel "Citation I, I/SP (Model C500/501)"^^xsd:string .
+
+<cv-ai4dm:Citation_II/Bravo,_II/SP_(Model_C550/551)> a skos:Concept ;
+    skos:hiddenLabel 366 ;
+    skos:prefLabel "Citation II/Bravo, II/SP (Model C550/551)"^^xsd:string .
+
+<cv-ai4dm:Citation_III,_VI> a skos:Concept ;
+    skos:hiddenLabel 367 ;
+    skos:prefLabel "Citation III, VI"^^xsd:string .
+
+cv-ai4dm:Citation_M2_(Model_C525) a skos:Concept ;
+    skos:hiddenLabel 368 ;
+    skos:prefLabel "Citation M2 (Model C525)"^^xsd:string .
+
+cv-ai4dm:Citation_Mustang_(Model_C510) a skos:Concept ;
+    skos:hiddenLabel 369 ;
+    skos:prefLabel "Citation Mustang (Model C510)"^^xsd:string .
+
+<cv-ai4dm:Citation_S/II> a skos:Concept ;
+    skos:hiddenLabel 370 ;
+    skos:prefLabel "Citation S/II"^^xsd:string .
+
+cv-ai4dm:Citation_Sovereign a skos:Concept ;
+    skos:hiddenLabel 371 ;
+    skos:prefLabel "Citation Sovereign"^^xsd:string .
+
+<cv-ai4dm:Citation_Sovereign+> a skos:Concept ;
+    skos:hiddenLabel 372 ;
+    skos:prefLabel "Citation Sovereign+"^^xsd:string .
+
+cv-ai4dm:Citation_Ultra_Encore a skos:Concept ;
+    skos:hiddenLabel 373 ;
+    skos:prefLabel "Citation Ultra Encore"^^xsd:string .
+
+<cv-ai4dm:Citation_V,_Ultra> a skos:Concept ;
+    skos:hiddenLabel 374 ;
+    skos:prefLabel "Citation V, Ultra"^^xsd:string .
+
+cv-ai4dm:Citation_VII_(an_upgrade_of_the_III) a skos:Concept ;
+    skos:hiddenLabel 375 ;
+    skos:prefLabel "Citation VII (an upgrade of the III)"^^xsd:string .
+
+cv-ai4dm:Citation_X a skos:Concept ;
+    skos:hiddenLabel 376 ;
+    skos:prefLabel "Citation X"^^xsd:string .
+
+<cv-ai4dm:Citation_X+> a skos:Concept ;
+    skos:hiddenLabel 377 ;
+    skos:prefLabel "Citation X+"^^xsd:string .
+
+<cv-ai4dm:Citation_XLS,_XLS+> a skos:Concept ;
+    skos:hiddenLabel 378 ;
+    skos:prefLabel "Citation XLS, XLS+"^^xsd:string .
+
+cv-ai4dm:Cougar a skos:Concept ;
+    skos:hiddenLabel 2 ;
+    skos:prefLabel "Cougar"^^xsd:string .
+
+<cv-ai4dm:D4/108_Auster> a skos:Concept ;
+    skos:hiddenLabel 97 ;
+    skos:prefLabel "D.4/108 Auster"^^xsd:string .
+
+<cv-ai4dm:D5/108_Husky> a skos:Concept ;
+    skos:hiddenLabel 98 ;
+    skos:prefLabel "D.5/108 Husky"^^xsd:string .
+
+cv-ai4dm:DA20_Katana a skos:Concept ;
+    skos:hiddenLabel 416 ;
+    skos:prefLabel "DA20 Katana"^^xsd:string .
+
+cv-ai4dm:DA40_Tundra_or_NG a skos:Concept ;
+    skos:hiddenLabel 417 ;
+    skos:prefLabel "DA40 Tundra or NG"^^xsd:string .
+
+cv-ai4dm:DA40_XLT a skos:Concept ;
+    skos:hiddenLabel 418 ;
+    skos:prefLabel "DA40 XLT"^^xsd:string .
+
+cv-ai4dm:DA42_Twin_Star a skos:Concept ;
+    skos:hiddenLabel 419 ;
+    skos:prefLabel "DA42 Twin Star"^^xsd:string .
+
+cv-ai4dm:DA50-V a skos:Concept ;
+    skos:hiddenLabel 421 ;
+    skos:prefLabel "DA50-V"^^xsd:string .
+
+cv-ai4dm:DA50_SuperStar a skos:Concept ;
+    skos:hiddenLabel 420 ;
+    skos:prefLabel "DA50 SuperStar"^^xsd:string .
+
+cv-ai4dm:DA62 a skos:Concept ;
+    skos:hiddenLabel 422 ;
+    skos:prefLabel "DA62"^^xsd:string .
+
+cv-ai4dm:DC-3A a skos:Concept ;
+    skos:hiddenLabel 206 ;
+    skos:prefLabel "DC-3A"^^xsd:string .
+
+cv-ai4dm:DC-8-43 a skos:Concept ;
+    skos:hiddenLabel 207 ;
+    skos:prefLabel "DC-8-43"^^xsd:string .
+
+cv-ai4dm:DC-8-55 a skos:Concept ;
+    skos:hiddenLabel 208 ;
+    skos:prefLabel "DC-8-55"^^xsd:string .
+
+cv-ai4dm:DC-8-55F a skos:Concept ;
+    skos:hiddenLabel 209 ;
+    skos:prefLabel "DC-8-55F"^^xsd:string .
+
+cv-ai4dm:DC-8-61 a skos:Concept ;
+    skos:hiddenLabel 210 ;
+    skos:prefLabel "DC-8-61"^^xsd:string .
+
+cv-ai4dm:DC-8-61F a skos:Concept ;
+    skos:hiddenLabel 211 ;
+    skos:prefLabel "DC-8-61F"^^xsd:string .
+
+cv-ai4dm:DC-8-62 a skos:Concept ;
+    skos:hiddenLabel 212 ;
+    skos:prefLabel "DC-8-62"^^xsd:string .
+
+cv-ai4dm:DC-8-62F a skos:Concept ;
+    skos:hiddenLabel 213 ;
+    skos:prefLabel "DC-8-62F"^^xsd:string .
+
+cv-ai4dm:DC-8-63 a skos:Concept ;
+    skos:hiddenLabel 214 ;
+    skos:prefLabel "DC-8-63"^^xsd:string .
+
+cv-ai4dm:DC-8-63F a skos:Concept ;
+    skos:hiddenLabel 215 ;
+    skos:prefLabel "DC-8-63F"^^xsd:string .
+
+cv-ai4dm:DC-8-71 a skos:Concept ;
+    skos:hiddenLabel 216 ;
+    skos:prefLabel "DC-8-71"^^xsd:string .
+
+cv-ai4dm:DC-8-71F a skos:Concept ;
+    skos:hiddenLabel 217 ;
+    skos:prefLabel "DC-8-71F"^^xsd:string .
+
+cv-ai4dm:DC-8-72 a skos:Concept ;
+    skos:hiddenLabel 218 ;
+    skos:prefLabel "DC-8-72"^^xsd:string .
+
+cv-ai4dm:DC-8-72F a skos:Concept ;
+    skos:hiddenLabel 219 ;
+    skos:prefLabel "DC-8-72F"^^xsd:string .
+
+cv-ai4dm:DC-8-73 a skos:Concept ;
+    skos:hiddenLabel 220 ;
+    skos:prefLabel "DC-8-73"^^xsd:string .
+
+cv-ai4dm:DC-8-73F a skos:Concept ;
+    skos:hiddenLabel 221 ;
+    skos:prefLabel "DC-8-73F"^^xsd:string .
+
+cv-ai4dm:DC-9-15 a skos:Concept ;
+    skos:hiddenLabel 222 ;
+    skos:prefLabel "DC-9-15"^^xsd:string .
+
+cv-ai4dm:DC-9-15F a skos:Concept ;
+    skos:hiddenLabel 223 ;
+    skos:prefLabel "DC-9-15F"^^xsd:string .
+
+cv-ai4dm:DC-9-21 a skos:Concept ;
+    skos:hiddenLabel 224 ;
+    skos:prefLabel "DC-9-21"^^xsd:string .
+
+cv-ai4dm:DC-9-30 a skos:Concept ;
+    skos:hiddenLabel 225 ;
+    skos:prefLabel "DC-9-30"^^xsd:string .
+
+<cv-ai4dm:DC-9-32/33F> a skos:Concept ;
+    skos:hiddenLabel 226 ;
+    skos:prefLabel "DC-9-32/33F"^^xsd:string .
+
+cv-ai4dm:DC-9-40 a skos:Concept ;
+    skos:hiddenLabel 227 ;
+    skos:prefLabel "DC-9-40"^^xsd:string .
+
+cv-ai4dm:DC-9-41 a skos:Concept ;
+    skos:hiddenLabel 228 ;
+    skos:prefLabel "DC-9-41"^^xsd:string .
+
+cv-ai4dm:DC-9-51 a skos:Concept ;
+    skos:hiddenLabel 229 ;
+    skos:prefLabel "DC-9-51"^^xsd:string .
+
+<cv-ai4dm:Dash_6_Twin_Otter_(DHC-6-100/200)> a skos:Concept ;
+    skos:hiddenLabel 291 ;
+    skos:prefLabel "Dash 6 Twin Otter (DHC-6-100/200)"^^xsd:string .
+
+cv-ai4dm:Dash_6_Twin_Otter_(DHC-6-300) a skos:Concept ;
+    skos:hiddenLabel 292 ;
+    skos:prefLabel "Dash 6 Twin Otter (DHC-6-300)"^^xsd:string .
+
+<cv-ai4dm:Dash_7_Series_100_(DHC-7-100/101)> a skos:Concept ;
+    skos:hiddenLabel 293 ;
+    skos:prefLabel "Dash 7 Series 100 (DHC-7-100/101)"^^xsd:string .
+
+<cv-ai4dm:Dash_7_Series_150_(DHC-7-150/151)> a skos:Concept ;
+    skos:hiddenLabel 294 ;
+    skos:prefLabel "Dash 7 Series 150 (DHC-7-150/151)"^^xsd:string .
+
+cv-ai4dm:Dash_8_Q400 a skos:Concept ;
+    skos:hiddenLabel 295 ;
+    skos:prefLabel "Dash 8 Q400"^^xsd:string .
+
+cv-ai4dm:Dash_8_Series_100_(DHC-8-101) a skos:Concept ;
+    skos:hiddenLabel 296 ;
+    skos:prefLabel "Dash 8 Series 100 (DHC-8-101)"^^xsd:string .
+
+cv-ai4dm:Dash_8_Series_100_(DHC-8-102) a skos:Concept ;
+    skos:hiddenLabel 297 ;
+    skos:prefLabel "Dash 8 Series 100 (DHC-8-102)"^^xsd:string .
+
+cv-ai4dm:Dash_8_Series_100_(DHC-8-103) a skos:Concept ;
+    skos:hiddenLabel 298 ;
+    skos:prefLabel "Dash 8 Series 100 (DHC-8-103)"^^xsd:string .
+
+cv-ai4dm:Dash_8_Series_100_(DHC-8-106) a skos:Concept ;
+    skos:hiddenLabel 299 ;
+    skos:prefLabel "Dash 8 Series 100 (DHC-8-106)"^^xsd:string .
+
+<cv-ai4dm:Dash_8_Series_200_(DHC-8-201/202)> a skos:Concept ;
+    skos:hiddenLabel 300 ;
+    skos:prefLabel "Dash 8 Series 200 (DHC-8-201/202)"^^xsd:string .
+
+cv-ai4dm:Dash_8_Series_300_(DHC-8-301) a skos:Concept ;
+    skos:hiddenLabel 301 ;
+    skos:prefLabel "Dash 8 Series 300 (DHC-8-301)"^^xsd:string .
+
+cv-ai4dm:Dash_8_Series_300_(DHC-8-311) a skos:Concept ;
+    skos:hiddenLabel 302 ;
+    skos:prefLabel "Dash 8 Series 300 (DHC-8-311)"^^xsd:string .
+
+<cv-ai4dm:Dash_8_Series_300_(DHC-8-314/315)> a skos:Concept ;
+    skos:hiddenLabel 303 ;
+    skos:prefLabel "Dash 8 Series 300 (DHC-8-314/315)"^^xsd:string .
+
+<cv-ai4dm:Dash_8_Series_400_(DHC-8-400/401/402)> a skos:Concept ;
+    skos:hiddenLabel 304 ;
+    skos:prefLabel "Dash 8 Series 400 (DHC-8-400/401/402)"^^xsd:string .
+
+cv-ai4dm:Denali a skos:Concept ;
+    skos:hiddenLabel 380 ;
+    skos:prefLabel "Denali"^^xsd:string .
+
+cv-ai4dm:E1000 a skos:Concept ;
+    skos:hiddenLabel 464 ;
+    skos:prefLabel "E1000"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-135_ER> a skos:Concept ;
+    skos:hiddenLabel 448 ;
+    skos:prefLabel "EMB/ERJ-135 ER"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-135_LR> a skos:Concept ;
+    skos:hiddenLabel 449 ;
+    skos:prefLabel "EMB/ERJ-135 LR"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-140_ER> a skos:Concept ;
+    skos:hiddenLabel 450 ;
+    skos:prefLabel "EMB/ERJ-140 ER"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-140_LR> a skos:Concept ;
+    skos:hiddenLabel 451 ;
+    skos:prefLabel "EMB/ERJ-140 LR"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-145_EP> a skos:Concept ;
+    skos:hiddenLabel 452 ;
+    skos:prefLabel "EMB/ERJ-145 EP"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-145_ER> a skos:Concept ;
+    skos:hiddenLabel 453 ;
+    skos:prefLabel "EMB/ERJ-145 ER"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-145_EU> a skos:Concept ;
+    skos:hiddenLabel 454 ;
+    skos:prefLabel "EMB/ERJ-145 EU"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-145_LR> a skos:Concept ;
+    skos:hiddenLabel 455 ;
+    skos:prefLabel "EMB/ERJ-145 LR"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-145_LU> a skos:Concept ;
+    skos:hiddenLabel 456 ;
+    skos:prefLabel "EMB/ERJ-145 LU"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-145_MK> a skos:Concept ;
+    skos:hiddenLabel 457 ;
+    skos:prefLabel "EMB/ERJ-145 MK"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-145_MP> a skos:Concept ;
+    skos:hiddenLabel 458 ;
+    skos:prefLabel "EMB/ERJ-145 MP"^^xsd:string .
+
+<cv-ai4dm:EMB/ERJ-145_XR> a skos:Concept ;
+    skos:hiddenLabel 459 ;
+    skos:prefLabel "EMB/ERJ-145 XR"^^xsd:string .
+
+cv-ai4dm:EMB_110_Bandeirante a skos:Concept ;
+    skos:hiddenLabel 423 ;
+    skos:prefLabel "EMB 110 Bandeirante"^^xsd:string .
+
+cv-ai4dm:EMB_120_Brasilia_(ER_Model) a skos:Concept ;
+    skos:hiddenLabel 424 ;
+    skos:prefLabel "EMB 120 Brasilia (ER Model)"^^xsd:string .
+
+cv-ai4dm:EMB_121_XINGU_II a skos:Concept ;
+    skos:hiddenLabel 425 ;
+    skos:prefLabel "EMB 121 XINGU II"^^xsd:string .
+
+<cv-ai4dm:EMB_170_LR,_SU,_or_SE> a skos:Concept ;
+    skos:hiddenLabel 426 ;
+    skos:prefLabel "EMB 170 LR, SU, or SE"^^xsd:string .
+
+cv-ai4dm:EMB_175-E2 a skos:Concept ;
+    skos:hiddenLabel 433 ;
+    skos:prefLabel "EMB 175-E2"^^xsd:string .
+
+cv-ai4dm:EMB_175_AR a skos:Concept ;
+    skos:hiddenLabel 427 ;
+    skos:prefLabel "EMB 175 AR"^^xsd:string .
+
+<cv-ai4dm:EMB_175_AR,_extended_wingtips> a skos:Concept ;
+    skos:hiddenLabel 428 ;
+    skos:prefLabel "EMB 175 AR, extended wingtips"^^xsd:string .
+
+cv-ai4dm:EMB_175_LR a skos:Concept ;
+    skos:hiddenLabel 429 ;
+    skos:prefLabel "EMB 175 LR"^^xsd:string .
+
+<cv-ai4dm:EMB_175_LR,_extended_wingtips> a skos:Concept ;
+    skos:hiddenLabel 430 ;
+    skos:prefLabel "EMB 175 LR, extended wingtips"^^xsd:string .
+
+cv-ai4dm:EMB_175_Standard a skos:Concept ;
+    skos:hiddenLabel 431 ;
+    skos:prefLabel "EMB 175 Standard"^^xsd:string .
+
+<cv-ai4dm:EMB_175_Standard,_extended_wingtips> a skos:Concept ;
+    skos:hiddenLabel 432 ;
+    skos:prefLabel "EMB 175 Standard, extended wingtips"^^xsd:string .
+
+cv-ai4dm:EMB_190-E2 a skos:Concept ;
+    skos:hiddenLabel 437 ;
+    skos:prefLabel "EMB 190-E2"^^xsd:string .
+
+cv-ai4dm:EMB_190_AR a skos:Concept ;
+    skos:hiddenLabel 434 ;
+    skos:prefLabel "EMB 190 AR"^^xsd:string .
+
+cv-ai4dm:EMB_190_LR a skos:Concept ;
+    skos:hiddenLabel 435 ;
+    skos:prefLabel "EMB 190 LR"^^xsd:string .
+
+cv-ai4dm:EMB_190_Standard a skos:Concept ;
+    skos:hiddenLabel 436 ;
+    skos:prefLabel "EMB 190 Standard"^^xsd:string .
+
+cv-ai4dm:EMB_195-E2 a skos:Concept ;
+    skos:hiddenLabel 441 ;
+    skos:prefLabel "EMB 195-E2"^^xsd:string .
+
+cv-ai4dm:EMB_195_AR a skos:Concept ;
+    skos:hiddenLabel 438 ;
+    skos:prefLabel "EMB 195 AR"^^xsd:string .
+
+cv-ai4dm:EMB_195_LR a skos:Concept ;
+    skos:hiddenLabel 439 ;
+    skos:prefLabel "EMB 195 LR"^^xsd:string .
+
+cv-ai4dm:EMB_195_Standard a skos:Concept ;
+    skos:hiddenLabel 440 ;
+    skos:prefLabel "EMB 195 Standard"^^xsd:string .
+
+cv-ai4dm:EMB_201_Ipanema_201_(Ag_Sprayer) a skos:Concept ;
+    skos:hiddenLabel 442 ;
+    skos:prefLabel "EMB 201 Ipanema 201 (Ag Sprayer)"^^xsd:string .
+
+cv-ai4dm:EMB_202_Ipanema_202_(Ag_Sprayer) a skos:Concept ;
+    skos:hiddenLabel 443 ;
+    skos:prefLabel "EMB 202 Ipanema 202 (Ag Sprayer)"^^xsd:string .
+
+cv-ai4dm:EMB_203_Ipanema_203_(Ag_Sprayer) a skos:Concept ;
+    skos:hiddenLabel 444 ;
+    skos:prefLabel "EMB 203 Ipanema 203 (Ag Sprayer)"^^xsd:string .
+
+cv-ai4dm:EMB_312S_Short_Tucano a skos:Concept ;
+    skos:hiddenLabel 446 ;
+    skos:prefLabel "EMB 312S Short Tucano"^^xsd:string .
+
+cv-ai4dm:EMB_312_Tucano a skos:Concept ;
+    skos:hiddenLabel 445 ;
+    skos:prefLabel "EMB 312 Tucano"^^xsd:string .
+
+<cv-ai4dm:EMB_314_Super_Tucano,_ALX,_or_A-29> a skos:Concept ;
+    skos:hiddenLabel 447 ;
+    skos:prefLabel "EMB 314 Super Tucano, ALX, or A-29"^^xsd:string .
+
+cv-ai4dm:Ercoupe_415-C a skos:Concept ;
+    skos:hiddenLabel 466 ;
+    skos:prefLabel "Ercoupe 415-C"^^xsd:string .
+
+cv-ai4dm:F-16C_Fighting_Falcon a skos:Concept ;
+    skos:hiddenLabel 476 ;
+    skos:prefLabel "F-16C Fighting Falcon"^^xsd:string .
+
+cv-ai4dm:F-27-500_Friendship a skos:Concept ;
+    skos:hiddenLabel 468 ;
+    skos:prefLabel "F-27-500 Friendship"^^xsd:string .
+
+cv-ai4dm:F-28-1000_Fellowship a skos:Concept ;
+    skos:hiddenLabel 469 ;
+    skos:prefLabel "F-28-1000 Fellowship"^^xsd:string .
+
+cv-ai4dm:F-28-2000_Fellowship a skos:Concept ;
+    skos:hiddenLabel 470 ;
+    skos:prefLabel "F-28-2000 Fellowship"^^xsd:string .
+
+cv-ai4dm:F-28-3000_Fellowship a skos:Concept ;
+    skos:hiddenLabel 471 ;
+    skos:prefLabel "F-28-3000 Fellowship"^^xsd:string .
+
+cv-ai4dm:F-28-4000_Fellowship a skos:Concept ;
+    skos:hiddenLabel 472 ;
+    skos:prefLabel "F-28-4000 Fellowship"^^xsd:string .
+
+cv-ai4dm:F-28-6000_Fellowship a skos:Concept ;
+    skos:hiddenLabel 473 ;
+    skos:prefLabel "F-28-6000 Fellowship"^^xsd:string .
+
+cv-ai4dm:Falcon_2000 a skos:Concept ;
+    skos:hiddenLabel 402 ;
+    skos:prefLabel "Falcon 2000"^^xsd:string .
+
+cv-ai4dm:Falcon_2000EX a skos:Concept ;
+    skos:hiddenLabel 403 ;
+    skos:prefLabel "Falcon 2000EX"^^xsd:string .
+
+cv-ai4dm:Falcon_2000S a skos:Concept ;
+    skos:hiddenLabel 404 ;
+    skos:prefLabel "Falcon 2000S"^^xsd:string .
+
+cv-ai4dm:Falcon_2000XLS a skos:Concept ;
+    skos:hiddenLabel 405 ;
+    skos:prefLabel "Falcon 2000XLS"^^xsd:string .
+
+<cv-ai4dm:Falcon_50,_50EX> a skos:Concept ;
+    skos:hiddenLabel 406 ;
+    skos:prefLabel "Falcon 50, 50EX"^^xsd:string .
+
+cv-ai4dm:Falcon_6X a skos:Concept ;
+    skos:hiddenLabel 407 ;
+    skos:prefLabel "Falcon 6X"^^xsd:string .
+
+cv-ai4dm:Falcon_7X a skos:Concept ;
+    skos:hiddenLabel 408 ;
+    skos:prefLabel "Falcon 7X"^^xsd:string .
+
+cv-ai4dm:Falcon_8X a skos:Concept ;
+    skos:hiddenLabel 409 ;
+    skos:prefLabel "Falcon 8X"^^xsd:string .
+
+<cv-ai4dm:Falcon_900B,_900C> a skos:Concept ;
+    skos:hiddenLabel 410 ;
+    skos:prefLabel "Falcon 900B, 900C"^^xsd:string .
+
+cv-ai4dm:Falcon_900EX a skos:Concept ;
+    skos:hiddenLabel 411 ;
+    skos:prefLabel "Falcon 900EX"^^xsd:string .
+
+cv-ai4dm:Falcon_900LX a skos:Concept ;
+    skos:hiddenLabel 412 ;
+    skos:prefLabel "Falcon 900LX"^^xsd:string .
+
+cv-ai4dm:G100_(the_IAI_Astra_SPX_rebranded_in_2002_as_the_G100) a skos:Concept ;
+    skos:hiddenLabel 511 ;
+    skos:prefLabel "G100 (the IAI Astra SPX rebranded in 2002 as the G100)"^^xsd:string .
+
+cv-ai4dm:G150 a skos:Concept ;
+    skos:hiddenLabel 512 ;
+    skos:prefLabel "G150"^^xsd:string .
+
+cv-ai4dm:G200_(the_IAI_Galaxy_1126_rebranded_in_2001_as_the_G200) a skos:Concept ;
+    skos:hiddenLabel 500 ;
+    skos:prefLabel "G200 (the IAI Galaxy 1126 rebranded in 2001 as the G200)"^^xsd:string .
+
+cv-ai4dm:G222 a skos:Concept ;
+    skos:hiddenLabel 6 ;
+    skos:prefLabel "G222"^^xsd:string .
+
+cv-ai4dm:G280 a skos:Concept ;
+    skos:hiddenLabel 501 ;
+    skos:prefLabel "G280"^^xsd:string .
+
+cv-ai4dm:G300 a skos:Concept ;
+    skos:hiddenLabel 491 ;
+    skos:prefLabel "G300"^^xsd:string .
+
+cv-ai4dm:G350_(less_range_than_its_big_brother_the_G450) a skos:Concept ;
+    skos:hiddenLabel 502 ;
+    skos:prefLabel "G350 (less range than its big brother the G450)"^^xsd:string .
+
+cv-ai4dm:G450 a skos:Concept ;
+    skos:hiddenLabel 503 ;
+    skos:prefLabel "G450"^^xsd:string .
+
+cv-ai4dm:G500 a skos:Concept ;
+    skos:hiddenLabel 504 ;
+    skos:prefLabel "G500"^^xsd:string .
+
+cv-ai4dm:G550_(is_the_newer_version_of_V-SP) a skos:Concept ;
+    skos:hiddenLabel 505 ;
+    skos:prefLabel "G550 (is the newer version of V-SP)"^^xsd:string .
+
+cv-ai4dm:G600 a skos:Concept ;
+    skos:hiddenLabel 506 ;
+    skos:prefLabel "G600"^^xsd:string .
+
+cv-ai4dm:G650 a skos:Concept ;
+    skos:hiddenLabel 507 ;
+    skos:prefLabel "G650"^^xsd:string .
+
+cv-ai4dm:G650ER a skos:Concept ;
+    skos:hiddenLabel 508 ;
+    skos:prefLabel "G650ER"^^xsd:string .
+
+cv-ai4dm:GA-7_Cougar a skos:Concept ;
+    skos:hiddenLabel 487 ;
+    skos:prefLabel "GA-7 Cougar"^^xsd:string .
+
+cv-ai4dm:GB1_GameBird a skos:Concept ;
+    skos:hiddenLabel 475 ;
+    skos:prefLabel "GB1 GameBird"^^xsd:string .
+
+cv-ai4dm:Glasair_I a skos:Concept ;
+    skos:hiddenLabel 480 ;
+    skos:prefLabel "Glasair I"^^xsd:string .
+
+cv-ai4dm:Glasair_III a skos:Concept ;
+    skos:hiddenLabel 482 ;
+    skos:prefLabel "Glasair III"^^xsd:string .
+
+cv-ai4dm:Glasair_II_RG a skos:Concept ;
+    skos:hiddenLabel 481 ;
+    skos:prefLabel "Glasair II RG"^^xsd:string .
+
+cv-ai4dm:Glastar a skos:Concept ;
+    skos:hiddenLabel 483 ;
+    skos:prefLabel "Glastar"^^xsd:string .
+
+cv-ai4dm:Global_5000_(BD-700-1A11) a skos:Concept ;
+    skos:hiddenLabel 268 ;
+    skos:prefLabel "Global 5000 (BD-700-1A11)"^^xsd:string .
+
+<cv-ai4dm:Global_6000/Express_(BD-700-1A10)> a skos:Concept ;
+    skos:hiddenLabel 269 ;
+    skos:prefLabel "Global 6000/Express (BD-700-1A10)"^^xsd:string .
+
+cv-ai4dm:Global_7000_(BD-700-2A12) a skos:Concept ;
+    skos:hiddenLabel 270 ;
+    skos:prefLabel "Global 7000 (BD-700-2A12)"^^xsd:string .
+
+cv-ai4dm:Global_8000_(BD-700-2A13) a skos:Concept ;
+    skos:hiddenLabel 271 ;
+    skos:prefLabel "Global 8000 (BD-700-2A13)"^^xsd:string .
+
+<cv-ai4dm:Gulfstream_IC_(G-IC),_model_G-159C> a skos:Concept ;
+    skos:hiddenLabel 494 ;
+    skos:prefLabel "Gulfstream IC (G-IC), model G-159C"^^xsd:string .
+
+<cv-ai4dm:Gulfstream_II-SP_(G-II-SP),> a skos:Concept ;
+    skos:hiddenLabel 498 ;
+    skos:prefLabel "Gulfstream II-SP (G-II-SP),"^^xsd:string .
+
+cv-ai4dm:Gulfstream_IIB_(G-IIB_is_a_G-II_fitted_with_a_G-III_wing) a skos:Concept ;
+    skos:hiddenLabel 496 ;
+    skos:prefLabel "Gulfstream IIB (G-IIB is a G-II fitted with a G-III wing)"^^xsd:string .
+
+<cv-ai4dm:Gulfstream_III_(G-III),_model_G-1159A> a skos:Concept ;
+    skos:hiddenLabel 497 ;
+    skos:prefLabel "Gulfstream III (G-III), model G-1159A"^^xsd:string .
+
+<cv-ai4dm:Gulfstream_IITT_(G-IITT),_model_G-1159> a skos:Concept ;
+    skos:hiddenLabel 499 ;
+    skos:prefLabel "Gulfstream IITT (G-IITT), model G-1159"^^xsd:string .
+
+<cv-ai4dm:Gulfstream_II_(G-II),_model_G-1159> a skos:Concept ;
+    skos:hiddenLabel 495 ;
+    skos:prefLabel "Gulfstream II (G-II), model G-1159"^^xsd:string .
+
+cv-ai4dm:Gulfstream_IV a skos:Concept ;
+    skos:hiddenLabel 492 ;
+    skos:prefLabel "Gulfstream IV"^^xsd:string .
+
+<cv-ai4dm:Gulfstream_IV-SP,_G400> a skos:Concept ;
+    skos:hiddenLabel 493 ;
+    skos:prefLabel "Gulfstream IV-SP, G400"^^xsd:string .
+
+<cv-ai4dm:Gulfstream_I_(G-I),_model_G-159> a skos:Concept ;
+    skos:hiddenLabel 490 ;
+    skos:prefLabel "Gulfstream I (G-I), model G-159"^^xsd:string .
+
+cv-ai4dm:Gulfstream_V-SP_(G-V-SP) a skos:Concept ;
+    skos:hiddenLabel 510 ;
+    skos:prefLabel "Gulfstream V-SP (G-V-SP)"^^xsd:string .
+
+cv-ai4dm:Gulfstream_V_(G-V) a skos:Concept ;
+    skos:hiddenLabel 509 ;
+    skos:prefLabel "Gulfstream V (G-V)"^^xsd:string .
+
+cv-ai4dm:Hawker_1000_(formerly_BAe_HS_125-1000) a skos:Concept ;
+    skos:hiddenLabel 514 ;
+    skos:prefLabel "Hawker 1000 (formerly BAe HS 125-1000)"^^xsd:string .
+
+<cv-ai4dm:Hawker_400,_400A> a skos:Concept ;
+    skos:hiddenLabel 515 ;
+    skos:prefLabel "Hawker 400, 400A"^^xsd:string .
+
+cv-ai4dm:Hawker_4000_(Horizon) a skos:Concept ;
+    skos:hiddenLabel 516 ;
+    skos:prefLabel "Hawker 4000 (Horizon)"^^xsd:string .
+
+cv-ai4dm:Hawker_400XP_(formerly_Raytheon_Beechjet_400A) a skos:Concept ;
+    skos:hiddenLabel 517 ;
+    skos:prefLabel "Hawker 400XP (formerly Raytheon Beechjet 400A)"^^xsd:string .
+
+<cv-ai4dm:Hawker_800,_800XP> a skos:Concept ;
+    skos:hiddenLabel 519 ;
+    skos:prefLabel "Hawker 800, 800XP"^^xsd:string .
+
+<cv-ai4dm:Hawker_800_(formerly_BAe-125-700/800)> a skos:Concept ;
+    skos:hiddenLabel 518 ;
+    skos:prefLabel "Hawker 800 (formerly BAe-125-700/800)"^^xsd:string .
+
+cv-ai4dm:Hawker_850XP a skos:Concept ;
+    skos:hiddenLabel 520 ;
+    skos:prefLabel "Hawker 850XP"^^xsd:string .
+
+cv-ai4dm:J-3_Cub a skos:Concept ;
+    skos:hiddenLabel 575 ;
+    skos:prefLabel "J-3 Cub"^^xsd:string .
+
+cv-ai4dm:Kaydet a skos:Concept ;
+    skos:hiddenLabel 635 ;
+    skos:prefLabel "Kaydet"^^xsd:string .
+
+cv-ai4dm:King_Air_100_(B100) a skos:Concept ;
+    skos:hiddenLabel 113 ;
+    skos:prefLabel "King Air 100 (B100)"^^xsd:string .
+
+cv-ai4dm:King_Air_300_and_300LW_(Limited_Weight_version) a skos:Concept ;
+    skos:hiddenLabel 114 ;
+    skos:prefLabel "King Air 300 and 300LW (Limited Weight version)"^^xsd:string .
+
+<cv-ai4dm:King_Air_350ER_(B300,_B300C)> a skos:Concept ;
+    skos:hiddenLabel 115 ;
+    skos:prefLabel "King Air 350ER (B300, B300C)"^^xsd:string .
+
+cv-ai4dm:King_Air_350i_(current_production_model) a skos:Concept ;
+    skos:hiddenLabel 116 ;
+    skos:prefLabel "King Air 350i (current production model)"^^xsd:string .
+
+cv-ai4dm:King_Air_90_(A90) a skos:Concept ;
+    skos:hiddenLabel 117 ;
+    skos:prefLabel "King Air 90 (A90)"^^xsd:string .
+
+cv-ai4dm:King_Air_90_(C90B) a skos:Concept ;
+    skos:hiddenLabel 118 ;
+    skos:prefLabel "King Air 90 (C90B)"^^xsd:string .
+
+cv-ai4dm:King_Air_90_(F90) a skos:Concept ;
+    skos:hiddenLabel 119 ;
+    skos:prefLabel "King Air 90 (F90)"^^xsd:string .
+
+<cv-ai4dm:King_Air_B200_(A200CT_C-12D/F,_FWC-12D,_and_RC-12D/G/H)> a skos:Concept ;
+    skos:hiddenLabel 120 ;
+    skos:prefLabel "King Air B200 (A200CT C-12D/F, FWC-12D, and RC-12D/G/H)"^^xsd:string .
+
+cv-ai4dm:King_Air_C90GTi a skos:Concept ;
+    skos:hiddenLabel 121 ;
+    skos:prefLabel "King Air C90GTi"^^xsd:string .
+
+cv-ai4dm:King_Air_C90GTx a skos:Concept ;
+    skos:hiddenLabel 122 ;
+    skos:prefLabel "King Air C90GTx"^^xsd:string .
+
+cv-ai4dm:Kodiak_100_and_200_(Series_I_and_II) a skos:Concept ;
+    skos:hiddenLabel 631 ;
+    skos:prefLabel "Kodiak 100 and 200 (Series I and II)"^^xsd:string .
+
+cv-ai4dm:L-410_NG_(New_Generation) a skos:Concept ;
+    skos:hiddenLabel 538 ;
+    skos:prefLabel "L-410 NG (New Generation)"^^xsd:string .
+
+cv-ai4dm:L-410_UVP-E20 a skos:Concept ;
+    skos:hiddenLabel 539 ;
+    skos:prefLabel "L-410 UVP-E20"^^xsd:string .
+
+cv-ai4dm:LA-250_Renegade_and_Seawolf_(military)_and_LA-270_Turbo_Renegade_and_Seafury_(saltwater) a skos:Concept ;
+    skos:hiddenLabel 532 ;
+    skos:prefLabel "LA-250 Renegade and Seawolf (military) and LA-270 Turbo Renegade and Seafury (saltwater)"^^xsd:string .
+
+cv-ai4dm:LA-4-180 a skos:Concept ;
+    skos:hiddenLabel 533 ;
+    skos:prefLabel "LA-4-180"^^xsd:string .
+
+<cv-ai4dm:LA-4-200_Buccaneer/EP> a skos:Concept ;
+    skos:hiddenLabel 534 ;
+    skos:prefLabel "LA-4-200 Buccaneer/EP"^^xsd:string .
+
+<cv-ai4dm:LC-40_Columbia_300/350/400> a skos:Concept ;
+    skos:hiddenLabel 535 ;
+    skos:prefLabel "LC-40 Columbia 300/350/400"^^xsd:string .
+
+<cv-ai4dm:LT/Dynasty> a skos:Concept ;
+    skos:hiddenLabel 465 ;
+    skos:prefLabel "LT/Dynasty"^^xsd:string .
+
+cv-ai4dm:Learjet_23 a skos:Concept ;
+    skos:hiddenLabel 272 ;
+    skos:prefLabel "Learjet 23"^^xsd:string .
+
+cv-ai4dm:Learjet_24 a skos:Concept ;
+    skos:hiddenLabel 273 ;
+    skos:prefLabel "Learjet 24"^^xsd:string .
+
+cv-ai4dm:Learjet_24A a skos:Concept ;
+    skos:hiddenLabel 274 ;
+    skos:prefLabel "Learjet 24A"^^xsd:string .
+
+<cv-ai4dm:Learjet_24B,_D,_F> a skos:Concept ;
+    skos:hiddenLabel 275 ;
+    skos:prefLabel "Learjet 24B, D, F"^^xsd:string .
+
+<cv-ai4dm:Learjet_24B-A,_C,_D-A,_F-A> a skos:Concept ;
+    skos:hiddenLabel 276 ;
+    skos:prefLabel "Learjet 24B-A, C, D-A, F-A"^^xsd:string .
+
+cv-ai4dm:Learjet_24E a skos:Concept ;
+    skos:hiddenLabel 277 ;
+    skos:prefLabel "Learjet 24E"^^xsd:string .
+
+cv-ai4dm:Learjet_25A a skos:Concept ;
+    skos:hiddenLabel 279 ;
+    skos:prefLabel "Learjet 25A"^^xsd:string .
+
+cv-ai4dm:Learjet_25_(all_variants_except_25A) a skos:Concept ;
+    skos:hiddenLabel 278 ;
+    skos:prefLabel "Learjet 25 (all variants except 25A)"^^xsd:string .
+
+<cv-ai4dm:Learjet_28/29> a skos:Concept ;
+    skos:hiddenLabel 280 ;
+    skos:prefLabel "Learjet 28/29"^^xsd:string .
+
+<cv-ai4dm:Learjet_31/31A> a skos:Concept ;
+    skos:hiddenLabel 281 ;
+    skos:prefLabel "Learjet 31/31A"^^xsd:string .
+
+<cv-ai4dm:Learjet_35/36,_35A/36A> a skos:Concept ;
+    skos:hiddenLabel 282 ;
+    skos:prefLabel "Learjet 35/36, 35A/36A"^^xsd:string .
+
+cv-ai4dm:Learjet_40 a skos:Concept ;
+    skos:hiddenLabel 283 ;
+    skos:prefLabel "Learjet 40"^^xsd:string .
+
+<cv-ai4dm:Learjet_45,_45XR> a skos:Concept ;
+    skos:hiddenLabel 284 ;
+    skos:prefLabel "Learjet 45, 45XR"^^xsd:string .
+
+cv-ai4dm:Learjet_55 a skos:Concept ;
+    skos:hiddenLabel 285 ;
+    skos:prefLabel "Learjet 55"^^xsd:string .
+
+cv-ai4dm:Learjet_55B a skos:Concept ;
+    skos:hiddenLabel 286 ;
+    skos:prefLabel "Learjet 55B"^^xsd:string .
+
+cv-ai4dm:Learjet_55C a skos:Concept ;
+    skos:hiddenLabel 287 ;
+    skos:prefLabel "Learjet 55C"^^xsd:string .
+
+<cv-ai4dm:Learjet_60,_60XR> a skos:Concept ;
+    skos:hiddenLabel 288 ;
+    skos:prefLabel "Learjet 60, 60XR"^^xsd:string .
+
+cv-ai4dm:Learjet_70 a skos:Concept ;
+    skos:hiddenLabel 289 ;
+    skos:prefLabel "Learjet 70"^^xsd:string .
+
+cv-ai4dm:Learjet_75 a skos:Concept ;
+    skos:hiddenLabel 290 ;
+    skos:prefLabel "Learjet 75"^^xsd:string .
+
+cv-ai4dm:Legacy a skos:Concept ;
+    skos:hiddenLabel 536 ;
+    skos:prefLabel "Legacy"^^xsd:string .
+
+cv-ai4dm:Legacy_450 a skos:Concept ;
+    skos:hiddenLabel 460 ;
+    skos:prefLabel "Legacy 450"^^xsd:string .
+
+cv-ai4dm:Legacy_500 a skos:Concept ;
+    skos:hiddenLabel 461 ;
+    skos:prefLabel "Legacy 500"^^xsd:string .
+
+cv-ai4dm:Liberty_XL-2 a skos:Concept ;
+    skos:hiddenLabel 540 ;
+    skos:prefLabel "Liberty XL-2"^^xsd:string .
+
+cv-ai4dm:M-18_Dromader_(an_Ag_plan)_(all_versions) a skos:Concept ;
+    skos:hiddenLabel 628 ;
+    skos:prefLabel "M-18 Dromader (an Ag plan) (all versions)"^^xsd:string .
+
+cv-ai4dm:M-20_Mewa_(Polish_version_of_Piper_PA-34-200T_Seneca_II) a skos:Concept ;
+    skos:hiddenLabel 629 ;
+    skos:prefLabel "M-20 Mewa (Polish version of Piper PA-34-200T Seneca II)"^^xsd:string .
+
+cv-ai4dm:M-28_Skytruck_(the_M28B_Bryza_is_the_non-pressurised_ver) a skos:Concept ;
+    skos:hiddenLabel 630 ;
+    skos:prefLabel "M-28 Skytruck (the M28B Bryza is the non-pressurised ver)"^^xsd:string .
+
+cv-ai4dm:M-290_TP_Redigo a skos:Concept ;
+    skos:hiddenLabel 9 ;
+    skos:prefLabel "M-290 TP Redigo"^^xsd:string .
+
+cv-ai4dm:M-346_Master a skos:Concept ;
+    skos:hiddenLabel 10 ;
+    skos:prefLabel "M-346 Master"^^xsd:string .
+
+cv-ai4dm:M10_Cadet a skos:Concept ;
+    skos:hiddenLabel 546 ;
+    skos:prefLabel "M10 Cadet"^^xsd:string .
+
+cv-ai4dm:M18C_Mite a skos:Concept ;
+    skos:hiddenLabel 547 ;
+    skos:prefLabel "M18C Mite"^^xsd:string .
+
+<cv-ai4dm:M20,_M20A,_M20B> a skos:Concept ;
+    skos:hiddenLabel 548 ;
+    skos:prefLabel "M20, M20A, M20B"^^xsd:string .
+
+cv-ai4dm:M20C_Ranger a skos:Concept ;
+    skos:hiddenLabel 549 ;
+    skos:prefLabel "M20C Ranger"^^xsd:string .
+
+cv-ai4dm:M20D_Master a skos:Concept ;
+    skos:hiddenLabel 550 ;
+    skos:prefLabel "M20D Master"^^xsd:string .
+
+<cv-ai4dm:M20E_Super_21/Chaparral> a skos:Concept ;
+    skos:hiddenLabel 551 ;
+    skos:prefLabel "M20E Super 21/Chaparral"^^xsd:string .
+
+cv-ai4dm:M20F_Executive_21 a skos:Concept ;
+    skos:hiddenLabel 552 ;
+    skos:prefLabel "M20F Executive 21"^^xsd:string .
+
+cv-ai4dm:M20G_Statesman a skos:Concept ;
+    skos:hiddenLabel 553 ;
+    skos:prefLabel "M20G Statesman"^^xsd:string .
+
+cv-ai4dm:M20J_201_(MSE_Mooney_Special_Edition) a skos:Concept ;
+    skos:hiddenLabel 554 ;
+    skos:prefLabel "M20J 201 (MSE Mooney Special Edition)"^^xsd:string .
+
+cv-ai4dm:M20K_231_Turbo_Mooney a skos:Concept ;
+    skos:hiddenLabel 555 ;
+    skos:prefLabel "M20K 231 Turbo Mooney"^^xsd:string .
+
+<cv-ai4dm:M20K_252TSE,_Encore> a skos:Concept ;
+    skos:hiddenLabel 556 ;
+    skos:prefLabel "M20K 252TSE, Encore"^^xsd:string .
+
+cv-ai4dm:M20L_PFM a skos:Concept ;
+    skos:hiddenLabel 557 ;
+    skos:prefLabel "M20L PFM"^^xsd:string .
+
+cv-ai4dm:M20M_TLS_Bravo a skos:Concept ;
+    skos:hiddenLabel 558 ;
+    skos:prefLabel "M20M TLS Bravo"^^xsd:string .
+
+<cv-ai4dm:M20R_Ovation/Ovation_2/Ovation_3> a skos:Concept ;
+    skos:hiddenLabel 559 ;
+    skos:prefLabel "M20R Ovation/Ovation 2/Ovation 3"^^xsd:string .
+
+<cv-ai4dm:M20S_Eagle/Eagle_2> a skos:Concept ;
+    skos:hiddenLabel 560 ;
+    skos:prefLabel "M20S Eagle/Eagle 2"^^xsd:string .
+
+cv-ai4dm:M20TN_Acclaim a skos:Concept ;
+    skos:hiddenLabel 561 ;
+    skos:prefLabel "M20TN Acclaim"^^xsd:string .
+
+<cv-ai4dm:M20U_Ovation_Ultra,_M20V_Acclaim_Ultra_(turbocharged)> a skos:Concept ;
+    skos:hiddenLabel 562 ;
+    skos:prefLabel "M20U Ovation Ultra, M20V Acclaim Ultra (turbocharged)"^^xsd:string .
+
+cv-ai4dm:M22_Mustang a skos:Concept ;
+    skos:hiddenLabel 563 ;
+    skos:prefLabel "M22 Mustang"^^xsd:string .
+
+cv-ai4dm:MB-308 a skos:Concept ;
+    skos:hiddenLabel 11 ;
+    skos:prefLabel "MB-308"^^xsd:string .
+
+cv-ai4dm:MB-326 a skos:Concept ;
+    skos:hiddenLabel 12 ;
+    skos:prefLabel "MB-326"^^xsd:string .
+
+cv-ai4dm:MB-339 a skos:Concept ;
+    skos:hiddenLabel 13 ;
+    skos:prefLabel "MB-339"^^xsd:string .
+
+cv-ai4dm:MD-11 a skos:Concept ;
+    skos:hiddenLabel 230 ;
+    skos:prefLabel "MD-11"^^xsd:string .
+
+cv-ai4dm:MD-11F a skos:Concept ;
+    skos:hiddenLabel 232 ;
+    skos:prefLabel "MD-11F"^^xsd:string .
+
+cv-ai4dm:MD-11_ER a skos:Concept ;
+    skos:hiddenLabel 231 ;
+    skos:prefLabel "MD-11 ER"^^xsd:string .
+
+cv-ai4dm:MD-81 a skos:Concept ;
+    skos:hiddenLabel 233 ;
+    skos:prefLabel "MD-81"^^xsd:string .
+
+cv-ai4dm:MD-82 a skos:Concept ;
+    skos:hiddenLabel 234 ;
+    skos:prefLabel "MD-82"^^xsd:string .
+
+cv-ai4dm:MD-83 a skos:Concept ;
+    skos:hiddenLabel 235 ;
+    skos:prefLabel "MD-83"^^xsd:string .
+
+cv-ai4dm:MD-87 a skos:Concept ;
+    skos:hiddenLabel 236 ;
+    skos:prefLabel "MD-87"^^xsd:string .
+
+cv-ai4dm:MD-88 a skos:Concept ;
+    skos:hiddenLabel 237 ;
+    skos:prefLabel "MD-88"^^xsd:string .
+
+cv-ai4dm:MD-90-30 a skos:Concept ;
+    skos:hiddenLabel 238 ;
+    skos:prefLabel "MD-90-30"^^xsd:string .
+
+cv-ai4dm:MD-90-30ER a skos:Concept ;
+    skos:hiddenLabel 239 ;
+    skos:prefLabel "MD-90-30ER"^^xsd:string .
+
+cv-ai4dm:Mako_(Turbo) a skos:Concept ;
+    skos:hiddenLabel 537 ;
+    skos:prefLabel "Mako (Turbo)"^^xsd:string .
+
+cv-ai4dm:Mercure a skos:Concept ;
+    skos:hiddenLabel 413 ;
+    skos:prefLabel "Mercure"^^xsd:string .
+
+cv-ai4dm:Merlin a skos:Concept ;
+    skos:hiddenLabel 477 ;
+    skos:prefLabel "Merlin"^^xsd:string .
+
+cv-ai4dm:Mirage_2000 a skos:Concept ;
+    skos:hiddenLabel 414 ;
+    skos:prefLabel "Mirage 2000"^^xsd:string .
+
+<cv-ai4dm:Mirage_2000D/N> a skos:Concept ;
+    skos:hiddenLabel 415 ;
+    skos:prefLabel "Mirage 2000D/N"^^xsd:string .
+
+cv-ai4dm:Model_18_(H18_Super_Twin_Beech) a skos:Concept ;
+    skos:hiddenLabel 123 ;
+    skos:prefLabel "Model 18 (H18 Super Twin Beech)"^^xsd:string .
+
+<cv-ai4dm:Model_18_Turboliner_(aka_Turbo_18),_Hamilton_Westwind_III> a skos:Concept ;
+    skos:hiddenLabel 124 ;
+    skos:prefLabel "Model 18 Turboliner (aka Turbo 18), Hamilton Westwind III"^^xsd:string .
+
+cv-ai4dm:Model_60_Duke_(B60) a skos:Concept ;
+    skos:hiddenLabel 125 ;
+    skos:prefLabel "Model 60 Duke (B60)"^^xsd:string .
+
+cv-ai4dm:Model_60_Duke_(Original_60_and_the_A60) a skos:Concept ;
+    skos:hiddenLabel 126 ;
+    skos:prefLabel "Model 60 Duke (Original 60 and the A60)"^^xsd:string .
+
+cv-ai4dm:Model_60_Royal_Turbine_Duke a skos:Concept ;
+    skos:hiddenLabel 127 ;
+    skos:prefLabel "Model 60 Royal Turbine Duke"^^xsd:string .
+
+cv-ai4dm:Model_65A_(Queen_Air_A65) a skos:Concept ;
+    skos:hiddenLabel 129 ;
+    skos:prefLabel "Model 65A (Queen Air A65)"^^xsd:string .
+
+cv-ai4dm:Model_65_(Queen_Air_65) a skos:Concept ;
+    skos:hiddenLabel 128 ;
+    skos:prefLabel "Model 65 (Queen Air 65)"^^xsd:string .
+
+cv-ai4dm:Model_70_(Queen_Air_70) a skos:Concept ;
+    skos:hiddenLabel 130 ;
+    skos:prefLabel "Model 70 (Queen Air 70)"^^xsd:string .
+
+cv-ai4dm:Model_80A_(Queen_Air_A80) a skos:Concept ;
+    skos:hiddenLabel 132 ;
+    skos:prefLabel "Model 80A (Queen Air A80)"^^xsd:string .
+
+cv-ai4dm:Model_80B_(Queen_Air_B80) a skos:Concept ;
+    skos:hiddenLabel 133 ;
+    skos:prefLabel "Model 80B (Queen Air B80)"^^xsd:string .
+
+cv-ai4dm:Model_80_(Queen_Air_80) a skos:Concept ;
+    skos:hiddenLabel 131 ;
+    skos:prefLabel "Model 80 (Queen Air 80)"^^xsd:string .
+
+cv-ai4dm:Model_88_(Queen_Air_88) a skos:Concept ;
+    skos:hiddenLabel 134 ;
+    skos:prefLabel "Model 88 (Queen Air 88)"^^xsd:string .
+
+<cv-ai4dm:NA-145_Navion_A_(miliary_L-17A/B/C_(redesignated_U-18A/B/C))> a skos:Concept ;
+    skos:hiddenLabel 569 ;
+    skos:prefLabel "NA-145 Navion A (miliary L-17A/B/C (redesignated U-18A/B/C))"^^xsd:string .
+
+cv-ai4dm:Nemesis_NXT a skos:Concept ;
+    skos:hiddenLabel 77 ;
+    skos:prefLabel "Nemesis NXT"^^xsd:string .
+
+<cv-ai4dm:Nifty,_2000> a skos:Concept ;
+    skos:hiddenLabel 566 ;
+    skos:prefLabel "Nifty, 2000"^^xsd:string .
+
+cv-ai4dm:Nomad_N24A a skos:Concept ;
+    skos:hiddenLabel 91 ;
+    skos:prefLabel "Nomad N24A"^^xsd:string .
+
+cv-ai4dm:OM-1_and_OM-1-2_Bravo_II a skos:Concept ;
+    skos:hiddenLabel 567 ;
+    skos:prefLabel "OM-1 and OM-1-2 Bravo II"^^xsd:string .
+
+cv-ai4dm:P-180_Avanti a skos:Concept ;
+    skos:hiddenLabel 571 ;
+    skos:prefLabel "P-180 Avanti"^^xsd:string .
+
+cv-ai4dm:P-180_Avanti_II a skos:Concept ;
+    skos:hiddenLabel 572 ;
+    skos:prefLabel "P-180 Avanti II"^^xsd:string .
+
+cv-ai4dm:PA-18-150_Super_Cub a skos:Concept ;
+    skos:hiddenLabel 576 ;
+    skos:prefLabel "PA-18-150 Super Cub"^^xsd:string .
+
+cv-ai4dm:PA-24-180_Comanche a skos:Concept ;
+    skos:hiddenLabel 577 ;
+    skos:prefLabel "PA-24-180 Comanche"^^xsd:string .
+
+cv-ai4dm:PA-24-250_Comanche a skos:Concept ;
+    skos:hiddenLabel 578 ;
+    skos:prefLabel "PA-24-250 Comanche"^^xsd:string .
+
+cv-ai4dm:PA-24-260_Comanche a skos:Concept ;
+    skos:hiddenLabel 579 ;
+    skos:prefLabel "PA-24-260 Comanche"^^xsd:string .
+
+cv-ai4dm:PA-24-400_Comanche a skos:Concept ;
+    skos:hiddenLabel 580 ;
+    skos:prefLabel "PA-24-400 Comanche"^^xsd:string .
+
+<cv-ai4dm:PA-28-140/150/160_Cherokee_Cruiser/Flight_Liner,_150,_160> a skos:Concept ;
+    skos:hiddenLabel 581 ;
+    skos:prefLabel "PA-28-140/150/160 Cherokee Cruiser/Flight Liner, 150, 160"^^xsd:string .
+
+<cv-ai4dm:PA-28-151_and_-161_Cherokee_Warrior/Cadet> a skos:Concept ;
+    skos:hiddenLabel 582 ;
+    skos:prefLabel "PA-28-151 and -161 Cherokee Warrior/Cadet"^^xsd:string .
+
+<cv-ai4dm:PA-28-161_Cherokee_Warrior_II,_III> a skos:Concept ;
+    skos:hiddenLabel 583 ;
+    skos:prefLabel "PA-28-161 Cherokee Warrior II, III"^^xsd:string .
+
+cv-ai4dm:PA-28-180_Cherokee a skos:Concept ;
+    skos:hiddenLabel 584 ;
+    skos:prefLabel "PA-28-180 Cherokee"^^xsd:string .
+
+<cv-ai4dm:PA-28-180_Cherokee_Challenger,_Archer> a skos:Concept ;
+    skos:hiddenLabel 585 ;
+    skos:prefLabel "PA-28-180 Cherokee Challenger, Archer"^^xsd:string .
+
+<cv-ai4dm:PA-28-181_Cherokee_Archer_II,_III,_DX,_TX> a skos:Concept ;
+    skos:hiddenLabel 586 ;
+    skos:prefLabel "PA-28-181 Cherokee Archer II, III, DX, TX"^^xsd:string .
+
+cv-ai4dm:PA-28-210T_Cherokee_Turbo_Dakota a skos:Concept ;
+    skos:hiddenLabel 587 ;
+    skos:prefLabel "PA-28-210T Cherokee Turbo Dakota"^^xsd:string .
+
+cv-ai4dm:PA-28-235_Cherokee a skos:Concept ;
+    skos:hiddenLabel 588 ;
+    skos:prefLabel "PA-28-235 Cherokee"^^xsd:string .
+
+<cv-ai4dm:PA-28-235_Cherokee_Pathfinder/Charger> a skos:Concept ;
+    skos:hiddenLabel 589 ;
+    skos:prefLabel "PA-28-235 Cherokee Pathfinder/Charger"^^xsd:string .
+
+cv-ai4dm:PA-28-236_Cherokee_Dakota a skos:Concept ;
+    skos:hiddenLabel 590 ;
+    skos:prefLabel "PA-28-236 Cherokee Dakota"^^xsd:string .
+
+cv-ai4dm:PA-28R-180_Cherokee_Arrow a skos:Concept ;
+    skos:hiddenLabel 591 ;
+    skos:prefLabel "PA-28R-180 Cherokee Arrow"^^xsd:string .
+
+cv-ai4dm:PA-28R-200_Cherokee_Arrow a skos:Concept ;
+    skos:hiddenLabel 592 ;
+    skos:prefLabel "PA-28R-200 Cherokee Arrow"^^xsd:string .
+
+cv-ai4dm:PA-28R-200_Cherokee_Arrow_II a skos:Concept ;
+    skos:hiddenLabel 593 ;
+    skos:prefLabel "PA-28R-200 Cherokee Arrow II"^^xsd:string .
+
+cv-ai4dm:PA-28R-201T_Cherokee_Turbo_Arrow_III a skos:Concept ;
+    skos:hiddenLabel 595 ;
+    skos:prefLabel "PA-28R-201T Cherokee Turbo Arrow III"^^xsd:string .
+
+cv-ai4dm:PA-28R-201_Cherokee_Arrow_III a skos:Concept ;
+    skos:hiddenLabel 594 ;
+    skos:prefLabel "PA-28R-201 Cherokee Arrow III"^^xsd:string .
+
+cv-ai4dm:PA-28RT-201T_Cherokee_Turbo_Arrow_IV_(has_T_tail) a skos:Concept ;
+    skos:hiddenLabel 597 ;
+    skos:prefLabel "PA-28RT-201T Cherokee Turbo Arrow IV (has T tail)"^^xsd:string .
+
+cv-ai4dm:PA-28RT-201_Cherokee_Arrow_IV_(has_T_tail) a skos:Concept ;
+    skos:hiddenLabel 596 ;
+    skos:prefLabel "PA-28RT-201 Cherokee Arrow IV (has T tail)"^^xsd:string .
+
+cv-ai4dm:PA-28S-160_Cherokee_C_Seaplane a skos:Concept ;
+    skos:hiddenLabel 598 ;
+    skos:prefLabel "PA-28S-160 Cherokee C Seaplane"^^xsd:string .
+
+cv-ai4dm:PA-28S-180_Cherokee_C_Seaplane a skos:Concept ;
+    skos:hiddenLabel 599 ;
+    skos:prefLabel "PA-28S-180 Cherokee C Seaplane"^^xsd:string .
+
+cv-ai4dm:PA-31-300_Navajo_(turbocharged_model_unofficially_known_as_-310) a skos:Concept ;
+    skos:hiddenLabel 601 ;
+    skos:prefLabel "PA-31-300 Navajo (turbocharged model unofficially known as -310)"^^xsd:string .
+
+<cv-ai4dm:PA-31-325_Navajo_C/R> a skos:Concept ;
+    skos:hiddenLabel 602 ;
+    skos:prefLabel "PA-31-325 Navajo C/R"^^xsd:string .
+
+<cv-ai4dm:PA-31-350_Chieftain/T-1020_Navajo_C/R> a skos:Concept ;
+    skos:hiddenLabel 603 ;
+    skos:prefLabel "PA-31-350 Chieftain/T-1020 Navajo C/R"^^xsd:string .
+
+cv-ai4dm:PA-31P-350_Mojave a skos:Concept ;
+    skos:hiddenLabel 605 ;
+    skos:prefLabel "PA-31P-350 Mojave"^^xsd:string .
+
+cv-ai4dm:PA-31P_Navajo_(pressurized) a skos:Concept ;
+    skos:hiddenLabel 604 ;
+    skos:prefLabel "PA-31P Navajo (pressurized)"^^xsd:string .
+
+<cv-ai4dm:PA-31T-260_Cheyenne/Cheyenne_II> a skos:Concept ;
+    skos:hiddenLabel 608 ;
+    skos:prefLabel "PA-31T-260 Cheyenne/Cheyenne II"^^xsd:string .
+
+<cv-ai4dm:PA-31T1-500_Cheyenne_I/IA> a skos:Concept ;
+    skos:hiddenLabel 606 ;
+    skos:prefLabel "PA-31T1-500 Cheyenne I/IA"^^xsd:string .
+
+cv-ai4dm:PA-31T2_Cheyenne_IIXL a skos:Concept ;
+    skos:hiddenLabel 607 ;
+    skos:prefLabel "PA-31T2 Cheyenne IIXL"^^xsd:string .
+
+cv-ai4dm:PA-31T3_T-1040_Airliner a skos:Concept ;
+    skos:hiddenLabel 609 ;
+    skos:prefLabel "PA-31T3 T-1040 Airliner"^^xsd:string .
+
+cv-ai4dm:PA-31_Navajo a skos:Concept ;
+    skos:hiddenLabel 600 ;
+    skos:prefLabel "PA-31 Navajo"^^xsd:string .
+
+cv-ai4dm:PA-32-300_Cherokee_Six a skos:Concept ;
+    skos:hiddenLabel 610 ;
+    skos:prefLabel "PA-32-300 Cherokee Six"^^xsd:string .
+
+<cv-ai4dm:PA-32-301_Saratoga,_32R-301_Saratoga_SP/IIHP,__32R-301T_Saratoga_II_TC,_32-301FT_Piper_6X_,_and_32-301XTC_Piper_6XT> a skos:Concept ;
+    skos:hiddenLabel 611 ;
+    skos:prefLabel "PA-32-301 Saratoga, 32R-301 Saratoga SP/IIHP,  32R-301T Saratoga II TC, 32-301FT Piper 6X , and 32-301XTC Piper 6XT"^^xsd:string .
+
+<cv-ai4dm:PA-34-220T_Seneca_III,_IV,_V> a skos:Concept ;
+    skos:hiddenLabel 612 ;
+    skos:prefLabel "PA-34-220T Seneca III, IV, V"^^xsd:string .
+
+cv-ai4dm:PA-42-1000_Cheyenne_400_LS_(formerly_IV) a skos:Concept ;
+    skos:hiddenLabel 613 ;
+    skos:prefLabel "PA-42-1000 Cheyenne 400 LS (formerly IV)"^^xsd:string .
+
+<cv-ai4dm:PA-42-720_Cheyenne_III,_IIIA> a skos:Concept ;
+    skos:hiddenLabel 614 ;
+    skos:prefLabel "PA-42-720 Cheyenne III, IIIA"^^xsd:string .
+
+<cv-ai4dm:PA-44-180_Seminole,_-180T_Turbo_Seminole> a skos:Concept ;
+    skos:hiddenLabel 615 ;
+    skos:prefLabel "PA-44-180 Seminole, -180T Turbo Seminole"^^xsd:string .
+
+<cv-ai4dm:PA-46-310P_Malibu,_-350P_Malibu_Mirage,_46R-350T_Malibu_Matrix,_M350> a skos:Concept ;
+    skos:hiddenLabel 616 ;
+    skos:prefLabel "PA-46-310P Malibu, -350P Malibu Mirage, 46R-350T Malibu Matrix, M350"^^xsd:string .
+
+cv-ai4dm:PA-46-400TP_Malibu_Meridian a skos:Concept ;
+    skos:hiddenLabel 617 ;
+    skos:prefLabel "PA-46-400TP Malibu Meridian"^^xsd:string .
+
+<cv-ai4dm:PA-46-500TP_Malibu_Meridian,_M500> a skos:Concept ;
+    skos:hiddenLabel 618 ;
+    skos:prefLabel "PA-46-500TP Malibu Meridian, M500"^^xsd:string .
+
+<cv-ai4dm:PA-46-600TP_Malibu_Meridian,_M600> a skos:Concept ;
+    skos:hiddenLabel 619 ;
+    skos:prefLabel "PA-46-600TP Malibu Meridian, M600"^^xsd:string .
+
+cv-ai4dm:PA-60_Aerostar_700P_(602P_with_counter_rot_engines) a skos:Concept ;
+    skos:hiddenLabel 620 ;
+    skos:prefLabel "PA-60 Aerostar 700P (602P with counter rot engines)"^^xsd:string .
+
+cv-ai4dm:PA-60_Aerostar_702P_(700P_with_reinf_nose_gear_for_higher_MTOW) a skos:Concept ;
+    skos:hiddenLabel 621 ;
+    skos:prefLabel "PA-60 Aerostar 702P (700P with reinf nose gear for higher MTOW)"^^xsd:string .
+
+cv-ai4dm:PA-60_Sequoya_(Aerostar_602P)_(the_Piper_version_of_the_601P) a skos:Concept ;
+    skos:hiddenLabel 622 ;
+    skos:prefLabel "PA-60 Sequoya (Aerostar 602P) (the Piper version of the 601P)"^^xsd:string .
+
+cv-ai4dm:PA-61B_Aerostar_601B_(is_601_with_increased_WS) a skos:Concept ;
+    skos:hiddenLabel 624 ;
+    skos:prefLabel "PA-61B Aerostar 601B (is 601 with increased WS)"^^xsd:string .
+
+<cv-ai4dm:PA-61P_Aerostar_601P_(is_601_pressurized_+_increased_gross_weight)> a skos:Concept ;
+    skos:hiddenLabel 625 ;
+    skos:prefLabel "PA-61P Aerostar 601P (is 601 pressurized + increased gross weight)"^^xsd:string .
+
+cv-ai4dm:PA-61_Aerostar_601_(is_the_600_turbocharged) a skos:Concept ;
+    skos:hiddenLabel 623 ;
+    skos:prefLabel "PA-61 Aerostar 601 (is the 600 turbocharged)"^^xsd:string .
+
+cv-ai4dm:PC-12_NG a skos:Concept ;
+    skos:hiddenLabel 573 ;
+    skos:prefLabel "PC-12 NG"^^xsd:string .
+
+cv-ai4dm:PC-24_Super_Versatile_Jet a skos:Concept ;
+    skos:hiddenLabel 574 ;
+    skos:prefLabel "PC-24 Super Versatile Jet"^^xsd:string .
+
+cv-ai4dm:PT-13_Kaydet a skos:Concept ;
+    skos:hiddenLabel 636 ;
+    skos:prefLabel "PT-13 Kaydet"^^xsd:string .
+
+cv-ai4dm:Phenom_100_(EMB-500) a skos:Concept ;
+    skos:hiddenLabel 462 ;
+    skos:prefLabel "Phenom 100 (EMB-500)"^^xsd:string .
+
+cv-ai4dm:Phenom_300_(EMB-505) a skos:Concept ;
+    skos:hiddenLabel 463 ;
+    skos:prefLabel "Phenom 300 (EMB-505)"^^xsd:string .
+
+cv-ai4dm:SE-210_Caravelle a skos:Concept ;
+    skos:hiddenLabel 648 ;
+    skos:prefLabel "SE-210 Caravelle"^^xsd:string .
+
+cv-ai4dm:SF50_Vision_Jet a skos:Concept ;
+    skos:hiddenLabel 383 ;
+    skos:prefLabel "SF50 Vision Jet"^^xsd:string .
+
+cv-ai4dm:SH-3_Sea_King a skos:Concept ;
+    skos:hiddenLabel 634 ;
+    skos:prefLabel "SH-3 Sea King"^^xsd:string .
+
+cv-ai4dm:SIAI-Marchetti_SF260_(now_Leonardo_SF-260) a skos:Concept ;
+    skos:hiddenLabel 14 ;
+    skos:prefLabel "SIAI-Marchetti SF.260 (now Leonardo SF-260)"^^xsd:string .
+
+cv-ai4dm:SR20 a skos:Concept ;
+    skos:hiddenLabel 384 ;
+    skos:prefLabel "SR20"^^xsd:string .
+
+cv-ai4dm:SR22 a skos:Concept ;
+    skos:hiddenLabel 385 ;
+    skos:prefLabel "SR22"^^xsd:string .
+
+cv-ai4dm:Sea_King a skos:Concept ;
+    skos:hiddenLabel 633 ;
+    skos:prefLabel "Sea King"^^xsd:string .
+
+<cv-ai4dm:Searey_Sport/Elite_(Amphibious_LSA)> a skos:Concept ;
+    skos:hiddenLabel 626 ;
+    skos:prefLabel "Searey Sport/Elite (Amphibious LSA)"^^xsd:string .
+
+cv-ai4dm:Sportsman a skos:Concept ;
+    skos:hiddenLabel 478 ;
+    skos:prefLabel "Sportsman"^^xsd:string .
+
+<cv-ai4dm:Sportsman_2+2> a skos:Concept ;
+    skos:hiddenLabel 479 ;
+    skos:prefLabel "Sportsman 2+2"^^xsd:string .
+
+cv-ai4dm:Su-30 a skos:Concept ;
+    skos:hiddenLabel 637 ;
+    skos:prefLabel "Su-30"^^xsd:string .
+
+cv-ai4dm:Su-31 a skos:Concept ;
+    skos:hiddenLabel 638 ;
+    skos:prefLabel "Su-31"^^xsd:string .
+
+cv-ai4dm:Su-33 a skos:Concept ;
+    skos:hiddenLabel 639 ;
+    skos:prefLabel "Su-33"^^xsd:string .
+
+cv-ai4dm:Su-34 a skos:Concept ;
+    skos:hiddenLabel 640 ;
+    skos:prefLabel "Su-34"^^xsd:string .
+
+cv-ai4dm:Su-35 a skos:Concept ;
+    skos:hiddenLabel 641 ;
+    skos:prefLabel "Su-35"^^xsd:string .
+
+cv-ai4dm:Su-37 a skos:Concept ;
+    skos:hiddenLabel 642 ;
+    skos:prefLabel "Su-37"^^xsd:string .
+
+cv-ai4dm:Su-38 a skos:Concept ;
+    skos:hiddenLabel 643 ;
+    skos:prefLabel "Su-38"^^xsd:string .
+
+cv-ai4dm:Su-47_Berkut a skos:Concept ;
+    skos:hiddenLabel 644 ;
+    skos:prefLabel "Su-47 Berkut"^^xsd:string .
+
+cv-ai4dm:Su-7 a skos:Concept ;
+    skos:hiddenLabel 645 ;
+    skos:prefLabel "Su-7"^^xsd:string .
+
+cv-ai4dm:Su-80 a skos:Concept ;
+    skos:hiddenLabel 646 ;
+    skos:prefLabel "Su-80"^^xsd:string .
+
+cv-ai4dm:Super_Ace a skos:Concept ;
+    skos:hiddenLabel 3 ;
+    skos:prefLabel "Super Ace"^^xsd:string .
+
+<cv-ai4dm:Super_Viking_(17-30A,_-31A,_-31ATC)> a skos:Concept ;
+    skos:hiddenLabel 137 ;
+    skos:prefLabel "Super Viking (17-30A, -31A, -31ATC)"^^xsd:string .
+
+cv-ai4dm:T-34C_Mentor a skos:Concept ;
+    skos:hiddenLabel 135 ;
+    skos:prefLabel "T-34C Mentor"^^xsd:string .
+
+cv-ai4dm:T-411_Aist_(Stork) a skos:Concept ;
+    skos:hiddenLabel 531 ;
+    skos:prefLabel "T-411 Aist (Stork)"^^xsd:string .
+
+cv-ai4dm:T-9_Stalker_(military_Glasair_III) a skos:Concept ;
+    skos:hiddenLabel 484 ;
+    skos:prefLabel "T-9 Stalker (military Glasair III)"^^xsd:string .
+
+cv-ai4dm:TBM_700 a skos:Concept ;
+    skos:hiddenLabel 397 ;
+    skos:prefLabel "TBM 700"^^xsd:string .
+
+cv-ai4dm:TBM_700_C1_(Cargo_Variant_1) a skos:Concept ;
+    skos:hiddenLabel 398 ;
+    skos:prefLabel "TBM 700 C1 (Cargo Variant 1)"^^xsd:string .
+
+cv-ai4dm:TBM_700_C2_(Cargo_Variant_2) a skos:Concept ;
+    skos:hiddenLabel 399 ;
+    skos:prefLabel "TBM 700 C2 (Cargo Variant 2)"^^xsd:string .
+
+cv-ai4dm:TBM_850 a skos:Concept ;
+    skos:hiddenLabel 400 ;
+    skos:prefLabel "TBM 850"^^xsd:string .
+
+cv-ai4dm:TBM_900 a skos:Concept ;
+    skos:hiddenLabel 401 ;
+    skos:prefLabel "TBM 900"^^xsd:string .
+
+cv-ai4dm:TTx_Model_T240_(formerly_the_Lancair_LC-40_Columbia_400) a skos:Concept ;
+    skos:hiddenLabel 381 ;
+    skos:prefLabel "TTx Model T240 (formerly the Lancair LC-40 Columbia 400)"^^xsd:string .
+
+<cv-ai4dm:Thrush_Commander_600/800> a skos:Concept ;
+    skos:hiddenLabel 570 ;
+    skos:prefLabel "Thrush Commander 600/800"^^xsd:string .
+
+cv-ai4dm:UC-35_(military_designation_of_Ultra) a skos:Concept ;
+    skos:hiddenLabel 382 ;
+    skos:prefLabel "UC-35 (military designation of Ultra)"^^xsd:string .
+
+cv-ai4dm:UC-45_Expeditor a skos:Concept ;
+    skos:hiddenLabel 136 ;
+    skos:prefLabel "UC-45 Expeditor"^^xsd:string .
+
+cv-ai4dm:VFW_614_(engines_on_over-wing_pylons) a skos:Concept ;
+    skos:hiddenLabel 474 ;
+    skos:prefLabel "VFW 614 (engines on over-wing pylons)"^^xsd:string .
+
+cv-ai4dm:Viking_17-30 a skos:Concept ;
+    skos:hiddenLabel 138 ;
+    skos:prefLabel "Viking (17-30, -31, -31TC)"^^xsd:string .
+
+cv-ai4dm:XCub_(CC19-180) a skos:Concept ;
+    skos:hiddenLabel 396 ;
+    skos:prefLabel "XCub (CC19-180)"^^xsd:string .
+
+cv-ai4dm:Z-226_Akrobat a skos:Concept ;
+    skos:hiddenLabel 649 ;
+    skos:prefLabel "Z-226 Akrobat"^^xsd:string .
+
+cv-ai4dm:Z-526_Trener_Master a skos:Concept ;
+    skos:hiddenLabel 650 ;
+    skos:prefLabel "Z-526 Trener Master"^^xsd:string .
+
+cv-ai4dm:Zlin_Z-43 a skos:Concept ;
+    skos:hiddenLabel 564 ;
+    skos:prefLabel "Zlin Z-43"^^xsd:string .
+
+cv-ai4dm:model a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+

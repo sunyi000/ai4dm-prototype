@@ -1,0 +1,65 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/aircraft-gear-config
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:2D a skos:Concept ;
+    skos:hiddenLabel 3 ;
+    skos:prefLabel "2D"^^xsd:string .
+
+cv-ai4dm:2D2 a skos:Concept ;
+    skos:hiddenLabel 6 ;
+    skos:prefLabel "2D2"^^xsd:string .
+
+cv-ai4dm:2S a skos:Concept ;
+    skos:hiddenLabel 1 ;
+    skos:prefLabel "2S"^^xsd:string .
+
+cv-ai4dm:3D a skos:Concept ;
+    skos:hiddenLabel 4 ;
+    skos:prefLabel "3D"^^xsd:string .
+
+cv-ai4dm:3D2 a skos:Concept ;
+    skos:hiddenLabel 5 ;
+    skos:prefLabel "3D2"^^xsd:string .
+
+cv-ai4dm:D a skos:Concept ;
+    skos:hiddenLabel 2 ;
+    skos:prefLabel "D"^^xsd:string .
+
+cv-ai4dm:D1 a skos:Concept ;
+    skos:hiddenLabel 8 ;
+    skos:prefLabel "D1"^^xsd:string .
+
+cv-ai4dm:S a skos:Concept ;
+    skos:hiddenLabel 0 ;
+    skos:prefLabel "S"^^xsd:string .
+
+cv-ai4dm:Seaplane a skos:Concept ;
+    skos:hiddenLabel 9 ;
+    skos:prefLabel "Seaplane"^^xsd:string .
+
+cv-ai4dm:gear-config a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+cv-ai4dm:tbd a skos:Concept ;
+    skos:hiddenLabel 7 ;
+    skos:prefLabel "tbd"^^xsd:string .
+    
+cv-ai4dm:gcs
+  a skos:Collection ;
+  skos:prefLabel "aircraft gear config concepts" ;
+  skos:member cv-ai4dm:tbd ;
+  skos:member cv-ai4dm:Seaplane ;
+  skos:member cv-ai4dm:S ;
+  skos:member cv-ai4dm:D1 ;
+  skos:member cv-ai4dm:D ;
+  skos:member cv-ai4dm:3D2 ;
+  skos:member cv-ai4dm:3D ;
+  skos:member cv-ai4dm:2D ;    
+  skos:member cv-ai4dm:2D2 ;
+  skos:member cv-ai4dm:2S ;
+.

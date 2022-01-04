@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-title>Institution {{label}}</mat-card-title>
+  
+        <div class="Row">
+            <div class=ColumnInfo>
+                <div class="block">
+                    <label>Institution Type</label>
+                    <input class="info" readonly name="type" type="text" value="{{type}}"/>
+                </div>        
+                <div class="block">
+                    <label>Region</label>
+                    <a class="info" name="region" type="text" routerLink = "/region/{{region}}">{{region}}</a>
+                </div>        
+
+           </div>
+
+
+
+        </div>   
+</mat-card>

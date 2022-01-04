@@ -1,0 +1,429 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/aircraft-manufacturer
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:Acro_Sport a skos:Concept ;
+    skos:hiddenLabel 0 ;
+    skos:prefLabel "Acro Sport"^^xsd:string .
+
+cv-ai4dm:Adam_Aircraft_Industries a skos:Concept ;
+    skos:hiddenLabel 1 ;
+    skos:prefLabel "Adam Aircraft Industries"^^xsd:string .
+
+cv-ai4dm:Aeritalia a skos:Concept ;
+    skos:hiddenLabel 2 ;
+    skos:prefLabel "Aeritalia"^^xsd:string .
+
+cv-ai4dm:Aermacchi_Macchi a skos:Concept ;
+    skos:hiddenLabel 3 ;
+    skos:prefLabel "Aermacchi Macchi"^^xsd:string .
+
+cv-ai4dm:Aero_Boero a skos:Concept ;
+    skos:hiddenLabel 4 ;
+    skos:prefLabel "Aero Boero"^^xsd:string .
+
+cv-ai4dm:Aero_Commander_Aircraft a skos:Concept ;
+    skos:hiddenLabel 5 ;
+    skos:prefLabel "Aero Commander Aircraft"^^xsd:string .
+
+cv-ai4dm:Aerostar_Aircraft_Corp a skos:Concept ;
+    skos:hiddenLabel 6 ;
+    skos:prefLabel "Aerostar Aircraft Corp"^^xsd:string .
+
+cv-ai4dm:Air-C-Race a skos:Concept ;
+    skos:hiddenLabel 9 ;
+    skos:prefLabel "Air-C-Race"^^xsd:string .
+
+cv-ai4dm:Air_Tractor a skos:Concept ;
+    skos:hiddenLabel 7 ;
+    skos:prefLabel "Air Tractor"^^xsd:string .
+
+cv-ai4dm:Airbus a skos:Concept ;
+    skos:hiddenLabel 8 ;
+    skos:prefLabel "Airbus"^^xsd:string .
+
+cv-ai4dm:American_Aviation_Corporation a skos:Concept ;
+    skos:hiddenLabel 10 ;
+    skos:prefLabel "American Aviation Corporation"^^xsd:string .
+
+cv-ai4dm:American_Champion_Aircraft_Corp a skos:Concept ;
+    skos:hiddenLabel 11 ;
+    skos:prefLabel "American Champion Aircraft Corp"^^xsd:string .
+
+cv-ai4dm:Antonov a skos:Concept ;
+    skos:hiddenLabel 12 ;
+    skos:prefLabel "Antonov"^^xsd:string .
+
+cv-ai4dm:Australian_Government_Aircraft_Facilities a skos:Concept ;
+    skos:hiddenLabel 13 ;
+    skos:prefLabel "Australian Government Aircraft Facilities (GAF)"^^xsd:string .
+
+cv-ai4dm:Basler_Turbo_Conversions a skos:Concept ;
+    skos:hiddenLabel 14 ;
+    skos:prefLabel "Basler Turbo Conversions"^^xsd:string .
+
+cv-ai4dm:Beagle_Aircraft_Limited a skos:Concept ;
+    skos:hiddenLabel 15 ;
+    skos:prefLabel "Beagle Aircraft Limited"^^xsd:string .
+
+cv-ai4dm:Beechcraft a skos:Concept ;
+    skos:hiddenLabel 17 ;
+    skos:prefLabel "Beechcraft"^^xsd:string .
+
+cv-ai4dm:Bellanca_Aircraft_Company a skos:Concept ;
+    skos:hiddenLabel 18 ;
+    skos:prefLabel "Bellanca Aircraft Company"^^xsd:string .
+
+cv-ai4dm:Boeing a skos:Concept ;
+    skos:hiddenLabel 19 ;
+    skos:prefLabel "Boeing"^^xsd:string .
+
+cv-ai4dm:Boeing_McDonnell_Douglas a skos:Concept ;
+    skos:hiddenLabel 20 ;
+    skos:prefLabel "Boeing (McDonnell Douglas)"^^xsd:string .
+
+cv-ai4dm:Bombardier a skos:Concept ;
+    skos:hiddenLabel 21 ;
+    skos:prefLabel "Bombardier"^^xsd:string .
+
+cv-ai4dm:Bombardier_De_Havilland_Canada a skos:Concept ;
+    skos:hiddenLabel 22 ;
+    skos:prefLabel "Bombardier (De Havilland Canada (DHC))"^^xsd:string .
+
+cv-ai4dm:British_Aerospace_Avro a skos:Concept ;
+    skos:hiddenLabel 23 ;
+    skos:prefLabel "British Aerospace (BAe)/Avro"^^xsd:string .
+
+cv-ai4dm:British_Aircraft_Corporation a skos:Concept ;
+    skos:hiddenLabel 24 ;
+    skos:prefLabel "British Aircraft Corporation"^^xsd:string .
+
+cv-ai4dm:Britten-Norman a skos:Concept ;
+    skos:hiddenLabel 25 ;
+    skos:prefLabel "Britten-Norman"^^xsd:string .
+
+cv-ai4dm:CASA a skos:Concept ;
+    skos:hiddenLabel 26 ;
+    skos:prefLabel "CASA"^^xsd:string .
+
+cv-ai4dm:Cessna a skos:Concept ;
+    skos:hiddenLabel 27 ;
+    skos:prefLabel "Cessna"^^xsd:string .
+
+cv-ai4dm:Cirrus a skos:Concept ;
+    skos:hiddenLabel 28 ;
+    skos:prefLabel "Cirrus"^^xsd:string .
+
+cv-ai4dm:Colonial_Aircraft a skos:Concept ;
+    skos:hiddenLabel 29 ;
+    skos:prefLabel "Colonial Aircraft"^^xsd:string .
+
+cv-ai4dm:Comac a skos:Concept ;
+    skos:hiddenLabel 30 ;
+    skos:prefLabel "Comac"^^xsd:string .
+
+cv-ai4dm:Cubcrafters a skos:Concept ;
+    skos:hiddenLabel 31 ;
+    skos:prefLabel "Cubcrafters"^^xsd:string .
+
+cv-ai4dm:Daher-Socata a skos:Concept ;
+    skos:hiddenLabel 32 ;
+    skos:prefLabel "Daher-Socata"^^xsd:string .
+
+cv-ai4dm:Dassault_Aviation a skos:Concept ;
+    skos:hiddenLabel 33 ;
+    skos:prefLabel "Dassault Aviation"^^xsd:string .
+
+cv-ai4dm:Diamond a skos:Concept ;
+    skos:hiddenLabel 34 ;
+    skos:prefLabel "Diamond"^^xsd:string .
+
+cv-ai4dm:ERCO a skos:Concept ;
+    skos:hiddenLabel 37 ;
+    skos:prefLabel "ERCO (Engineering and Research Corporation)"^^xsd:string .
+
+cv-ai4dm:Embraer a skos:Concept ;
+    skos:hiddenLabel 35 ;
+    skos:prefLabel "Embraer"^^xsd:string .
+
+cv-ai4dm:Epic_Aircraft a skos:Concept ;
+    skos:hiddenLabel 36 ;
+    skos:prefLabel "Epic Aircraft"^^xsd:string .
+
+cv-ai4dm:Flight_Design a skos:Concept ;
+    skos:hiddenLabel 38 ;
+    skos:prefLabel "Flight Design"^^xsd:string .
+
+cv-ai4dm:Fokker a skos:Concept ;
+    skos:hiddenLabel 39 ;
+    skos:prefLabel "Fokker"^^xsd:string .
+
+cv-ai4dm:Fokker_VFW a skos:Concept ;
+    skos:hiddenLabel 40 ;
+    skos:prefLabel "Fokker VFW"^^xsd:string .
+
+cv-ai4dm:Game_Composites a skos:Concept ;
+    skos:hiddenLabel 41 ;
+    skos:prefLabel "Game Composites"^^xsd:string .
+
+cv-ai4dm:General_Dynamics a skos:Concept ;
+    skos:hiddenLabel 42 ;
+    skos:prefLabel "General Dynamics"^^xsd:string .
+
+cv-ai4dm:Glasair_Aviation a skos:Concept ;
+    skos:hiddenLabel 43 ;
+    skos:prefLabel "Glasair Aviation"^^xsd:string .
+
+cv-ai4dm:Glasair_Aviation_Stoddard_Hamilton_Aircraft a skos:Concept ;
+    skos:hiddenLabel 44 ;
+    skos:prefLabel "Glasair Aviation (Stoddard-Hamilton Aircraft)"^^xsd:string .
+
+cv-ai4dm:Grumman_American a skos:Concept ;
+    skos:hiddenLabel 45 ;
+    skos:prefLabel "Grumman American"^^xsd:string .
+
+cv-ai4dm:Grumman_American_Tiger_Aircraft a skos:Concept ;
+    skos:hiddenLabel 46 ;
+    skos:prefLabel "Grumman American (Tiger Aircraft)"^^xsd:string .
+
+cv-ai4dm:Grumman_American_Aviation_Corp a skos:Concept ;
+    skos:hiddenLabel 47 ;
+    skos:prefLabel "Grumman American Aviation Corp"^^xsd:string .
+
+cv-ai4dm:Grumman_Aircraft_Engineering a skos:Concept ;
+    skos:hiddenLabel 48 ;
+    skos:prefLabel "Gulfstream (Grumman Aircraft Engineering)"^^xsd:string .
+
+cv-ai4dm:Gulfstream_Aerospace_Corp a skos:Concept ;
+    skos:hiddenLabel 49 ;
+    skos:prefLabel "Gulfstream (Gulfstream Aerospace Corp.)"^^xsd:string .
+
+cv-ai4dm:Gulfstream_American_Corp a skos:Concept ;
+    skos:hiddenLabel 50 ;
+    skos:prefLabel "Gulfstream (Gulfstream American Corp.)"^^xsd:string .
+
+cv-ai4dm:Gulfstream_Aerospace_Corp a skos:Concept ;
+    skos:hiddenLabel 51 ;
+    skos:prefLabel "Gulfstream Aerospace Corp."^^xsd:string .
+
+cv-ai4dm:General_Dynamics a skos:Concept ;
+    skos:hiddenLabel 52 ;
+    skos:prefLabel "Gulfstream Aerospace Corp. (General Dynamics)"^^xsd:string .
+
+cv-ai4dm:Gulfstream_American a skos:Concept ;
+    skos:hiddenLabel 53 ;
+    skos:prefLabel "Gulfstream American (division of Gulfstream Aerospace)"^^xsd:string .
+
+cv-ai4dm:Hawker_Beechcraft a skos:Concept ;
+    skos:hiddenLabel 54 ;
+    skos:prefLabel "Hawker Beechcraft"^^xsd:string .
+
+cv-ai4dm:Icon_Aircraft a skos:Concept ;
+    skos:hiddenLabel 55 ;
+    skos:prefLabel "Icon Aircraft"^^xsd:string .
+
+cv-ai4dm:Israel_Aircraft_Industries a skos:Concept ;
+    skos:hiddenLabel 56 ;
+    skos:prefLabel "Israel Aircraft Industries (IAI)"^^xsd:string .
+
+cv-ai4dm:Issoire_Aviation a skos:Concept ;
+    skos:hiddenLabel 57 ;
+    skos:prefLabel "Issoire Aviation"^^xsd:string .
+
+cv-ai4dm:Khrunichev a skos:Concept ;
+    skos:hiddenLabel 58 ;
+    skos:prefLabel "Khrunichev"^^xsd:string .
+
+cv-ai4dm:LET_Aircraft_Industries a skos:Concept ;
+    skos:hiddenLabel 61 ;
+    skos:prefLabel "LET Aircraft Industries"^^xsd:string .
+
+cv-ai4dm:Lake_Aircraft a skos:Concept ;
+    skos:hiddenLabel 59 ;
+    skos:prefLabel "Lake Aircraft"^^xsd:string .
+
+cv-ai4dm:Lancair a skos:Concept ;
+    skos:hiddenLabel 60 ;
+    skos:prefLabel "Lancair"^^xsd:string .
+
+cv-ai4dm:Liberty_Aerospace a skos:Concept ;
+    skos:hiddenLabel 62 ;
+    skos:prefLabel "Liberty Aerospace"^^xsd:string .
+
+cv-ai4dm:Lockheed a skos:Concept ;
+    skos:hiddenLabel 63 ;
+    skos:prefLabel "Lockheed"^^xsd:string .
+
+cv-ai4dm:Mahindra_Aerospace a skos:Concept ;
+    skos:hiddenLabel 64 ;
+    skos:prefLabel "Mahindra Aerospace"^^xsd:string .
+
+cv-ai4dm:Mooney_International_Corporation a skos:Concept ;
+    skos:hiddenLabel 65 ;
+    skos:prefLabel "Mooney International Corporation"^^xsd:string .
+
+cv-ai4dm:Moravan_Otrokvice a skos:Concept ;
+    skos:hiddenLabel 66 ;
+    skos:prefLabel "Moravan Otrokvice"^^xsd:string .
+
+cv-ai4dm:Morrisey_Aircraft a skos:Concept ;
+    skos:hiddenLabel 67 ;
+    skos:prefLabel "Morrisey Aircraft"^^xsd:string .
+
+cv-ai4dm:Mustang_Aeronautics_for_Homebuilding a skos:Concept ;
+    skos:hiddenLabel 68 ;
+    skos:prefLabel "Mustang Aeronautics for Homebuilding"^^xsd:string .
+
+cv-ai4dm:North_American_Aviation a skos:Concept ;
+    skos:hiddenLabel 69 ;
+    skos:prefLabel "North American Aviation"^^xsd:string .
+
+cv-ai4dm:North_American_Rockwell a skos:Concept ;
+    skos:hiddenLabel 70 ;
+    skos:prefLabel "North American Rockwell"^^xsd:string .
+
+cv-ai4dm:PZL_Mielec a skos:Concept ;
+    skos:hiddenLabel 75 ;
+    skos:prefLabel "PZL Mielec"^^xsd:string .
+
+cv-ai4dm:Piaggio_Aero a skos:Concept ;
+    skos:hiddenLabel 71 ;
+    skos:prefLabel "Piaggio Aero"^^xsd:string .
+
+cv-ai4dm:Pilatus a skos:Concept ;
+    skos:hiddenLabel 72 ;
+    skos:prefLabel "Pilatus"^^xsd:string .
+
+cv-ai4dm:Piper a skos:Concept ;
+    skos:hiddenLabel 73 ;
+    skos:prefLabel "Piper"^^xsd:string .
+
+cv-ai4dm:Progressive_Aerodyne a skos:Concept ;
+    skos:hiddenLabel 74 ;
+    skos:prefLabel "Progressive Aerodyne"^^xsd:string .
+
+cv-ai4dm:Quest a skos:Concept ;
+    skos:hiddenLabel 76 ;
+    skos:prefLabel "Quest"^^xsd:string .
+
+cv-ai4dm:Schweizer a skos:Concept ;
+    skos:hiddenLabel 77 ;
+    skos:prefLabel "Schweizer"^^xsd:string .
+
+cv-ai4dm:Scottish_Aviation a skos:Concept ;
+    skos:hiddenLabel 16 ;
+    skos:prefLabel "Scottish Aviation"^^xsd:string .
+
+cv-ai4dm:Sikorsky a skos:Concept ;
+    skos:hiddenLabel 78 ;
+    skos:prefLabel "Sikorsky"^^xsd:string .
+
+cv-ai4dm:Stearman a skos:Concept ;
+    skos:hiddenLabel 79 ;
+    skos:prefLabel "Stearman"^^xsd:string .
+
+cv-ai4dm:Sud a skos:Concept ;
+    skos:hiddenLabel 81 ;
+    skos:prefLabel "Sud"^^xsd:string .
+
+cv-ai4dm:Sukhoi a skos:Concept ;
+    skos:hiddenLabel 80 ;
+    skos:prefLabel "Sukhoi"^^xsd:string .
+
+cv-ai4dm:Zlin a skos:Concept ;
+    skos:hiddenLabel 82 ;
+    skos:prefLabel "Zlin"^^xsd:string .
+
+cv-ai4dm:manufacturer a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+
+cv-ai4dm:manufacturers
+	a skos:Collection ;
+	skos:prefLabel "manufacturer concepts" ;
+	skos:member cv-ai4dm:Acro_Sport ;
+	skos:member cv-ai4dm:Adam_Aircraft_Industries ;
+	skos:member cv-ai4dm:Aeritalia ;
+	skos:member cv-ai4dm:Aermacchi_Macchi ;
+	skos:member cv-ai4dm:Aero_Boero ;
+	skos:member cv-ai4dm:Aero_Commander_Aircraft ; 
+	skos:member cv-ai4dm:Aerostar_Aircraft_Corp ;
+	skos:member cv-ai4dm:Air-C-Race ;
+	skos:member cv-ai4dm:Air_Tractor ;
+	skos:member cv-ai4dm:Airbus ;
+	skos:member cv-ai4dm:American_Aviation_Corporation ;
+	skos:member cv-ai4dm:American_Champion_Aircraft_Corp ;
+	skos:member cv-ai4dm:Antonov ;
+	skos:member cv-ai4dm:Australian_Government_Aircraft_Facilities ;
+	skos:member cv-ai4dm:Basler_Turbo_Conversions ;
+	skos:member cv-ai4dm:Beagle_Aircraft_Limited ;
+	skos:member cv-ai4dm:Beechcraft ;
+	skos:member cv-ai4dm:Bellanca_Aircraft_Company ;
+	skos:member cv-ai4dm:Boeing ;
+	skos:member cv-ai4dm:Boeing_McDonnell_Douglas ;
+	skos:member cv-ai4dm:Bombardier ;
+	skos:member cv-ai4dm:Bombardier_De_Havilland_Canada ;
+	skos:member cv-ai4dm:British_Aerospace_Avro ;
+	skos:member cv-ai4dm:British_Aircraft_Corporation ;
+	skos:member cv-ai4dm:Britten-Norman ;
+	skos:member cv-ai4dm:CASA ;
+	skos:member cv-ai4dm:Cessna ;
+	skos:member cv-ai4dm:Cirrus ;
+	skos:member cv-ai4dm:Colonial_Aircraft ;
+	skos:member cv-ai4dm:Comac ;
+	skos:member cv-ai4dm:Cubcrafters ;
+	skos:member cv-ai4dm:Daher-Socata ;
+	skos:member cv-ai4dm:Dassault_Aviation ;
+	skos:member cv-ai4dm:Diamond ;
+	skos:member cv-ai4dm:ERCO ;
+	skos:member cv-ai4dm:Embraer ;
+	skos:member cv-ai4dm:Epic_Aircraft ;
+	skos:member cv-ai4dm:Flight_Design ;
+	skos:member cv-ai4dm:Fokker ;
+	skos:member cv-ai4dm:Fokker_VFW ;
+	skos:member cv-ai4dm:Game_Composites ;
+	skos:member cv-ai4dm:General_Dynamics ;
+	skos:member cv-ai4dm:Glasair_Aviation ;
+	skos:member cv-ai4dm:Glasair_Aviation_Stoddard_Hamilton_Aircraft ;
+	skos:member cv-ai4dm:Grumman_Aircraft_Engineering ;
+	skos:member cv-ai4dm:Grumman_American ;
+	skos:member cv-ai4dm:Grumman_American_Aviation_Corp ;
+	skos:member cv-ai4dm:Grumman_American_Tiger_Aircraft ;
+	skos:member cv-ai4dm:Gulfstream_Aerospace_Corp ;
+	skos:member cv-ai4dm:Gulfstream_American ;
+	skos:member cv-ai4dm:Gulfstream_American_Corp ;
+	skos:member cv-ai4dm:Hawker_Beechcraft ;
+	skos:member cv-ai4dm:Icon_Aircraft ;
+	skos:member cv-ai4dm:Israel_Aircraft_Industries ;
+	skos:member cv-ai4dm:Issoire_Aviation ;
+	skos:member cv-ai4dm:Khrunichev ;
+	skos:member cv-ai4dm:LET_Aircraft_Industries ;
+	skos:member cv-ai4dm:Lake_Aircraft ;
+	skos:member cv-ai4dm:Lancair ;
+	skos:member cv-ai4dm:Liberty_Aerospace ;
+	skos:member cv-ai4dm:Lockheed ;
+	skos:member cv-ai4dm:Mahindra_Aerospace ;
+	skos:member cv-ai4dm:Mooney_International_Corporation ;
+	skos:member cv-ai4dm:Moravan_Otrokvice ;
+	skos:member cv-ai4dm:Morrisey_Aircraft ;
+	skos:member cv-ai4dm:Mustang_Aeronautics_for_Homebuilding ;
+	skos:member cv-ai4dm:North_American_Aviation ;
+	skos:member cv-ai4dm:North_American_Rockwell ;
+	skos:member cv-ai4dm:PZL_Mielec ;
+	skos:member cv-ai4dm:Piaggio_Aero ;
+	skos:member cv-ai4dm:Pilatus ;
+	skos:member cv-ai4dm:Piper ;
+	skos:member cv-ai4dm:Progressive_Aerodyne ;
+	skos:member cv-ai4dm:Quest ;
+	skos:member cv-ai4dm:Schweizer ;
+	skos:member cv-ai4dm:Scottish_Aviation ;
+	skos:member cv-ai4dm:Sikorsky ;
+	skos:member cv-ai4dm:Stearman ;
+	skos:member cv-ai4dm:Sud ;
+	skos:member cv-ai4dm:Sukhoi ;
+	skos:member cv-ai4dm:Zlin ;
+.

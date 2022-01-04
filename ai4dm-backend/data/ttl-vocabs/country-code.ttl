@@ -1,0 +1,1246 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/country-code
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:AD a skos:Concept ;
+    skos:hiddenLabel "AD"^^xsd:string ;
+    skos:prefLabel "Andorra"^^xsd:string .
+
+cv-ai4dm:AE a skos:Concept ;
+    skos:hiddenLabel "AE"^^xsd:string ;
+    skos:prefLabel "United Arab Emirates"^^xsd:string .
+
+cv-ai4dm:AF a skos:Concept ;
+    skos:hiddenLabel "AF"^^xsd:string ;
+    skos:prefLabel "Afghanistan"^^xsd:string .
+
+cv-ai4dm:AG a skos:Concept ;
+    skos:hiddenLabel "AG"^^xsd:string ;
+    skos:prefLabel "Antigua and Barbuda"^^xsd:string .
+
+cv-ai4dm:AI a skos:Concept ;
+    skos:hiddenLabel "AI"^^xsd:string ;
+    skos:prefLabel "Anguilla"^^xsd:string .
+
+cv-ai4dm:AL a skos:Concept ;
+    skos:hiddenLabel "AL"^^xsd:string ;
+    skos:prefLabel "Albania"^^xsd:string .
+
+cv-ai4dm:AM a skos:Concept ;
+    skos:hiddenLabel "AM"^^xsd:string ;
+    skos:prefLabel "Armenia"^^xsd:string .
+
+cv-ai4dm:AO a skos:Concept ;
+    skos:hiddenLabel "AO"^^xsd:string ;
+    skos:prefLabel "Angola"^^xsd:string .
+
+cv-ai4dm:AQ a skos:Concept ;
+    skos:hiddenLabel "AQ"^^xsd:string ;
+    skos:prefLabel "Antarctica"^^xsd:string .
+
+cv-ai4dm:AR a skos:Concept ;
+    skos:hiddenLabel "AR"^^xsd:string ;
+    skos:prefLabel "Argentina"^^xsd:string .
+
+cv-ai4dm:AS a skos:Concept ;
+    skos:hiddenLabel "AS"^^xsd:string ;
+    skos:prefLabel "American Samoa"^^xsd:string .
+
+cv-ai4dm:AT a skos:Concept ;
+    skos:hiddenLabel "AT"^^xsd:string ;
+    skos:prefLabel "Austria"^^xsd:string .
+
+cv-ai4dm:AU a skos:Concept ;
+    skos:hiddenLabel "AU"^^xsd:string ;
+    skos:prefLabel "Australia"^^xsd:string .
+
+cv-ai4dm:AW a skos:Concept ;
+    skos:hiddenLabel "AW"^^xsd:string ;
+    skos:prefLabel "Aruba"^^xsd:string .
+
+cv-ai4dm:AZ a skos:Concept ;
+    skos:hiddenLabel "AZ"^^xsd:string ;
+    skos:prefLabel "Azerbaijan"^^xsd:string .
+
+cv-ai4dm:BA a skos:Concept ;
+    skos:hiddenLabel "BA"^^xsd:string ;
+    skos:prefLabel "Bosnia and Herzegovina"^^xsd:string .
+
+cv-ai4dm:BB a skos:Concept ;
+    skos:hiddenLabel "BB"^^xsd:string ;
+    skos:prefLabel "Barbados"^^xsd:string .
+
+cv-ai4dm:BD a skos:Concept ;
+    skos:hiddenLabel "BD"^^xsd:string ;
+    skos:prefLabel "Bangladesh"^^xsd:string .
+
+cv-ai4dm:BE a skos:Concept ;
+    skos:hiddenLabel "BE"^^xsd:string ;
+    skos:prefLabel "Belgium"^^xsd:string .
+
+cv-ai4dm:BF a skos:Concept ;
+    skos:hiddenLabel "BF"^^xsd:string ;
+    skos:prefLabel "Burkina Faso"^^xsd:string .
+
+cv-ai4dm:BG a skos:Concept ;
+    skos:hiddenLabel "BG"^^xsd:string ;
+    skos:prefLabel "Bulgaria"^^xsd:string .
+
+cv-ai4dm:BH a skos:Concept ;
+    skos:hiddenLabel "BH"^^xsd:string ;
+    skos:prefLabel "Bahrain"^^xsd:string .
+
+cv-ai4dm:BI a skos:Concept ;
+    skos:hiddenLabel "BI"^^xsd:string ;
+    skos:prefLabel "Burundi"^^xsd:string .
+
+cv-ai4dm:BJ a skos:Concept ;
+    skos:hiddenLabel "BJ"^^xsd:string ;
+    skos:prefLabel "Benin"^^xsd:string .
+
+cv-ai4dm:BL a skos:Concept ;
+    skos:hiddenLabel "BL"^^xsd:string ;
+    skos:prefLabel "Saint Barth�lemy"^^xsd:string .
+
+cv-ai4dm:BM a skos:Concept ;
+    skos:hiddenLabel "BM"^^xsd:string ;
+    skos:prefLabel "Bermuda"^^xsd:string .
+
+cv-ai4dm:BN a skos:Concept ;
+    skos:hiddenLabel "BN"^^xsd:string ;
+    skos:prefLabel "Brunei"^^xsd:string .
+
+cv-ai4dm:BO a skos:Concept ;
+    skos:hiddenLabel "BO"^^xsd:string ;
+    skos:prefLabel "Bolivia"^^xsd:string .
+
+cv-ai4dm:BQ a skos:Concept ;
+    skos:hiddenLabel "BQ"^^xsd:string ;
+    skos:prefLabel "Caribbean Netherlands"^^xsd:string .
+
+cv-ai4dm:BR a skos:Concept ;
+    skos:hiddenLabel "BR"^^xsd:string ;
+    skos:prefLabel "Brazil"^^xsd:string .
+
+cv-ai4dm:BS a skos:Concept ;
+    skos:hiddenLabel "BS"^^xsd:string ;
+    skos:prefLabel "Bahamas"^^xsd:string .
+
+cv-ai4dm:BT a skos:Concept ;
+    skos:hiddenLabel "BT"^^xsd:string ;
+    skos:prefLabel "Bhutan"^^xsd:string .
+
+cv-ai4dm:BW a skos:Concept ;
+    skos:hiddenLabel "BW"^^xsd:string ;
+    skos:prefLabel "Botswana"^^xsd:string .
+
+cv-ai4dm:BY a skos:Concept ;
+    skos:hiddenLabel "BY"^^xsd:string ;
+    skos:prefLabel "Belarus"^^xsd:string .
+
+cv-ai4dm:BZ a skos:Concept ;
+    skos:hiddenLabel "BZ"^^xsd:string ;
+    skos:prefLabel "Belize"^^xsd:string .
+
+cv-ai4dm:CA a skos:Concept ;
+    skos:hiddenLabel "CA"^^xsd:string ;
+    skos:prefLabel "Canada"^^xsd:string .
+
+cv-ai4dm:CC a skos:Concept ;
+    skos:hiddenLabel "CC"^^xsd:string ;
+    skos:prefLabel "Cocos (Keeling) Islands"^^xsd:string .
+
+cv-ai4dm:CD a skos:Concept ;
+    skos:hiddenLabel "CD"^^xsd:string ;
+    skos:prefLabel "Congo (Kinshasa)"^^xsd:string .
+
+cv-ai4dm:CF a skos:Concept ;
+    skos:hiddenLabel "CF"^^xsd:string ;
+    skos:prefLabel "Central African Republic"^^xsd:string .
+
+cv-ai4dm:CG a skos:Concept ;
+    skos:hiddenLabel "CG"^^xsd:string ;
+    skos:prefLabel "Congo (Brazzaville)"^^xsd:string .
+
+cv-ai4dm:CH a skos:Concept ;
+    skos:hiddenLabel "CH"^^xsd:string ;
+    skos:prefLabel "Switzerland"^^xsd:string .
+
+cv-ai4dm:CI a skos:Concept ;
+    skos:hiddenLabel "CI"^^xsd:string ;
+    skos:prefLabel "C�te dIvoire"^^xsd:string .
+
+cv-ai4dm:CK a skos:Concept ;
+    skos:hiddenLabel "CK"^^xsd:string ;
+    skos:prefLabel "Cook Islands"^^xsd:string .
+
+cv-ai4dm:CL a skos:Concept ;
+    skos:hiddenLabel "CL"^^xsd:string ;
+    skos:prefLabel "Chile"^^xsd:string .
+
+cv-ai4dm:CM a skos:Concept ;
+    skos:hiddenLabel "CM"^^xsd:string ;
+    skos:prefLabel "Cameroon"^^xsd:string .
+
+cv-ai4dm:CN a skos:Concept ;
+    skos:hiddenLabel "CN"^^xsd:string ;
+    skos:prefLabel "China"^^xsd:string .
+
+cv-ai4dm:CO a skos:Concept ;
+    skos:hiddenLabel "CO"^^xsd:string ;
+    skos:prefLabel "Colombia"^^xsd:string .
+
+cv-ai4dm:CR a skos:Concept ;
+    skos:hiddenLabel "CR"^^xsd:string ;
+    skos:prefLabel "Costa Rica"^^xsd:string .
+
+cv-ai4dm:CU a skos:Concept ;
+    skos:hiddenLabel "CU"^^xsd:string ;
+    skos:prefLabel "Cuba"^^xsd:string .
+
+cv-ai4dm:CV a skos:Concept ;
+    skos:hiddenLabel "CV"^^xsd:string ;
+    skos:prefLabel "Cape Verde"^^xsd:string .
+
+cv-ai4dm:CW a skos:Concept ;
+    skos:hiddenLabel "CW"^^xsd:string ;
+    skos:prefLabel "Cura�ao"^^xsd:string .
+
+cv-ai4dm:CX a skos:Concept ;
+    skos:hiddenLabel "CX"^^xsd:string ;
+    skos:prefLabel "Christmas Island"^^xsd:string .
+
+cv-ai4dm:CY a skos:Concept ;
+    skos:hiddenLabel "CY"^^xsd:string ;
+    skos:prefLabel "Cyprus"^^xsd:string .
+
+cv-ai4dm:CZ a skos:Concept ;
+    skos:hiddenLabel "CZ"^^xsd:string ;
+    skos:prefLabel "Czech Republic"^^xsd:string .
+
+cv-ai4dm:DE a skos:Concept ;
+    skos:hiddenLabel "DE"^^xsd:string ;
+    skos:prefLabel "Germany"^^xsd:string .
+
+cv-ai4dm:DJ a skos:Concept ;
+    skos:hiddenLabel "DJ"^^xsd:string ;
+    skos:prefLabel "Djibouti"^^xsd:string .
+
+cv-ai4dm:DK a skos:Concept ;
+    skos:hiddenLabel "DK"^^xsd:string ;
+    skos:prefLabel "Denmark"^^xsd:string .
+
+cv-ai4dm:DM a skos:Concept ;
+    skos:hiddenLabel "DM"^^xsd:string ;
+    skos:prefLabel "Dominica"^^xsd:string .
+
+cv-ai4dm:DO a skos:Concept ;
+    skos:hiddenLabel "DO"^^xsd:string ;
+    skos:prefLabel "Dominican Republic"^^xsd:string .
+
+cv-ai4dm:DZ a skos:Concept ;
+    skos:hiddenLabel "DZ"^^xsd:string ;
+    skos:prefLabel "Algeria"^^xsd:string .
+
+cv-ai4dm:EC a skos:Concept ;
+    skos:hiddenLabel "EC"^^xsd:string ;
+    skos:prefLabel "Ecuador"^^xsd:string .
+
+cv-ai4dm:EE a skos:Concept ;
+    skos:hiddenLabel "EE"^^xsd:string ;
+    skos:prefLabel "Estonia"^^xsd:string .
+
+cv-ai4dm:EG a skos:Concept ;
+    skos:hiddenLabel "EG"^^xsd:string ;
+    skos:prefLabel "Egypt"^^xsd:string .
+
+cv-ai4dm:EH a skos:Concept ;
+    skos:hiddenLabel "EH"^^xsd:string ;
+    skos:prefLabel "Western Sahara"^^xsd:string .
+
+cv-ai4dm:ER a skos:Concept ;
+    skos:hiddenLabel "ER"^^xsd:string ;
+    skos:prefLabel "Eritrea"^^xsd:string .
+
+cv-ai4dm:ES a skos:Concept ;
+    skos:hiddenLabel "ES"^^xsd:string ;
+    skos:prefLabel "Spain"^^xsd:string .
+
+cv-ai4dm:ET a skos:Concept ;
+    skos:hiddenLabel "ET"^^xsd:string ;
+    skos:prefLabel "Ethiopia"^^xsd:string .
+
+cv-ai4dm:FI a skos:Concept ;
+    skos:hiddenLabel "FI"^^xsd:string ;
+    skos:prefLabel "Finland"^^xsd:string .
+
+cv-ai4dm:FJ a skos:Concept ;
+    skos:hiddenLabel "FJ"^^xsd:string ;
+    skos:prefLabel "Fiji"^^xsd:string .
+
+cv-ai4dm:FK a skos:Concept ;
+    skos:hiddenLabel "FK"^^xsd:string ;
+    skos:prefLabel "Falkland Islands"^^xsd:string .
+
+cv-ai4dm:FM a skos:Concept ;
+    skos:hiddenLabel "FM"^^xsd:string ;
+    skos:prefLabel "Micronesia"^^xsd:string .
+
+cv-ai4dm:FO a skos:Concept ;
+    skos:hiddenLabel "FO"^^xsd:string ;
+    skos:prefLabel "Faroe Islands"^^xsd:string .
+
+cv-ai4dm:FR a skos:Concept ;
+    skos:hiddenLabel "FR"^^xsd:string ;
+    skos:prefLabel "France"^^xsd:string .
+
+cv-ai4dm:GA a skos:Concept ;
+    skos:hiddenLabel "GA"^^xsd:string ;
+    skos:prefLabel "Gabon"^^xsd:string .
+
+cv-ai4dm:GB a skos:Concept ;
+    skos:hiddenLabel "GB"^^xsd:string ;
+    skos:prefLabel "United Kingdom"^^xsd:string .
+
+cv-ai4dm:GD a skos:Concept ;
+    skos:hiddenLabel "GD"^^xsd:string ;
+    skos:prefLabel "Grenada"^^xsd:string .
+
+cv-ai4dm:GE a skos:Concept ;
+    skos:hiddenLabel "GE"^^xsd:string ;
+    skos:prefLabel "Georgia"^^xsd:string .
+
+cv-ai4dm:GF a skos:Concept ;
+    skos:hiddenLabel "GF"^^xsd:string ;
+    skos:prefLabel "French Guiana"^^xsd:string .
+
+cv-ai4dm:GG a skos:Concept ;
+    skos:hiddenLabel "GG"^^xsd:string ;
+    skos:prefLabel "Guernsey"^^xsd:string .
+
+cv-ai4dm:GH a skos:Concept ;
+    skos:hiddenLabel "GH"^^xsd:string ;
+    skos:prefLabel "Ghana"^^xsd:string .
+
+cv-ai4dm:GI a skos:Concept ;
+    skos:hiddenLabel "GI"^^xsd:string ;
+    skos:prefLabel "Gibraltar"^^xsd:string .
+
+cv-ai4dm:GL a skos:Concept ;
+    skos:hiddenLabel "GL"^^xsd:string ;
+    skos:prefLabel "Greenland"^^xsd:string .
+
+cv-ai4dm:GM a skos:Concept ;
+    skos:hiddenLabel "GM"^^xsd:string ;
+    skos:prefLabel "Gambia"^^xsd:string .
+
+cv-ai4dm:GN a skos:Concept ;
+    skos:hiddenLabel "GN"^^xsd:string ;
+    skos:prefLabel "Guinea"^^xsd:string .
+
+cv-ai4dm:GP a skos:Concept ;
+    skos:hiddenLabel "GP"^^xsd:string ;
+    skos:prefLabel "Guadeloupe"^^xsd:string .
+
+cv-ai4dm:GQ a skos:Concept ;
+    skos:hiddenLabel "GQ"^^xsd:string ;
+    skos:prefLabel "Equatorial Guinea"^^xsd:string .
+
+cv-ai4dm:GR a skos:Concept ;
+    skos:hiddenLabel "GR"^^xsd:string ;
+    skos:prefLabel "Greece"^^xsd:string .
+
+cv-ai4dm:GS a skos:Concept ;
+    skos:hiddenLabel "GS"^^xsd:string ;
+    skos:prefLabel "South Georgia and the South Sandwich Islands"^^xsd:string .
+
+cv-ai4dm:GT a skos:Concept ;
+    skos:hiddenLabel "GT"^^xsd:string ;
+    skos:prefLabel "Guatemala"^^xsd:string .
+
+cv-ai4dm:GU a skos:Concept ;
+    skos:hiddenLabel "GU"^^xsd:string ;
+    skos:prefLabel "Guam"^^xsd:string .
+
+cv-ai4dm:GW a skos:Concept ;
+    skos:hiddenLabel "GW"^^xsd:string ;
+    skos:prefLabel "Guinea-Bissau"^^xsd:string .
+
+cv-ai4dm:GY a skos:Concept ;
+    skos:hiddenLabel "GY"^^xsd:string ;
+    skos:prefLabel "Guyana"^^xsd:string .
+
+cv-ai4dm:HK a skos:Concept ;
+    skos:hiddenLabel "HK"^^xsd:string ;
+    skos:prefLabel "Hong Kong"^^xsd:string .
+
+cv-ai4dm:HN a skos:Concept ;
+    skos:hiddenLabel "HN"^^xsd:string ;
+    skos:prefLabel "Honduras"^^xsd:string .
+
+cv-ai4dm:HR a skos:Concept ;
+    skos:hiddenLabel "HR"^^xsd:string ;
+    skos:prefLabel "Croatia"^^xsd:string .
+
+cv-ai4dm:HT a skos:Concept ;
+    skos:hiddenLabel "HT"^^xsd:string ;
+    skos:prefLabel "Haiti"^^xsd:string .
+
+cv-ai4dm:HU a skos:Concept ;
+    skos:hiddenLabel "HU"^^xsd:string ;
+    skos:prefLabel "Hungary"^^xsd:string .
+
+cv-ai4dm:ID a skos:Concept ;
+    skos:hiddenLabel "ID"^^xsd:string ;
+    skos:prefLabel "Indonesia"^^xsd:string .
+
+cv-ai4dm:IE a skos:Concept ;
+    skos:hiddenLabel "IE"^^xsd:string ;
+    skos:prefLabel "Ireland"^^xsd:string .
+
+cv-ai4dm:IL a skos:Concept ;
+    skos:hiddenLabel "IL"^^xsd:string ;
+    skos:prefLabel "Israel"^^xsd:string .
+
+cv-ai4dm:IM a skos:Concept ;
+    skos:hiddenLabel "IM"^^xsd:string ;
+    skos:prefLabel "Isle of Man"^^xsd:string .
+
+cv-ai4dm:IN a skos:Concept ;
+    skos:hiddenLabel "IN"^^xsd:string ;
+    skos:prefLabel "India"^^xsd:string .
+
+cv-ai4dm:IO a skos:Concept ;
+    skos:hiddenLabel "IO"^^xsd:string ;
+    skos:prefLabel "British Indian Ocean Territory"^^xsd:string .
+
+cv-ai4dm:IQ a skos:Concept ;
+    skos:hiddenLabel "IQ"^^xsd:string ;
+    skos:prefLabel "Iraq"^^xsd:string .
+
+cv-ai4dm:IR a skos:Concept ;
+    skos:hiddenLabel "IR"^^xsd:string ;
+    skos:prefLabel "Iran"^^xsd:string .
+
+cv-ai4dm:IS a skos:Concept ;
+    skos:hiddenLabel "IS"^^xsd:string ;
+    skos:prefLabel "Iceland"^^xsd:string .
+
+cv-ai4dm:IT a skos:Concept ;
+    skos:hiddenLabel "IT"^^xsd:string ;
+    skos:prefLabel "Italy"^^xsd:string .
+
+cv-ai4dm:JE a skos:Concept ;
+    skos:hiddenLabel "JE"^^xsd:string ;
+    skos:prefLabel "Jersey"^^xsd:string .
+
+cv-ai4dm:JM a skos:Concept ;
+    skos:hiddenLabel "JM"^^xsd:string ;
+    skos:prefLabel "Jamaica"^^xsd:string .
+
+cv-ai4dm:JO a skos:Concept ;
+    skos:hiddenLabel "JO"^^xsd:string ;
+    skos:prefLabel "Jordan"^^xsd:string .
+
+cv-ai4dm:JP a skos:Concept ;
+    skos:hiddenLabel "JP"^^xsd:string ;
+    skos:prefLabel "Japan"^^xsd:string .
+
+cv-ai4dm:KE a skos:Concept ;
+    skos:hiddenLabel "KE"^^xsd:string ;
+    skos:prefLabel "Kenya"^^xsd:string .
+
+cv-ai4dm:KG a skos:Concept ;
+    skos:hiddenLabel "KG"^^xsd:string ;
+    skos:prefLabel "Kyrgyzstan"^^xsd:string .
+
+cv-ai4dm:KH a skos:Concept ;
+    skos:hiddenLabel "KH"^^xsd:string ;
+    skos:prefLabel "Cambodia"^^xsd:string .
+
+cv-ai4dm:KI a skos:Concept ;
+    skos:hiddenLabel "KI"^^xsd:string ;
+    skos:prefLabel "Kiribati"^^xsd:string .
+
+cv-ai4dm:KM a skos:Concept ;
+    skos:hiddenLabel "KM"^^xsd:string ;
+    skos:prefLabel "Comoros"^^xsd:string .
+
+cv-ai4dm:KN a skos:Concept ;
+    skos:hiddenLabel "KN"^^xsd:string ;
+    skos:prefLabel "Saint Kitts and Nevis"^^xsd:string .
+
+cv-ai4dm:KP a skos:Concept ;
+    skos:hiddenLabel "KP"^^xsd:string ;
+    skos:prefLabel "North Korea"^^xsd:string .
+
+cv-ai4dm:KR a skos:Concept ;
+    skos:hiddenLabel "KR"^^xsd:string ;
+    skos:prefLabel "South Korea"^^xsd:string .
+
+cv-ai4dm:KW a skos:Concept ;
+    skos:hiddenLabel "KW"^^xsd:string ;
+    skos:prefLabel "Kuwait"^^xsd:string .
+
+cv-ai4dm:KY a skos:Concept ;
+    skos:hiddenLabel "KY"^^xsd:string ;
+    skos:prefLabel "Cayman Islands"^^xsd:string .
+
+cv-ai4dm:KZ a skos:Concept ;
+    skos:hiddenLabel "KZ"^^xsd:string ;
+    skos:prefLabel "Kazakhstan"^^xsd:string .
+
+cv-ai4dm:LA a skos:Concept ;
+    skos:hiddenLabel "LA"^^xsd:string ;
+    skos:prefLabel "Laos"^^xsd:string .
+
+cv-ai4dm:LB a skos:Concept ;
+    skos:hiddenLabel "LB"^^xsd:string ;
+    skos:prefLabel "Lebanon"^^xsd:string .
+
+cv-ai4dm:LC a skos:Concept ;
+    skos:hiddenLabel "LC"^^xsd:string ;
+    skos:prefLabel "Saint Lucia"^^xsd:string .
+
+cv-ai4dm:LI a skos:Concept ;
+    skos:hiddenLabel "LI"^^xsd:string ;
+    skos:prefLabel "Liechtenstein"^^xsd:string .
+
+cv-ai4dm:LK a skos:Concept ;
+    skos:hiddenLabel "LK"^^xsd:string ;
+    skos:prefLabel "Sri Lanka"^^xsd:string .
+
+cv-ai4dm:LR a skos:Concept ;
+    skos:hiddenLabel "LR"^^xsd:string ;
+    skos:prefLabel "Liberia"^^xsd:string .
+
+cv-ai4dm:LS a skos:Concept ;
+    skos:hiddenLabel "LS"^^xsd:string ;
+    skos:prefLabel "Lesotho"^^xsd:string .
+
+cv-ai4dm:LT a skos:Concept ;
+    skos:hiddenLabel "LT"^^xsd:string ;
+    skos:prefLabel "Lithuania"^^xsd:string .
+
+cv-ai4dm:LU a skos:Concept ;
+    skos:hiddenLabel "LU"^^xsd:string ;
+    skos:prefLabel "Luxembourg"^^xsd:string .
+
+cv-ai4dm:LV a skos:Concept ;
+    skos:hiddenLabel "LV"^^xsd:string ;
+    skos:prefLabel "Latvia"^^xsd:string .
+
+cv-ai4dm:LY a skos:Concept ;
+    skos:hiddenLabel "LY"^^xsd:string ;
+    skos:prefLabel "Libya"^^xsd:string .
+
+cv-ai4dm:MA a skos:Concept ;
+    skos:hiddenLabel "MA"^^xsd:string ;
+    skos:prefLabel "Morocco"^^xsd:string .
+
+cv-ai4dm:MC a skos:Concept ;
+    skos:hiddenLabel "MC"^^xsd:string ;
+    skos:prefLabel "Monaco"^^xsd:string .
+
+cv-ai4dm:MD a skos:Concept ;
+    skos:hiddenLabel "MD"^^xsd:string ;
+    skos:prefLabel "Moldova"^^xsd:string .
+
+cv-ai4dm:ME a skos:Concept ;
+    skos:hiddenLabel "ME"^^xsd:string ;
+    skos:prefLabel "Montenegro"^^xsd:string .
+
+cv-ai4dm:MF a skos:Concept ;
+    skos:hiddenLabel "MF"^^xsd:string ;
+    skos:prefLabel "Saint Martin"^^xsd:string .
+
+cv-ai4dm:MG a skos:Concept ;
+    skos:hiddenLabel "MG"^^xsd:string ;
+    skos:prefLabel "Madagascar"^^xsd:string .
+
+cv-ai4dm:MH a skos:Concept ;
+    skos:hiddenLabel "MH"^^xsd:string ;
+    skos:prefLabel "Marshall Islands"^^xsd:string .
+
+cv-ai4dm:MK a skos:Concept ;
+    skos:hiddenLabel "MK"^^xsd:string ;
+    skos:prefLabel "North Macedonia"^^xsd:string .
+
+cv-ai4dm:ML a skos:Concept ;
+    skos:hiddenLabel "ML"^^xsd:string ;
+    skos:prefLabel "Mali"^^xsd:string .
+
+cv-ai4dm:MM a skos:Concept ;
+    skos:hiddenLabel "MM"^^xsd:string ;
+    skos:prefLabel "Burma"^^xsd:string .
+
+cv-ai4dm:MN a skos:Concept ;
+    skos:hiddenLabel "MN"^^xsd:string ;
+    skos:prefLabel "Mongolia"^^xsd:string .
+
+cv-ai4dm:MO a skos:Concept ;
+    skos:hiddenLabel "MO"^^xsd:string ;
+    skos:prefLabel "Macau"^^xsd:string .
+
+cv-ai4dm:MP a skos:Concept ;
+    skos:hiddenLabel "MP"^^xsd:string ;
+    skos:prefLabel "Northern Mariana Islands"^^xsd:string .
+
+cv-ai4dm:MQ a skos:Concept ;
+    skos:hiddenLabel "MQ"^^xsd:string ;
+    skos:prefLabel "Martinique"^^xsd:string .
+
+cv-ai4dm:MR a skos:Concept ;
+    skos:hiddenLabel "MR"^^xsd:string ;
+    skos:prefLabel "Mauritania"^^xsd:string .
+
+cv-ai4dm:MS a skos:Concept ;
+    skos:hiddenLabel "MS"^^xsd:string ;
+    skos:prefLabel "Montserrat"^^xsd:string .
+
+cv-ai4dm:MT a skos:Concept ;
+    skos:hiddenLabel "MT"^^xsd:string ;
+    skos:prefLabel "Malta"^^xsd:string .
+
+cv-ai4dm:MU a skos:Concept ;
+    skos:hiddenLabel "MU"^^xsd:string ;
+    skos:prefLabel "Mauritius"^^xsd:string .
+
+cv-ai4dm:MV a skos:Concept ;
+    skos:hiddenLabel "MV"^^xsd:string ;
+    skos:prefLabel "Maldives"^^xsd:string .
+
+cv-ai4dm:MW a skos:Concept ;
+    skos:hiddenLabel "MW"^^xsd:string ;
+    skos:prefLabel "Malawi"^^xsd:string .
+
+cv-ai4dm:MX a skos:Concept ;
+    skos:hiddenLabel "MX"^^xsd:string ;
+    skos:prefLabel "Mexico"^^xsd:string .
+
+cv-ai4dm:MY a skos:Concept ;
+    skos:hiddenLabel "MY"^^xsd:string ;
+    skos:prefLabel "Malaysia"^^xsd:string .
+
+cv-ai4dm:MZ a skos:Concept ;
+    skos:hiddenLabel "MZ"^^xsd:string ;
+    skos:prefLabel "Mozambique"^^xsd:string .
+
+cv-ai4dm:NC a skos:Concept ;
+    skos:hiddenLabel "NC"^^xsd:string ;
+    skos:prefLabel "New Caledonia"^^xsd:string .
+
+cv-ai4dm:NE a skos:Concept ;
+    skos:hiddenLabel "NE"^^xsd:string ;
+    skos:prefLabel "Niger"^^xsd:string .
+
+cv-ai4dm:NF a skos:Concept ;
+    skos:hiddenLabel "NF"^^xsd:string ;
+    skos:prefLabel "Norfolk Island"^^xsd:string .
+
+cv-ai4dm:NG a skos:Concept ;
+    skos:hiddenLabel "NG"^^xsd:string ;
+    skos:prefLabel "Nigeria"^^xsd:string .
+
+cv-ai4dm:NI a skos:Concept ;
+    skos:hiddenLabel "NI"^^xsd:string ;
+    skos:prefLabel "Nicaragua"^^xsd:string .
+
+cv-ai4dm:NL a skos:Concept ;
+    skos:hiddenLabel "NL"^^xsd:string ;
+    skos:prefLabel "Netherlands"^^xsd:string .
+
+cv-ai4dm:NO a skos:Concept ;
+    skos:hiddenLabel "NO"^^xsd:string ;
+    skos:prefLabel "Norway"^^xsd:string .
+
+cv-ai4dm:NP a skos:Concept ;
+    skos:hiddenLabel "NP"^^xsd:string ;
+    skos:prefLabel "Nepal"^^xsd:string .
+
+cv-ai4dm:NR a skos:Concept ;
+    skos:hiddenLabel "NR"^^xsd:string ;
+    skos:prefLabel "Nauru"^^xsd:string .
+
+cv-ai4dm:NU a skos:Concept ;
+    skos:hiddenLabel "NU"^^xsd:string ;
+    skos:prefLabel "Niue"^^xsd:string .
+
+cv-ai4dm:NZ a skos:Concept ;
+    skos:hiddenLabel "NZ"^^xsd:string ;
+    skos:prefLabel "New Zealand"^^xsd:string .
+
+cv-ai4dm:OM a skos:Concept ;
+    skos:hiddenLabel "OM"^^xsd:string ;
+    skos:prefLabel "Oman"^^xsd:string .
+
+cv-ai4dm:PA a skos:Concept ;
+    skos:hiddenLabel "PA"^^xsd:string ;
+    skos:prefLabel "Panama"^^xsd:string .
+
+cv-ai4dm:PE a skos:Concept ;
+    skos:hiddenLabel "PE"^^xsd:string ;
+    skos:prefLabel "Per�"^^xsd:string .
+
+cv-ai4dm:PF a skos:Concept ;
+    skos:hiddenLabel "PF"^^xsd:string ;
+    skos:prefLabel "French Polynesia"^^xsd:string .
+
+cv-ai4dm:PG a skos:Concept ;
+    skos:hiddenLabel "PG"^^xsd:string ;
+    skos:prefLabel "Papua New Guinea"^^xsd:string .
+
+cv-ai4dm:PH a skos:Concept ;
+    skos:hiddenLabel "PH"^^xsd:string ;
+    skos:prefLabel "Philippines"^^xsd:string .
+
+cv-ai4dm:PK a skos:Concept ;
+    skos:hiddenLabel "PK"^^xsd:string ;
+    skos:prefLabel "Pakistan"^^xsd:string .
+
+cv-ai4dm:PL a skos:Concept ;
+    skos:hiddenLabel "PL"^^xsd:string ;
+    skos:prefLabel "Poland"^^xsd:string .
+
+cv-ai4dm:PM a skos:Concept ;
+    skos:hiddenLabel "PM"^^xsd:string ;
+    skos:prefLabel "Saint Pierre and Miquelon"^^xsd:string .
+
+cv-ai4dm:PN a skos:Concept ;
+    skos:hiddenLabel "PN"^^xsd:string ;
+    skos:prefLabel "Pitcairn"^^xsd:string .
+
+cv-ai4dm:PR a skos:Concept ;
+    skos:hiddenLabel "PR"^^xsd:string ;
+    skos:prefLabel "Puerto Rico"^^xsd:string .
+
+cv-ai4dm:PS a skos:Concept ;
+    skos:hiddenLabel "PS"^^xsd:string ;
+    skos:prefLabel "Palestinian Territory"^^xsd:string .
+
+cv-ai4dm:PT a skos:Concept ;
+    skos:hiddenLabel "PT"^^xsd:string ;
+    skos:prefLabel "Portugal"^^xsd:string .
+
+cv-ai4dm:PW a skos:Concept ;
+    skos:hiddenLabel "PW"^^xsd:string ;
+    skos:prefLabel "Palau"^^xsd:string .
+
+cv-ai4dm:PY a skos:Concept ;
+    skos:hiddenLabel "PY"^^xsd:string ;
+    skos:prefLabel "Paraguay"^^xsd:string .
+
+cv-ai4dm:QA a skos:Concept ;
+    skos:hiddenLabel "QA"^^xsd:string ;
+    skos:prefLabel "Qatar"^^xsd:string .
+
+cv-ai4dm:RE a skos:Concept ;
+    skos:hiddenLabel "RE"^^xsd:string ;
+    skos:prefLabel "R�union"^^xsd:string .
+
+cv-ai4dm:RO a skos:Concept ;
+    skos:hiddenLabel "RO"^^xsd:string ;
+    skos:prefLabel "Romania"^^xsd:string .
+
+cv-ai4dm:RS a skos:Concept ;
+    skos:hiddenLabel "RS"^^xsd:string ;
+    skos:prefLabel "Serbia"^^xsd:string .
+
+cv-ai4dm:RU a skos:Concept ;
+    skos:hiddenLabel "RU"^^xsd:string ;
+    skos:prefLabel "Russia"^^xsd:string .
+
+cv-ai4dm:RW a skos:Concept ;
+    skos:hiddenLabel "RW"^^xsd:string ;
+    skos:prefLabel "Rwanda"^^xsd:string .
+
+cv-ai4dm:SA a skos:Concept ;
+    skos:hiddenLabel "SA"^^xsd:string ;
+    skos:prefLabel "Saudi Arabia"^^xsd:string .
+
+cv-ai4dm:SB a skos:Concept ;
+    skos:hiddenLabel "SB"^^xsd:string ;
+    skos:prefLabel "Solomon Islands"^^xsd:string .
+
+cv-ai4dm:SC a skos:Concept ;
+    skos:hiddenLabel "SC"^^xsd:string ;
+    skos:prefLabel "Seychelles"^^xsd:string .
+
+cv-ai4dm:SD a skos:Concept ;
+    skos:hiddenLabel "SD"^^xsd:string ;
+    skos:prefLabel "Sudan"^^xsd:string .
+
+cv-ai4dm:SE a skos:Concept ;
+    skos:hiddenLabel "SE"^^xsd:string ;
+    skos:prefLabel "Sweden"^^xsd:string .
+
+cv-ai4dm:SG a skos:Concept ;
+    skos:hiddenLabel "SG"^^xsd:string ;
+    skos:prefLabel "Singapore"^^xsd:string .
+
+cv-ai4dm:SH a skos:Concept ;
+    skos:hiddenLabel "SH"^^xsd:string ;
+    skos:prefLabel "Saint Helena"^^xsd:string .
+
+cv-ai4dm:SI a skos:Concept ;
+    skos:hiddenLabel "SI"^^xsd:string ;
+    skos:prefLabel "Slovenia"^^xsd:string .
+
+cv-ai4dm:SK a skos:Concept ;
+    skos:hiddenLabel "SK"^^xsd:string ;
+    skos:prefLabel "Slovakia"^^xsd:string .
+
+cv-ai4dm:SL a skos:Concept ;
+    skos:hiddenLabel "SL"^^xsd:string ;
+    skos:prefLabel "Sierra Leone"^^xsd:string .
+
+cv-ai4dm:SM a skos:Concept ;
+    skos:hiddenLabel "SM"^^xsd:string ;
+    skos:prefLabel "San Marino"^^xsd:string .
+
+cv-ai4dm:SN a skos:Concept ;
+    skos:hiddenLabel "SN"^^xsd:string ;
+    skos:prefLabel "Senegal"^^xsd:string .
+
+cv-ai4dm:SO a skos:Concept ;
+    skos:hiddenLabel "SO"^^xsd:string ;
+    skos:prefLabel "Somalia"^^xsd:string .
+
+cv-ai4dm:SR a skos:Concept ;
+    skos:hiddenLabel "SR"^^xsd:string ;
+    skos:prefLabel "Suriname"^^xsd:string .
+
+cv-ai4dm:SS a skos:Concept ;
+    skos:hiddenLabel "SS"^^xsd:string ;
+    skos:prefLabel "South Sudan"^^xsd:string .
+
+cv-ai4dm:SV a skos:Concept ;
+    skos:hiddenLabel "SV"^^xsd:string ;
+    skos:prefLabel "El Salvador"^^xsd:string .
+
+cv-ai4dm:SX a skos:Concept ;
+    skos:hiddenLabel "SX"^^xsd:string ;
+    skos:prefLabel "Sint Maarten"^^xsd:string .
+
+cv-ai4dm:SY a skos:Concept ;
+    skos:hiddenLabel "SY"^^xsd:string ;
+    skos:prefLabel "Syria"^^xsd:string .
+
+cv-ai4dm:SZ a skos:Concept ;
+    skos:hiddenLabel "SZ"^^xsd:string ;
+    skos:prefLabel "Eswatini"^^xsd:string .
+
+cv-ai4dm:TC a skos:Concept ;
+    skos:hiddenLabel "TC"^^xsd:string ;
+    skos:prefLabel "Turks and Caicos Islands"^^xsd:string .
+
+cv-ai4dm:TD a skos:Concept ;
+    skos:hiddenLabel "TD"^^xsd:string ;
+    skos:prefLabel "Chad"^^xsd:string .
+
+cv-ai4dm:TF a skos:Concept ;
+    skos:hiddenLabel "TF"^^xsd:string ;
+    skos:prefLabel "French Southern Territories"^^xsd:string .
+
+cv-ai4dm:TG a skos:Concept ;
+    skos:hiddenLabel "TG"^^xsd:string ;
+    skos:prefLabel "Togo"^^xsd:string .
+
+cv-ai4dm:TH a skos:Concept ;
+    skos:hiddenLabel "TH"^^xsd:string ;
+    skos:prefLabel "Thailand"^^xsd:string .
+
+cv-ai4dm:TJ a skos:Concept ;
+    skos:hiddenLabel "TJ"^^xsd:string ;
+    skos:prefLabel "Tajikistan"^^xsd:string .
+
+cv-ai4dm:TK a skos:Concept ;
+    skos:hiddenLabel "TK"^^xsd:string ;
+    skos:prefLabel "Tokelau"^^xsd:string .
+
+cv-ai4dm:TL a skos:Concept ;
+    skos:hiddenLabel "TL"^^xsd:string ;
+    skos:prefLabel "Timor-Leste"^^xsd:string .
+
+cv-ai4dm:TM a skos:Concept ;
+    skos:hiddenLabel "TM"^^xsd:string ;
+    skos:prefLabel "Turkmenistan"^^xsd:string .
+
+cv-ai4dm:TN a skos:Concept ;
+    skos:hiddenLabel "TN"^^xsd:string ;
+    skos:prefLabel "Tunisia"^^xsd:string .
+
+cv-ai4dm:TO a skos:Concept ;
+    skos:hiddenLabel "TO"^^xsd:string ;
+    skos:prefLabel "Tonga"^^xsd:string .
+
+cv-ai4dm:TR a skos:Concept ;
+    skos:hiddenLabel "TR"^^xsd:string ;
+    skos:prefLabel "Turkey"^^xsd:string .
+
+cv-ai4dm:TT a skos:Concept ;
+    skos:hiddenLabel "TT"^^xsd:string ;
+    skos:prefLabel "Trinidad and Tobago"^^xsd:string .
+
+cv-ai4dm:TV a skos:Concept ;
+    skos:hiddenLabel "TV"^^xsd:string ;
+    skos:prefLabel "Tuvalu"^^xsd:string .
+
+cv-ai4dm:TW a skos:Concept ;
+    skos:hiddenLabel "TW"^^xsd:string ;
+    skos:prefLabel "Taiwan"^^xsd:string .
+
+cv-ai4dm:TZ a skos:Concept ;
+    skos:hiddenLabel "TZ"^^xsd:string ;
+    skos:prefLabel "Tanzania"^^xsd:string .
+
+cv-ai4dm:UA a skos:Concept ;
+    skos:hiddenLabel "UA"^^xsd:string ;
+    skos:prefLabel "Ukraine"^^xsd:string .
+
+cv-ai4dm:UG a skos:Concept ;
+    skos:hiddenLabel "UG"^^xsd:string ;
+    skos:prefLabel "Uganda"^^xsd:string .
+
+cv-ai4dm:UM a skos:Concept ;
+    skos:hiddenLabel "UM"^^xsd:string ;
+    skos:prefLabel "United States Minor Outlying Islands"^^xsd:string .
+
+cv-ai4dm:US a skos:Concept ;
+    skos:hiddenLabel "US"^^xsd:string ;
+    skos:prefLabel "United States"^^xsd:string .
+
+cv-ai4dm:UY a skos:Concept ;
+    skos:hiddenLabel "UY"^^xsd:string ;
+    skos:prefLabel "Uruguay"^^xsd:string .
+
+cv-ai4dm:UZ a skos:Concept ;
+    skos:hiddenLabel "UZ"^^xsd:string ;
+    skos:prefLabel "Uzbekistan"^^xsd:string .
+
+cv-ai4dm:VA a skos:Concept ;
+    skos:hiddenLabel "VA"^^xsd:string ;
+    skos:prefLabel "Vatican City"^^xsd:string .
+
+cv-ai4dm:VC a skos:Concept ;
+    skos:hiddenLabel "VC"^^xsd:string ;
+    skos:prefLabel "Saint Vincent and the Grenadines"^^xsd:string .
+
+cv-ai4dm:VE a skos:Concept ;
+    skos:hiddenLabel "VE"^^xsd:string ;
+    skos:prefLabel "Venezuela"^^xsd:string .
+
+cv-ai4dm:VG a skos:Concept ;
+    skos:hiddenLabel "VG"^^xsd:string ;
+    skos:prefLabel "British Virgin Islands"^^xsd:string .
+
+cv-ai4dm:VI a skos:Concept ;
+    skos:hiddenLabel "VI"^^xsd:string ;
+    skos:prefLabel "U.S. Virgin Islands"^^xsd:string .
+
+cv-ai4dm:VN a skos:Concept ;
+    skos:hiddenLabel "VN"^^xsd:string ;
+    skos:prefLabel "Vietnam"^^xsd:string .
+
+cv-ai4dm:VU a skos:Concept ;
+    skos:hiddenLabel "VU"^^xsd:string ;
+    skos:prefLabel "Vanuatu"^^xsd:string .
+
+cv-ai4dm:WF a skos:Concept ;
+    skos:hiddenLabel "WF"^^xsd:string ;
+    skos:prefLabel "Wallis and Futuna"^^xsd:string .
+
+cv-ai4dm:WS a skos:Concept ;
+    skos:hiddenLabel "WS"^^xsd:string ;
+    skos:prefLabel "Samoa"^^xsd:string .
+
+cv-ai4dm:XK a skos:Concept ;
+    skos:hiddenLabel "XK"^^xsd:string ;
+    skos:prefLabel "Kosovo"^^xsd:string .
+
+cv-ai4dm:YE a skos:Concept ;
+    skos:hiddenLabel "YE"^^xsd:string ;
+    skos:prefLabel "Yemen"^^xsd:string .
+
+cv-ai4dm:YT a skos:Concept ;
+    skos:hiddenLabel "YT"^^xsd:string ;
+    skos:prefLabel "Mayotte"^^xsd:string .
+
+cv-ai4dm:ZA a skos:Concept ;
+    skos:hiddenLabel "ZA"^^xsd:string ;
+    skos:prefLabel "South Africa"^^xsd:string .
+
+cv-ai4dm:ZM a skos:Concept ;
+    skos:hiddenLabel "ZM"^^xsd:string ;
+    skos:prefLabel "Zambia"^^xsd:string .
+
+cv-ai4dm:ZW a skos:Concept ;
+    skos:hiddenLabel "ZW"^^xsd:string ;
+    skos:prefLabel "Zimbabwe"^^xsd:string .
+
+cv-ai4dm:ZZ a skos:Concept ;
+    skos:hiddenLabel "ZZ"^^xsd:string ;
+    skos:prefLabel "Unknown or unassigned country"^^xsd:string .
+
+cv-ai4dm:code a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+cv-ai4dm:NA a skos:Concept ;
+    skos:hiddenLabel "NA"^^xsd:string ;
+    skos:prefLabel "Namibia"^^xsd:string .
+
+
+cv-ai4dm:coutires
+	a skos:Collection ;
+	skos:prefLabel "country codes" ;
+	skos:member cv-ai4dm:AD ;
+	skos:member cv-ai4dm:AE ;
+	skos:member cv-ai4dm:AF ;
+	skos:member cv-ai4dm:AG ;
+	skos:member cv-ai4dm:AI ;
+	skos:member cv-ai4dm:AL ;
+	skos:member cv-ai4dm:AM ;
+	skos:member cv-ai4dm:AO ;
+	skos:member cv-ai4dm:AQ ;
+	skos:member cv-ai4dm:AR ;
+	skos:member cv-ai4dm:AS ;
+	skos:member cv-ai4dm:AT ;
+	skos:member cv-ai4dm:AU ;
+	skos:member cv-ai4dm:AW ;
+	skos:member cv-ai4dm:AZ ;
+	skos:member cv-ai4dm:BA ;
+	skos:member cv-ai4dm:BB ;
+	skos:member cv-ai4dm:BD ;
+	skos:member cv-ai4dm:BE ;
+	skos:member cv-ai4dm:BF ;
+	skos:member cv-ai4dm:BG ;
+	skos:member cv-ai4dm:BH ;
+	skos:member cv-ai4dm:BI ;
+	skos:member cv-ai4dm:BJ ;
+	skos:member cv-ai4dm:BL ;
+	skos:member cv-ai4dm:BM ;
+	skos:member cv-ai4dm:BN ;
+	skos:member cv-ai4dm:BO ;
+	skos:member cv-ai4dm:BQ ;
+	skos:member cv-ai4dm:BR ;
+	skos:member cv-ai4dm:BS ;
+	skos:member cv-ai4dm:BT ;
+	skos:member cv-ai4dm:BW ;
+	skos:member cv-ai4dm:BY ;
+	skos:member cv-ai4dm:BZ ;
+	skos:member cv-ai4dm:CA ;
+	skos:member cv-ai4dm:CC ;
+	skos:member cv-ai4dm:CD ;
+	skos:member cv-ai4dm:CF ;
+	skos:member cv-ai4dm:CG ;
+	skos:member cv-ai4dm:CH ;
+	skos:member cv-ai4dm:CI ;
+	skos:member cv-ai4dm:CK ;
+	skos:member cv-ai4dm:CL ;
+	skos:member cv-ai4dm:CM ;
+	skos:member cv-ai4dm:CN ;
+	skos:member cv-ai4dm:CO ;
+	skos:member cv-ai4dm:CR ;
+	skos:member cv-ai4dm:CU ;
+	skos:member cv-ai4dm:CV ;
+	skos:member cv-ai4dm:CW ;
+	skos:member cv-ai4dm:CX ;
+	skos:member cv-ai4dm:CY ;
+	skos:member cv-ai4dm:CZ ;
+	skos:member cv-ai4dm:DE ;
+	skos:member cv-ai4dm:DJ ;
+	skos:member cv-ai4dm:DK ;
+	skos:member cv-ai4dm:DM ;
+	skos:member cv-ai4dm:DO ;
+	skos:member cv-ai4dm:DZ ;
+	skos:member cv-ai4dm:EC ;
+	skos:member cv-ai4dm:EE ;
+	skos:member cv-ai4dm:EG ;
+	skos:member cv-ai4dm:EH ;
+	skos:member cv-ai4dm:ER ;
+	skos:member cv-ai4dm:ES ;
+	skos:member cv-ai4dm:ET ;
+	skos:member cv-ai4dm:FI ;
+	skos:member cv-ai4dm:FJ ;
+	skos:member cv-ai4dm:FK ;
+	skos:member cv-ai4dm:FM ;
+	skos:member cv-ai4dm:FO ;
+	skos:member cv-ai4dm:FR ;
+	skos:member cv-ai4dm:GA ;
+	skos:member cv-ai4dm:GB ;
+	skos:member cv-ai4dm:GD ;
+	skos:member cv-ai4dm:GE ;
+	skos:member cv-ai4dm:GF ;
+	skos:member cv-ai4dm:GG ;
+	skos:member cv-ai4dm:GH ;
+	skos:member cv-ai4dm:GI ;
+	skos:member cv-ai4dm:GL ;
+	skos:member cv-ai4dm:GM ;
+	skos:member cv-ai4dm:GN ;
+	skos:member cv-ai4dm:GP ;
+	skos:member cv-ai4dm:GQ ;
+	skos:member cv-ai4dm:GR ;
+	skos:member cv-ai4dm:GS ;
+	skos:member cv-ai4dm:GT ;
+	skos:member cv-ai4dm:GU ;
+	skos:member cv-ai4dm:GW ;
+	skos:member cv-ai4dm:GY ;
+	skos:member cv-ai4dm:HK ;
+	skos:member cv-ai4dm:HN ;
+	skos:member cv-ai4dm:HR ;
+	skos:member cv-ai4dm:HT ;
+	skos:member cv-ai4dm:HU ;
+	skos:member cv-ai4dm:ID ;
+	skos:member cv-ai4dm:IE ;
+	skos:member cv-ai4dm:IL ;
+	skos:member cv-ai4dm:IM ;
+	skos:member cv-ai4dm:IN ;
+	skos:member cv-ai4dm:IO ;
+	skos:member cv-ai4dm:IQ ;
+	skos:member cv-ai4dm:IR ;
+	skos:member cv-ai4dm:IS ;
+	skos:member cv-ai4dm:IT ;
+	skos:member cv-ai4dm:JE ;
+	skos:member cv-ai4dm:JM ;
+	skos:member cv-ai4dm:JO ;
+	skos:member cv-ai4dm:JP ;
+	skos:member cv-ai4dm:KE ;
+	skos:member cv-ai4dm:KG ;
+	skos:member cv-ai4dm:KH ;
+	skos:member cv-ai4dm:KI ;
+	skos:member cv-ai4dm:KM ;
+	skos:member cv-ai4dm:KN ;
+	skos:member cv-ai4dm:KP ;
+	skos:member cv-ai4dm:KR ;
+	skos:member cv-ai4dm:KW ;
+	skos:member cv-ai4dm:KY ;
+	skos:member cv-ai4dm:KZ ;
+	skos:member cv-ai4dm:LA ;
+	skos:member cv-ai4dm:LB ;
+	skos:member cv-ai4dm:LC ;
+	skos:member cv-ai4dm:LI ;
+	skos:member cv-ai4dm:LK ;
+	skos:member cv-ai4dm:LR ;
+	skos:member cv-ai4dm:LS ;
+	skos:member cv-ai4dm:LT ;
+	skos:member cv-ai4dm:LU ;
+	skos:member cv-ai4dm:LV ;
+	skos:member cv-ai4dm:LY ;
+	skos:member cv-ai4dm:MA ;
+	skos:member cv-ai4dm:MC ;
+	skos:member cv-ai4dm:MD ;
+	skos:member cv-ai4dm:ME ;
+	skos:member cv-ai4dm:MF ;
+	skos:member cv-ai4dm:MG ;
+	skos:member cv-ai4dm:MH ;
+	skos:member cv-ai4dm:MK ;
+	skos:member cv-ai4dm:ML ;
+	skos:member cv-ai4dm:MM ;
+	skos:member cv-ai4dm:MN ;
+	skos:member cv-ai4dm:MO ;
+	skos:member cv-ai4dm:MP ;
+	skos:member cv-ai4dm:MQ ;
+	skos:member cv-ai4dm:MR ;
+	skos:member cv-ai4dm:MS ;
+	skos:member cv-ai4dm:MT ;
+	skos:member cv-ai4dm:MU ;
+	skos:member cv-ai4dm:MV ;
+	skos:member cv-ai4dm:MW ;
+	skos:member cv-ai4dm:MX ;
+	skos:member cv-ai4dm:MY ;
+	skos:member cv-ai4dm:MZ ;
+	skos:member cv-ai4dm:NA ;
+	skos:member cv-ai4dm:NC ;
+	skos:member cv-ai4dm:NE ;
+	skos:member cv-ai4dm:NF ;
+	skos:member cv-ai4dm:NG ;
+	skos:member cv-ai4dm:NI ;
+	skos:member cv-ai4dm:NL ;
+	skos:member cv-ai4dm:NO ;
+	skos:member cv-ai4dm:NP ;
+	skos:member cv-ai4dm:NR ;
+	skos:member cv-ai4dm:NU ;
+	skos:member cv-ai4dm:NZ ;
+	skos:member cv-ai4dm:OM ;
+	skos:member cv-ai4dm:PA ;
+	skos:member cv-ai4dm:PE ;
+	skos:member cv-ai4dm:PF ;
+	skos:member cv-ai4dm:PG ;
+	skos:member cv-ai4dm:PH ;
+	skos:member cv-ai4dm:PK ;
+	skos:member cv-ai4dm:PL ;
+	skos:member cv-ai4dm:PM ;
+	skos:member cv-ai4dm:PN ;
+	skos:member cv-ai4dm:PR ;
+	skos:member cv-ai4dm:PS ;
+	skos:member cv-ai4dm:PT ;
+	skos:member cv-ai4dm:PW ;
+	skos:member cv-ai4dm:PY ;
+	skos:member cv-ai4dm:QA ;
+	skos:member cv-ai4dm:RE ;
+	skos:member cv-ai4dm:RO ;
+	skos:member cv-ai4dm:RS ;
+	skos:member cv-ai4dm:RU ;
+	skos:member cv-ai4dm:RW ;
+	skos:member cv-ai4dm:SA ;
+	skos:member cv-ai4dm:SB ;
+	skos:member cv-ai4dm:SC ;
+	skos:member cv-ai4dm:SD ;
+	skos:member cv-ai4dm:SE ;
+	skos:member cv-ai4dm:SG ;
+	skos:member cv-ai4dm:SH ;
+	skos:member cv-ai4dm:SI ;
+	skos:member cv-ai4dm:SK ;
+	skos:member cv-ai4dm:SL ;
+	skos:member cv-ai4dm:SM ;
+	skos:member cv-ai4dm:SN ;
+	skos:member cv-ai4dm:SO ;
+	skos:member cv-ai4dm:SR ;
+	skos:member cv-ai4dm:SS ;
+	skos:member cv-ai4dm:SV ;
+	skos:member cv-ai4dm:SX ;
+	skos:member cv-ai4dm:SY ;
+	skos:member cv-ai4dm:SZ ;
+	skos:member cv-ai4dm:TC ;
+	skos:member cv-ai4dm:TD ;
+	skos:member cv-ai4dm:TF ;
+	skos:member cv-ai4dm:TG ;
+	skos:member cv-ai4dm:TH ;
+	skos:member cv-ai4dm:TJ ;
+	skos:member cv-ai4dm:TK ;
+	skos:member cv-ai4dm:TL ;
+	skos:member cv-ai4dm:TM ;
+	skos:member cv-ai4dm:TN ;
+	skos:member cv-ai4dm:TO ;
+	skos:member cv-ai4dm:TR ;
+	skos:member cv-ai4dm:TT ;
+	skos:member cv-ai4dm:TV ;
+	skos:member cv-ai4dm:TW ;
+	skos:member cv-ai4dm:TZ ;
+	skos:member cv-ai4dm:UA ;
+	skos:member cv-ai4dm:UG ;
+	skos:member cv-ai4dm:UM ;
+	skos:member cv-ai4dm:US ;
+	skos:member cv-ai4dm:UY ;
+	skos:member cv-ai4dm:UZ ;
+	skos:member cv-ai4dm:VA ;
+	skos:member cv-ai4dm:VC ;
+	skos:member cv-ai4dm:VE ;
+	skos:member cv-ai4dm:VG ;
+	skos:member cv-ai4dm:VI ;
+	skos:member cv-ai4dm:VN ;
+	skos:member cv-ai4dm:VU ;
+	skos:member cv-ai4dm:WF ;
+	skos:member cv-ai4dm:WS ;
+	skos:member cv-ai4dm:XK ;
+	skos:member cv-ai4dm:YE ;
+	skos:member cv-ai4dm:YT ;
+	skos:member cv-ai4dm:ZA ;
+	skos:member cv-ai4dm:ZM ;
+	skos:member cv-ai4dm:ZW ;
+	skos:member cv-ai4dm:ZZ ;
+.

@@ -1,0 +1,35 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/aircraft-physical-class
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:Jet a skos:Concept ;
+    skos:hiddenLabel 1 ;
+    skos:prefLabel "Jet"^^xsd:string .
+
+cv-ai4dm:Piston a skos:Concept ;
+    skos:hiddenLabel 0 ;
+    skos:prefLabel "Piston"^^xsd:string .
+
+cv-ai4dm:Turboprop a skos:Concept ;
+    skos:hiddenLabel 2 ;
+    skos:prefLabel "Turboprop"^^xsd:string .
+
+cv-ai4dm:physical_class a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+cv-ai4dm:tbd a skos:Concept ;
+    skos:hiddenLabel 3 ;
+    skos:prefLabel "tbd"^^xsd:string .
+
+cv-ai4dm:pcs
+	a skos:Collection ;
+	skos:prefLabel "aircraft physical class concepts" ;
+	skos:member cv-ai4dm:Jet ;
+	skos:member cv-ai4dm:Piston ;
+	skos:member cv-ai4dm:Turboprop ;
+	skos:member cv-ai4dm:tbd ;
+.

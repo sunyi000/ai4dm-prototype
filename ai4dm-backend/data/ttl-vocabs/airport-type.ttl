@@ -1,0 +1,36 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/airport-type
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:airport-type
+  a owl:Ontology ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+cv-ai4dm:large_airport a skos:Concept ;
+    skos:hiddenLabel "LAPT"^^xsd:string ;
+    skos:prefLabel "Large airport"^^xsd:string ;
+    skos:definition "Large airport that allows large-size aircraft to land"^^xsd:string .
+
+cv-ai4dm:medium_airport a skos:Concept ;
+    skos:hiddenLabel "MAPT"^^xsd:string ;
+    skos:prefLabel "medium sized airport"^^xsd:string ;
+    skos:definition "medium size airport"^^xsd:string .
+
+cv-ai4dm:small_airport a skos:Concept ;
+    skos:hiddenLabel "SAPT"^^xsd:string ;
+    skos:prefLabel "Small airport"^^xsd:string ;
+    skos:definition "Small size airport"^^xsd:string .
+
+
+
+cv-ai4dm:airporttypes
+	a skos:Collection ;
+	skos:prefLabel "airport types" ;
+	skos:member cv-ai4dm:small_airport ;
+	skos:member cv-ai4dm:medium_airport ;
+	skos:member cv-ai4dm:large_airport ;
+.

@@ -1,0 +1,1106 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/runway-surface
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+cv-ai4dm:A a skos:Concept ;
+    skos:hiddenLabel 126 ;
+    skos:prefLabel "A"^^xsd:string .
+
+cv-ai4dm:ALUM a skos:Concept ;
+    skos:hiddenLabel 21 ;
+    skos:prefLabel "ALUM"^^xsd:string .
+
+cv-ai4dm:ALUMINUM a skos:Concept ;
+    skos:hiddenLabel 29 ;
+    skos:prefLabel "ALUMINUM"^^xsd:string .
+
+cv-ai4dm:ARG a skos:Concept ;
+    skos:hiddenLabel 202 ;
+    skos:prefLabel "ARG"^^xsd:string .
+
+cv-ai4dm:ASB a skos:Concept ;
+    skos:hiddenLabel 161 ;
+    skos:prefLabel "ASB"^^xsd:string .
+
+cv-ai4dm:ASFALT a skos:Concept ;
+    skos:hiddenLabel 121 ;
+    skos:prefLabel "ASFALT"^^xsd:string .
+
+cv-ai4dm:ASHPALT a skos:Concept ;
+    skos:hiddenLabel 135 ;
+    skos:prefLabel "ASHPALT"^^xsd:string .
+
+cv-ai4dm:ASP a skos:Concept ;
+    skos:hiddenLabel 12 ;
+    skos:prefLabel "ASP"^^xsd:string .
+
+cv-ai4dm:ASPH a skos:Concept ;
+    skos:hiddenLabel 4 ;
+    skos:prefLabel "ASPH"^^xsd:string .
+
+cv-ai4dm:ASPHALT a skos:Concept ;
+    skos:hiddenLabel 15 ;
+    skos:prefLabel "ASPHALT"^^xsd:string .
+
+cv-ai4dm:ASPHALT_CONCRETE a skos:Concept ;
+    skos:hiddenLabel 137 ;
+    skos:prefLabel "ASPHALT_CONCRETE"^^xsd:string .
+
+cv-ai4dm:AUMINUM_ROOF_TOP a skos:Concept ;
+    skos:hiddenLabel 207 ;
+    skos:prefLabel "AUMINUM_ROOF_TOP"^^xsd:string .
+
+cv-ai4dm:B a skos:Concept ;
+    skos:hiddenLabel 175 ;
+    skos:prefLabel "B"^^xsd:string .
+
+cv-ai4dm:BIT a skos:Concept ;
+    skos:hiddenLabel 92 ;
+    skos:prefLabel "BIT"^^xsd:string .
+
+cv-ai4dm:BITUMEN a skos:Concept ;
+    skos:hiddenLabel 158 ;
+    skos:prefLabel "BITUMEN"^^xsd:string .
+
+cv-ai4dm:BITUMINOUS a skos:Concept ;
+    skos:hiddenLabel 134 ;
+    skos:prefLabel "BITUMINOUS"^^xsd:string .
+
+cv-ai4dm:BLACKTOP_ON_GRANITE a skos:Concept ;
+    skos:hiddenLabel 114 ;
+    skos:prefLabel "BLACKTOP_ON_GRANITE"^^xsd:string .
+
+cv-ai4dm:BLACK_CLAY a skos:Concept ;
+    skos:hiddenLabel 184 ;
+    skos:prefLabel "BLACK_CLAY"^^xsd:string .
+
+cv-ai4dm:BLACK_SILT a skos:Concept ;
+    skos:hiddenLabel 182 ;
+    skos:prefLabel "BLACK_SILT"^^xsd:string .
+
+cv-ai4dm:BLUE_ICE a skos:Concept ;
+    skos:hiddenLabel 50 ;
+    skos:prefLabel "BLUE_ICE"^^xsd:string .
+
+cv-ai4dm:BRI a skos:Concept ;
+    skos:hiddenLabel 145 ;
+    skos:prefLabel "BRI"^^xsd:string .
+
+cv-ai4dm:BRICK a skos:Concept ;
+    skos:hiddenLabel 24 ;
+    skos:prefLabel "BRICK"^^xsd:string .
+
+cv-ai4dm:BROWN_CLAY a skos:Concept ;
+    skos:hiddenLabel 64 ;
+    skos:prefLabel "BROWN_CLAY"^^xsd:string .
+
+cv-ai4dm:BROWN_CLAY_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 57 ;
+    skos:prefLabel "BROWN_CLAY_GRAVEL"^^xsd:string .
+
+cv-ai4dm:BROWN_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 160 ;
+    skos:prefLabel "BROWN_GRAVEL"^^xsd:string .
+
+cv-ai4dm:BROWN_SILT_CLAY a skos:Concept ;
+    skos:hiddenLabel 47 ;
+    skos:prefLabel "BROWN_SILT_CLAY"^^xsd:string .
+
+cv-ai4dm:C a skos:Concept ;
+    skos:hiddenLabel 27 ;
+    skos:prefLabel "C"^^xsd:string .
+
+cv-ai4dm:C0N a skos:Concept ;
+    skos:hiddenLabel 190 ;
+    skos:prefLabel "C0N"^^xsd:string .
+
+cv-ai4dm:CALICHE a skos:Concept ;
+    skos:hiddenLabel 26 ;
+    skos:prefLabel "CALICHE"^^xsd:string .
+
+cv-ai4dm:CERAMIC_BRICK a skos:Concept ;
+    skos:hiddenLabel 199 ;
+    skos:prefLabel "CERAMIC_BRICK"^^xsd:string .
+
+cv-ai4dm:CLA a skos:Concept ;
+    skos:hiddenLabel 173 ;
+    skos:prefLabel "CLA"^^xsd:string .
+
+cv-ai4dm:CLAY a skos:Concept ;
+    skos:hiddenLabel 98 ;
+    skos:prefLabel "CLAY"^^xsd:string .
+
+cv-ai4dm:COM a skos:Concept ;
+    skos:hiddenLabel 105 ;
+    skos:prefLabel "COM"^^xsd:string .
+
+cv-ai4dm:COMPACTED_CORAL_AND_SAND a skos:Concept ;
+    skos:hiddenLabel 212 ;
+    skos:prefLabel "COMPACTED_CORAL_AND_SAND"^^xsd:string .
+
+cv-ai4dm:COMPACTED_EARTH a skos:Concept ;
+    skos:hiddenLabel 148 ;
+    skos:prefLabel "COMPACTED_EARTH"^^xsd:string .
+
+cv-ai4dm:COMPACTED_SAND a skos:Concept ;
+    skos:hiddenLabel 211 ;
+    skos:prefLabel "COMPACTED_SAND"^^xsd:string .
+
+cv-ai4dm:CON a skos:Concept ;
+    skos:hiddenLabel 9 ;
+    skos:prefLabel "CON"^^xsd:string .
+
+cv-ai4dm:CONC a skos:Concept ;
+    skos:hiddenLabel 6 ;
+    skos:prefLabel "CONC"^^xsd:string .
+
+cv-ai4dm:CONCRETE a skos:Concept ;
+    skos:hiddenLabel 34 ;
+    skos:prefLabel "CONCRETE"^^xsd:string .
+
+cv-ai4dm:CONCRETE_AND_ASP a skos:Concept ;
+    skos:hiddenLabel 177 ;
+    skos:prefLabel "CONCRETE_AND_ASP"^^xsd:string .
+
+cv-ai4dm:COP a skos:Concept ;
+    skos:hiddenLabel 30 ;
+    skos:prefLabel "COP"^^xsd:string .
+
+cv-ai4dm:COR a skos:Concept ;
+    skos:hiddenLabel 169 ;
+    skos:prefLabel "COR"^^xsd:string .
+
+cv-ai4dm:CORAL a skos:Concept ;
+    skos:hiddenLabel 40 ;
+    skos:prefLabel "CORAL"^^xsd:string .
+
+cv-ai4dm:CORAL_GRASS a skos:Concept ;
+    skos:hiddenLabel 39 ;
+    skos:prefLabel "CORAL_GRASS"^^xsd:string .
+
+cv-ai4dm:CORAL_PENETRATION a skos:Concept ;
+    skos:hiddenLabel 213 ;
+    skos:prefLabel "CORAL_PENETRATION"^^xsd:string .
+
+cv-ai4dm:CORAL_SAND a skos:Concept ;
+    skos:hiddenLabel 43 ;
+    skos:prefLabel "CORAL_SAND"^^xsd:string .
+
+cv-ai4dm:CRUSHED_CORAL a skos:Concept ;
+    skos:hiddenLabel 41 ;
+    skos:prefLabel "CRUSHED_CORAL"^^xsd:string .
+
+cv-ai4dm:CRUSHED_ROCK a skos:Concept ;
+    skos:hiddenLabel 112 ;
+    skos:prefLabel "CRUSHED_ROCK"^^xsd:string .
+
+cv-ai4dm:DECK a skos:Concept ;
+    skos:hiddenLabel 13 ;
+    skos:prefLabel "DECK"^^xsd:string .
+
+cv-ai4dm:DIRT a skos:Concept ;
+    skos:hiddenLabel 8 ;
+    skos:prefLabel "DIRT"^^xsd:string .
+
+cv-ai4dm:DIRT_CALICHE a skos:Concept ;
+    skos:hiddenLabel 28 ;
+    skos:prefLabel "DIRT(CALICHE)"^^xsd:string .
+
+cv-ai4dm:EARTH a skos:Concept ;
+    skos:hiddenLabel 52 ;
+    skos:prefLabel "EARTH"^^xsd:string .
+
+cv-ai4dm:G a skos:Concept ;
+    skos:hiddenLabel 122 ;
+    skos:prefLabel "G"^^xsd:string .
+
+cv-ai4dm:GOOD_GRASS a skos:Concept ;
+    skos:hiddenLabel 214 ;
+    skos:prefLabel "GOOD_GRASS"^^xsd:string .
+
+cv-ai4dm:GR a skos:Concept ;
+    skos:hiddenLabel 143 ;
+    skos:prefLabel "GR"^^xsd:string .
+
+cv-ai4dm:GRA a skos:Concept ;
+    skos:hiddenLabel 142 ;
+    skos:prefLabel "GRA"^^xsd:string .
+
+cv-ai4dm:GRAAS a skos:Concept ;
+    skos:hiddenLabel 166 ;
+    skos:prefLabel "GRAAS"^^xsd:string .
+
+cv-ai4dm:GRADED_EARTH a skos:Concept ;
+    skos:hiddenLabel 45 ;
+    skos:prefLabel "GRADED_EARTH"^^xsd:string .
+
+cv-ai4dm:GRADED_HARDCORE a skos:Concept ;
+    skos:hiddenLabel 131 ;
+    skos:prefLabel "GRADED_HARDCORE"^^xsd:string .
+
+cv-ai4dm:GRAIN a skos:Concept ;
+    skos:hiddenLabel 192 ;
+    skos:prefLabel "GRAIN"^^xsd:string .
+
+cv-ai4dm:GRAS a skos:Concept ;
+    skos:hiddenLabel 123 ;
+    skos:prefLabel "GRAS"^^xsd:string .
+
+cv-ai4dm:GRASS a skos:Concept ;
+    skos:hiddenLabel 2 ;
+    skos:prefLabel "GRASS"^^xsd:string .
+
+cv-ai4dm:GRASSED_BLACKCLAY a skos:Concept ;
+    skos:hiddenLabel 179 ;
+    skos:prefLabel "GRASSED_BLACKCLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_BLACK_CLAY a skos:Concept ;
+    skos:hiddenLabel 60 ;
+    skos:prefLabel "GRASSED_BLACK_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_BLACK_CLAY_SAND a skos:Concept ;
+    skos:hiddenLabel 74 ;
+    skos:prefLabel "GRASSED_BLACK_CLAY_SAND"^^xsd:string .
+
+cv-ai4dm:GRASSED_BLACK_CLAY_SILT a skos:Concept ;
+    skos:hiddenLabel 79 ;
+    skos:prefLabel "GRASSED_BLACK_CLAY_SILT"^^xsd:string .
+
+cv-ai4dm:GRASSED_BLACK_SAND a skos:Concept ;
+    skos:hiddenLabel 66 ;
+    skos:prefLabel "GRASSED_BLACK_SAND"^^xsd:string .
+
+cv-ai4dm:GRASSED_BLACK_SILT a skos:Concept ;
+    skos:hiddenLabel 70 ;
+    skos:prefLabel "GRASSED_BLACK_SILT"^^xsd:string .
+
+cv-ai4dm:GRASSED_BLACK_SILT_CLAY a skos:Concept ;
+    skos:hiddenLabel 69 ;
+    skos:prefLabel "GRASSED_BLACK_SILT_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_BLACK_SILT_SAND a skos:Concept ;
+    skos:hiddenLabel 215 ;
+    skos:prefLabel "GRASSED_BLACK_SILT_SAND"^^xsd:string .
+
+cv-ai4dm:GRASSED_BLACK_SOIL a skos:Concept ;
+    skos:hiddenLabel 183 ;
+    skos:prefLabel "GRASSED_BLACK_SOIL"^^xsd:string .
+
+cv-ai4dm:GRASSED_BROWN_CLAY a skos:Concept ;
+    skos:hiddenLabel 36 ;
+    skos:prefLabel "GRASSED_BROWN_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_BROWN_CLAY_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 68 ;
+    skos:prefLabel "GRASSED_BROWN_CLAY_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRASSED_BROWN_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 90 ;
+    skos:prefLabel "GRASSED_BROWN_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRASSED_BROWN_LOAM a skos:Concept ;
+    skos:hiddenLabel 206 ;
+    skos:prefLabel "GRASSED_BROWN_LOAM"^^xsd:string .
+
+cv-ai4dm:GRASSED_BROWN_SANDY_CLAY a skos:Concept ;
+    skos:hiddenLabel 181 ;
+    skos:prefLabel "GRASSED_BROWN_SANDY_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_BROWN_SILTY_CLAY a skos:Concept ;
+    skos:hiddenLabel 76 ;
+    skos:prefLabel "GRASSED_BROWN_SILTY_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_BROWN_SILT_CLAY a skos:Concept ;
+    skos:hiddenLabel 38 ;
+    skos:prefLabel "GRASSED_BROWN_SILT_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_BROWN_SILT_LOAM a skos:Concept ;
+    skos:hiddenLabel 187 ;
+    skos:prefLabel "GRASSED_BROWN_SILT_LOAM"^^xsd:string .
+
+cv-ai4dm:GRASSED_CLAY a skos:Concept ;
+    skos:hiddenLabel 81 ;
+    skos:prefLabel "GRASSED_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_CLAY_SILT_CLAY a skos:Concept ;
+    skos:hiddenLabel 75 ;
+    skos:prefLabel "GRASSED_CLAY_SILT_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 110 ;
+    skos:prefLabel "GRASSED_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRASSED_GREY_CLAY a skos:Concept ;
+    skos:hiddenLabel 87 ;
+    skos:prefLabel "GRASSED_GREY_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_GREY_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 56 ;
+    skos:prefLabel "GRASSED_GREY_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRASSED_GREY_SAND a skos:Concept ;
+    skos:hiddenLabel 63 ;
+    skos:prefLabel "GRASSED_GREY_SAND"^^xsd:string .
+
+cv-ai4dm:GRASSED_GREY_SILT_CLAY a skos:Concept ;
+    skos:hiddenLabel 54 ;
+    skos:prefLabel "GRASSED_GREY_SILT_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_GREY_SILT_SAND a skos:Concept ;
+    skos:hiddenLabel 82 ;
+    skos:prefLabel "GRASSED_GREY_SILT_SAND"^^xsd:string .
+
+cv-ai4dm:GRASSED_LIMESTONE_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 72 ;
+    skos:prefLabel "GRASSED_LIMESTONE_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRASSED_RED_CLAY a skos:Concept ;
+    skos:hiddenLabel 49 ;
+    skos:prefLabel "GRASSED_RED_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_RED_CLAY_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 163 ;
+    skos:prefLabel "GRASSED_RED_CLAY_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRASSED_RED_SILT a skos:Concept ;
+    skos:hiddenLabel 162 ;
+    skos:prefLabel "GRASSED_RED_SILT"^^xsd:string .
+
+cv-ai4dm:GRASSED_RED_SILTY_CLAY a skos:Concept ;
+    skos:hiddenLabel 73 ;
+    skos:prefLabel "GRASSED_RED_SILTY_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_RED_SILT_CLAY a skos:Concept ;
+    skos:hiddenLabel 37 ;
+    skos:prefLabel "GRASSED_RED_SILT_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_RED_SILT_SAND a skos:Concept ;
+    skos:hiddenLabel 71 ;
+    skos:prefLabel "GRASSED_RED_SILT_SAND"^^xsd:string .
+
+cv-ai4dm:GRASSED_RIVER_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 77 ;
+    skos:prefLabel "GRASSED_RIVER_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRASSED_SAND a skos:Concept ;
+    skos:hiddenLabel 83 ;
+    skos:prefLabel "GRASSED_SAND"^^xsd:string .
+
+cv-ai4dm:GRASSED_SANDY_LOAM a skos:Concept ;
+    skos:hiddenLabel 185 ;
+    skos:prefLabel "GRASSED_SANDY_LOAM"^^xsd:string .
+
+cv-ai4dm:GRASSED_SAND_CLAY a skos:Concept ;
+    skos:hiddenLabel 197 ;
+    skos:prefLabel "GRASSED_SAND_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_SILT_CLAY a skos:Concept ;
+    skos:hiddenLabel 84 ;
+    skos:prefLabel "GRASSED_SILT_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_WHITE_CORONAS a skos:Concept ;
+    skos:hiddenLabel 59 ;
+    skos:prefLabel "GRASSED_WHITE_CORONAS"^^xsd:string .
+
+cv-ai4dm:GRASSED_WHITE_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 88 ;
+    skos:prefLabel "GRASSED_WHITE_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRASSED_WHITE_LIME_STONE a skos:Concept ;
+    skos:hiddenLabel 180 ;
+    skos:prefLabel "GRASSED_WHITE_LIME_STONE"^^xsd:string .
+
+cv-ai4dm:GRASSED_YELLOW_CLAY a skos:Concept ;
+    skos:hiddenLabel 55 ;
+    skos:prefLabel "GRASSED_YELLOW_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSED_YELLOW_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 91 ;
+    skos:prefLabel "GRASSED_YELLOW_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRASSED_YELLOW_SILT_CLAY a skos:Concept ;
+    skos:hiddenLabel 93 ;
+    skos:prefLabel "GRASSED_YELLOW_SILT_CLAY"^^xsd:string .
+
+cv-ai4dm:GRASSS a skos:Concept ;
+    skos:hiddenLabel 217 ;
+    skos:prefLabel "GRASSS"^^xsd:string .
+
+cv-ai4dm:GRASSY a skos:Concept ;
+    skos:hiddenLabel 136 ;
+    skos:prefLabel "GRASSY"^^xsd:string .
+
+cv-ai4dm:GRASS_AND_GRANITE_SAND a skos:Concept ;
+    skos:hiddenLabel 218 ;
+    skos:prefLabel "GRASS_AND_GRANITE_SAND"^^xsd:string .
+
+cv-ai4dm:GRASS_CAUTION_ATC_DO_NOT_APPLY_WAKE_TURBULENCE_SEPARATION a skos:Concept ;
+    skos:hiddenLabel 165 ;
+    skos:prefLabel "GRASS_CAUTION:_ATC_DO_NOT_APPLY_WAKE_TURBULENCE_SEPARATION!"^^xsd:string .
+
+cv-ai4dm:GRASS_CORAL a skos:Concept ;
+    skos:hiddenLabel 94 ;
+    skos:prefLabel "GRASS_CORAL"^^xsd:string .
+
+cv-ai4dm:GRASS_DIRT a skos:Concept ;
+    skos:hiddenLabel 151 ;
+    skos:prefLabel "GRASS_DIRT"^^xsd:string .
+
+cv-ai4dm:GRASS_ON_CORAL a skos:Concept ;
+    skos:hiddenLabel 172 ;
+    skos:prefLabel "GRASS_ON_CORAL"^^xsd:string .
+
+cv-ai4dm:GRASS_OR_EARTH_NOT_GRADED_OR_ROLLED a skos:Concept ;
+    skos:hiddenLabel 141 ;
+    skos:prefLabel "GRASS_OR_EARTH_NOT_GRADED_OR_ROLLED"^^xsd:string .
+
+cv-ai4dm:GRASS_OVER_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 155 ;
+    skos:prefLabel "GRASS_OVER_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRASS_OVER_ROCK a skos:Concept ;
+    skos:hiddenLabel 154 ;
+    skos:prefLabel "GRASS_OVER_ROCK"^^xsd:string .
+
+cv-ai4dm:GRASS_PAVED_WITH_A_PLASTIC_GRILLE a skos:Concept ;
+    skos:hiddenLabel 138 ;
+    skos:prefLabel "GRASS_PAVED_WITH_A_PLASTIC_GRILLE"^^xsd:string .
+
+cv-ai4dm:GRASS_RED_SILTY_CLAY a skos:Concept ;
+    skos:hiddenLabel 80 ;
+    skos:prefLabel "GRASS_RED_SILTY_CLAY"^^xsd:string .
+
+cv-ai4dm:GRAV a skos:Concept ;
+    skos:hiddenLabel 188 ;
+    skos:prefLabel "GRAV"^^xsd:string .
+
+cv-ai4dm:GRAVEL a skos:Concept ;
+    skos:hiddenLabel 3 ;
+    skos:prefLabel "GRAVEL"^^xsd:string .
+
+cv-ai4dm:GRAVEL_DIRT a skos:Concept ;
+    skos:hiddenLabel 42 ;
+    skos:prefLabel "GRAVEL_DIRT"^^xsd:string .
+
+cv-ai4dm:GRE a skos:Concept ;
+    skos:hiddenLabel 25 ;
+    skos:prefLabel "GRE"^^xsd:string .
+
+cv-ai4dm:GREY_CLAY a skos:Concept ;
+    skos:hiddenLabel 62 ;
+    skos:prefLabel "GREY_CLAY"^^xsd:string .
+
+cv-ai4dm:GREY_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 58 ;
+    skos:prefLabel "GREY_GRAVEL"^^xsd:string .
+
+cv-ai4dm:GREY_SILT_CLAY a skos:Concept ;
+    skos:hiddenLabel 86 ;
+    skos:prefLabel "GREY_SILT_CLAY"^^xsd:string .
+
+cv-ai4dm:GROOVED_ASP a skos:Concept ;
+    skos:hiddenLabel 132 ;
+    skos:prefLabel "GROOVED_ASP"^^xsd:string .
+
+cv-ai4dm:GROUND a skos:Concept ;
+    skos:hiddenLabel 159 ;
+    skos:prefLabel "GROUND"^^xsd:string .
+
+cv-ai4dm:GRS a skos:Concept ;
+    skos:hiddenLabel 11 ;
+    skos:prefLabel "GRS"^^xsd:string .
+
+cv-ai4dm:GRS_EMERGENCY_STRIP a skos:Concept ;
+    skos:hiddenLabel 139 ;
+    skos:prefLabel "GRS_EMERGENCY_STRIP"^^xsd:string .
+
+cv-ai4dm:GRV a skos:Concept ;
+    skos:hiddenLabel 176 ;
+    skos:prefLabel "GRV"^^xsd:string .
+
+cv-ai4dm:GRVL a skos:Concept ;
+    skos:hiddenLabel 0 ;
+    skos:prefLabel "GRVL"^^xsd:string .
+
+cv-ai4dm:GVL a skos:Concept ;
+    skos:hiddenLabel 14 ;
+    skos:prefLabel "GVL"^^xsd:string .
+
+cv-ai4dm:HARD a skos:Concept ;
+    skos:hiddenLabel 127 ;
+    skos:prefLabel "HARD"^^xsd:string .
+
+cv-ai4dm:HARD_LOAM a skos:Concept ;
+    skos:hiddenLabel 65 ;
+    skos:prefLabel "HARD_LOAM"^^xsd:string .
+
+cv-ai4dm:HARD_MUD a skos:Concept ;
+    skos:hiddenLabel 152 ;
+    skos:prefLabel "HARD_MUD"^^xsd:string .
+
+cv-ai4dm:HARD_SAND a skos:Concept ;
+    skos:hiddenLabel 100 ;
+    skos:prefLabel "HARD_SAND"^^xsd:string .
+
+cv-ai4dm:ICE a skos:Concept ;
+    skos:hiddenLabel 35 ;
+    skos:prefLabel "ICE"^^xsd:string .
+
+cv-ai4dm:LAT a skos:Concept ;
+    skos:hiddenLabel 124 ;
+    skos:prefLabel "LAT"^^xsd:string .
+
+cv-ai4dm:LOOSE_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 106 ;
+    skos:prefLabel "LOOSE_GRAVEL"^^xsd:string .
+
+cv-ai4dm:MAC a skos:Concept ;
+    skos:hiddenLabel 147 ;
+    skos:prefLabel "MAC"^^xsd:string .
+
+cv-ai4dm:MACADAM a skos:Concept ;
+    skos:hiddenLabel 210 ;
+    skos:prefLabel "MACADAM"^^xsd:string .
+
+cv-ai4dm:MATS a skos:Concept ;
+    skos:hiddenLabel 5 ;
+    skos:prefLabel "MATS"^^xsd:string .
+
+cv-ai4dm:MET a skos:Concept ;
+    skos:hiddenLabel 51 ;
+    skos:prefLabel "MET"^^xsd:string .
+
+cv-ai4dm:METAL a skos:Concept ;
+    skos:hiddenLabel 31 ;
+    skos:prefLabel "METAL"^^xsd:string .
+
+cv-ai4dm:MTAL a skos:Concept ;
+    skos:hiddenLabel 204 ;
+    skos:prefLabel "MTAL"^^xsd:string .
+
+cv-ai4dm:MURRAM a skos:Concept ;
+    skos:hiddenLabel 150 ;
+    skos:prefLabel "MURRAM"^^xsd:string .
+
+cv-ai4dm:NATURAL_SOIL a skos:Concept ;
+    skos:hiddenLabel 170 ;
+    skos:prefLabel "NATURAL_SOIL"^^xsd:string .
+
+cv-ai4dm:NEOPRENE a skos:Concept ;
+    skos:hiddenLabel 178 ;
+    skos:prefLabel "NEOPRENE"^^xsd:string .
+
+cv-ai4dm:NONE a skos:Concept ;
+    skos:hiddenLabel 198 ;
+    skos:prefLabel "NONE"^^xsd:string .
+
+cv-ai4dm:NSTD a skos:Concept ;
+    skos:hiddenLabel 32 ;
+    skos:prefLabel "NSTD"^^xsd:string .
+
+cv-ai4dm:OILED a skos:Concept ;
+    skos:hiddenLabel 108 ;
+    skos:prefLabel "OILED"^^xsd:string .
+
+cv-ai4dm:OILED_DIRT a skos:Concept ;
+    skos:hiddenLabel 115 ;
+    skos:prefLabel "OILED_DIRT"^^xsd:string .
+
+cv-ai4dm:OILED_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 109 ;
+    skos:prefLabel "OILED_GRAVEL"^^xsd:string .
+
+cv-ai4dm:OILGRAVEL a skos:Concept ;
+    skos:hiddenLabel 129 ;
+    skos:prefLabel "OILGRAVEL"^^xsd:string .
+
+cv-ai4dm:OLD_ASP a skos:Concept ;
+    skos:hiddenLabel 116 ;
+    skos:prefLabel "OLD_ASP"^^xsd:string .
+
+cv-ai4dm:PACKED_DIRT a skos:Concept ;
+    skos:hiddenLabel 168 ;
+    skos:prefLabel "PACKED_DIRT"^^xsd:string .
+
+cv-ai4dm:PACKED_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 111 ;
+    skos:prefLabel "PACKED_GRAVEL"^^xsd:string .
+
+cv-ai4dm:PAD a skos:Concept ;
+    skos:hiddenLabel 191 ;
+    skos:prefLabel "PAD"^^xsd:string .
+
+cv-ai4dm:PAVED a skos:Concept ;
+    skos:hiddenLabel 103 ;
+    skos:prefLabel "PAVED"^^xsd:string .
+
+cv-ai4dm:PAVEMENT a skos:Concept ;
+    skos:hiddenLabel 195 ;
+    skos:prefLabel "PAVEMENT"^^xsd:string .
+
+cv-ai4dm:PAVIMENT_HARD a skos:Concept ;
+    skos:hiddenLabel 196 ;
+    skos:prefLabel "PAVIMENT_HARD"^^xsd:string .
+
+cv-ai4dm:PEM a skos:Concept ;
+    skos:hiddenLabel 120 ;
+    skos:prefLabel "PEM"^^xsd:string .
+
+cv-ai4dm:PER a skos:Concept ;
+    skos:hiddenLabel 95 ;
+    skos:prefLabel "PER"^^xsd:string .
+
+cv-ai4dm:PFC a skos:Concept ;
+    skos:hiddenLabel 48 ;
+    skos:prefLabel "PFC"^^xsd:string .
+
+cv-ai4dm:PIC a skos:Concept ;
+    skos:hiddenLabel 201 ;
+    skos:prefLabel "PIC"^^xsd:string .
+
+cv-ai4dm:PI a skos:Concept ;
+    skos:hiddenLabel 200 ;
+    skos:prefLabel "PI"^^xsd:string .
+
+cv-ai4dm:PIARRA_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 193 ;
+    skos:prefLabel "PIARRA_GRAVEL"^^xsd:string .
+
+cv-ai4dm:PSP a skos:Concept ;
+    skos:hiddenLabel 10 ;
+    skos:prefLabel "PSP"^^xsd:string .
+
+cv-ai4dm:RED_CLAY a skos:Concept ;
+    skos:hiddenLabel 78 ;
+    skos:prefLabel "RED_CLAY"^^xsd:string .
+
+cv-ai4dm:RED_CLAY_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 186 ;
+    skos:prefLabel "RED_CLAY_GRAVEL"^^xsd:string .
+
+cv-ai4dm:RED_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 89 ;
+    skos:prefLabel "RED_GRAVEL"^^xsd:string .
+
+cv-ai4dm:RED_SILT_CLAY a skos:Concept ;
+    skos:hiddenLabel 67 ;
+    skos:prefLabel "RED_SILT_CLAY"^^xsd:string .
+
+cv-ai4dm:ROOFTOP a skos:Concept ;
+    skos:hiddenLabel 22 ;
+    skos:prefLabel "ROOFTOP"^^xsd:string .
+
+cv-ai4dm:RWY_10_IS_SMOOTH_ASPHALT_FOR_2670_THEN_ROUGH_ASPHALT_AND_GRASS a skos:Concept ;
+    skos:hiddenLabel 205 ;
+    skos:prefLabel "RWY_10_IS_SMOOTH_ASPHALT_FOR_2670'_THEN_ROUGH_ASPHALT_AND_GRASS"^^xsd:string .
+
+cv-ai4dm:SAI a skos:Concept ;
+    skos:hiddenLabel 203 ;
+    skos:prefLabel "SAI"^^xsd:string .
+
+cv-ai4dm:SAN a skos:Concept ;
+    skos:hiddenLabel 107 ;
+    skos:prefLabel "SAN"^^xsd:string .
+
+cv-ai4dm:SAND a skos:Concept ;
+    skos:hiddenLabel 17 ;
+    skos:prefLabel "SAND"^^xsd:string .
+
+cv-ai4dm:SANDY_GRAVEL_WITH_CLAY a skos:Concept ;
+    skos:hiddenLabel 61 ;
+    skos:prefLabel "SANDY_GRAVEL_WITH_CLAY"^^xsd:string .
+
+cv-ai4dm:SAND_AND_GRASS a skos:Concept ;
+    skos:hiddenLabel 133 ;
+    skos:prefLabel "SAND_AND_GRASS"^^xsd:string .
+
+cv-ai4dm:SAND_GRASS a skos:Concept ;
+    skos:hiddenLabel 44 ;
+    skos:prefLabel "SAND_GRASS"^^xsd:string .
+
+cv-ai4dm:SAND_LATERITE a skos:Concept ;
+    skos:hiddenLabel 156 ;
+    skos:prefLabel "SAND_LATERITE"^^xsd:string .
+
+cv-ai4dm:SEALED a skos:Concept ;
+    skos:hiddenLabel 174 ;
+    skos:prefLabel "SEALED"^^xsd:string .
+
+cv-ai4dm:SHALY_CLAY a skos:Concept ;
+    skos:hiddenLabel 97 ;
+    skos:prefLabel "SHALY_CLAY"^^xsd:string .
+
+cv-ai4dm:SNO a skos:Concept ;
+    skos:hiddenLabel 146 ;
+    skos:prefLabel "SNO"^^xsd:string .
+
+cv-ai4dm:SNOW a skos:Concept ;
+    skos:hiddenLabel 117 ;
+    skos:prefLabel "SNOW"^^xsd:string .
+
+cv-ai4dm:SOD a skos:Concept ;
+    skos:hiddenLabel 18 ;
+    skos:prefLabel "SOD"^^xsd:string .
+
+cv-ai4dm:SOD_OVER_HARD_CLAY a skos:Concept ;
+    skos:hiddenLabel 153 ;
+    skos:prefLabel "SOD_OVER_HARD_CLAY"^^xsd:string .
+
+cv-ai4dm:SOFT_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 96 ;
+    skos:prefLabel "SOFT_GRAVEL"^^xsd:string .
+
+cv-ai4dm:SOFT_SAND a skos:Concept ;
+    skos:hiddenLabel 119 ;
+    skos:prefLabel "SOFT_SAND"^^xsd:string .
+
+cv-ai4dm:SOIL a skos:Concept ;
+    skos:hiddenLabel 167 ;
+    skos:prefLabel "SOIL"^^xsd:string .
+
+cv-ai4dm:SOIL_AND_GRASS a skos:Concept ;
+    skos:hiddenLabel 46 ;
+    skos:prefLabel "SOIL_AND_GRASS"^^xsd:string .
+
+cv-ai4dm:STEEL a skos:Concept ;
+    skos:hiddenLabel 33 ;
+    skos:prefLabel "STEEL"^^xsd:string .
+
+cv-ai4dm:STONE a skos:Concept ;
+    skos:hiddenLabel 53 ;
+    skos:prefLabel "STONE"^^xsd:string .
+
+cv-ai4dm:STONE_DUST a skos:Concept ;
+    skos:hiddenLabel 102 ;
+    skos:prefLabel "STONE_DUST"^^xsd:string .
+
+cv-ai4dm:TAR a skos:Concept ;
+    skos:hiddenLabel 144 ;
+    skos:prefLabel "TAR"^^xsd:string .
+
+cv-ai4dm:TARMAC a skos:Concept ;
+    skos:hiddenLabel 130 ;
+    skos:prefLabel "TARMAC"^^xsd:string .
+
+cv-ai4dm:TAR_OLD a skos:Concept ;
+    skos:hiddenLabel 219 ;
+    skos:prefLabel "TAR_OLD"^^xsd:string .
+
+cv-ai4dm:TER a skos:Concept ;
+    skos:hiddenLabel 194 ;
+    skos:prefLabel "TER"^^xsd:string .
+
+cv-ai4dm:TORF a skos:Concept ;
+    skos:hiddenLabel 19 ;
+    skos:prefLabel "TORF"^^xsd:string .
+
+cv-ai4dm:TREATED a skos:Concept ;
+    skos:hiddenLabel 16 ;
+    skos:prefLabel "TREATED"^^xsd:string .
+
+cv-ai4dm:TREATED_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 104 ;
+    skos:prefLabel "TREATED_GRAVEL"^^xsd:string .
+
+cv-ai4dm:TREATED_SAND a skos:Concept ;
+    skos:hiddenLabel 113 ;
+    skos:prefLabel "TREATED_SAND"^^xsd:string .
+
+cv-ai4dm:TRTD a skos:Concept ;
+    skos:hiddenLabel 23 ;
+    skos:prefLabel "TRTD"^^xsd:string .
+
+cv-ai4dm:TRTD_GRVL a skos:Concept ;
+    skos:hiddenLabel 118 ;
+    skos:prefLabel "TRTD_GRVL"^^xsd:string .
+
+cv-ai4dm:TUEF a skos:Concept ;
+    skos:hiddenLabel 208 ;
+    skos:prefLabel "TUEF"^^xsd:string .
+
+cv-ai4dm:TURF a skos:Concept ;
+    skos:hiddenLabel 1 ;
+    skos:prefLabel "TURF"^^xsd:string .
+
+cv-ai4dm:U a skos:Concept ;
+    skos:hiddenLabel 128 ;
+    skos:prefLabel "U"^^xsd:string .
+
+cv-ai4dm:UNK a skos:Concept ;
+    skos:hiddenLabel 125 ;
+    skos:prefLabel "UNK"^^xsd:string .
+
+cv-ai4dm:UNKNOWN a skos:Concept ;
+    skos:hiddenLabel 157 ;
+    skos:prefLabel "UNKNOWN"^^xsd:string .
+
+cv-ai4dm:UNKNOWN_STEEL a skos:Concept ;
+    skos:hiddenLabel 99 ;
+    skos:prefLabel "UNKNOWN_(STEEL)"^^xsd:string .
+
+cv-ai4dm:UNPAVED a skos:Concept ;
+    skos:hiddenLabel 164 ;
+    skos:prefLabel "UNPAVED"^^xsd:string .
+
+cv-ai4dm:UNSEALED a skos:Concept ;
+    skos:hiddenLabel 216 ;
+    skos:prefLabel "UNSEALED"^^xsd:string .
+
+cv-ai4dm:VOLCANIC_ASH_IMPREGNATED_WITH_BITUMEN a skos:Concept ;
+    skos:hiddenLabel 171 ;
+    skos:prefLabel "VOLCANIC_ASH_IMPREGNATED_WITH_BITUMEN"^^xsd:string .
+
+cv-ai4dm:WAT a skos:Concept ;
+    skos:hiddenLabel 209 ;
+    skos:prefLabel "WAT"^^xsd:string .
+
+cv-ai4dm:WATER a skos:Concept ;
+    skos:hiddenLabel 7 ;
+    skos:prefLabel "WATER"^^xsd:string .
+
+cv-ai4dm:WHITE_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 85 ;
+    skos:prefLabel "WHITE_GRAVEL"^^xsd:string .
+
+cv-ai4dm:WOOD a skos:Concept ;
+    skos:hiddenLabel 20 ;
+    skos:prefLabel "WOOD"^^xsd:string .
+
+cv-ai4dm:YELLOW_GRAVEL a skos:Concept ;
+    skos:hiddenLabel 101 ;
+    skos:prefLabel "YELLOW_GRAVEL"^^xsd:string .
+
+cv-ai4dm:ZAHORRA_COMPACTADA a skos:Concept ;
+    skos:hiddenLabel 140 ;
+    skos:prefLabel "ZAHORRA_COMPACTADA"^^xsd:string .
+
+cv-ai4dm:surface a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+cv-ai4dm:runwaysurfaces
+	a skos:Collection ;
+	skos:prefLabel "runway surfaces" ;
+	skos:member cv-ai4dm:A ;
+	skos:member cv-ai4dm:ALUM ;
+	skos:member cv-ai4dm:ALUMINUM ;
+	skos:member cv-ai4dm:ARG ;
+	skos:member cv-ai4dm:ASB ;
+	skos:member cv-ai4dm:ASFALT ;
+	skos:member cv-ai4dm:ASHPALT ;
+	skos:member cv-ai4dm:ASP ;
+	skos:member cv-ai4dm:ASPH ;
+	skos:member cv-ai4dm:ASPHALT ;
+	skos:member cv-ai4dm:ASPHALT_CONCRETE ;
+	skos:member cv-ai4dm:AUMINUM_ROOF_TOP ;
+	skos:member cv-ai4dm:B ;
+	skos:member cv-ai4dm:BIT ;
+	skos:member cv-ai4dm:BITUMEN ;
+	skos:member cv-ai4dm:BITUMINOUS ;
+	skos:member cv-ai4dm:BLACKTOP_ON_GRANITE ;
+	skos:member cv-ai4dm:BLACK_CLAY ;
+	skos:member cv-ai4dm:BLACK_SILT ;
+	skos:member cv-ai4dm:BLUE_ICE ;
+	skos:member cv-ai4dm:BRI ;
+	skos:member cv-ai4dm:BRICK ;
+	skos:member cv-ai4dm:BROWN_CLAY ;
+	skos:member cv-ai4dm:BROWN_CLAY_GRAVEL ;
+	skos:member cv-ai4dm:BROWN_GRAVEL ;
+	skos:member cv-ai4dm:BROWN_SILT_CLAY ;
+	skos:member cv-ai4dm:C ;
+	skos:member cv-ai4dm:C0N ;
+	skos:member cv-ai4dm:CALICHE ;
+	skos:member cv-ai4dm:CERAMIC_BRICK ;
+	skos:member cv-ai4dm:CLA ;
+	skos:member cv-ai4dm:CLAY ;
+	skos:member cv-ai4dm:COM ;
+	skos:member cv-ai4dm:COMPACTED_CORAL_AND_SAND ;
+	skos:member cv-ai4dm:COMPACTED_EARTH ;
+	skos:member cv-ai4dm:COMPACTED_SAND ;
+	skos:member cv-ai4dm:CON ;
+	skos:member cv-ai4dm:CONC ;
+	skos:member cv-ai4dm:CONCRETE ;
+	skos:member cv-ai4dm:CONCRETE_AND_ASP ;
+	skos:member cv-ai4dm:COP ;
+	skos:member cv-ai4dm:COR ;
+	skos:member cv-ai4dm:CORAL ;
+	skos:member cv-ai4dm:CORAL_GRASS ;
+	skos:member cv-ai4dm:CORAL_PENETRATION ;
+	skos:member cv-ai4dm:CORAL_SAND ;
+	skos:member cv-ai4dm:CRUSHED_CORAL ;
+	skos:member cv-ai4dm:CRUSHED_ROCK ;
+	skos:member cv-ai4dm:DECK ;
+	skos:member cv-ai4dm:DIRT ;
+	skos:member cv-ai4dm:DIRT_CALICHE ;
+	skos:member cv-ai4dm:EARTH ;
+	skos:member cv-ai4dm:G ;
+	skos:member cv-ai4dm:GOOD_GRASS ;
+	skos:member cv-ai4dm:GR ;
+	skos:member cv-ai4dm:GRA ;
+	skos:member cv-ai4dm:GRAAS ;
+	skos:member cv-ai4dm:GRADED_EARTH ;
+	skos:member cv-ai4dm:GRADED_HARDCORE ;
+	skos:member cv-ai4dm:GRAIN ;
+	skos:member cv-ai4dm:GRAS ;
+	skos:member cv-ai4dm:GRASS ;
+	skos:member cv-ai4dm:GRASSED_BLACKCLAY ;
+	skos:member cv-ai4dm:GRASSED_BLACK_CLAY ;
+	skos:member cv-ai4dm:GRASSED_BLACK_CLAY_SAND ;
+	skos:member cv-ai4dm:GRASSED_BLACK_CLAY_SILT ;
+	skos:member cv-ai4dm:GRASSED_BLACK_SAND ;
+	skos:member cv-ai4dm:GRASSED_BLACK_SILT ;
+	skos:member cv-ai4dm:GRASSED_BLACK_SILT_CLAY ;
+	skos:member cv-ai4dm:GRASSED_BLACK_SILT_SAND ;
+	skos:member cv-ai4dm:GRASSED_BLACK_SOIL ;
+	skos:member cv-ai4dm:GRASSED_BROWN_CLAY ;
+	skos:member cv-ai4dm:GRASSED_BROWN_CLAY_GRAVEL ;
+	skos:member cv-ai4dm:GRASSED_BROWN_GRAVEL ;
+	skos:member cv-ai4dm:GRASSED_BROWN_LOAM ;
+	skos:member cv-ai4dm:GRASSED_BROWN_SANDY_CLAY ;
+	skos:member cv-ai4dm:GRASSED_BROWN_SILTY_CLAY ;
+	skos:member cv-ai4dm:GRASSED_BROWN_SILT_CLAY ;
+	skos:member cv-ai4dm:GRASSED_BROWN_SILT_LOAM ;
+	skos:member cv-ai4dm:GRASSED_CLAY ;
+	skos:member cv-ai4dm:GRASSED_CLAY_SILT_CLAY ;
+	skos:member cv-ai4dm:GRASSED_GRAVEL ;
+	skos:member cv-ai4dm:GRASSED_GREY_CLAY ;
+	skos:member cv-ai4dm:GRASSED_GREY_GRAVEL ;
+	skos:member cv-ai4dm:GRASSED_GREY_SAND ;
+	skos:member cv-ai4dm:GRASSED_GREY_SILT_CLAY ;
+	skos:member cv-ai4dm:GRASSED_GREY_SILT_SAND ;
+	skos:member cv-ai4dm:GRASSED_LIMESTONE_GRAVEL ;
+	skos:member cv-ai4dm:GRASSED_RED_CLAY ;
+	skos:member cv-ai4dm:GRASSED_RED_CLAY_GRAVEL ;
+	skos:member cv-ai4dm:GRASSED_RED_SILT ;
+	skos:member cv-ai4dm:GRASSED_RED_SILTY_CLAY ;
+	skos:member cv-ai4dm:GRASSED_RED_SILT_CLAY ;
+	skos:member cv-ai4dm:GRASSED_RED_SILT_SAND ;
+	skos:member cv-ai4dm:GRASSED_RIVER_GRAVEL ;
+	skos:member cv-ai4dm:GRASSED_SAND ;
+	skos:member cv-ai4dm:GRASSED_SANDY_LOAM ;
+	skos:member cv-ai4dm:GRASSED_SAND_CLAY ;
+	skos:member cv-ai4dm:GRASSED_SILT_CLAY ;
+	skos:member cv-ai4dm:GRASSED_WHITE_CORONAS ;
+	skos:member cv-ai4dm:GRASSED_WHITE_GRAVEL ;
+	skos:member cv-ai4dm:GRASSED_WHITE_LIME_STONE ;
+	skos:member cv-ai4dm:GRASSED_YELLOW_CLAY ;
+	skos:member cv-ai4dm:GRASSED_YELLOW_GRAVEL ;
+	skos:member cv-ai4dm:GRASSED_YELLOW_SILT_CLAY ;
+	skos:member cv-ai4dm:GRASSS ;
+	skos:member cv-ai4dm:GRASSY ;
+	skos:member cv-ai4dm:GRASS_AND_GRANITE_SAND ;
+	skos:member cv-ai4dm:GRASS_CAUTION_ATC_DO_NOT_APPLY_WAKE_TURBULENCE_SEPARATION ;
+	skos:member cv-ai4dm:GRASS_CORAL ;
+	skos:member cv-ai4dm:GRASS_DIRT ;
+	skos:member cv-ai4dm:GRASS_ON_CORAL ;
+	skos:member cv-ai4dm:GRASS_OR_EARTH_NOT_GRADED_OR_ROLLED ;
+	skos:member cv-ai4dm:GRASS_OVER_GRAVEL ;
+	skos:member cv-ai4dm:GRASS_OVER_ROCK ;
+	skos:member cv-ai4dm:GRASS_PAVED_WITH_A_PLASTIC_GRILLE ;
+	skos:member cv-ai4dm:GRASS_RED_SILTY_CLAY ;
+	skos:member cv-ai4dm:GRAV ;
+	skos:member cv-ai4dm:GRAVEL ;
+	skos:member cv-ai4dm:GRAVEL_DIRT ;
+	skos:member cv-ai4dm:GRE ;
+	skos:member cv-ai4dm:GREY_CLAY ;
+	skos:member cv-ai4dm:GREY_GRAVEL ;
+	skos:member cv-ai4dm:GREY_SILT_CLAY ;
+	skos:member cv-ai4dm:GROOVED_ASP ;
+	skos:member cv-ai4dm:GROUND ;
+	skos:member cv-ai4dm:GRS ;
+	skos:member cv-ai4dm:GRS_EMERGENCY_STRIP ;
+	skos:member cv-ai4dm:GRV ;
+	skos:member cv-ai4dm:GRVL ;
+	skos:member cv-ai4dm:GVL ;
+	skos:member cv-ai4dm:HARD ;
+	skos:member cv-ai4dm:HARD_LOAM ;
+	skos:member cv-ai4dm:HARD_MUD ;
+	skos:member cv-ai4dm:HARD_SAND ;
+	skos:member cv-ai4dm:ICE ;
+	skos:member cv-ai4dm:LAT ;
+	skos:member cv-ai4dm:LOOSE_GRAVEL ;
+	skos:member cv-ai4dm:MAC ;
+	skos:member cv-ai4dm:MACADAM ;
+	skos:member cv-ai4dm:MATS ;
+	skos:member cv-ai4dm:MET ;
+	skos:member cv-ai4dm:METAL ;
+	skos:member cv-ai4dm:MTAL ;
+	skos:member cv-ai4dm:MURRAM ;
+	skos:member cv-ai4dm:NATURAL_SOIL ;
+	skos:member cv-ai4dm:NEOPRENE ;
+	skos:member cv-ai4dm:NONE ;
+	skos:member cv-ai4dm:NSTD ;
+	skos:member cv-ai4dm:OILED ;
+	skos:member cv-ai4dm:OILED_DIRT ;
+	skos:member cv-ai4dm:OILED_GRAVEL ;
+	skos:member cv-ai4dm:OILGRAVEL ;
+	skos:member cv-ai4dm:OLD_ASP ;
+	skos:member cv-ai4dm:PACKED_DIRT ;
+	skos:member cv-ai4dm:PACKED_GRAVEL ;
+	skos:member cv-ai4dm:PAD ;
+	skos:member cv-ai4dm:PAVED ;
+	skos:member cv-ai4dm:PAVEMENT ;
+	skos:member cv-ai4dm:PAVIMENT_HARD ;
+	skos:member cv-ai4dm:PEM ;
+	skos:member cv-ai4dm:PER ;
+	skos:member cv-ai4dm:PFC ;
+	skos:member cv-ai4dm:PI ;
+	skos:member cv-ai4dm:PIARRA_GRAVEL ;
+	skos:member cv-ai4dm:PIC ;
+	skos:member cv-ai4dm:PSP ;
+	skos:member cv-ai4dm:RED_CLAY ;
+	skos:member cv-ai4dm:RED_CLAY_GRAVEL ;
+	skos:member cv-ai4dm:RED_GRAVEL ;
+	skos:member cv-ai4dm:RED_SILT_CLAY ;
+	skos:member cv-ai4dm:ROOFTOP ;
+	skos:member cv-ai4dm:RWY_10_IS_SMOOTH_ASPHALT_FOR_2670_THEN_ROUGH_ASPHALT_AND_GRASS ;
+	skos:member cv-ai4dm:SAI ;
+	skos:member cv-ai4dm:SAN ;
+	skos:member cv-ai4dm:SAND ;
+	skos:member cv-ai4dm:SANDY_GRAVEL_WITH_CLAY ;
+	skos:member cv-ai4dm:SAND_AND_GRASS ;
+	skos:member cv-ai4dm:SAND_GRASS ;
+	skos:member cv-ai4dm:SAND_LATERITE ;
+	skos:member cv-ai4dm:SEALED ;
+	skos:member cv-ai4dm:SHALY_CLAY ;
+	skos:member cv-ai4dm:SNO ;
+	skos:member cv-ai4dm:SNOW ;
+	skos:member cv-ai4dm:SOD ;
+	skos:member cv-ai4dm:SOD_OVER_HARD_CLAY ;
+	skos:member cv-ai4dm:SOFT_GRAVEL ;
+	skos:member cv-ai4dm:SOFT_SAND ;
+	skos:member cv-ai4dm:SOIL ;
+	skos:member cv-ai4dm:SOIL_AND_GRASS ;
+	skos:member cv-ai4dm:STEEL ;
+	skos:member cv-ai4dm:STONE ;
+	skos:member cv-ai4dm:STONE_DUST ;
+	skos:member cv-ai4dm:TAR ;
+	skos:member cv-ai4dm:TARMAC ;
+	skos:member cv-ai4dm:TAR_OLD ;
+	skos:member cv-ai4dm:TER ;
+	skos:member cv-ai4dm:TORF ;
+	skos:member cv-ai4dm:TREATED ;
+	skos:member cv-ai4dm:TREATED_GRAVEL ;
+	skos:member cv-ai4dm:TREATED_SAND ;
+	skos:member cv-ai4dm:TRTD ;
+	skos:member cv-ai4dm:TRTD_GRVL ;
+	skos:member cv-ai4dm:TUEF ;
+	skos:member cv-ai4dm:TURF ;
+	skos:member cv-ai4dm:U ;
+	skos:member cv-ai4dm:UNK ;
+	skos:member cv-ai4dm:UNKNOWN ;
+	skos:member cv-ai4dm:UNKNOWN_STEEL ;
+	skos:member cv-ai4dm:UNPAVED ;
+	skos:member cv-ai4dm:UNSEALED ;
+	skos:member cv-ai4dm:VOLCANIC_ASH_IMPREGNATED_WITH_BITUMEN ;
+	skos:member cv-ai4dm:WAT ;
+	skos:member cv-ai4dm:WATER ;
+	skos:member cv-ai4dm:WHITE_GRAVEL ;
+	skos:member cv-ai4dm:WOOD ;
+	skos:member cv-ai4dm:YELLOW_GRAVEL ;
+	skos:member cv-ai4dm:ZAHORRA_COMPACTADA ;
+.

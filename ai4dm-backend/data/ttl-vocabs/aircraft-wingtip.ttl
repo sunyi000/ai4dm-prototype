@@ -1,0 +1,95 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/aircraft-wingtip
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:blended_tips a skos:Concept ;
+    skos:hiddenLabel 9 ;
+    skos:prefLabel "blended tips"^^xsd:string .
+
+cv-ai4dm:extended_wingtip a skos:Concept ;
+    skos:hiddenLabel 10 ;
+    skos:prefLabel "extended wingtip"^^xsd:string .
+
+cv-ai4dm:no_winglets a skos:Concept ;
+    skos:hiddenLabel 0 ;
+    skos:prefLabel "no winglets"^^xsd:string .
+
+cv-ai4dm:none a skos:Concept ;
+    skos:hiddenLabel 7 ;
+    skos:prefLabel "none"^^xsd:string .
+
+cv-ai4dm:small_winglets a skos:Concept ;
+    skos:hiddenLabel 1 ;
+    skos:prefLabel "small winglets"^^xsd:string .
+
+cv-ai4dm:tbd a skos:Concept ;
+    skos:hiddenLabel 6 ;
+    skos:prefLabel "tbd"^^xsd:string .
+
+cv-ai4dm:tip_tanks a skos:Concept ;
+    skos:hiddenLabel 3 ;
+    skos:prefLabel "tip tanks"^^xsd:string .
+
+cv-ai4dm:tips_curved_up a skos:Concept ;
+    skos:hiddenLabel 8 ;
+    skos:prefLabel "tips curved up"^^xsd:string .
+
+cv-ai4dm:tips_swept_up a skos:Concept ;
+    skos:hiddenLabel 14 ;
+    skos:prefLabel "tips swept up"^^xsd:string .
+
+cv-ai4dm:up-angled a skos:Concept ;
+    skos:hiddenLabel 2 ;
+    skos:prefLabel "up-angled"^^xsd:string .
+
+cv-ai4dm:upturned_tips a skos:Concept ;
+    skos:hiddenLabel 13 ;
+    skos:prefLabel "upturned tips"^^xsd:string .
+
+cv-ai4dm:winglets a skos:Concept ;
+    skos:hiddenLabel 4 ;
+    skos:prefLabel "winglets"^^xsd:string .
+
+cv-ai4dm:winglets_on_tip_tanks a skos:Concept ;
+    skos:hiddenLabel 12 ;
+    skos:prefLabel "winglets on tip tanks"^^xsd:string .
+
+cv-ai4dm:wings_fold_to_tow a skos:Concept ;
+    skos:hiddenLabel 11 ;
+    skos:prefLabel "wings fold to tow"^^xsd:string .
+
+cv-ai4dm:aircraft-wingtip a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+cv-ai4dm:wingtip_fences a skos:Concept ;
+    skos:hiddenLabel 5 ;
+    skos:prefLabel "wingtip fences"^^xsd:string .
+
+cv-ai4dm:with_tip_tanks_add a skos:Concept ;
+    skos:hiddenLabel 15 ;
+    skos:prefLabel "with tip tanks add"^^xsd:string .
+
+cv-ai4dm:wingtips
+	a skos:Collection ;
+	skos:prefLabel "aircraft wingtips" ;
+	skos:member cv-ai4dm:blended_tips ;
+	skos:member cv-ai4dm:extended_wingtip ;
+	skos:member cv-ai4dm:no_winglets ;
+	skos:member cv-ai4dm:none ;
+	skos:member cv-ai4dm:small_winglets ;
+	skos:member cv-ai4dm:tbd ;
+	skos:member cv-ai4dm:tip_tanks ;
+	skos:member cv-ai4dm:tips_curved_up ;
+	skos:member cv-ai4dm:tips_swept_up ;
+	skos:member cv-ai4dm:up-angled ;
+	skos:member cv-ai4dm:upturned_tips ;
+	skos:member cv-ai4dm:winglets ;
+	skos:member cv-ai4dm:winglets_on_tip_tanks ;
+	skos:member cv-ai4dm:wings_fold_to_tow ;
+	skos:member cv-ai4dm:wingtip_fences ;
+	skos:member cv-ai4dm:with_tip_tanks_add ;
+.

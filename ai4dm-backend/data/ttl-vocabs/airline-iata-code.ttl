@@ -1,0 +1,5772 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/airline-iata-code
+# imports: http://www.w3.org/20040 ;02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:0B a skos:Concept ;
+    skos:hiddenLabel "0B"^^xsd:string ;
+    skos:prefLabel "Blue Air"^^xsd:string .
+
+cv-ai4dm:0D a skos:Concept ;
+    skos:hiddenLabel "0D"^^xsd:string ;
+    skos:prefLabel "Darwin Airline"^^xsd:string .
+
+cv-ai4dm:0E a skos:Concept ;
+    skos:hiddenLabel "0E"^^xsd:string ;
+    skos:prefLabel "Dummy"^^xsd:string .
+
+cv-ai4dm:0G a skos:Concept ;
+    skos:hiddenLabel "0G"^^xsd:string ;
+    skos:prefLabel "Global Airlines"^^xsd:string .
+
+cv-ai4dm:0J a skos:Concept ;
+    skos:hiddenLabel "0J"^^xsd:string ;
+    skos:prefLabel "Jetclub"^^xsd:string .
+
+cv-ai4dm:0M a skos:Concept ;
+    skos:hiddenLabel "0M"^^xsd:string ;
+    skos:prefLabel "All America MX"^^xsd:string .
+
+cv-ai4dm:0P a skos:Concept ;
+    skos:hiddenLabel "0P"^^xsd:string ;
+    skos:prefLabel "All America BOPY"^^xsd:string .
+
+cv-ai4dm:0X a skos:Concept ;
+    skos:hiddenLabel "0X"^^xsd:string ;
+    skos:prefLabel "Copenhagen Express"^^xsd:string .
+
+cv-ai4dm:0Y a skos:Concept ;
+    skos:hiddenLabel "0Y"^^xsd:string ;
+    skos:prefLabel "All America CO"^^xsd:string .
+
+cv-ai4dm:1A a skos:Concept ;
+    skos:hiddenLabel "1A"^^xsd:string ;
+    skos:prefLabel "Amadeus Global Travel Distribution"^^xsd:string .
+
+cv-ai4dm:1B a skos:Concept ;
+    skos:hiddenLabel "1B"^^xsd:string ;
+    skos:prefLabel "Abacus International"^^xsd:string .
+
+cv-ai4dm:1C a skos:Concept ;
+    skos:hiddenLabel "1C"^^xsd:string ;
+    skos:prefLabel "Electronic Data Systems"^^xsd:string,
+        "OneChina"^^xsd:string .
+
+cv-ai4dm:1D a skos:Concept ;
+    skos:hiddenLabel "1D"^^xsd:string ;
+    skos:prefLabel "Radixx Solutions International"^^xsd:string .
+
+cv-ai4dm:1E a skos:Concept ;
+    skos:hiddenLabel "1E"^^xsd:string ;
+    skos:prefLabel "TransRussiaAirlines"^^xsd:string,
+        "Travelsky Technology"^^xsd:string .
+
+cv-ai4dm:1F a skos:Concept ;
+    skos:hiddenLabel "1F"^^xsd:string ;
+    skos:prefLabel "CB Airways UK ( Interliging Flights )"^^xsd:string,
+        "INFINI Travel Information"^^xsd:string .
+
+cv-ai4dm:1G a skos:Concept ;
+    skos:hiddenLabel "1G"^^xsd:string ;
+    skos:prefLabel "Galileo International"^^xsd:string .
+
+cv-ai4dm:1H a skos:Concept ;
+    skos:hiddenLabel "1H"^^xsd:string ;
+    skos:prefLabel "Hellenic Airways"^^xsd:string,
+        "Siren-Travel"^^xsd:string .
+
+cv-ai4dm:1I a skos:Concept ;
+    skos:hiddenLabel "1I"^^xsd:string ;
+    skos:prefLabel "Deutsche Rettungsflugwacht"^^xsd:string,
+        "NetJets"^^xsd:string,
+        "Novair"^^xsd:string,
+        "Pegasus Hava Tasimaciligi"^^xsd:string,
+        "Sierra Nevada Airlines"^^xsd:string,
+        "Sky Trek International Airlines"^^xsd:string .
+
+cv-ai4dm:1K a skos:Concept ;
+    skos:hiddenLabel "1K"^^xsd:string ;
+    skos:prefLabel "BudgetAir"^^xsd:string,
+        "Southern Cross Distribution"^^xsd:string,
+        "Sutra"^^xsd:string .
+
+cv-ai4dm:1L a skos:Concept ;
+    skos:hiddenLabel "1L"^^xsd:string ;
+    skos:prefLabel "Open Skies Consultative Commission"^^xsd:string .
+
+cv-ai4dm:1M a skos:Concept ;
+    skos:hiddenLabel "1M"^^xsd:string ;
+    skos:prefLabel "JSC Transport Automated Information Systems"^^xsd:string .
+
+cv-ai4dm:1N a skos:Concept ;
+    skos:hiddenLabel "1N"^^xsd:string ;
+    skos:prefLabel "Navitaire"^^xsd:string .
+
+cv-ai4dm:1P a skos:Concept ;
+    skos:hiddenLabel "1P"^^xsd:string ;
+    skos:prefLabel "Worldspan"^^xsd:string .
+
+cv-ai4dm:1Q a skos:Concept ;
+    skos:hiddenLabel "1Q"^^xsd:string ;
+    skos:prefLabel "Sirena"^^xsd:string .
+
+cv-ai4dm:1R a skos:Concept ;
+    skos:hiddenLabel "1R"^^xsd:string ;
+    skos:prefLabel "All America CL"^^xsd:string,
+        "Hainan Phoenix Information Systems"^^xsd:string .
+
+cv-ai4dm:1S a skos:Concept ;
+    skos:hiddenLabel "1S"^^xsd:string ;
+    skos:prefLabel "Sabre"^^xsd:string .
+
+cv-ai4dm:1T a skos:Concept ;
+    skos:hiddenLabel "1T"^^xsd:string ;
+    skos:prefLabel "1Time Airline"^^xsd:string .
+
+cv-ai4dm:1U a skos:Concept ;
+    skos:hiddenLabel "1U"^^xsd:string ;
+    skos:prefLabel "ITA Software"^^xsd:string,
+        "Polyot Sirena"^^xsd:string .
+
+cv-ai4dm:1X a skos:Concept ;
+    skos:hiddenLabel "1X"^^xsd:string ;
+    skos:prefLabel "Island Express Air"^^xsd:string .
+
+cv-ai4dm:1Y a skos:Concept ;
+    skos:hiddenLabel "1Y"^^xsd:string ;
+    skos:prefLabel "All America BR"^^xsd:string .
+
+cv-ai4dm:1Z a skos:Concept ;
+    skos:hiddenLabel "1Z"^^xsd:string ;
+    skos:prefLabel "Sabre Pacific"^^xsd:string .
+
+cv-ai4dm:2A a skos:Concept ;
+    skos:hiddenLabel "2A"^^xsd:string ;
+    skos:prefLabel "Deutsche Bahn"^^xsd:string .
+
+cv-ai4dm:2B a skos:Concept ;
+    skos:hiddenLabel "2B"^^xsd:string ;
+    skos:prefLabel "Aerocondor"^^xsd:string .
+
+cv-ai4dm:2C a skos:Concept ;
+    skos:hiddenLabel "2C"^^xsd:string ;
+    skos:prefLabel "SNCF"^^xsd:string .
+
+cv-ai4dm:2D a skos:Concept ;
+    skos:hiddenLabel "2D"^^xsd:string ;
+    skos:prefLabel "Aero VIP"^^xsd:string,
+        "Aero VIP (2D)"^^xsd:string,
+        "Alaniya Airlines"^^xsd:string .
+
+cv-ai4dm:2F a skos:Concept ;
+    skos:hiddenLabel "2F"^^xsd:string ;
+    skos:prefLabel "Frontier Flying Service"^^xsd:string .
+
+cv-ai4dm:2G a skos:Concept ;
+    skos:hiddenLabel "2G"^^xsd:string ;
+    skos:prefLabel "Cargoitalia"^^xsd:string,
+        "San Juan Airlines"^^xsd:string .
+
+cv-ai4dm:2H a skos:Concept ;
+    skos:hiddenLabel "2H"^^xsd:string ;
+    skos:prefLabel "Thalys"^^xsd:string .
+
+cv-ai4dm:2I a skos:Concept ;
+    skos:hiddenLabel "2I"^^xsd:string ;
+    skos:prefLabel "Star Peru (2I)"^^xsd:string .
+
+cv-ai4dm:2J a skos:Concept ;
+    skos:hiddenLabel "2J"^^xsd:string ;
+    skos:prefLabel "Air Burkina"^^xsd:string .
+
+cv-ai4dm:2K a skos:Concept ;
+    skos:hiddenLabel "2K"^^xsd:string ;
+    skos:prefLabel "Aerolineas Galapagos (Aerogal)"^^xsd:string .
+
+cv-ai4dm:2L a skos:Concept ;
+    skos:hiddenLabel "2L"^^xsd:string ;
+    skos:prefLabel "Helvetic Airways"^^xsd:string .
+
+cv-ai4dm:2M a skos:Concept ;
+    skos:hiddenLabel "2M"^^xsd:string ;
+    skos:prefLabel "Moldavian Airlines"^^xsd:string .
+
+cv-ai4dm:2N a skos:Concept ;
+    skos:hiddenLabel "2N"^^xsd:string ;
+    skos:prefLabel "NextJet"^^xsd:string .
+
+cv-ai4dm:2O a skos:Concept ;
+    skos:hiddenLabel "2O"^^xsd:string ;
+    skos:prefLabel "Air Salone"^^xsd:string .
+
+cv-ai4dm:2P a skos:Concept ;
+    skos:hiddenLabel "2P"^^xsd:string ;
+    skos:prefLabel "Air Philippines"^^xsd:string .
+
+cv-ai4dm:2Q a skos:Concept ;
+    skos:hiddenLabel "2Q"^^xsd:string ;
+    skos:prefLabel "Air Cargo Carriers"^^xsd:string .
+
+cv-ai4dm:2R a skos:Concept ;
+    skos:hiddenLabel "2R"^^xsd:string ;
+    skos:prefLabel "All America AR"^^xsd:string,
+        "VIA Rail Canada"^^xsd:string .
+
+cv-ai4dm:2S a skos:Concept ;
+    skos:hiddenLabel "2S"^^xsd:string ;
+    skos:prefLabel "Air Carnival"^^xsd:string,
+        "Island Express"^^xsd:string,
+        "Star Equatorial Airlines"^^xsd:string .
+
+cv-ai4dm:2T a skos:Concept ;
+    skos:hiddenLabel "2T"^^xsd:string ;
+    skos:prefLabel "Haiti Ambassador Airlines"^^xsd:string .
+
+cv-ai4dm:2U a skos:Concept ;
+    skos:hiddenLabel "2U"^^xsd:string ;
+    skos:prefLabel "Air Guinee Express"^^xsd:string .
+
+cv-ai4dm:2W a skos:Concept ;
+    skos:hiddenLabel "2W"^^xsd:string ;
+    skos:prefLabel "Welcome Air"^^xsd:string .
+
+cv-ai4dm:2X a skos:Concept ;
+    skos:hiddenLabel "2X"^^xsd:string ;
+    skos:prefLabel "Regionalia Uruguay"^^xsd:string .
+
+cv-ai4dm:2Y a skos:Concept ;
+    skos:hiddenLabel "2Y"^^xsd:string ;
+    skos:prefLabel "Air Andaman (2Y)"^^xsd:string .
+
+cv-ai4dm:2Z a skos:Concept ;
+    skos:hiddenLabel "2Z"^^xsd:string ;
+    skos:prefLabel "Changan Airlines"^^xsd:string .
+
+cv-ai4dm:3B a skos:Concept ;
+    skos:hiddenLabel "3B"^^xsd:string ;
+    skos:prefLabel "JobAir"^^xsd:string .
+
+cv-ai4dm:3C a skos:Concept ;
+    skos:hiddenLabel "3C"^^xsd:string ;
+    skos:prefLabel "RegionsAir"^^xsd:string .
+
+cv-ai4dm:3D a skos:Concept ;
+    skos:hiddenLabel "3D"^^xsd:string ;
+    skos:prefLabel "Palair Macedonia"^^xsd:string,
+        "Palair Macedonia (3D)"^^xsd:string .
+
+cv-ai4dm:3E a skos:Concept ;
+    skos:hiddenLabel "3E"^^xsd:string ;
+    skos:prefLabel "Air Choice One"^^xsd:string .
+
+cv-ai4dm:3F a skos:Concept ;
+    skos:hiddenLabel "3F"^^xsd:string ;
+    skos:prefLabel "Fly Colombia ( Interliging Flights )"^^xsd:string .
+
+cv-ai4dm:3G a skos:Concept ;
+    skos:hiddenLabel "3G"^^xsd:string ;
+    skos:prefLabel "Atlant-Soyuz Airlines"^^xsd:string .
+
+cv-ai4dm:3I a skos:Concept ;
+    skos:hiddenLabel "3I"^^xsd:string ;
+    skos:prefLabel "Air Comet Chile"^^xsd:string .
+
+cv-ai4dm:3J a skos:Concept ;
+    skos:hiddenLabel "3J"^^xsd:string ;
+    skos:prefLabel "Zip"^^xsd:string .
+
+cv-ai4dm:3K a skos:Concept ;
+    skos:hiddenLabel "3K"^^xsd:string ;
+    skos:prefLabel "Jetstar Asia Airways"^^xsd:string .
+
+cv-ai4dm:3L a skos:Concept ;
+    skos:hiddenLabel "3L"^^xsd:string ;
+    skos:prefLabel "Intersky"^^xsd:string .
+
+cv-ai4dm:3M a skos:Concept ;
+    skos:hiddenLabel "3M"^^xsd:string ;
+    skos:prefLabel "Silver Airways (3M)"^^xsd:string .
+
+cv-ai4dm:3N a skos:Concept ;
+    skos:hiddenLabel "3N"^^xsd:string ;
+    skos:prefLabel "Air Urga"^^xsd:string .
+
+cv-ai4dm:3O a skos:Concept ;
+    skos:hiddenLabel "3O"^^xsd:string ;
+    skos:prefLabel "Air Arabia Maroc"^^xsd:string .
+
+cv-ai4dm:3P a skos:Concept ;
+    skos:hiddenLabel "3P"^^xsd:string ;
+    skos:prefLabel "Tiara Air"^^xsd:string .
+
+cv-ai4dm:3Q a skos:Concept ;
+    skos:hiddenLabel "3Q"^^xsd:string ;
+    skos:prefLabel "Yunnan Airlines"^^xsd:string .
+
+cv-ai4dm:3R a skos:Concept ;
+    skos:hiddenLabel "3R"^^xsd:string ;
+    skos:prefLabel "Moskovia Airlines"^^xsd:string .
+
+cv-ai4dm:3S a skos:Concept ;
+    skos:hiddenLabel "3S"^^xsd:string ;
+    skos:prefLabel "Aeroland Airways"^^xsd:string,
+        "Air Antilles Express"^^xsd:string .
+
+cv-ai4dm:3T a skos:Concept ;
+    skos:hiddenLabel "3T"^^xsd:string ;
+    skos:prefLabel "Turan Air"^^xsd:string .
+
+cv-ai4dm:3U a skos:Concept ;
+    skos:hiddenLabel "3U"^^xsd:string ;
+    skos:prefLabel "Sichuan Airlines"^^xsd:string .
+
+cv-ai4dm:3V a skos:Concept ;
+    skos:hiddenLabel "3V"^^xsd:string ;
+    skos:prefLabel "3 Valleys Airlines"^^xsd:string,
+        "TNT Airways"^^xsd:string .
+
+cv-ai4dm:3W a skos:Concept ;
+    skos:hiddenLabel "3W"^^xsd:string ;
+    skos:prefLabel "Euromanx Airways"^^xsd:string,
+        "Malawian Airlines"^^xsd:string .
+
+cv-ai4dm:3X a skos:Concept ;
+    skos:hiddenLabel "3X"^^xsd:string ;
+    skos:prefLabel "Aguilar Connect"^^xsd:string .
+
+cv-ai4dm:4A a skos:Concept ;
+    skos:hiddenLabel "4A"^^xsd:string ;
+    skos:prefLabel "Air Kiribati"^^xsd:string .
+
+cv-ai4dm:4B a skos:Concept ;
+    skos:hiddenLabel "4B"^^xsd:string ;
+    skos:prefLabel "Boutique Air (Priv)"^^xsd:string .
+
+cv-ai4dm:4C a skos:Concept ;
+    skos:hiddenLabel "4C"^^xsd:string ;
+    skos:prefLabel "Aires"^^xsd:string .
+
+cv-ai4dm:4D a skos:Concept ;
+    skos:hiddenLabel "4D"^^xsd:string ;
+    skos:prefLabel "Air Sinai"^^xsd:string .
+
+cv-ai4dm:4F a skos:Concept ;
+    skos:hiddenLabel "4F"^^xsd:string ;
+    skos:prefLabel "Air City"^^xsd:string .
+
+cv-ai4dm:4G a skos:Concept ;
+    skos:hiddenLabel "4G"^^xsd:string ;
+    skos:prefLabel "Advance Leasing Company"^^xsd:string,
+        "Gazpromavia"^^xsd:string .
+
+cv-ai4dm:4H a skos:Concept ;
+    skos:hiddenLabel "4H"^^xsd:string ;
+    skos:prefLabel "United Airways"^^xsd:string .
+
+cv-ai4dm:4K a skos:Concept ;
+    skos:hiddenLabel "4K"^^xsd:string ;
+    skos:prefLabel "Askari Aviation"^^xsd:string .
+
+cv-ai4dm:4L a skos:Concept ;
+    skos:hiddenLabel "4L"^^xsd:string ;
+    skos:prefLabel "Euroline"^^xsd:string .
+
+cv-ai4dm:4M a skos:Concept ;
+    skos:hiddenLabel "4M"^^xsd:string ;
+    skos:prefLabel "LAN Argentina"^^xsd:string .
+
+cv-ai4dm:4N a skos:Concept ;
+    skos:hiddenLabel "4N"^^xsd:string ;
+    skos:prefLabel "Air North Charter - Canada"^^xsd:string .
+
+cv-ai4dm:4O a skos:Concept ;
+    skos:hiddenLabel "4O"^^xsd:string ;
+    skos:prefLabel "Interjet (ABC Aerolineas)"^^xsd:string .
+
+cv-ai4dm:4P a skos:Concept ;
+    skos:hiddenLabel "4P"^^xsd:string ;
+    skos:prefLabel "Business Aviation"^^xsd:string .
+
+cv-ai4dm:4Q a skos:Concept ;
+    skos:hiddenLabel "4Q"^^xsd:string ;
+    skos:prefLabel "Safi Airlines"^^xsd:string .
+
+cv-ai4dm:4R a skos:Concept ;
+    skos:hiddenLabel "4R"^^xsd:string ;
+    skos:prefLabel "Hamburg International"^^xsd:string .
+
+cv-ai4dm:4S a skos:Concept ;
+    skos:hiddenLabel "4S"^^xsd:string ;
+    skos:prefLabel "Finalair Congo"^^xsd:string,
+        "Vuola Italia"^^xsd:string .
+
+cv-ai4dm:4T a skos:Concept ;
+    skos:hiddenLabel "4T"^^xsd:string ;
+    skos:prefLabel "Belair Airlines"^^xsd:string .
+
+cv-ai4dm:4U a skos:Concept ;
+    skos:hiddenLabel "4U"^^xsd:string ;
+    skos:prefLabel "Germanwings"^^xsd:string .
+
+cv-ai4dm:4X a skos:Concept ;
+    skos:hiddenLabel "4X"^^xsd:string ;
+    skos:prefLabel "Red Jet Mexico"^^xsd:string .
+
+cv-ai4dm:4Y a skos:Concept ;
+    skos:hiddenLabel "4Y"^^xsd:string ;
+    skos:prefLabel "Airbus France"^^xsd:string .
+
+cv-ai4dm:4Z a skos:Concept ;
+    skos:hiddenLabel "4Z"^^xsd:string ;
+    skos:prefLabel "Airlink (SAA)"^^xsd:string .
+
+cv-ai4dm:5A a skos:Concept ;
+    skos:hiddenLabel "5A"^^xsd:string ;
+    skos:prefLabel "Alpine Air Express"^^xsd:string .
+
+cv-ai4dm:5B a skos:Concept ;
+    skos:hiddenLabel "5B"^^xsd:string ;
+    skos:prefLabel "Bassaka airlines"^^xsd:string .
+
+cv-ai4dm:5C a skos:Concept ;
+    skos:hiddenLabel "5C"^^xsd:string ;
+    skos:prefLabel "CAL Cargo Air Lines"^^xsd:string .
+
+cv-ai4dm:5D a skos:Concept ;
+    skos:hiddenLabel "5D"^^xsd:string ;
+    skos:prefLabel "Aerolitoral"^^xsd:string,
+        "DonbassAero"^^xsd:string .
+
+cv-ai4dm:5E a skos:Concept ;
+    skos:hiddenLabel "5E"^^xsd:string ;
+    skos:prefLabel "SGA Airlines"^^xsd:string .
+
+cv-ai4dm:5F a skos:Concept ;
+    skos:hiddenLabel "5F"^^xsd:string ;
+    skos:prefLabel "Arctic Circle Air Service"^^xsd:string .
+
+cv-ai4dm:5G a skos:Concept ;
+    skos:hiddenLabel "5G"^^xsd:string ;
+    skos:prefLabel "Skyservice Airlines"^^xsd:string .
+
+cv-ai4dm:5H a skos:Concept ;
+    skos:hiddenLabel "5H"^^xsd:string ;
+    skos:prefLabel "Fly540"^^xsd:string .
+
+cv-ai4dm:5J a skos:Concept ;
+    skos:hiddenLabel "5J"^^xsd:string ;
+    skos:prefLabel "Cebu Pacific"^^xsd:string .
+
+cv-ai4dm:5K a skos:Concept ;
+    skos:hiddenLabel "5K"^^xsd:string ;
+    skos:prefLabel "Hi Fly"^^xsd:string,
+        "Hi Fly (5K)"^^xsd:string .
+
+cv-ai4dm:5L a skos:Concept ;
+    skos:hiddenLabel "5L"^^xsd:string ;
+    skos:prefLabel "Aerosur"^^xsd:string .
+
+cv-ai4dm:5M a skos:Concept ;
+    skos:hiddenLabel "5M"^^xsd:string ;
+    skos:prefLabel "Sibaviatrans"^^xsd:string .
+
+cv-ai4dm:5N a skos:Concept ;
+    skos:hiddenLabel "5N"^^xsd:string ;
+    skos:prefLabel "Aeroflot-Nord"^^xsd:string .
+
+cv-ai4dm:5P a skos:Concept ;
+    skos:hiddenLabel "5P"^^xsd:string ;
+    skos:prefLabel "Pal airlines"^^xsd:string .
+
+cv-ai4dm:5Q a skos:Concept ;
+    skos:hiddenLabel "5Q"^^xsd:string ;
+    skos:prefLabel "BQB Lineas Aereas"^^xsd:string .
+
+cv-ai4dm:5T a skos:Concept ;
+    skos:hiddenLabel "5T"^^xsd:string ;
+    skos:prefLabel "Canadian North"^^xsd:string .
+
+cv-ai4dm:5V a skos:Concept ;
+    skos:hiddenLabel "5V"^^xsd:string ;
+    skos:prefLabel "Lviv Airlines"^^xsd:string .
+
+cv-ai4dm:5W a skos:Concept ;
+    skos:hiddenLabel "5W"^^xsd:string ;
+    skos:prefLabel "Astraeus"^^xsd:string .
+
+cv-ai4dm:5X a skos:Concept ;
+    skos:hiddenLabel "5X"^^xsd:string ;
+    skos:prefLabel "United Parcel Service"^^xsd:string .
+
+cv-ai4dm:5Y a skos:Concept ;
+    skos:hiddenLabel "5Y"^^xsd:string ;
+    skos:prefLabel "Atlas Air"^^xsd:string .
+
+cv-ai4dm:5Z a skos:Concept ;
+    skos:hiddenLabel "5Z"^^xsd:string ;
+    skos:prefLabel "Bismillah Airlines"^^xsd:string,
+        "VivaColombia"^^xsd:string .
+
+cv-ai4dm:6A a skos:Concept ;
+    skos:hiddenLabel "6A"^^xsd:string ;
+    skos:prefLabel "Consorcio Aviaxsa"^^xsd:string .
+
+cv-ai4dm:6B a skos:Concept ;
+    skos:hiddenLabel "6B"^^xsd:string ;
+    skos:prefLabel "TUIfly Nordic"^^xsd:string .
+
+cv-ai4dm:6C a skos:Concept ;
+    skos:hiddenLabel "6C"^^xsd:string ;
+    skos:prefLabel "Vuela Cuba"^^xsd:string .
+
+cv-ai4dm:6D a skos:Concept ;
+    skos:hiddenLabel "6D"^^xsd:string ;
+    skos:prefLabel "Pelita"^^xsd:string .
+
+cv-ai4dm:6E a skos:Concept ;
+    skos:hiddenLabel "6E"^^xsd:string ;
+    skos:prefLabel "IndiGo Airlines"^^xsd:string .
+
+cv-ai4dm:6F a skos:Concept ;
+    skos:hiddenLabel "6F"^^xsd:string ;
+    skos:prefLabel "MAT Airways"^^xsd:string .
+
+cv-ai4dm:6G a skos:Concept ;
+    skos:hiddenLabel "6G"^^xsd:string ;
+    skos:prefLabel "Air Wales"^^xsd:string .
+
+cv-ai4dm:6H a skos:Concept ;
+    skos:hiddenLabel "6H"^^xsd:string ;
+    skos:prefLabel "Israir"^^xsd:string .
+
+cv-ai4dm:6I a skos:Concept ;
+    skos:hiddenLabel "6I"^^xsd:string ;
+    skos:prefLabel "Fly 6ix"^^xsd:string,
+        "International Business Air"^^xsd:string .
+
+cv-ai4dm:6J a skos:Concept ;
+    skos:hiddenLabel "6J"^^xsd:string ;
+    skos:prefLabel "Skynet Asia Airways"^^xsd:string .
+
+cv-ai4dm:6K a skos:Concept ;
+    skos:hiddenLabel "6K"^^xsd:string ;
+    skos:prefLabel "Asian Spirit"^^xsd:string .
+
+cv-ai4dm:6N a skos:Concept ;
+    skos:hiddenLabel "6N"^^xsd:string ;
+    skos:prefLabel "Nordic Regional"^^xsd:string .
+
+cv-ai4dm:6P a skos:Concept ;
+    skos:hiddenLabel "6P"^^xsd:string ;
+    skos:prefLabel "Club Air"^^xsd:string,
+        "Gryphon Airlines"^^xsd:string .
+
+cv-ai4dm:6Q a skos:Concept ;
+    skos:hiddenLabel "6Q"^^xsd:string ;
+    skos:prefLabel "Slovak Airlines"^^xsd:string .
+
+cv-ai4dm:6R a skos:Concept ;
+    skos:hiddenLabel "6R"^^xsd:string ;
+    skos:prefLabel "Alrosa Mirny Air Enterprise"^^xsd:string .
+
+cv-ai4dm:6T a skos:Concept ;
+    skos:hiddenLabel "6T"^^xsd:string ;
+    skos:prefLabel "Air Mandalay"^^xsd:string .
+
+cv-ai4dm:6U a skos:Concept ;
+    skos:hiddenLabel "6U"^^xsd:string ;
+    skos:prefLabel "Air Cargo Germany"^^xsd:string,
+        "Air Ukraine"^^xsd:string .
+
+cv-ai4dm:6V a skos:Concept ;
+    skos:hiddenLabel "6V"^^xsd:string ;
+    skos:prefLabel "Air Vegas"^^xsd:string,
+        "Axis Airways"^^xsd:string,
+        "Mars RK"^^xsd:string,
+        "Via Conectia Airlines"^^xsd:string .
+
+cv-ai4dm:6W a skos:Concept ;
+    skos:hiddenLabel "6W"^^xsd:string ;
+    skos:prefLabel "Saratov Aviation Division"^^xsd:string .
+
+cv-ai4dm:6Y a skos:Concept ;
+    skos:hiddenLabel "6Y"^^xsd:string ;
+    skos:prefLabel "SmartLynx Airlines"^^xsd:string .
+
+cv-ai4dm:6Z a skos:Concept ;
+    skos:hiddenLabel "6Z"^^xsd:string ;
+    skos:prefLabel "Ukrainian Cargo Airways"^^xsd:string .
+
+cv-ai4dm:7A a skos:Concept ;
+    skos:hiddenLabel "7A"^^xsd:string ;
+    skos:prefLabel "Aztec Worldwide Airlines"^^xsd:string .
+
+cv-ai4dm:7B a skos:Concept ;
+    skos:hiddenLabel "7B"^^xsd:string ;
+    skos:prefLabel "Krasnojarsky Airlines"^^xsd:string .
+
+cv-ai4dm:7C a skos:Concept ;
+    skos:hiddenLabel "7C"^^xsd:string ;
+    skos:prefLabel "Jeju Air"^^xsd:string .
+
+cv-ai4dm:7E a skos:Concept ;
+    skos:hiddenLabel "7E"^^xsd:string ;
+    skos:prefLabel "Aeroline GmbH"^^xsd:string .
+
+cv-ai4dm:7F a skos:Concept ;
+    skos:hiddenLabel "7F"^^xsd:string ;
+    skos:prefLabel "First Air"^^xsd:string .
+
+cv-ai4dm:7G a skos:Concept ;
+    skos:hiddenLabel "7G"^^xsd:string ;
+    skos:prefLabel "Star Flyer"^^xsd:string .
+
+cv-ai4dm:7H a skos:Concept ;
+    skos:hiddenLabel "7H"^^xsd:string ;
+    skos:prefLabel "Era Alaska"^^xsd:string .
+
+cv-ai4dm:7I a skos:Concept ;
+    skos:hiddenLabel "7I"^^xsd:string ;
+    skos:prefLabel "Insel Air (7I/INC) (Priv)"^^xsd:string .
+
+cv-ai4dm:7J a skos:Concept ;
+    skos:hiddenLabel "7J"^^xsd:string ;
+    skos:prefLabel "Tajik Air"^^xsd:string .
+
+cv-ai4dm:7K a skos:Concept ;
+    skos:hiddenLabel "7K"^^xsd:string ;
+    skos:prefLabel "Kogalymavia Air Company"^^xsd:string .
+
+cv-ai4dm:7L a skos:Concept ;
+    skos:hiddenLabel "7L"^^xsd:string ;
+    skos:prefLabel "Sun D'Or"^^xsd:string .
+
+cv-ai4dm:7M a skos:Concept ;
+    skos:hiddenLabel "7M"^^xsd:string ;
+    skos:prefLabel "Mongolian International Air Lines "^^xsd:string .
+
+cv-ai4dm:7N a skos:Concept ;
+    skos:hiddenLabel "7N"^^xsd:string ;
+    skos:prefLabel "Centavia"^^xsd:string .
+
+cv-ai4dm:7O a skos:Concept ;
+    skos:hiddenLabel "7O"^^xsd:string ;
+    skos:prefLabel "All Colombia"^^xsd:string,
+        "Galaxy Air"^^xsd:string .
+
+cv-ai4dm:7P a skos:Concept ;
+    skos:hiddenLabel "7P"^^xsd:string ;
+    skos:prefLabel "Metro Batavia"^^xsd:string .
+
+cv-ai4dm:7Q a skos:Concept ;
+    skos:hiddenLabel "7Q"^^xsd:string ;
+    skos:prefLabel "Pan Am World Airways Dominicana"^^xsd:string .
+
+cv-ai4dm:7R a skos:Concept ;
+    skos:hiddenLabel "7R"^^xsd:string ;
+    skos:prefLabel "BRA-Transportes Aereos"^^xsd:string,
+        "Svyaz Rossiya"^^xsd:string .
+
+cv-ai4dm:7T a skos:Concept ;
+    skos:hiddenLabel "7T"^^xsd:string ;
+    skos:prefLabel "Air Glaciers"^^xsd:string,
+        "Tobruk Air"^^xsd:string .
+
+cv-ai4dm:7V a skos:Concept ;
+    skos:hiddenLabel "7V"^^xsd:string ;
+    skos:prefLabel "ROYAL BRITAIN"^^xsd:string .
+
+cv-ai4dm:7W a skos:Concept ;
+    skos:hiddenLabel "7W"^^xsd:string ;
+    skos:prefLabel "Wayraper"^^xsd:string .
+
+cv-ai4dm:7Y a skos:Concept ;
+    skos:hiddenLabel "7Y"^^xsd:string ;
+    skos:prefLabel "Med Airways"^^xsd:string .
+
+cv-ai4dm:7Z a skos:Concept ;
+    skos:hiddenLabel "7Z"^^xsd:string ;
+    skos:prefLabel "Halcyonair"^^xsd:string .
+
+cv-ai4dm:8A a skos:Concept ;
+    skos:hiddenLabel "8A"^^xsd:string ;
+    skos:prefLabel "Atlas Blue"^^xsd:string .
+
+cv-ai4dm:8B a skos:Concept ;
+    skos:hiddenLabel "8B"^^xsd:string ;
+    skos:prefLabel "BusinessAir"^^xsd:string,
+        "Caribbean Star Airlines"^^xsd:string .
+
+cv-ai4dm:8C a skos:Concept ;
+    skos:hiddenLabel "8C"^^xsd:string ;
+    skos:prefLabel "Air Horizon"^^xsd:string,
+        "Air Transport International"^^xsd:string,
+        "Shanxi Airlines"^^xsd:string .
+
+cv-ai4dm:8D a skos:Concept ;
+    skos:hiddenLabel "8D"^^xsd:string ;
+    skos:prefLabel "Astair"^^xsd:string,
+        "Expo Aviation"^^xsd:string,
+        "Servant Air"^^xsd:string .
+
+cv-ai4dm:8E a skos:Concept ;
+    skos:hiddenLabel "8E"^^xsd:string ;
+    skos:prefLabel "Bering Air"^^xsd:string .
+
+cv-ai4dm:8F a skos:Concept ;
+    skos:hiddenLabel "8F"^^xsd:string ;
+    skos:prefLabel "Fischer Air"^^xsd:string,
+        "STP Airways"^^xsd:string .
+
+cv-ai4dm:8H a skos:Concept ;
+    skos:hiddenLabel "8H"^^xsd:string ;
+    skos:prefLabel "Heli France"^^xsd:string .
+
+cv-ai4dm:8I a skos:Concept ;
+    skos:hiddenLabel "8I"^^xsd:string ;
+    skos:prefLabel "Myway Airlines"^^xsd:string .
+
+cv-ai4dm:8J a skos:Concept ;
+    skos:hiddenLabel "8J"^^xsd:string ;
+    skos:prefLabel "Jet4You"^^xsd:string,
+        "Komiinteravia"^^xsd:string .
+
+cv-ai4dm:8K a skos:Concept ;
+    skos:hiddenLabel "8K"^^xsd:string ;
+    skos:prefLabel "Voestar"^^xsd:string .
+
+cv-ai4dm:8L a skos:Concept ;
+    skos:hiddenLabel "8L"^^xsd:string ;
+    skos:prefLabel "Cargo Plus Aviation"^^xsd:string,
+        "Redhill Aviation"^^xsd:string .
+
+cv-ai4dm:8M a skos:Concept ;
+    skos:hiddenLabel "8M"^^xsd:string ;
+    skos:prefLabel "Maxair"^^xsd:string,
+        "Myanmar Airways International"^^xsd:string .
+
+cv-ai4dm:8N a skos:Concept ;
+    skos:hiddenLabel "8N"^^xsd:string ;
+    skos:prefLabel "Barents AirLink"^^xsd:string .
+
+cv-ai4dm:8O a skos:Concept ;
+    skos:hiddenLabel "8O"^^xsd:string ;
+    skos:prefLabel "West Coast Air"^^xsd:string .
+
+cv-ai4dm:8P a skos:Concept ;
+    skos:hiddenLabel "8P"^^xsd:string ;
+    skos:prefLabel "Pacific Coastal Airline"^^xsd:string .
+
+cv-ai4dm:8Q a skos:Concept ;
+    skos:hiddenLabel "8Q"^^xsd:string ;
+    skos:prefLabel "Baker Aviation"^^xsd:string,
+        "Maldivian Air Taxi"^^xsd:string,
+        "Onur Air"^^xsd:string,
+        "Princess Air"^^xsd:string .
+
+cv-ai4dm:8R a skos:Concept ;
+    skos:hiddenLabel "8R"^^xsd:string ;
+    skos:prefLabel "TRIP Linhas A"^^xsd:string .
+
+cv-ai4dm:8S a skos:Concept ;
+    skos:hiddenLabel "8S"^^xsd:string ;
+    skos:prefLabel "Scorpio Aviation"^^xsd:string .
+
+cv-ai4dm:8T a skos:Concept ;
+    skos:hiddenLabel "8T"^^xsd:string ;
+    skos:prefLabel "Air Tindi"^^xsd:string .
+
+cv-ai4dm:8U a skos:Concept ;
+    skos:hiddenLabel "8U"^^xsd:string ;
+    skos:prefLabel "Afriqiyah Airways"^^xsd:string .
+
+cv-ai4dm:8V a skos:Concept ;
+    skos:hiddenLabel "8V"^^xsd:string ;
+    skos:prefLabel "Astral Aviation"^^xsd:string,
+        "Wright Air Service"^^xsd:string .
+
+cv-ai4dm:8W a skos:Concept ;
+    skos:hiddenLabel "8W"^^xsd:string ;
+    skos:prefLabel "BAX Global"^^xsd:string,
+        "Private Wings Flugcharter"^^xsd:string .
+
+cv-ai4dm:8Y a skos:Concept ;
+    skos:hiddenLabel "8Y"^^xsd:string ;
+    skos:prefLabel "Air Burundi"^^xsd:string,
+        "China Postal Airlines"^^xsd:string .
+
+cv-ai4dm:8Z a skos:Concept ;
+    skos:hiddenLabel "8Z"^^xsd:string ;
+    skos:prefLabel "Wizz Air Hungary"^^xsd:string .
+
+cv-ai4dm:8z a skos:Concept ;
+    skos:hiddenLabel "8z"^^xsd:string ;
+    skos:prefLabel "Linea Aerea de Servicio Ejecutivo Regional"^^xsd:string .
+
+cv-ai4dm:9A a skos:Concept ;
+    skos:hiddenLabel "9A"^^xsd:string ;
+    skos:prefLabel "Air Atlantic"^^xsd:string,
+        "All Africa"^^xsd:string .
+
+cv-ai4dm:9C a skos:Concept ;
+    skos:hiddenLabel "9C"^^xsd:string ;
+    skos:prefLabel "China SSS"^^xsd:string .
+
+cv-ai4dm:9E a skos:Concept ;
+    skos:hiddenLabel "9E"^^xsd:string ;
+    skos:prefLabel "Pinnacle Airlines"^^xsd:string .
+
+cv-ai4dm:9F a skos:Concept ;
+    skos:hiddenLabel "9F"^^xsd:string ;
+    skos:prefLabel "Tramm Airlines"^^xsd:string .
+
+cv-ai4dm:9H a skos:Concept ;
+    skos:hiddenLabel "9H"^^xsd:string ;
+    skos:prefLabel "MDLR Airlines"^^xsd:string .
+
+cv-ai4dm:9I a skos:Concept ;
+    skos:hiddenLabel "9I"^^xsd:string ;
+    skos:prefLabel "International Europe"^^xsd:string,
+        "Thai Sky Airlines"^^xsd:string .
+
+cv-ai4dm:9J a skos:Concept ;
+    skos:hiddenLabel "9J"^^xsd:string ;
+    skos:prefLabel "Regionalia Chile"^^xsd:string .
+
+cv-ai4dm:9K a skos:Concept ;
+    skos:hiddenLabel "9K"^^xsd:string ;
+    skos:prefLabel "Cape Air"^^xsd:string .
+
+cv-ai4dm:9L a skos:Concept ;
+    skos:hiddenLabel "9L"^^xsd:string ;
+    skos:prefLabel "Colgan Air"^^xsd:string .
+
+cv-ai4dm:9N a skos:Concept ;
+    skos:hiddenLabel "9N"^^xsd:string ;
+    skos:prefLabel "Regional Air Iceland"^^xsd:string .
+
+cv-ai4dm:9O a skos:Concept ;
+    skos:hiddenLabel "9O"^^xsd:string ;
+    skos:prefLabel "National Airways Cameroon"^^xsd:string .
+
+cv-ai4dm:9P a skos:Concept ;
+    skos:hiddenLabel "9P"^^xsd:string ;
+    skos:prefLabel "Pelangi "^^xsd:string .
+
+cv-ai4dm:9Q a skos:Concept ;
+    skos:hiddenLabel "9Q"^^xsd:string ;
+    skos:prefLabel "PB Air"^^xsd:string .
+
+cv-ai4dm:9R a skos:Concept ;
+    skos:hiddenLabel "9R"^^xsd:string ;
+    skos:prefLabel "Phuket Air"^^xsd:string,
+        "SATENA"^^xsd:string .
+
+cv-ai4dm:9S a skos:Concept ;
+    skos:hiddenLabel "9S"^^xsd:string ;
+    skos:prefLabel "Spring Airlines"^^xsd:string .
+
+cv-ai4dm:9T a skos:Concept ;
+    skos:hiddenLabel "9T"^^xsd:string ;
+    skos:prefLabel "Transwest Air"^^xsd:string .
+
+cv-ai4dm:9U a skos:Concept ;
+    skos:hiddenLabel "9U"^^xsd:string ;
+    skos:prefLabel "Air Moldova"^^xsd:string .
+
+cv-ai4dm:9V a skos:Concept ;
+    skos:hiddenLabel "9V"^^xsd:string ;
+    skos:prefLabel "Volotea Costa Rica"^^xsd:string .
+
+cv-ai4dm:9W a skos:Concept ;
+    skos:hiddenLabel "9W"^^xsd:string ;
+    skos:prefLabel "Jet Airways"^^xsd:string .
+
+cv-ai4dm:9X a skos:Concept ;
+    skos:hiddenLabel "9X"^^xsd:string ;
+    skos:prefLabel "Itali Airlines"^^xsd:string,
+        "Regionalia Venezuela"^^xsd:string .
+
+cv-ai4dm:9Y a skos:Concept ;
+    skos:hiddenLabel "9Y"^^xsd:string ;
+    skos:prefLabel "Air Kazakhstan"^^xsd:string .
+
+cv-ai4dm:A1 a skos:Concept ;
+    skos:hiddenLabel "A1"^^xsd:string ;
+    skos:prefLabel "Atifly"^^xsd:string .
+
+cv-ai4dm:A2 a skos:Concept ;
+    skos:hiddenLabel "A2"^^xsd:string ;
+    skos:prefLabel "All America"^^xsd:string,
+        "Cielos Airlines"^^xsd:string .
+
+cv-ai4dm:A3 a skos:Concept ;
+    skos:hiddenLabel "A3"^^xsd:string ;
+    skos:prefLabel "Aegean Airlines"^^xsd:string .
+
+cv-ai4dm:A4 a skos:Concept ;
+    skos:hiddenLabel "A4"^^xsd:string ;
+    skos:prefLabel "Southern Winds Airlines"^^xsd:string .
+
+cv-ai4dm:A5 a skos:Concept ;
+    skos:hiddenLabel "A5"^^xsd:string ;
+    skos:prefLabel "Airlinair"^^xsd:string .
+
+cv-ai4dm:A6 a skos:Concept ;
+    skos:hiddenLabel "A6"^^xsd:string ;
+    skos:prefLabel "Air Alps Aviation"^^xsd:string,
+        "Air Alps Aviation (A6)"^^xsd:string .
+
+cv-ai4dm:A7 a skos:Concept ;
+    skos:hiddenLabel "A7"^^xsd:string ;
+    skos:prefLabel "Air Plus Comet"^^xsd:string .
+
+cv-ai4dm:A8 a skos:Concept ;
+    skos:hiddenLabel "A8"^^xsd:string ;
+    skos:prefLabel "Benin Golf Air"^^xsd:string .
+
+cv-ai4dm:A9 a skos:Concept ;
+    skos:hiddenLabel "A9"^^xsd:string ;
+    skos:prefLabel "Georgian Airways"^^xsd:string .
+
+cv-ai4dm:AA a skos:Concept ;
+    skos:hiddenLabel "AA"^^xsd:string ;
+    skos:prefLabel "American Airlines"^^xsd:string .
+
+cv-ai4dm:AB a skos:Concept ;
+    skos:hiddenLabel "AB"^^xsd:string ;
+    skos:prefLabel "Air Berlin"^^xsd:string .
+
+cv-ai4dm:AC a skos:Concept ;
+    skos:hiddenLabel "AC"^^xsd:string ;
+    skos:prefLabel "Air Canada"^^xsd:string .
+
+cv-ai4dm:AD a skos:Concept ;
+    skos:hiddenLabel "AD"^^xsd:string ;
+    skos:prefLabel "Air Paradise International"^^xsd:string,
+        "Azul"^^xsd:string .
+
+cv-ai4dm:AE a skos:Concept ;
+    skos:hiddenLabel "AE"^^xsd:string ;
+    skos:prefLabel "Mandarin Airlines"^^xsd:string .
+
+cv-ai4dm:AF a skos:Concept ;
+    skos:hiddenLabel "AF"^^xsd:string ;
+    skos:prefLabel "Air France"^^xsd:string .
+
+cv-ai4dm:AG a skos:Concept ;
+    skos:hiddenLabel "AG"^^xsd:string ;
+    skos:prefLabel "Air Contractors"^^xsd:string,
+        "All America US"^^xsd:string .
+
+cv-ai4dm:AH a skos:Concept ;
+    skos:hiddenLabel "AH"^^xsd:string ;
+    skos:prefLabel "Air Algerie"^^xsd:string .
+
+cv-ai4dm:AI a skos:Concept ;
+    skos:hiddenLabel "AI"^^xsd:string ;
+    skos:prefLabel "Air India Limited"^^xsd:string .
+
+cv-ai4dm:AJ a skos:Concept ;
+    skos:hiddenLabel "AJ"^^xsd:string ;
+    skos:prefLabel "Aero Contractors"^^xsd:string .
+
+cv-ai4dm:AK a skos:Concept ;
+    skos:hiddenLabel "AK"^^xsd:string ;
+    skos:prefLabel "AirAsia"^^xsd:string .
+
+cv-ai4dm:AL a skos:Concept ;
+    skos:hiddenLabel "AL"^^xsd:string ;
+    skos:prefLabel "Skywalk Airlines"^^xsd:string,
+        "Transaviaexport"^^xsd:string .
+
+cv-ai4dm:AM a skos:Concept ;
+    skos:hiddenLabel "AM"^^xsd:string ;
+    skos:prefLabel "AeroMéxico"^^xsd:string .
+
+cv-ai4dm:AN a skos:Concept ;
+    skos:hiddenLabel "AN"^^xsd:string ;
+    skos:prefLabel "Ansett Australia"^^xsd:string .
+
+cv-ai4dm:AO a skos:Concept ;
+    skos:hiddenLabel "AO"^^xsd:string ;
+    skos:prefLabel "Australian Airlines"^^xsd:string,
+        "Avianova (Russia)"^^xsd:string .
+
+cv-ai4dm:AP a skos:Concept ;
+    skos:hiddenLabel "AP"^^xsd:string ;
+    skos:prefLabel "Air One"^^xsd:string,
+        "Airbus Industrie"^^xsd:string .
+
+cv-ai4dm:AQ a skos:Concept ;
+    skos:hiddenLabel "AQ"^^xsd:string ;
+    skos:prefLabel "Aloha Airlines"^^xsd:string .
+
+cv-ai4dm:AR a skos:Concept ;
+    skos:hiddenLabel "AR"^^xsd:string ;
+    skos:prefLabel "Aerolineas Argentinas"^^xsd:string .
+
+cv-ai4dm:AS a skos:Concept ;
+    skos:hiddenLabel "AS"^^xsd:string ;
+    skos:prefLabel "Alaska Airlines"^^xsd:string .
+
+cv-ai4dm:AT a skos:Concept ;
+    skos:hiddenLabel "AT"^^xsd:string ;
+    skos:prefLabel "Royal Air Maroc"^^xsd:string .
+
+cv-ai4dm:AU a skos:Concept ;
+    skos:hiddenLabel "AU"^^xsd:string ;
+    skos:prefLabel "Austral Lineas Aereas"^^xsd:string .
+
+cv-ai4dm:AV a skos:Concept ;
+    skos:hiddenLabel "AV"^^xsd:string ;
+    skos:prefLabel "Avianca - Aerovias Nacionales de Colombia"^^xsd:string .
+
+cv-ai4dm:AW a skos:Concept ;
+    skos:hiddenLabel "AW"^^xsd:string ;
+    skos:prefLabel "Asian Wings Airways"^^xsd:string,
+        "CHC Airways"^^xsd:string,
+        "Dirgantara Air Service"^^xsd:string .
+
+cv-ai4dm:AX a skos:Concept ;
+    skos:hiddenLabel "AX"^^xsd:string ;
+    skos:prefLabel "Trans States Airlines"^^xsd:string .
+
+cv-ai4dm:AY a skos:Concept ;
+    skos:hiddenLabel "AY"^^xsd:string ;
+    skos:prefLabel "Finnair"^^xsd:string .
+
+cv-ai4dm:AZ a skos:Concept ;
+    skos:hiddenLabel "AZ"^^xsd:string ;
+    skos:prefLabel "Alitalia"^^xsd:string .
+
+cv-ai4dm:B0 a skos:Concept ;
+    skos:hiddenLabel "B0"^^xsd:string ;
+    skos:prefLabel "Aws express"^^xsd:string .
+
+cv-ai4dm:B1 a skos:Concept ;
+    skos:hiddenLabel "B1"^^xsd:string ;
+    skos:prefLabel "Baltic Air lines"^^xsd:string .
+
+cv-ai4dm:B2 a skos:Concept ;
+    skos:hiddenLabel "B2"^^xsd:string ;
+    skos:prefLabel "Belavia Belarusian Airlines"^^xsd:string .
+
+cv-ai4dm:B3 a skos:Concept ;
+    skos:hiddenLabel "B3"^^xsd:string ;
+    skos:prefLabel "Bellview Airlines"^^xsd:string .
+
+cv-ai4dm:B4 a skos:Concept ;
+    skos:hiddenLabel "B4"^^xsd:string ;
+    skos:prefLabel "BACH Flugbetriebsges"^^xsd:string,
+        "Bankair"^^xsd:string,
+        "Flyglobespan"^^xsd:string .
+
+cv-ai4dm:B5 a skos:Concept ;
+    skos:hiddenLabel "B5"^^xsd:string ;
+    skos:prefLabel "Flightline"^^xsd:string .
+
+cv-ai4dm:B6 a skos:Concept ;
+    skos:hiddenLabel "B6"^^xsd:string ;
+    skos:prefLabel "JetBlue Airways"^^xsd:string .
+
+cv-ai4dm:B7 a skos:Concept ;
+    skos:hiddenLabel "B7"^^xsd:string ;
+    skos:prefLabel "Uni Air"^^xsd:string .
+
+cv-ai4dm:B8 a skos:Concept ;
+    skos:hiddenLabel "B8"^^xsd:string ;
+    skos:prefLabel "Eritrean Airlines"^^xsd:string .
+
+cv-ai4dm:B9 a skos:Concept ;
+    skos:hiddenLabel "B9"^^xsd:string ;
+    skos:prefLabel "Air Bangladesh"^^xsd:string .
+
+cv-ai4dm:BA a skos:Concept ;
+    skos:hiddenLabel "BA"^^xsd:string ;
+    skos:prefLabel "British Airways"^^xsd:string .
+
+cv-ai4dm:BB a skos:Concept ;
+    skos:hiddenLabel "BB"^^xsd:string ;
+    skos:prefLabel "Seaborne Airlines"^^xsd:string .
+
+cv-ai4dm:BC a skos:Concept ;
+    skos:hiddenLabel "BC"^^xsd:string ;
+    skos:prefLabel "Skymark Airlines"^^xsd:string .
+
+cv-ai4dm:BD a skos:Concept ;
+    skos:hiddenLabel "BD"^^xsd:string ;
+    skos:prefLabel "bmi"^^xsd:string .
+
+cv-ai4dm:BE a skos:Concept ;
+    skos:hiddenLabel "BE"^^xsd:string ;
+    skos:prefLabel "Flybe"^^xsd:string .
+
+cv-ai4dm:BF a skos:Concept ;
+    skos:hiddenLabel "BF"^^xsd:string ;
+    skos:prefLabel "Aero-Service"^^xsd:string,
+        "Bluebird Cargo"^^xsd:string .
+
+cv-ai4dm:BG a skos:Concept ;
+    skos:hiddenLabel "BG"^^xsd:string ;
+    skos:prefLabel "Biman Bangladesh Airlines"^^xsd:string .
+
+cv-ai4dm:BH a skos:Concept ;
+    skos:hiddenLabel "BH"^^xsd:string ;
+    skos:prefLabel "Hawkair"^^xsd:string .
+
+cv-ai4dm:BI a skos:Concept ;
+    skos:hiddenLabel "BI"^^xsd:string ;
+    skos:prefLabel "Royal Brunei Airlines"^^xsd:string .
+
+cv-ai4dm:BJ a skos:Concept ;
+    skos:hiddenLabel "BJ"^^xsd:string ;
+    skos:prefLabel "Nouvel Air Tunisie"^^xsd:string .
+
+cv-ai4dm:BK a skos:Concept ;
+    skos:hiddenLabel "BK"^^xsd:string ;
+    skos:prefLabel "Potomac Air"^^xsd:string .
+
+cv-ai4dm:BL a skos:Concept ;
+    skos:hiddenLabel "BL"^^xsd:string ;
+    skos:prefLabel "Jetstar Pacific"^^xsd:string .
+
+cv-ai4dm:BM a skos:Concept ;
+    skos:hiddenLabel "BM"^^xsd:string ;
+    skos:prefLabel "Air Sicilia"^^xsd:string,
+        "Bayu Indonesia Air"^^xsd:string .
+
+cv-ai4dm:BN a skos:Concept ;
+    skos:hiddenLabel "BN"^^xsd:string ;
+    skos:prefLabel "Braniff International Airways"^^xsd:string,
+        "Forward Air International Airlines"^^xsd:string,
+        "Horizon Airlines"^^xsd:string .
+
+cv-ai4dm:BO a skos:Concept ;
+    skos:hiddenLabel "BO"^^xsd:string ;
+    skos:prefLabel "Bouraq Indonesia Airlines"^^xsd:string .
+
+cv-ai4dm:BP a skos:Concept ;
+    skos:hiddenLabel "BP"^^xsd:string ;
+    skos:prefLabel "Air Botswana"^^xsd:string .
+
+cv-ai4dm:BQ a skos:Concept ;
+    skos:hiddenLabel "BQ"^^xsd:string ;
+    skos:prefLabel "Aeromar"^^xsd:string,
+        "Buquebus Líneas Aéreas"^^xsd:string .
+
+cv-ai4dm:BR a skos:Concept ;
+    skos:hiddenLabel "BR"^^xsd:string ;
+    skos:prefLabel "EVA Air"^^xsd:string .
+
+cv-ai4dm:BS a skos:Concept ;
+    skos:hiddenLabel "BS"^^xsd:string ;
+    skos:prefLabel "British International Helicopters"^^xsd:string .
+
+cv-ai4dm:BT a skos:Concept ;
+    skos:hiddenLabel "BT"^^xsd:string ;
+    skos:prefLabel "Air Baltic"^^xsd:string .
+
+cv-ai4dm:BU a skos:Concept ;
+    skos:hiddenLabel "BU"^^xsd:string ;
+    skos:prefLabel "Baikotovitchestrian Airlines "^^xsd:string,
+        "Blue Sky America"^^xsd:string,
+        "Braathens"^^xsd:string .
+
+cv-ai4dm:BV a skos:Concept ;
+    skos:hiddenLabel "BV"^^xsd:string ;
+    skos:prefLabel "Blue Panorama Airlines"^^xsd:string .
+
+cv-ai4dm:BW a skos:Concept ;
+    skos:hiddenLabel "BW"^^xsd:string ;
+    skos:prefLabel "Caribbean Airlines"^^xsd:string .
+
+cv-ai4dm:BX a skos:Concept ;
+    skos:hiddenLabel "BX"^^xsd:string ;
+    skos:prefLabel "Air Busan"^^xsd:string,
+        "Coast Air"^^xsd:string .
+
+cv-ai4dm:BY a skos:Concept ;
+    skos:hiddenLabel "BY"^^xsd:string ;
+    skos:prefLabel "Thomsonfly"^^xsd:string .
+
+cv-ai4dm:BZ a skos:Concept ;
+    skos:hiddenLabel "BZ"^^xsd:string ;
+    skos:prefLabel "Aero Brazil"^^xsd:string,
+        "Black Stallion Airways"^^xsd:string,
+        "Blue Dart Aviation"^^xsd:string,
+        "Keystone Air Services"^^xsd:string .
+
+cv-ai4dm:C0 a skos:Concept ;
+    skos:hiddenLabel "C0"^^xsd:string ;
+    skos:prefLabel "Centralwings"^^xsd:string .
+
+cv-ai4dm:C1 a skos:Concept ;
+    skos:hiddenLabel "C1"^^xsd:string ;
+    skos:prefLabel "CanXpress"^^xsd:string .
+
+cv-ai4dm:C2 a skos:Concept ;
+    skos:hiddenLabel "C2"^^xsd:string ;
+    skos:prefLabel "CanXplorer"^^xsd:string .
+
+cv-ai4dm:C3 a skos:Concept ;
+    skos:hiddenLabel "C3"^^xsd:string ;
+    skos:prefLabel "Contact Air"^^xsd:string,
+        "ICAR Airlines"^^xsd:string,
+        "QatXpress"^^xsd:string .
+
+cv-ai4dm:C4 a skos:Concept ;
+    skos:hiddenLabel "C4"^^xsd:string ;
+    skos:prefLabel "LionXpress"^^xsd:string,
+        "Zimex Aviation"^^xsd:string .
+
+cv-ai4dm:C5 a skos:Concept ;
+    skos:hiddenLabel "C5"^^xsd:string ;
+    skos:prefLabel "CommutAir"^^xsd:string .
+
+cv-ai4dm:C6 a skos:Concept ;
+    skos:hiddenLabel "C6"^^xsd:string ;
+    skos:prefLabel "CanJet"^^xsd:string .
+
+cv-ai4dm:C7 a skos:Concept ;
+    skos:hiddenLabel "C7"^^xsd:string ;
+    skos:prefLabel "Rico Linhas A"^^xsd:string,
+        "Sky Wing Pacific"^^xsd:string .
+
+cv-ai4dm:C8 a skos:Concept ;
+    skos:hiddenLabel "C8"^^xsd:string ;
+    skos:prefLabel "Chicago Express"^^xsd:string,
+        "Chicago Express (C8)"^^xsd:string .
+
+cv-ai4dm:C9 a skos:Concept ;
+    skos:hiddenLabel "C9"^^xsd:string ;
+    skos:prefLabel "Cirrus Airlines"^^xsd:string .
+
+cv-ai4dm:CA a skos:Concept ;
+    skos:hiddenLabel "CA"^^xsd:string ;
+    skos:prefLabel "Air China"^^xsd:string .
+
+cv-ai4dm:CB a skos:Concept ;
+    skos:hiddenLabel "CB"^^xsd:string ;
+    skos:prefLabel "CCML Airlines"^^xsd:string,
+        "Suckling Airways"^^xsd:string .
+
+cv-ai4dm:CC a skos:Concept ;
+    skos:hiddenLabel "CC"^^xsd:string ;
+    skos:prefLabel "Air Atlanta Icelandic"^^xsd:string,
+        "Macair Airlines"^^xsd:string .
+
+cv-ai4dm:CD a skos:Concept ;
+    skos:hiddenLabel "CD"^^xsd:string ;
+    skos:prefLabel "Air India Regional"^^xsd:string,
+        "Alliance Air"^^xsd:string .
+
+cv-ai4dm:CE a skos:Concept ;
+    skos:hiddenLabel "CE"^^xsd:string ;
+    skos:prefLabel "Nationwide Airlines"^^xsd:string .
+
+cv-ai4dm:CF a skos:Concept ;
+    skos:hiddenLabel "CF"^^xsd:string ;
+    skos:prefLabel "City Airline"^^xsd:string .
+
+cv-ai4dm:CG a skos:Concept ;
+    skos:hiddenLabel "CG"^^xsd:string ;
+    skos:prefLabel "Airlines PNG"^^xsd:string .
+
+cv-ai4dm:CH a skos:Concept ;
+    skos:hiddenLabel "CH"^^xsd:string ;
+    skos:prefLabel "Bemidji Airlines"^^xsd:string .
+
+cv-ai4dm:CI a skos:Concept ;
+    skos:hiddenLabel "CI"^^xsd:string ;
+    skos:prefLabel "China Airlines"^^xsd:string .
+
+cv-ai4dm:CJ a skos:Concept ;
+    skos:hiddenLabel "CJ"^^xsd:string ;
+    skos:prefLabel "BA CityFlyer"^^xsd:string,
+        "China Northern Airlines"^^xsd:string .
+
+cv-ai4dm:CK a skos:Concept ;
+    skos:hiddenLabel "CK"^^xsd:string ;
+    skos:prefLabel "China Cargo Airlines"^^xsd:string .
+
+cv-ai4dm:CL a skos:Concept ;
+    skos:hiddenLabel "CL"^^xsd:string ;
+    skos:prefLabel "Lufthansa CityLine"^^xsd:string .
+
+cv-ai4dm:CM a skos:Concept ;
+    skos:hiddenLabel "CM"^^xsd:string ;
+    skos:prefLabel "Copa Airlines"^^xsd:string .
+
+cv-ai4dm:CN a skos:Concept ;
+    skos:hiddenLabel "CN"^^xsd:string ;
+    skos:prefLabel "Canadian National Airways"^^xsd:string,
+        "Islands Nationair"^^xsd:string,
+        "Westward Airways"^^xsd:string .
+
+cv-ai4dm:CO a skos:Concept ;
+    skos:hiddenLabel "CO"^^xsd:string ;
+    skos:prefLabel "Continental Airlines"^^xsd:string,
+        "Continental Express"^^xsd:string .
+
+cv-ai4dm:CP a skos:Concept ;
+    skos:hiddenLabel "CP"^^xsd:string ;
+    skos:prefLabel "Canadian Airlines"^^xsd:string,
+        "Compass Airlines"^^xsd:string .
+
+cv-ai4dm:CQ a skos:Concept ;
+    skos:hiddenLabel "CQ"^^xsd:string ;
+    skos:prefLabel "SOCHI AIR"^^xsd:string,
+        "Sunshine Express Airlines"^^xsd:string .
+
+cv-ai4dm:CR a skos:Concept ;
+    skos:hiddenLabel "CR"^^xsd:string ;
+    skos:prefLabel "Air Ops"^^xsd:string,
+        "OAG"^^xsd:string .
+
+cv-ai4dm:CS a skos:Concept ;
+    skos:hiddenLabel "CS"^^xsd:string ;
+    skos:prefLabel "Continental Micronesia"^^xsd:string .
+
+cv-ai4dm:CT a skos:Concept ;
+    skos:hiddenLabel "CT"^^xsd:string ;
+    skos:prefLabel "Alitalia Cityliner"^^xsd:string,
+        "Civil Air Transport"^^xsd:string .
+
+cv-ai4dm:CU a skos:Concept ;
+    skos:hiddenLabel "CU"^^xsd:string ;
+    skos:prefLabel "Cubana de Aviación"^^xsd:string .
+
+cv-ai4dm:CV a skos:Concept ;
+    skos:hiddenLabel "CV"^^xsd:string ;
+    skos:prefLabel "Air Chathams"^^xsd:string,
+        "Cargolux"^^xsd:string .
+
+cv-ai4dm:CW a skos:Concept ;
+    skos:hiddenLabel "CW"^^xsd:string ;
+    skos:prefLabel "Air Marshall Islands"^^xsd:string .
+
+cv-ai4dm:CX a skos:Concept ;
+    skos:hiddenLabel "CX"^^xsd:string ;
+    skos:prefLabel "Cathay Pacific"^^xsd:string .
+
+cv-ai4dm:CY a skos:Concept ;
+    skos:hiddenLabel "CY"^^xsd:string ;
+    skos:prefLabel "Cyprus Airways"^^xsd:string .
+
+cv-ai4dm:CZ a skos:Concept ;
+    skos:hiddenLabel "CZ"^^xsd:string ;
+    skos:prefLabel "China Southern Airlines"^^xsd:string .
+
+cv-ai4dm:D1 a skos:Concept ;
+    skos:hiddenLabel "D1"^^xsd:string ;
+    skos:prefLabel "Domenican Airlines"^^xsd:string .
+
+cv-ai4dm:D2 a skos:Concept ;
+    skos:hiddenLabel "D2"^^xsd:string ;
+    skos:prefLabel "Severstal Air Company"^^xsd:string .
+
+cv-ai4dm:D3 a skos:Concept ;
+    skos:hiddenLabel "D3"^^xsd:string ;
+    skos:prefLabel "Daallo Airlines"^^xsd:string .
+
+cv-ai4dm:D4 a skos:Concept ;
+    skos:hiddenLabel "D4"^^xsd:string ;
+    skos:prefLabel "Alidaunia"^^xsd:string .
+
+cv-ai4dm:D5 a skos:Concept ;
+    skos:hiddenLabel "D5"^^xsd:string ;
+    skos:prefLabel "Dauair"^^xsd:string,
+        "NEPC Airlines"^^xsd:string,
+        "Skyline nepc"^^xsd:string .
+
+cv-ai4dm:D6 a skos:Concept ;
+    skos:hiddenLabel "D6"^^xsd:string ;
+    skos:prefLabel "Interair South Africa"^^xsd:string .
+
+cv-ai4dm:D7 a skos:Concept ;
+    skos:hiddenLabel "D7"^^xsd:string ;
+    skos:prefLabel "AirAsia X"^^xsd:string,
+        "Dinar"^^xsd:string .
+
+cv-ai4dm:D8 a skos:Concept ;
+    skos:hiddenLabel "D8"^^xsd:string ;
+    skos:prefLabel "Djibouti Airlines"^^xsd:string .
+
+cv-ai4dm:D9 a skos:Concept ;
+    skos:hiddenLabel "D9"^^xsd:string ;
+    skos:prefLabel "Aeroflot-Don"^^xsd:string .
+
+cv-ai4dm:DA a skos:Concept ;
+    skos:hiddenLabel "DA"^^xsd:string ;
+    skos:prefLabel "Air Georgia"^^xsd:string,
+        "Dana Air"^^xsd:string .
+
+cv-ai4dm:DB a skos:Concept ;
+    skos:hiddenLabel "DB"^^xsd:string ;
+    skos:prefLabel "Brit Air"^^xsd:string .
+
+cv-ai4dm:DC a skos:Concept ;
+    skos:hiddenLabel "DC"^^xsd:string ;
+    skos:prefLabel "Golden Air"^^xsd:string .
+
+cv-ai4dm:DD a skos:Concept ;
+    skos:hiddenLabel "DD"^^xsd:string ;
+    skos:prefLabel "Nok Air"^^xsd:string .
+
+cv-ai4dm:DE a skos:Concept ;
+    skos:hiddenLabel "DE"^^xsd:string ;
+    skos:prefLabel "Condor Flugdienst"^^xsd:string .
+
+cv-ai4dm:DF a skos:Concept ;
+    skos:hiddenLabel "DF"^^xsd:string ;
+    skos:prefLabel "Michael Airlines"^^xsd:string .
+
+cv-ai4dm:DG a skos:Concept ;
+    skos:hiddenLabel "DG"^^xsd:string ;
+    skos:prefLabel "South East Asian Airlines"^^xsd:string .
+
+cv-ai4dm:DH a skos:Concept ;
+    skos:hiddenLabel "DH"^^xsd:string ;
+    skos:prefLabel "Dennis Sky"^^xsd:string,
+        "Discovery Airways"^^xsd:string,
+        "Independence Air"^^xsd:string .
+
+cv-ai4dm:DI a skos:Concept ;
+    skos:hiddenLabel "DI"^^xsd:string ;
+    skos:prefLabel "dba"^^xsd:string .
+
+cv-ai4dm:DJ a skos:Concept ;
+    skos:hiddenLabel "DJ"^^xsd:string ;
+    skos:prefLabel "Pacific Blue"^^xsd:string,
+        "Polynesian Blue"^^xsd:string,
+        "Virgin Blue"^^xsd:string .
+
+cv-ai4dm:DK a skos:Concept ;
+    skos:hiddenLabel "DK"^^xsd:string ;
+    skos:prefLabel "Eastland Air"^^xsd:string .
+
+cv-ai4dm:DL a skos:Concept ;
+    skos:hiddenLabel "DL"^^xsd:string ;
+    skos:prefLabel "Delta Air Lines"^^xsd:string .
+
+cv-ai4dm:DM a skos:Concept ;
+    skos:hiddenLabel "DM"^^xsd:string ;
+    skos:prefLabel "Maersk"^^xsd:string .
+
+cv-ai4dm:DN a skos:Concept ;
+    skos:hiddenLabel "DN"^^xsd:string ;
+    skos:prefLabel "Alinord"^^xsd:string,
+        "Senegal Airlines"^^xsd:string,
+        "Voronezhskie Airlanes"^^xsd:string .
+
+cv-ai4dm:DO a skos:Concept ;
+    skos:hiddenLabel "DO"^^xsd:string ;
+    skos:prefLabel "Dominicana de Aviaci"^^xsd:string .
+
+cv-ai4dm:DP a skos:Concept ;
+    skos:hiddenLabel "DP"^^xsd:string ;
+    skos:prefLabel "First Choice Airways"^^xsd:string .
+
+cv-ai4dm:DQ a skos:Concept ;
+    skos:hiddenLabel "DQ"^^xsd:string ;
+    skos:prefLabel "Coastal Air"^^xsd:string .
+
+cv-ai4dm:DR a skos:Concept ;
+    skos:hiddenLabel "DR"^^xsd:string ;
+    skos:prefLabel "Air Mediterranee"^^xsd:string .
+
+cv-ai4dm:DS a skos:Concept ;
+    skos:hiddenLabel "DS"^^xsd:string ;
+    skos:prefLabel "EasyJet (DS)"^^xsd:string .
+
+cv-ai4dm:DT a skos:Concept ;
+    skos:hiddenLabel "DT"^^xsd:string ;
+    skos:prefLabel "TAAG Angola Airlines"^^xsd:string .
+
+cv-ai4dm:DU a skos:Concept ;
+    skos:hiddenLabel "DU"^^xsd:string ;
+    skos:prefLabel "Hemus Air"^^xsd:string,
+        "Norwegian Long Haul AS"^^xsd:string .
+
+cv-ai4dm:DV a skos:Concept ;
+    skos:hiddenLabel "DV"^^xsd:string ;
+    skos:prefLabel "Lufttaxi Fluggesellschaft"^^xsd:string,
+        "Nantucket Airlines"^^xsd:string,
+        "Scat Air"^^xsd:string .
+
+cv-ai4dm:DW a skos:Concept ;
+    skos:hiddenLabel "DW"^^xsd:string ;
+    skos:prefLabel "Aero-Charter Ukraine"^^xsd:string,
+        "Deutsche Luftverkehrsgesellschaft"^^xsd:string,
+        "Deutsche Luftverkehrsgesellschaft (DLT)"^^xsd:string .
+
+cv-ai4dm:DX a skos:Concept ;
+    skos:hiddenLabel "DX"^^xsd:string ;
+    skos:prefLabel "DAT Danish Air Transport"^^xsd:string .
+
+cv-ai4dm:DY a skos:Concept ;
+    skos:hiddenLabel "DY"^^xsd:string ;
+    skos:prefLabel "Norwegian Air Shuttle"^^xsd:string .
+
+cv-ai4dm:DZ a skos:Concept ;
+    skos:hiddenLabel "DZ"^^xsd:string ;
+    skos:prefLabel "Starline.kz"^^xsd:string .
+
+cv-ai4dm:E0 a skos:Concept ;
+    skos:hiddenLabel "E0"^^xsd:string ;
+    skos:prefLabel "Eos Airlines"^^xsd:string .
+
+cv-ai4dm:E1 a skos:Concept ;
+    skos:hiddenLabel "E1"^^xsd:string ;
+    skos:prefLabel "Usa Sky Cargo"^^xsd:string .
+
+cv-ai4dm:E2 a skos:Concept ;
+    skos:hiddenLabel "E2"^^xsd:string ;
+    skos:prefLabel "Eagle Atlantic Airlines"^^xsd:string,
+        "Kampuchea Airlines"^^xsd:string,
+        "Rio Grande Air"^^xsd:string .
+
+cv-ai4dm:E3 a skos:Concept ;
+    skos:hiddenLabel "E3"^^xsd:string ;
+    skos:prefLabel "Domodedovo Airlines"^^xsd:string .
+
+cv-ai4dm:E4 a skos:Concept ;
+    skos:hiddenLabel "E4"^^xsd:string ;
+    skos:prefLabel "Aero Asia International"^^xsd:string,
+        "Elysian Airlines"^^xsd:string .
+
+cv-ai4dm:E5 a skos:Concept ;
+    skos:hiddenLabel "E5"^^xsd:string ;
+    skos:prefLabel "Air Arabia Egypt"^^xsd:string,
+        "Samara Airlines"^^xsd:string .
+
+cv-ai4dm:E6 a skos:Concept ;
+    skos:hiddenLabel "E6"^^xsd:string ;
+    skos:prefLabel "Aviaexpresscruise"^^xsd:string,
+        "Bringer Air Cargo Taxi Aereo"^^xsd:string .
+
+cv-ai4dm:E7 a skos:Concept ;
+    skos:hiddenLabel "E7"^^xsd:string ;
+    skos:prefLabel "Estafeta Carga Aerea"^^xsd:string,
+        "European Aviation Air Charter"^^xsd:string .
+
+cv-ai4dm:E8 a skos:Concept ;
+    skos:hiddenLabel "E8"^^xsd:string ;
+    skos:prefLabel "Alpi Eagles"^^xsd:string,
+        "Alpi Eagles (E8)"^^xsd:string,
+        "City Airways"^^xsd:string,
+        "US Africa Airways"^^xsd:string .
+
+cv-ai4dm:E9 a skos:Concept ;
+    skos:hiddenLabel "E9"^^xsd:string ;
+    skos:prefLabel "AJT Air International"^^xsd:string,
+        "Boston-Maine Airways"^^xsd:string,
+        "Compagnie Africaine d\\\\'Aviation"^^xsd:string .
+
+cv-ai4dm:EA a skos:Concept ;
+    skos:hiddenLabel "EA"^^xsd:string ;
+    skos:prefLabel "European Air Express"^^xsd:string .
+
+cv-ai4dm:EC a skos:Concept ;
+    skos:hiddenLabel "EC"^^xsd:string ;
+    skos:prefLabel "Avialeasing Aviation Company"^^xsd:string .
+
+cv-ai4dm:ED a skos:Concept ;
+    skos:hiddenLabel "ED"^^xsd:string ;
+    skos:prefLabel "Airblue"^^xsd:string .
+
+cv-ai4dm:EE a skos:Concept ;
+    skos:hiddenLabel "EE"^^xsd:string ;
+    skos:prefLabel "Aero Airlines"^^xsd:string,
+        "Nordica"^^xsd:string .
+
+cv-ai4dm:EF a skos:Concept ;
+    skos:hiddenLabel "EF"^^xsd:string ;
+    skos:prefLabel "Far Eastern Air Transport"^^xsd:string .
+
+cv-ai4dm:EG a skos:Concept ;
+    skos:hiddenLabel "EG"^^xsd:string ;
+    skos:prefLabel "Japan Asia Airways"^^xsd:string .
+
+cv-ai4dm:EH a skos:Concept ;
+    skos:hiddenLabel "EH"^^xsd:string ;
+    skos:prefLabel "Air Nippon Network Co. Ltd."^^xsd:string,
+        "Euro Harmony"^^xsd:string,
+        "SAETA"^^xsd:string .
+
+cv-ai4dm:EI a skos:Concept ;
+    skos:hiddenLabel "EI"^^xsd:string ;
+    skos:prefLabel "Aer Lingus"^^xsd:string .
+
+cv-ai4dm:EJ a skos:Concept ;
+    skos:hiddenLabel "EJ"^^xsd:string ;
+    skos:prefLabel "New England Airlines"^^xsd:string .
+
+cv-ai4dm:EK a skos:Concept ;
+    skos:hiddenLabel "EK"^^xsd:string ;
+    skos:prefLabel "Emirates"^^xsd:string .
+
+cv-ai4dm:EL a skos:Concept ;
+    skos:hiddenLabel "EL"^^xsd:string ;
+    skos:prefLabel "Air Nippon"^^xsd:string .
+
+cv-ai4dm:EM a skos:Concept ;
+    skos:hiddenLabel "EM"^^xsd:string ;
+    skos:prefLabel "Aero Benin"^^xsd:string,
+        "Empire Airlines"^^xsd:string .
+
+cv-ai4dm:EN a skos:Concept ;
+    skos:hiddenLabel "EN"^^xsd:string ;
+    skos:prefLabel "Air Dolomiti"^^xsd:string .
+
+cv-ai4dm:EO a skos:Concept ;
+    skos:hiddenLabel "EO"^^xsd:string ;
+    skos:prefLabel "Express One International"^^xsd:string,
+        "Hewa Bora Airways"^^xsd:string .
+
+cv-ai4dm:EP a skos:Concept ;
+    skos:hiddenLabel "EP"^^xsd:string ;
+    skos:prefLabel "Iran Aseman Airlines"^^xsd:string .
+
+cv-ai4dm:EQ a skos:Concept ;
+    skos:hiddenLabel "EQ"^^xsd:string ;
+    skos:prefLabel "TAME"^^xsd:string .
+
+cv-ai4dm:ER a skos:Concept ;
+    skos:hiddenLabel "ER"^^xsd:string ;
+    skos:prefLabel "Astar Air Cargo"^^xsd:string,
+        "Fly Europa"^^xsd:string .
+
+cv-ai4dm:ES a skos:Concept ;
+    skos:hiddenLabel "ES"^^xsd:string ;
+    skos:prefLabel "DHL International"^^xsd:string,
+        "EuropeSky"^^xsd:string .
+
+cv-ai4dm:ET a skos:Concept ;
+    skos:hiddenLabel "ET"^^xsd:string ;
+    skos:prefLabel "Ethiopian Airlines"^^xsd:string .
+
+cv-ai4dm:EU a skos:Concept ;
+    skos:hiddenLabel "EU"^^xsd:string ;
+    skos:prefLabel "Empresa Ecuatoriana De Aviacion"^^xsd:string .
+
+cv-ai4dm:EV a skos:Concept ;
+    skos:hiddenLabel "EV"^^xsd:string ;
+    skos:prefLabel "Atlantic Southeast Airlines"^^xsd:string .
+
+cv-ai4dm:EW a skos:Concept ;
+    skos:hiddenLabel "EW"^^xsd:string ;
+    skos:prefLabel "Eurowings"^^xsd:string .
+
+cv-ai4dm:EX a skos:Concept ;
+    skos:hiddenLabel "EX"^^xsd:string ;
+    skos:prefLabel "Air Santo Domingo"^^xsd:string,
+        "Europe Jet"^^xsd:string,
+        "Wings of England"^^xsd:string .
+
+cv-ai4dm:EY a skos:Concept ;
+    skos:hiddenLabel "EY"^^xsd:string ;
+    skos:prefLabel "Etihad Airways"^^xsd:string .
+
+cv-ai4dm:EZ a skos:Concept ;
+    skos:hiddenLabel "EZ"^^xsd:string ;
+    skos:prefLabel "Evergreen International Airlines"^^xsd:string,
+        "Sun Air of Scandinavia"^^xsd:string .
+
+cv-ai4dm:F1 a skos:Concept ;
+    skos:hiddenLabel "F1"^^xsd:string ;
+    skos:prefLabel "Fly Brasil"^^xsd:string .
+
+cv-ai4dm:F2 a skos:Concept ;
+    skos:hiddenLabel "F2"^^xsd:string ;
+    skos:prefLabel "Fly Air"^^xsd:string .
+
+cv-ai4dm:F3 a skos:Concept ;
+    skos:hiddenLabel "F3"^^xsd:string ;
+    skos:prefLabel "Faso Airways"^^xsd:string .
+
+cv-ai4dm:F4 a skos:Concept ;
+    skos:hiddenLabel "F4"^^xsd:string ;
+    skos:prefLabel "Albarka Air"^^xsd:string,
+        "International Flying Service"^^xsd:string .
+
+cv-ai4dm:F5 a skos:Concept ;
+    skos:hiddenLabel "F5"^^xsd:string ;
+    skos:prefLabel "Cosmic Air"^^xsd:string,
+        "Fly One"^^xsd:string,
+        "Global Freightways"^^xsd:string .
+
+cv-ai4dm:F6 a skos:Concept ;
+    skos:hiddenLabel "F6"^^xsd:string ;
+    skos:prefLabel "Faroejet"^^xsd:string .
+
+cv-ai4dm:F7 a skos:Concept ;
+    skos:hiddenLabel "F7"^^xsd:string ;
+    skos:prefLabel "Flybaboo"^^xsd:string .
+
+cv-ai4dm:F8 a skos:Concept ;
+    skos:hiddenLabel "F8"^^xsd:string ;
+    skos:prefLabel "Air2there"^^xsd:string .
+
+cv-ai4dm:F9 a skos:Concept ;
+    skos:hiddenLabel "F9"^^xsd:string ;
+    skos:prefLabel "Frontier Airlines"^^xsd:string .
+
+cv-ai4dm:FA a skos:Concept ;
+    skos:hiddenLabel "FA"^^xsd:string ;
+    skos:prefLabel "Epic Holiday"^^xsd:string,
+        "Safair"^^xsd:string .
+
+cv-ai4dm:FB a skos:Concept ;
+    skos:hiddenLabel "FB"^^xsd:string ;
+    skos:prefLabel "Bulgaria Air"^^xsd:string .
+
+cv-ai4dm:FC a skos:Concept ;
+    skos:hiddenLabel "FC"^^xsd:string ;
+    skos:prefLabel "Finncomm Airlines"^^xsd:string .
+
+cv-ai4dm:FD a skos:Concept ;
+    skos:hiddenLabel "FD"^^xsd:string ;
+    skos:prefLabel "Thai AirAsia"^^xsd:string .
+
+cv-ai4dm:FE a skos:Concept ;
+    skos:hiddenLabel "FE"^^xsd:string ;
+    skos:prefLabel "Primaris Airlines"^^xsd:string .
+
+cv-ai4dm:FF a skos:Concept ;
+    skos:hiddenLabel "FF"^^xsd:string ;
+    skos:prefLabel "Airshop"^^xsd:string,
+        "Fly France"^^xsd:string,
+        "Tower Air"^^xsd:string .
+
+cv-ai4dm:FG a skos:Concept ;
+    skos:hiddenLabel "FG"^^xsd:string ;
+    skos:prefLabel "Ariana Afghan Airlines"^^xsd:string .
+
+cv-ai4dm:FH a skos:Concept ;
+    skos:hiddenLabel "FH"^^xsd:string ;
+    skos:prefLabel "FlyHigh Airlines Ireland (FH)"^^xsd:string,
+        "Futura International Airways"^^xsd:string .
+
+cv-ai4dm:FI a skos:Concept ;
+    skos:hiddenLabel "FI"^^xsd:string ;
+    skos:prefLabel "Icelandair"^^xsd:string .
+
+cv-ai4dm:FJ a skos:Concept ;
+    skos:hiddenLabel "FJ"^^xsd:string ;
+    skos:prefLabel "Air Pacific"^^xsd:string .
+
+cv-ai4dm:FK a skos:Concept ;
+    skos:hiddenLabel "FK"^^xsd:string ;
+    skos:prefLabel "Africa West"^^xsd:string .
+
+cv-ai4dm:FL a skos:Concept ;
+    skos:hiddenLabel "FL"^^xsd:string ;
+    skos:prefLabel "AirTran Airways"^^xsd:string .
+
+cv-ai4dm:FM a skos:Concept ;
+    skos:hiddenLabel "FM"^^xsd:string ;
+    skos:prefLabel "Shanghai Airlines"^^xsd:string .
+
+cv-ai4dm:FN a skos:Concept ;
+    skos:hiddenLabel "FN"^^xsd:string ;
+    skos:prefLabel "Regional Airlines"^^xsd:string .
+
+cv-ai4dm:FO a skos:Concept ;
+    skos:hiddenLabel "FO"^^xsd:string ;
+    skos:prefLabel "Airlines Of Tasmania"^^xsd:string .
+
+cv-ai4dm:FP a skos:Concept ;
+    skos:hiddenLabel "FP"^^xsd:string ;
+    skos:prefLabel "Freedom Air"^^xsd:string .
+
+cv-ai4dm:FQ a skos:Concept ;
+    skos:hiddenLabel "FQ"^^xsd:string ;
+    skos:prefLabel "Thomas Cook Airlines"^^xsd:string .
+
+cv-ai4dm:FR a skos:Concept ;
+    skos:hiddenLabel "FR"^^xsd:string ;
+    skos:prefLabel "Ryanair"^^xsd:string .
+
+cv-ai4dm:FS a skos:Concept ;
+    skos:hiddenLabel "FS"^^xsd:string ;
+    skos:prefLabel "Servicios de Transportes A"^^xsd:string .
+
+cv-ai4dm:FT a skos:Concept ;
+    skos:hiddenLabel "FT"^^xsd:string ;
+    skos:prefLabel "Siem Reap Airways"^^xsd:string .
+
+cv-ai4dm:FU a skos:Concept ;
+    skos:hiddenLabel "FU"^^xsd:string ;
+    skos:prefLabel "Felix Airways"^^xsd:string .
+
+cv-ai4dm:FV a skos:Concept ;
+    skos:hiddenLabel "FV"^^xsd:string ;
+    skos:prefLabel "Rossiya-Russian Airlines"^^xsd:string .
+
+cv-ai4dm:FW a skos:Concept ;
+    skos:hiddenLabel "FW"^^xsd:string ;
+    skos:prefLabel "Ibex Airlines"^^xsd:string .
+
+cv-ai4dm:FX a skos:Concept ;
+    skos:hiddenLabel "FX"^^xsd:string ;
+    skos:prefLabel "FOX Linhas Aereas"^^xsd:string,
+        "Federal Express"^^xsd:string .
+
+cv-ai4dm:FY a skos:Concept ;
+    skos:hiddenLabel "FY"^^xsd:string ;
+    skos:prefLabel "Firefly"^^xsd:string,
+        "Northwest Regional Airlines"^^xsd:string .
+
+cv-ai4dm:FZ a skos:Concept ;
+    skos:hiddenLabel "FZ"^^xsd:string ;
+    skos:prefLabel "Fly Dubai"^^xsd:string .
+
+cv-ai4dm:G0 a skos:Concept ;
+    skos:hiddenLabel "G0"^^xsd:string ;
+    skos:prefLabel "Ghana International Airlines"^^xsd:string .
+
+cv-ai4dm:G1 a skos:Concept ;
+    skos:hiddenLabel "G1"^^xsd:string ;
+    skos:prefLabel "Gorkha Airlines"^^xsd:string,
+        "Indya Airline Group"^^xsd:string .
+
+cv-ai4dm:G2 a skos:Concept ;
+    skos:hiddenLabel "G2"^^xsd:string ;
+    skos:prefLabel "Avirex"^^xsd:string .
+
+cv-ai4dm:G3 a skos:Concept ;
+    skos:hiddenLabel "G3"^^xsd:string ;
+    skos:prefLabel "City Connexion Airlines"^^xsd:string,
+        "Gol Transportes Aéreos"^^xsd:string,
+        "Sky Express"^^xsd:string .
+
+cv-ai4dm:G4 a skos:Concept ;
+    skos:hiddenLabel "G4"^^xsd:string ;
+    skos:prefLabel "Allegiant Air"^^xsd:string .
+
+cv-ai4dm:G5 a skos:Concept ;
+    skos:hiddenLabel "G5"^^xsd:string ;
+    skos:prefLabel "Huaxia"^^xsd:string .
+
+cv-ai4dm:G6 a skos:Concept ;
+    skos:hiddenLabel "G6"^^xsd:string ;
+    skos:prefLabel "Air Volga"^^xsd:string,
+        "Guine Bissaur Airlines"^^xsd:string .
+
+cv-ai4dm:G7 a skos:Concept ;
+    skos:hiddenLabel "G7"^^xsd:string ;
+    skos:prefLabel "Gandalf Airlines"^^xsd:string,
+        "GoJet Airlines"^^xsd:string .
+
+cv-ai4dm:G8 a skos:Concept ;
+    skos:hiddenLabel "G8"^^xsd:string ;
+    skos:prefLabel "Air Service Gabon"^^xsd:string,
+        "Enkor JSC"^^xsd:string,
+        "Go Air"^^xsd:string,
+        "Gujarat Airways"^^xsd:string .
+
+cv-ai4dm:G9 a skos:Concept ;
+    skos:hiddenLabel "G9"^^xsd:string ;
+    skos:prefLabel "Air Arabia"^^xsd:string .
+
+cv-ai4dm:GA a skos:Concept ;
+    skos:hiddenLabel "GA"^^xsd:string ;
+    skos:prefLabel "Garuda Indonesia"^^xsd:string .
+
+cv-ai4dm:GB a skos:Concept ;
+    skos:hiddenLabel "GB"^^xsd:string ;
+    skos:prefLabel "ABX Air"^^xsd:string,
+        "Airborne Express"^^xsd:string,
+        "BRAZIL AIR"^^xsd:string .
+
+cv-ai4dm:GC a skos:Concept ;
+    skos:hiddenLabel "GC"^^xsd:string ;
+    skos:prefLabel "Gambia International Airlines"^^xsd:string,
+        "Lina Congo"^^xsd:string .
+
+cv-ai4dm:GD a skos:Concept ;
+    skos:hiddenLabel "GD"^^xsd:string ;
+    skos:prefLabel "Air Alpha Greenland"^^xsd:string,
+        "GoDutch"^^xsd:string .
+
+cv-ai4dm:GE a skos:Concept ;
+    skos:hiddenLabel "GE"^^xsd:string ;
+    skos:prefLabel "TransAsia Airways"^^xsd:string .
+
+cv-ai4dm:GF a skos:Concept ;
+    skos:hiddenLabel "GF"^^xsd:string ;
+    skos:prefLabel "Gulf Air Bahrain"^^xsd:string .
+
+cv-ai4dm:GG a skos:Concept ;
+    skos:hiddenLabel "GG"^^xsd:string ;
+    skos:prefLabel "Air Comores International"^^xsd:string,
+        "Air Guyane"^^xsd:string,
+        "Cargo 360"^^xsd:string .
+
+cv-ai4dm:GH a skos:Concept ;
+    skos:hiddenLabel "GH"^^xsd:string ;
+    skos:prefLabel "Globus"^^xsd:string .
+
+cv-ai4dm:GI a skos:Concept ;
+    skos:hiddenLabel "GI"^^xsd:string ;
+    skos:prefLabel "Itek Air"^^xsd:string .
+
+cv-ai4dm:GJ a skos:Concept ;
+    skos:hiddenLabel "GJ"^^xsd:string ;
+    skos:prefLabel "Compania Mexicargo"^^xsd:string,
+        "Eurofly Service"^^xsd:string .
+
+cv-ai4dm:GK a skos:Concept ;
+    skos:hiddenLabel "GK"^^xsd:string ;
+    skos:prefLabel "Genesis"^^xsd:string,
+        "Go One Airways"^^xsd:string .
+
+cv-ai4dm:GL a skos:Concept ;
+    skos:hiddenLabel "GL"^^xsd:string ;
+    skos:prefLabel "Air Greenland"^^xsd:string,
+        "Miami Air International"^^xsd:string .
+
+cv-ai4dm:GM a skos:Concept ;
+    skos:hiddenLabel "GM"^^xsd:string ;
+    skos:prefLabel "Air Slovakia"^^xsd:string,
+        "Flitestar"^^xsd:string,
+        "German International Air Lines"^^xsd:string .
+
+cv-ai4dm:GN a skos:Concept ;
+    skos:hiddenLabel "GN"^^xsd:string ;
+    skos:prefLabel "Air Gabon"^^xsd:string,
+        "GNB Linhas Aereas"^^xsd:string .
+
+cv-ai4dm:GO a skos:Concept ;
+    skos:hiddenLabel "GO"^^xsd:string ;
+    skos:prefLabel "Kuzu Airlines Cargo"^^xsd:string .
+
+cv-ai4dm:GP a skos:Concept ;
+    skos:hiddenLabel "GP"^^xsd:string ;
+    skos:prefLabel "Gadair European Airlines"^^xsd:string,
+        "Gestair"^^xsd:string,
+        "Palau Trans Pacific Airline"^^xsd:string .
+
+cv-ai4dm:GQ a skos:Concept ;
+    skos:hiddenLabel "GQ"^^xsd:string ;
+    skos:prefLabel "Big Sky Airlines"^^xsd:string .
+
+cv-ai4dm:GR a skos:Concept ;
+    skos:hiddenLabel "GR"^^xsd:string ;
+    skos:prefLabel "Aurigny Air Services"^^xsd:string,
+        "Gemini Air Cargo"^^xsd:string .
+
+cv-ai4dm:GS a skos:Concept ;
+    skos:hiddenLabel "GS"^^xsd:string ;
+    skos:prefLabel "Air Foyle"^^xsd:string,
+        "Grant Aviation"^^xsd:string .
+
+cv-ai4dm:GT a skos:Concept ;
+    skos:hiddenLabel "GT"^^xsd:string ;
+    skos:prefLabel "GB Airways"^^xsd:string .
+
+cv-ai4dm:GU a skos:Concept ;
+    skos:hiddenLabel "GU"^^xsd:string ;
+    skos:prefLabel "Gulisano airways"^^xsd:string .
+
+cv-ai4dm:GV a skos:Concept ;
+    skos:hiddenLabel "GV"^^xsd:string ;
+    skos:prefLabel "Aero Flight"^^xsd:string .
+
+cv-ai4dm:GW a skos:Concept ;
+    skos:hiddenLabel "GW"^^xsd:string ;
+    skos:prefLabel "Kuban Airlines"^^xsd:string .
+
+cv-ai4dm:GX a skos:Concept ;
+    skos:hiddenLabel "GX"^^xsd:string ;
+    skos:prefLabel "GREAT LAKES (GX)"^^xsd:string,
+        "GermanXL"^^xsd:string,
+        "Jetx Airlines"^^xsd:string,
+        "Pacificair"^^xsd:string .
+
+cv-ai4dm:GY a skos:Concept ;
+    skos:hiddenLabel "GY"^^xsd:string ;
+    skos:prefLabel "Gabon Airlines"^^xsd:string,
+        "Guyana Airways 2000"^^xsd:string,
+        "Tri-MG Intra Asia Airlines"^^xsd:string .
+
+cv-ai4dm:GZ a skos:Concept ;
+    skos:hiddenLabel "GZ"^^xsd:string ;
+    skos:prefLabel "Air Rarotonga"^^xsd:string .
+
+cv-ai4dm:H1 a skos:Concept ;
+    skos:hiddenLabel "H1"^^xsd:string ;
+    skos:prefLabel "Hankook Air US"^^xsd:string .
+
+cv-ai4dm:H2 a skos:Concept ;
+    skos:hiddenLabel "H2"^^xsd:string ;
+    skos:prefLabel "Sky Airline"^^xsd:string .
+
+cv-ai4dm:H3 a skos:Concept ;
+    skos:hiddenLabel "H3"^^xsd:string ;
+    skos:prefLabel "Harbour Air (Priv)"^^xsd:string,
+        "THREE"^^xsd:string .
+
+cv-ai4dm:H4 a skos:Concept ;
+    skos:hiddenLabel "H4"^^xsd:string ;
+    skos:prefLabel "Héli Sécurité Helicopter Airlines"^^xsd:string,
+        "Inter Islands Airlines"^^xsd:string .
+
+cv-ai4dm:H5 a skos:Concept ;
+    skos:hiddenLabel "H5"^^xsd:string ;
+    skos:prefLabel "Hola Airlines"^^xsd:string,
+        "I-Fly"^^xsd:string,
+        "Mavial Magadan Airlines"^^xsd:string .
+
+cv-ai4dm:H6 a skos:Concept ;
+    skos:hiddenLabel "H6"^^xsd:string ;
+    skos:prefLabel "Hageland Aviation Services"^^xsd:string .
+
+cv-ai4dm:H7 a skos:Concept ;
+    skos:hiddenLabel "H7"^^xsd:string ;
+    skos:prefLabel "Eagle Air"^^xsd:string .
+
+cv-ai4dm:H8 a skos:Concept ;
+    skos:hiddenLabel "H8"^^xsd:string ;
+    skos:prefLabel "Dalavia"^^xsd:string .
+
+cv-ai4dm:H9 a skos:Concept ;
+    skos:hiddenLabel "H9"^^xsd:string ;
+    skos:prefLabel "Air D'Ayiti"^^xsd:string,
+        "Izair"^^xsd:string,
+        "PEGASUS AIRLINES-"^^xsd:string .
+
+cv-ai4dm:HA a skos:Concept ;
+    skos:hiddenLabel "HA"^^xsd:string ;
+    skos:prefLabel "Hawaiian Airlines"^^xsd:string .
+
+cv-ai4dm:HB a skos:Concept ;
+    skos:hiddenLabel "HB"^^xsd:string ;
+    skos:prefLabel "Harbor Airlines"^^xsd:string .
+
+cv-ai4dm:HC a skos:Concept ;
+    skos:hiddenLabel "HC"^^xsd:string ;
+    skos:prefLabel "Aero-Tropics Air Services"^^xsd:string,
+        "Himalayan Airlines"^^xsd:string .
+
+cv-ai4dm:HD a skos:Concept ;
+    skos:hiddenLabel "HD"^^xsd:string ;
+    skos:prefLabel "Hokkaido International Airlines"^^xsd:string .
+
+cv-ai4dm:HE a skos:Concept ;
+    skos:hiddenLabel "HE"^^xsd:string ;
+    skos:prefLabel "Luftfahrtgesellschaft Walter"^^xsd:string .
+
+cv-ai4dm:HF a skos:Concept ;
+    skos:hiddenLabel "HF"^^xsd:string ;
+    skos:prefLabel "Hapagfly"^^xsd:string .
+
+cv-ai4dm:HG a skos:Concept ;
+    skos:hiddenLabel "HG"^^xsd:string ;
+    skos:prefLabel "Niki"^^xsd:string .
+
+cv-ai4dm:HH a skos:Concept ;
+    skos:hiddenLabel "HH"^^xsd:string ;
+    skos:prefLabel "Air Hamburg (AHO)"^^xsd:string,
+        "Hope Air"^^xsd:string .
+
+cv-ai4dm:HI a skos:Concept ;
+    skos:hiddenLabel "HI"^^xsd:string ;
+    skos:prefLabel "Papillon Grand Canyon Helicopters"^^xsd:string .
+
+cv-ai4dm:HJ a skos:Concept ;
+    skos:hiddenLabel "HJ"^^xsd:string ;
+    skos:prefLabel "Asian Express Airlines"^^xsd:string .
+
+cv-ai4dm:HK a skos:Concept ;
+    skos:hiddenLabel "HK"^^xsd:string ;
+    skos:prefLabel "Four Star Aviation / Four Star Cargo"^^xsd:string,
+        "Yangon Airways"^^xsd:string .
+
+cv-ai4dm:HM a skos:Concept ;
+    skos:hiddenLabel "HM"^^xsd:string ;
+    skos:prefLabel "Air Seychelles"^^xsd:string .
+
+cv-ai4dm:HN a skos:Concept ;
+    skos:hiddenLabel "HN"^^xsd:string ;
+    skos:prefLabel "Hankook Airline"^^xsd:string,
+        "Heavylift Cargo Airlines"^^xsd:string .
+
+cv-ai4dm:HO a skos:Concept ;
+    skos:hiddenLabel "HO"^^xsd:string ;
+    skos:prefLabel "Antinea Airlines"^^xsd:string,
+        "Juneyao Airlines"^^xsd:string .
+
+cv-ai4dm:HP a skos:Concept ;
+    skos:hiddenLabel "HP"^^xsd:string ;
+    skos:prefLabel "America West Airlines"^^xsd:string,
+        "Hawaiian Pacific Airlines"^^xsd:string,
+        "Pearl Airways"^^xsd:string,
+        "Phoenix Airways"^^xsd:string .
+
+cv-ai4dm:HQ a skos:Concept ;
+    skos:hiddenLabel "HQ"^^xsd:string ;
+    skos:prefLabel "HQ- Business Express"^^xsd:string,
+        "Harmony Airways"^^xsd:string .
+
+cv-ai4dm:HR a skos:Concept ;
+    skos:hiddenLabel "HR"^^xsd:string ;
+    skos:prefLabel "China United Airlines"^^xsd:string,
+        "Hahn Air"^^xsd:string .
+
+cv-ai4dm:HT a skos:Concept ;
+    skos:hiddenLabel "HT"^^xsd:string ;
+    skos:prefLabel "Aeromist-Kharkiv"^^xsd:string,
+        "Hellenic Imperial Airways"^^xsd:string .
+
+cv-ai4dm:HU a skos:Concept ;
+    skos:hiddenLabel "HU"^^xsd:string ;
+    skos:prefLabel "Hainan Airlines"^^xsd:string .
+
+cv-ai4dm:HV a skos:Concept ;
+    skos:hiddenLabel "HV"^^xsd:string ;
+    skos:prefLabel "Transavia Holland"^^xsd:string .
+
+cv-ai4dm:HW a skos:Concept ;
+    skos:hiddenLabel "HW"^^xsd:string ;
+    skos:prefLabel "Hello"^^xsd:string,
+        "North-Wright Airways"^^xsd:string .
+
+cv-ai4dm:HX a skos:Concept ;
+    skos:hiddenLabel "HX"^^xsd:string ;
+    skos:prefLabel "Hong Kong Airlines"^^xsd:string .
+
+cv-ai4dm:HY a skos:Concept ;
+    skos:hiddenLabel "HY"^^xsd:string ;
+    skos:prefLabel "Uzbekistan Airways"^^xsd:string .
+
+cv-ai4dm:HZ a skos:Concept ;
+    skos:hiddenLabel "HZ"^^xsd:string ;
+    skos:prefLabel "Sat Airlines"^^xsd:string .
+
+cv-ai4dm:I2 a skos:Concept ;
+    skos:hiddenLabel "I2"^^xsd:string ;
+    skos:prefLabel "Iberia Express"^^xsd:string .
+
+cv-ai4dm:I3 a skos:Concept ;
+    skos:hiddenLabel "I3"^^xsd:string ;
+    skos:prefLabel "ATA Airlines (Iran)"^^xsd:string .
+
+cv-ai4dm:I4 a skos:Concept ;
+    skos:hiddenLabel "I4"^^xsd:string ;
+    skos:prefLabel "International AirLink"^^xsd:string,
+        "Interstate Airline"^^xsd:string .
+
+cv-ai4dm:I5 a skos:Concept ;
+    skos:hiddenLabel "I5"^^xsd:string ;
+    skos:prefLabel "Indonesia Sky"^^xsd:string .
+
+cv-ai4dm:I6 a skos:Concept ;
+    skos:hiddenLabel "I6"^^xsd:string ;
+    skos:prefLabel "MexicanaLink"^^xsd:string,
+        "Sky Eyes"^^xsd:string .
+
+cv-ai4dm:I7 a skos:Concept ;
+    skos:hiddenLabel "I7"^^xsd:string ;
+    skos:prefLabel "Paramount Airways"^^xsd:string .
+
+cv-ai4dm:I8 a skos:Concept ;
+    skos:hiddenLabel "I8"^^xsd:string ;
+    skos:prefLabel "IzAvia"^^xsd:string .
+
+cv-ai4dm:I9 a skos:Concept ;
+    skos:hiddenLabel "I9"^^xsd:string ;
+    skos:prefLabel "Air Italy"^^xsd:string,
+        "Indigo"^^xsd:string .
+
+cv-ai4dm:IA a skos:Concept ;
+    skos:hiddenLabel "IA"^^xsd:string ;
+    skos:prefLabel "Iraqi Airways"^^xsd:string .
+
+cv-ai4dm:IB a skos:Concept ;
+    skos:hiddenLabel "IB"^^xsd:string ;
+    skos:prefLabel "Iberia Airlines"^^xsd:string .
+
+cv-ai4dm:IC a skos:Concept ;
+    skos:hiddenLabel "IC"^^xsd:string ;
+    skos:prefLabel "Indian Airlines"^^xsd:string .
+
+cv-ai4dm:ID a skos:Concept ;
+    skos:hiddenLabel "ID"^^xsd:string ;
+    skos:prefLabel "Interlink Airlines"^^xsd:string .
+
+cv-ai4dm:IE a skos:Concept ;
+    skos:hiddenLabel "IE"^^xsd:string ;
+    skos:prefLabel "Solomon Airlines"^^xsd:string .
+
+cv-ai4dm:IF a skos:Concept ;
+    skos:hiddenLabel "IF"^^xsd:string ;
+    skos:prefLabel "Islas Airways"^^xsd:string .
+
+cv-ai4dm:IG a skos:Concept ;
+    skos:hiddenLabel "IG"^^xsd:string ;
+    skos:prefLabel "Meridiana"^^xsd:string .
+
+cv-ai4dm:IH a skos:Concept ;
+    skos:hiddenLabel "IH"^^xsd:string ;
+    skos:prefLabel "Falcon Air (IH)"^^xsd:string,
+        "Falcon Aviation"^^xsd:string .
+
+cv-ai4dm:II a skos:Concept ;
+    skos:hiddenLabel "II"^^xsd:string ;
+    skos:prefLabel "IBC Airways"^^xsd:string,
+        "LSM International "^^xsd:string .
+
+cv-ai4dm:IJ a skos:Concept ;
+    skos:hiddenLabel "IJ"^^xsd:string ;
+    skos:prefLabel "AirLiberté"^^xsd:string,
+        "Great Wall Airlines"^^xsd:string,
+        "InteliJet Airways"^^xsd:string,
+        "Spring Airlines Japan"^^xsd:string,
+        "T.A.T"^^xsd:string,
+        "Transport Aérien Transrégional"^^xsd:string .
+
+cv-ai4dm:IK a skos:Concept ;
+    skos:hiddenLabel "IK"^^xsd:string ;
+    skos:prefLabel "Imair Airlines"^^xsd:string,
+        "Lankair"^^xsd:string .
+
+cv-ai4dm:IL a skos:Concept ;
+    skos:hiddenLabel "IL"^^xsd:string ;
+    skos:prefLabel "Fly Illi"^^xsd:string,
+        "Illinois Airways"^^xsd:string .
+
+cv-ai4dm:IM a skos:Concept ;
+    skos:hiddenLabel "IM"^^xsd:string ;
+    skos:prefLabel "Menajet"^^xsd:string .
+
+cv-ai4dm:IN a skos:Concept ;
+    skos:hiddenLabel "IN"^^xsd:string ;
+    skos:prefLabel "MAT Macedonian Airlines"^^xsd:string .
+
+cv-ai4dm:IO a skos:Concept ;
+    skos:hiddenLabel "IO"^^xsd:string ;
+    skos:prefLabel "Indonesian Airlines"^^xsd:string .
+
+cv-ai4dm:IP a skos:Concept ;
+    skos:hiddenLabel "IP"^^xsd:string ;
+    skos:prefLabel "Atyrau Air Ways"^^xsd:string,
+        "Island Spirit"^^xsd:string .
+
+cv-ai4dm:IQ a skos:Concept ;
+    skos:hiddenLabel "IQ"^^xsd:string ;
+    skos:prefLabel "Augsburg Airways"^^xsd:string .
+
+cv-ai4dm:IR a skos:Concept ;
+    skos:hiddenLabel "IR"^^xsd:string ;
+    skos:prefLabel "Iran Air"^^xsd:string .
+
+cv-ai4dm:IS a skos:Concept ;
+    skos:hiddenLabel "IS"^^xsd:string ;
+    skos:prefLabel "Island Airlines"^^xsd:string .
+
+cv-ai4dm:IT a skos:Concept ;
+    skos:hiddenLabel "IT"^^xsd:string ;
+    skos:prefLabel "Kingfisher Airlines"^^xsd:string .
+
+cv-ai4dm:IV a skos:Concept ;
+    skos:hiddenLabel "IV"^^xsd:string ;
+    skos:prefLabel "Wind Jet"^^xsd:string .
+
+cv-ai4dm:IW a skos:Concept ;
+    skos:hiddenLabel "IW"^^xsd:string ;
+    skos:prefLabel "AOM French Airlines"^^xsd:string,
+        "Wings Air"^^xsd:string .
+
+cv-ai4dm:IX a skos:Concept ;
+    skos:hiddenLabel "IX"^^xsd:string ;
+    skos:prefLabel "Air India Express"^^xsd:string .
+
+cv-ai4dm:IY a skos:Concept ;
+    skos:hiddenLabel "IY"^^xsd:string ;
+    skos:prefLabel "Yemenia"^^xsd:string .
+
+cv-ai4dm:IZ a skos:Concept ;
+    skos:hiddenLabel "IZ"^^xsd:string ;
+    skos:prefLabel "Arkia Israel Airlines"^^xsd:string .
+
+cv-ai4dm:J1 a skos:Concept ;
+    skos:hiddenLabel "J1"^^xsd:string ;
+    skos:prefLabel "OneJet"^^xsd:string .
+
+cv-ai4dm:J2 a skos:Concept ;
+    skos:hiddenLabel "J2"^^xsd:string ;
+    skos:prefLabel "Azerbaijan Airlines"^^xsd:string .
+
+cv-ai4dm:J3 a skos:Concept ;
+    skos:hiddenLabel "J3"^^xsd:string ;
+    skos:prefLabel "Northwestern Air"^^xsd:string .
+
+cv-ai4dm:J4 a skos:Concept ;
+    skos:hiddenLabel "J4"^^xsd:string ;
+    skos:prefLabel "ALAK"^^xsd:string,
+        "Buffalo Airways"^^xsd:string .
+
+cv-ai4dm:J5 a skos:Concept ;
+    skos:hiddenLabel "J5"^^xsd:string ;
+    skos:prefLabel "Alaska Seaplane Service"^^xsd:string .
+
+cv-ai4dm:J6 a skos:Concept ;
+    skos:hiddenLabel "J6"^^xsd:string ;
+    skos:prefLabel "AVCOM"^^xsd:string .
+
+cv-ai4dm:J7 a skos:Concept ;
+    skos:hiddenLabel "J7"^^xsd:string ;
+    skos:prefLabel "Centre-Avia"^^xsd:string,
+        "Denim Air "^^xsd:string,
+        "ValueJet"^^xsd:string .
+
+cv-ai4dm:J8 a skos:Concept ;
+    skos:hiddenLabel "J8"^^xsd:string ;
+    skos:prefLabel "Berjaya Air"^^xsd:string .
+
+cv-ai4dm:J9 a skos:Concept ;
+    skos:hiddenLabel "J9"^^xsd:string ;
+    skos:prefLabel "Guinee Airlines"^^xsd:string,
+        "Jazeera Airways"^^xsd:string .
+
+cv-ai4dm:JA a skos:Concept ;
+    skos:hiddenLabel "JA"^^xsd:string ;
+    skos:prefLabel "Air Bosna"^^xsd:string,
+        "B&H Airlines"^^xsd:string .
+
+cv-ai4dm:JB a skos:Concept ;
+    skos:hiddenLabel "JB"^^xsd:string ;
+    skos:prefLabel "Helijet"^^xsd:string .
+
+cv-ai4dm:JC a skos:Concept ;
+    skos:hiddenLabel "JC"^^xsd:string ;
+    skos:prefLabel "JAL Express"^^xsd:string .
+
+cv-ai4dm:JD a skos:Concept ;
+    skos:hiddenLabel "JD"^^xsd:string ;
+    skos:prefLabel "Japan Air System"^^xsd:string .
+
+cv-ai4dm:JE a skos:Concept ;
+    skos:hiddenLabel "JE"^^xsd:string ;
+    skos:prefLabel "Mango"^^xsd:string .
+
+cv-ai4dm:JF a skos:Concept ;
+    skos:hiddenLabel "JF"^^xsd:string ;
+    skos:prefLabel "Jetairfly"^^xsd:string,
+        "L.A.B. Flying Service"^^xsd:string .
+
+cv-ai4dm:JG a skos:Concept ;
+    skos:hiddenLabel "JG"^^xsd:string ;
+    skos:prefLabel "Jetgo Australia"^^xsd:string .
+
+cv-ai4dm:JH a skos:Concept ;
+    skos:hiddenLabel "JH"^^xsd:string ;
+    skos:prefLabel "Fuji Dream Airlines"^^xsd:string,
+        "Nordeste Linhas Aereas Regionais"^^xsd:string .
+
+cv-ai4dm:JI a skos:Concept ;
+    skos:hiddenLabel "JI"^^xsd:string ;
+    skos:prefLabel "Midway Airlines"^^xsd:string .
+
+cv-ai4dm:JJ a skos:Concept ;
+    skos:hiddenLabel "JJ"^^xsd:string ;
+    skos:prefLabel "TAM Brazilian Airlines"^^xsd:string .
+
+cv-ai4dm:JK a skos:Concept ;
+    skos:hiddenLabel "JK"^^xsd:string ;
+    skos:prefLabel "Spanair"^^xsd:string .
+
+cv-ai4dm:JL a skos:Concept ;
+    skos:hiddenLabel "JL"^^xsd:string ;
+    skos:prefLabel "Japan Airlines"^^xsd:string,
+        "Japan Airlines Domestic"^^xsd:string .
+
+cv-ai4dm:JM a skos:Concept ;
+    skos:hiddenLabel "JM"^^xsd:string ;
+    skos:prefLabel "Air Jamaica"^^xsd:string .
+
+cv-ai4dm:JN a skos:Concept ;
+    skos:hiddenLabel "JN"^^xsd:string ;
+    skos:prefLabel "Excel Airways"^^xsd:string .
+
+cv-ai4dm:JO a skos:Concept ;
+    skos:hiddenLabel "JO"^^xsd:string ;
+    skos:prefLabel "JALways"^^xsd:string .
+
+cv-ai4dm:JP a skos:Concept ;
+    skos:hiddenLabel "JP"^^xsd:string ;
+    skos:prefLabel "Adria Airways"^^xsd:string .
+
+cv-ai4dm:JQ a skos:Concept ;
+    skos:hiddenLabel "JQ"^^xsd:string ;
+    skos:prefLabel "Jetstar Airways"^^xsd:string .
+
+cv-ai4dm:JR a skos:Concept ;
+    skos:hiddenLabel "JR"^^xsd:string ;
+    skos:prefLabel "Aero California"^^xsd:string,
+        "Joy Air"^^xsd:string .
+
+cv-ai4dm:JS a skos:Concept ;
+    skos:hiddenLabel "JS"^^xsd:string ;
+    skos:prefLabel "Air Koryo"^^xsd:string .
+
+cv-ai4dm:JT a skos:Concept ;
+    skos:hiddenLabel "JT"^^xsd:string ;
+    skos:prefLabel "Lion Mentari Airlines"^^xsd:string .
+
+cv-ai4dm:JU a skos:Concept ;
+    skos:hiddenLabel "JU"^^xsd:string ;
+    skos:prefLabel "Air Serbia"^^xsd:string,
+        "Jat Airways"^^xsd:string .
+
+cv-ai4dm:JV a skos:Concept ;
+    skos:hiddenLabel "JV"^^xsd:string ;
+    skos:prefLabel "Bearskin Lake Air Service"^^xsd:string .
+
+cv-ai4dm:JW a skos:Concept ;
+    skos:hiddenLabel "JW"^^xsd:string ;
+    skos:prefLabel "Arrow Air"^^xsd:string .
+
+cv-ai4dm:JX a skos:Concept ;
+    skos:hiddenLabel "JX"^^xsd:string ;
+    skos:prefLabel "Jett8 Airlines Cargo"^^xsd:string,
+        "Jusur airways"^^xsd:string .
+
+cv-ai4dm:JY a skos:Concept ;
+    skos:hiddenLabel "JY"^^xsd:string ;
+    skos:prefLabel "Aereonautica militare"^^xsd:string,
+        "Air Turks and Caicos"^^xsd:string .
+
+cv-ai4dm:JZ a skos:Concept ;
+    skos:hiddenLabel "JZ"^^xsd:string ;
+    skos:prefLabel "Skyways Express"^^xsd:string .
+
+cv-ai4dm:K1 a skos:Concept ;
+    skos:hiddenLabel "K1"^^xsd:string ;
+    skos:prefLabel "Kostromskie avialinii"^^xsd:string .
+
+cv-ai4dm:K2 a skos:Concept ;
+    skos:hiddenLabel "K2"^^xsd:string ;
+    skos:prefLabel "Eurolot"^^xsd:string .
+
+cv-ai4dm:K3 a skos:Concept ;
+    skos:hiddenLabel "K3"^^xsd:string ;
+    skos:prefLabel "Atlantic Air Cargo"^^xsd:string .
+
+cv-ai4dm:K4 a skos:Concept ;
+    skos:hiddenLabel "K4"^^xsd:string ;
+    skos:prefLabel "Kalitta Air"^^xsd:string .
+
+cv-ai4dm:K5 a skos:Concept ;
+    skos:hiddenLabel "K5"^^xsd:string ;
+    skos:prefLabel "Aban Air"^^xsd:string,
+        "SeaPort Airlines"^^xsd:string,
+        "Wings of Alaska"^^xsd:string .
+
+cv-ai4dm:K6 a skos:Concept ;
+    skos:hiddenLabel "K6"^^xsd:string ;
+    skos:prefLabel "Bravo Air Congo"^^xsd:string,
+        "Cambodia Angkor Air (K6)"^^xsd:string .
+
+cv-ai4dm:K7 a skos:Concept ;
+    skos:hiddenLabel "K7"^^xsd:string ;
+    skos:prefLabel "KoralBlue Airlines"^^xsd:string .
+
+cv-ai4dm:K8 a skos:Concept ;
+    skos:hiddenLabel "K8"^^xsd:string ;
+    skos:prefLabel "Airlink Zambia"^^xsd:string,
+        "Zambia Skyways"^^xsd:string .
+
+cv-ai4dm:K9 a skos:Concept ;
+    skos:hiddenLabel "K9"^^xsd:string ;
+    skos:prefLabel "Krylo Airlines"^^xsd:string .
+
+cv-ai4dm:KA a skos:Concept ;
+    skos:hiddenLabel "KA"^^xsd:string ;
+    skos:prefLabel "Dragonair"^^xsd:string .
+
+cv-ai4dm:KB a skos:Concept ;
+    skos:hiddenLabel "KB"^^xsd:string ;
+    skos:prefLabel "Druk Air"^^xsd:string .
+
+cv-ai4dm:KC a skos:Concept ;
+    skos:hiddenLabel "KC"^^xsd:string ;
+    skos:prefLabel "Air Astana"^^xsd:string .
+
+cv-ai4dm:KD a skos:Concept ;
+    skos:hiddenLabel "KD"^^xsd:string ;
+    skos:prefLabel "KD Avia"^^xsd:string .
+
+cv-ai4dm:KE a skos:Concept ;
+    skos:hiddenLabel "KE"^^xsd:string ;
+    skos:prefLabel "Korean Air"^^xsd:string .
+
+cv-ai4dm:KF a skos:Concept ;
+    skos:hiddenLabel "KF"^^xsd:string ;
+    skos:prefLabel "Blue1"^^xsd:string .
+
+cv-ai4dm:KG a skos:Concept ;
+    skos:hiddenLabel "KG"^^xsd:string ;
+    skos:prefLabel "LAI - Linea Aerea IAACA"^^xsd:string,
+        "Royal Airways"^^xsd:string .
+
+cv-ai4dm:KH a skos:Concept ;
+    skos:hiddenLabel "KH"^^xsd:string ;
+    skos:prefLabel "Cook Island Air"^^xsd:string,
+        "Kharkiv Airlines"^^xsd:string .
+
+cv-ai4dm:KI a skos:Concept ;
+    skos:hiddenLabel "KI"^^xsd:string ;
+    skos:prefLabel "Adam Air"^^xsd:string,
+        "Air Atlantique"^^xsd:string .
+
+cv-ai4dm:KJ a skos:Concept ;
+    skos:hiddenLabel "KJ"^^xsd:string ;
+    skos:prefLabel "British Mediterranean Airways"^^xsd:string .
+
+cv-ai4dm:KK a skos:Concept ;
+    skos:hiddenLabel "KK"^^xsd:string ;
+    skos:prefLabel "Atlasjet"^^xsd:string .
+
+cv-ai4dm:KL a skos:Concept ;
+    skos:hiddenLabel "KL"^^xsd:string ;
+    skos:prefLabel "KLM Royal Dutch Airlines"^^xsd:string .
+
+cv-ai4dm:KM a skos:Concept ;
+    skos:hiddenLabel "KM"^^xsd:string ;
+    skos:prefLabel "Air Malta"^^xsd:string .
+
+cv-ai4dm:KN a skos:Concept ;
+    skos:hiddenLabel "KN"^^xsd:string ;
+    skos:prefLabel "China United"^^xsd:string .
+
+cv-ai4dm:KO a skos:Concept ;
+    skos:hiddenLabel "KO"^^xsd:string ;
+    skos:prefLabel "Alaska Central Express"^^xsd:string .
+
+cv-ai4dm:KP a skos:Concept ;
+    skos:hiddenLabel "KP"^^xsd:string ;
+    skos:prefLabel "Air Cape"^^xsd:string,
+        "Dense Airways"^^xsd:string,
+        "Kiwi International Air Lines"^^xsd:string .
+
+cv-ai4dm:KQ a skos:Concept ;
+    skos:hiddenLabel "KQ"^^xsd:string ;
+    skos:prefLabel "Kenya Airways"^^xsd:string .
+
+cv-ai4dm:KR a skos:Concept ;
+    skos:hiddenLabel "KR"^^xsd:string ;
+    skos:prefLabel "Comores Airlines"^^xsd:string .
+
+cv-ai4dm:KS a skos:Concept ;
+    skos:hiddenLabel "KS"^^xsd:string ;
+    skos:prefLabel "Peninsula Airways"^^xsd:string .
+
+cv-ai4dm:KT a skos:Concept ;
+    skos:hiddenLabel "KT"^^xsd:string ;
+    skos:prefLabel "California Western"^^xsd:string,
+        "VickJet"^^xsd:string .
+
+cv-ai4dm:KU a skos:Concept ;
+    skos:hiddenLabel "KU"^^xsd:string ;
+    skos:prefLabel "Kuwait Airways"^^xsd:string .
+
+cv-ai4dm:KV a skos:Concept ;
+    skos:hiddenLabel "KV"^^xsd:string ;
+    skos:prefLabel "Kavminvodyavia"^^xsd:string .
+
+cv-ai4dm:KW a skos:Concept ;
+    skos:hiddenLabel "KW"^^xsd:string ;
+    skos:prefLabel "Carnival Air Lines"^^xsd:string .
+
+cv-ai4dm:KX a skos:Concept ;
+    skos:hiddenLabel "KX"^^xsd:string ;
+    skos:prefLabel "Cayman Airways"^^xsd:string .
+
+cv-ai4dm:KY a skos:Concept ;
+    skos:hiddenLabel "KY"^^xsd:string ;
+    skos:prefLabel "Air S"^^xsd:string,
+        "KSY"^^xsd:string,
+        "Kibris T"^^xsd:string .
+
+cv-ai4dm:KZ a skos:Concept ;
+    skos:hiddenLabel "KZ"^^xsd:string ;
+    skos:prefLabel "Dense Connection"^^xsd:string,
+        "Nippon Cargo Airlines"^^xsd:string .
+
+cv-ai4dm:L1 a skos:Concept ;
+    skos:hiddenLabel "L1"^^xsd:string ;
+    skos:prefLabel "All Argentina"^^xsd:string,
+        "Lufthansa Systems"^^xsd:string .
+
+cv-ai4dm:L2 a skos:Concept ;
+    skos:hiddenLabel "L2"^^xsd:string ;
+    skos:prefLabel "Lynden Air Cargo"^^xsd:string .
+
+cv-ai4dm:L3 a skos:Concept ;
+    skos:hiddenLabel "L3"^^xsd:string ;
+    skos:prefLabel "DHL de Guatemala"^^xsd:string,
+        "LTU Austria"^^xsd:string .
+
+cv-ai4dm:L4 a skos:Concept ;
+    skos:hiddenLabel "L4"^^xsd:string ;
+    skos:prefLabel "Luchsh Airlines "^^xsd:string .
+
+cv-ai4dm:L5 a skos:Concept ;
+    skos:hiddenLabel "L5"^^xsd:string ;
+    skos:prefLabel "Lufttransport"^^xsd:string .
+
+cv-ai4dm:L6 a skos:Concept ;
+    skos:hiddenLabel "L6"^^xsd:string ;
+    skos:prefLabel "Mauritania Airlines International"^^xsd:string .
+
+cv-ai4dm:L7 a skos:Concept ;
+    skos:hiddenLabel "L7"^^xsd:string ;
+    skos:prefLabel "Laoag International Airlines"^^xsd:string,
+        "Linea Aerea SAPSA"^^xsd:string,
+        "Lugansk Airlines"^^xsd:string .
+
+cv-ai4dm:L8 a skos:Concept ;
+    skos:hiddenLabel "L8"^^xsd:string ;
+    skos:prefLabel "Air Luxor GB"^^xsd:string,
+        "Line Blue"^^xsd:string .
+
+cv-ai4dm:L9 a skos:Concept ;
+    skos:hiddenLabel "L9"^^xsd:string ;
+    skos:prefLabel "All Asia"^^xsd:string,
+        "Teamline Air"^^xsd:string .
+
+cv-ai4dm:LA a skos:Concept ;
+    skos:hiddenLabel "LA"^^xsd:string ;
+    skos:prefLabel "LAN Airlines"^^xsd:string .
+
+cv-ai4dm:LB a skos:Concept ;
+    skos:hiddenLabel "LB"^^xsd:string ;
+    skos:prefLabel "Air Costa"^^xsd:string,
+        "Lloyd Aereo Boliviano"^^xsd:string .
+
+cv-ai4dm:LC a skos:Concept ;
+    skos:hiddenLabel "LC"^^xsd:string ;
+    skos:prefLabel "Varig Log"^^xsd:string .
+
+cv-ai4dm:LD a skos:Concept ;
+    skos:hiddenLabel "LD"^^xsd:string ;
+    skos:prefLabel "Air Hong Kong"^^xsd:string,
+        "Linea Turistica Aerotuy"^^xsd:string .
+
+cv-ai4dm:LE a skos:Concept ;
+    skos:hiddenLabel "LE"^^xsd:string ;
+    skos:prefLabel "Liberty Airways"^^xsd:string .
+
+cv-ai4dm:LF a skos:Concept ;
+    skos:hiddenLabel "LF"^^xsd:string ;
+    skos:prefLabel "FlyNordic"^^xsd:string .
+
+cv-ai4dm:LG a skos:Concept ;
+    skos:hiddenLabel "LG"^^xsd:string ;
+    skos:prefLabel "Luxair"^^xsd:string .
+
+cv-ai4dm:LH a skos:Concept ;
+    skos:hiddenLabel "LH"^^xsd:string ;
+    skos:prefLabel "Lufthansa"^^xsd:string,
+        "Lufthansa Cargo"^^xsd:string .
+
+cv-ai4dm:LI a skos:Concept ;
+    skos:hiddenLabel "LI"^^xsd:string ;
+    skos:prefLabel "Leeward Islands Air Transport"^^xsd:string .
+
+cv-ai4dm:LJ a skos:Concept ;
+    skos:hiddenLabel "LJ"^^xsd:string ;
+    skos:prefLabel "Jin Air"^^xsd:string,
+        "Sierra National Airlines"^^xsd:string .
+
+cv-ai4dm:LK a skos:Concept ;
+    skos:hiddenLabel "LK"^^xsd:string ;
+    skos:prefLabel "Air Luxor"^^xsd:string .
+
+cv-ai4dm:LL a skos:Concept ;
+    skos:hiddenLabel "LL"^^xsd:string ;
+    skos:prefLabel "Allegro"^^xsd:string .
+
+cv-ai4dm:LM a skos:Concept ;
+    skos:hiddenLabel "LM"^^xsd:string ;
+    skos:prefLabel "Linhas A"^^xsd:string,
+        "Livingston"^^xsd:string .
+
+cv-ai4dm:LN a skos:Concept ;
+    skos:hiddenLabel "LN"^^xsd:string ;
+    skos:prefLabel "Libyan Arab Airlines"^^xsd:string .
+
+cv-ai4dm:LO a skos:Concept ;
+    skos:hiddenLabel "LO"^^xsd:string ;
+    skos:prefLabel "LOT Polish Airlines"^^xsd:string .
+
+cv-ai4dm:LP a skos:Concept ;
+    skos:hiddenLabel "LP"^^xsd:string ;
+    skos:prefLabel "LAN Peru"^^xsd:string .
+
+cv-ai4dm:LQ a skos:Concept ;
+    skos:hiddenLabel "LQ"^^xsd:string ;
+    skos:prefLabel "LCM AIRLINES"^^xsd:string,
+        "Lebanese Air Transport"^^xsd:string .
+
+cv-ai4dm:LR a skos:Concept ;
+    skos:hiddenLabel "LR"^^xsd:string ;
+    skos:prefLabel "LACSA"^^xsd:string .
+
+cv-ai4dm:LS a skos:Concept ;
+    skos:hiddenLabel "LS"^^xsd:string ;
+    skos:prefLabel "Jet2.com"^^xsd:string .
+
+cv-ai4dm:LT a skos:Concept ;
+    skos:hiddenLabel "LT"^^xsd:string ;
+    skos:prefLabel "Air Lituanica"^^xsd:string,
+        "LTU International"^^xsd:string .
+
+cv-ai4dm:LU a skos:Concept ;
+    skos:hiddenLabel "LU"^^xsd:string ;
+    skos:prefLabel "LAN Express"^^xsd:string .
+
+cv-ai4dm:LV a skos:Concept ;
+    skos:hiddenLabel "LV"^^xsd:string ;
+    skos:prefLabel "Albanian Airlines"^^xsd:string .
+
+cv-ai4dm:LW a skos:Concept ;
+    skos:hiddenLabel "LW"^^xsd:string ;
+    skos:prefLabel "Pacific Wings"^^xsd:string .
+
+cv-ai4dm:LX a skos:Concept ;
+    skos:hiddenLabel "LX"^^xsd:string ;
+    skos:prefLabel "Swiss International Air Lines"^^xsd:string .
+
+cv-ai4dm:LY a skos:Concept ;
+    skos:hiddenLabel "LY"^^xsd:string ;
+    skos:prefLabel "El Al Israel Airlines"^^xsd:string .
+
+cv-ai4dm:LZ a skos:Concept ;
+    skos:hiddenLabel "LZ"^^xsd:string ;
+    skos:prefLabel "Balkan Bulgarian Airlines"^^xsd:string .
+
+cv-ai4dm:M0 a skos:Concept ;
+    skos:hiddenLabel "M0"^^xsd:string ;
+    skos:prefLabel "Aero Mongolia"^^xsd:string .
+
+cv-ai4dm:M1 a skos:Concept ;
+    skos:hiddenLabel "M1"^^xsd:string ;
+    skos:prefLabel "Maryland Air"^^xsd:string .
+
+cv-ai4dm:M2 a skos:Concept ;
+    skos:hiddenLabel "M2"^^xsd:string ;
+    skos:prefLabel "MHS Aviation GmbH"^^xsd:string,
+        "Mahfooz Aviation"^^xsd:string .
+
+cv-ai4dm:M3 a skos:Concept ;
+    skos:hiddenLabel "M3"^^xsd:string ;
+    skos:prefLabel "ABSA - Aerolinhas Brasileiras"^^xsd:string,
+        "Air Service"^^xsd:string,
+        "North Flying"^^xsd:string .
+
+cv-ai4dm:M4 a skos:Concept ;
+    skos:hiddenLabel "M4"^^xsd:string ;
+    skos:prefLabel "Marysya Airlines"^^xsd:string,
+        "Nova Airline"^^xsd:string .
+
+cv-ai4dm:M5 a skos:Concept ;
+    skos:hiddenLabel "M5"^^xsd:string ;
+    skos:prefLabel "Kenmore Air"^^xsd:string .
+
+cv-ai4dm:M6 a skos:Concept ;
+    skos:hiddenLabel "M6"^^xsd:string ;
+    skos:prefLabel "Amerijet International"^^xsd:string .
+
+cv-ai4dm:M7 a skos:Concept ;
+    skos:hiddenLabel "M7"^^xsd:string ;
+    skos:prefLabel "Marsland Aviation"^^xsd:string,
+        "MasAir"^^xsd:string,
+        "Tropical Airways"^^xsd:string .
+
+cv-ai4dm:M8 a skos:Concept ;
+    skos:hiddenLabel "M8"^^xsd:string ;
+    skos:prefLabel "Trans Maldivian Airways"^^xsd:string,
+        "TransNusa Air"^^xsd:string .
+
+cv-ai4dm:M9 a skos:Concept ;
+    skos:hiddenLabel "M9"^^xsd:string ;
+    skos:prefLabel "Motor Sich"^^xsd:string .
+
+cv-ai4dm:MA a skos:Concept ;
+    skos:hiddenLabel "MA"^^xsd:string ;
+    skos:prefLabel "Malév"^^xsd:string .
+
+cv-ai4dm:MB a skos:Concept ;
+    skos:hiddenLabel "MB"^^xsd:string ;
+    skos:prefLabel "Execair Aviation"^^xsd:string,
+        "MNG Airlines"^^xsd:string .
+
+cv-ai4dm:MC a skos:Concept ;
+    skos:hiddenLabel "MC"^^xsd:string ;
+    skos:prefLabel "Air Mobility Command"^^xsd:string .
+
+cv-ai4dm:MD a skos:Concept ;
+    skos:hiddenLabel "MD"^^xsd:string ;
+    skos:prefLabel "Air Madagascar"^^xsd:string .
+
+cv-ai4dm:ME a skos:Concept ;
+    skos:hiddenLabel "ME"^^xsd:string ;
+    skos:prefLabel "Middle East Airlines"^^xsd:string .
+
+cv-ai4dm:MF a skos:Concept ;
+    skos:hiddenLabel "MF"^^xsd:string ;
+    skos:prefLabel "Xiamen Airlines"^^xsd:string .
+
+cv-ai4dm:MG a skos:Concept ;
+    skos:hiddenLabel "MG"^^xsd:string ;
+    skos:prefLabel "Champion Air"^^xsd:string .
+
+cv-ai4dm:MH a skos:Concept ;
+    skos:hiddenLabel "MH"^^xsd:string ;
+    skos:prefLabel "Malaysia Airlines"^^xsd:string .
+
+cv-ai4dm:MI a skos:Concept ;
+    skos:hiddenLabel "MI"^^xsd:string ;
+    skos:prefLabel "SilkAir"^^xsd:string .
+
+cv-ai4dm:MJ a skos:Concept ;
+    skos:hiddenLabel "MJ"^^xsd:string ;
+    skos:prefLabel "L"^^xsd:string .
+
+cv-ai4dm:MK a skos:Concept ;
+    skos:hiddenLabel "MK"^^xsd:string ;
+    skos:prefLabel "Air Mauritius"^^xsd:string .
+
+cv-ai4dm:ML a skos:Concept ;
+    skos:hiddenLabel "ML"^^xsd:string ;
+    skos:prefLabel "African Transport Trading and Investment Company"^^xsd:string,
+        "Maldivo Airlines"^^xsd:string .
+
+cv-ai4dm:MM a skos:Concept ;
+    skos:hiddenLabel "MM"^^xsd:string ;
+    skos:prefLabel "Peach Aviation"^^xsd:string .
+
+cv-ai4dm:MN a skos:Concept ;
+    skos:hiddenLabel "MN"^^xsd:string ;
+    skos:prefLabel "Comair"^^xsd:string .
+
+cv-ai4dm:MO a skos:Concept ;
+    skos:hiddenLabel "MO"^^xsd:string ;
+    skos:prefLabel "Abu Dhabi Amiri Flight"^^xsd:string,
+        "Calm Air"^^xsd:string .
+
+cv-ai4dm:MP a skos:Concept ;
+    skos:hiddenLabel "MP"^^xsd:string ;
+    skos:prefLabel "Martinair"^^xsd:string .
+
+cv-ai4dm:MQ a skos:Concept ;
+    skos:hiddenLabel "MQ"^^xsd:string ;
+    skos:prefLabel "American Eagle Airlines"^^xsd:string .
+
+cv-ai4dm:MR a skos:Concept ;
+    skos:hiddenLabel "MR"^^xsd:string ;
+    skos:prefLabel "Air Mauritanie"^^xsd:string,
+        "Homer Air"^^xsd:string .
+
+cv-ai4dm:MS a skos:Concept ;
+    skos:hiddenLabel "MS"^^xsd:string ;
+    skos:prefLabel "Egyptair"^^xsd:string .
+
+cv-ai4dm:MT a skos:Concept ;
+    skos:hiddenLabel "MT"^^xsd:string ;
+    skos:prefLabel "Thomas Cook Airlines"^^xsd:string .
+
+cv-ai4dm:MU a skos:Concept ;
+    skos:hiddenLabel "MU"^^xsd:string ;
+    skos:prefLabel "China Eastern Airlines"^^xsd:string .
+
+cv-ai4dm:MV a skos:Concept ;
+    skos:hiddenLabel "MV"^^xsd:string ;
+    skos:prefLabel "Armenian International Airways"^^xsd:string .
+
+cv-ai4dm:MW a skos:Concept ;
+    skos:hiddenLabel "MW"^^xsd:string ;
+    skos:prefLabel "Maya Island Air"^^xsd:string .
+
+cv-ai4dm:MX a skos:Concept ;
+    skos:hiddenLabel "MX"^^xsd:string ;
+    skos:prefLabel "Mexicana de Aviaci"^^xsd:string .
+
+cv-ai4dm:MY a skos:Concept ;
+    skos:hiddenLabel "MY"^^xsd:string ;
+    skos:prefLabel "Maxjet Airways"^^xsd:string,
+        "Midwest Airlines (Egypt)"^^xsd:string .
+
+cv-ai4dm:MZ a skos:Concept ;
+    skos:hiddenLabel "MZ"^^xsd:string ;
+    skos:prefLabel "Merpati Nusantara Airlines"^^xsd:string .
+
+cv-ai4dm:N0 a skos:Concept ;
+    skos:hiddenLabel "N0"^^xsd:string ;
+    skos:prefLabel "Norte Lineas Aereas"^^xsd:string .
+
+cv-ai4dm:N1 a skos:Concept ;
+    skos:hiddenLabel "N1"^^xsd:string ;
+    skos:prefLabel "N1"^^xsd:string .
+
+cv-ai4dm:N2 a skos:Concept ;
+    skos:hiddenLabel "N2"^^xsd:string ;
+    skos:prefLabel "Dagestan Airlines"^^xsd:string,
+        "Kabo Air"^^xsd:string .
+
+cv-ai4dm:N3 a skos:Concept ;
+    skos:hiddenLabel "N3"^^xsd:string ;
+    skos:prefLabel "Omskavia Airline"^^xsd:string .
+
+cv-ai4dm:N4 a skos:Concept ;
+    skos:hiddenLabel "N4"^^xsd:string ;
+    skos:prefLabel "Minerva Airlines"^^xsd:string,
+        "Mountain Air Company"^^xsd:string,
+        "National Airlines"^^xsd:string,
+        "Regionalia México"^^xsd:string .
+
+cv-ai4dm:N5 a skos:Concept ;
+    skos:hiddenLabel "N5"^^xsd:string ;
+    skos:prefLabel "Kyrgyz Airlines"^^xsd:string,
+        "Skagway Air Service"^^xsd:string .
+
+cv-ai4dm:N6 a skos:Concept ;
+    skos:hiddenLabel "N6"^^xsd:string ;
+    skos:prefLabel "Aerocontinente (Priv)"^^xsd:string,
+        "Lagun Air"^^xsd:string,
+        "Nuevo Continente"^^xsd:string .
+
+cv-ai4dm:N7 a skos:Concept ;
+    skos:hiddenLabel "N7"^^xsd:string ;
+    skos:prefLabel "All Spain"^^xsd:string,
+        "National Airlines"^^xsd:string .
+
+cv-ai4dm:N8 a skos:Concept ;
+    skos:hiddenLabel "N8"^^xsd:string ;
+    skos:prefLabel "Fika Salaama Airlines"^^xsd:string,
+        "National Air Cargo"^^xsd:string .
+
+cv-ai4dm:N9 a skos:Concept ;
+    skos:hiddenLabel "N9"^^xsd:string ;
+    skos:prefLabel "All Europe"^^xsd:string,
+        "North Coast Aviation"^^xsd:string .
+
+cv-ai4dm:NB a skos:Concept ;
+    skos:hiddenLabel "NB"^^xsd:string ;
+    skos:prefLabel "Sterling Airlines"^^xsd:string .
+
+cv-ai4dm:NC a skos:Concept ;
+    skos:hiddenLabel "NC"^^xsd:string ;
+    skos:prefLabel "National Jet Systems"^^xsd:string,
+        "Northern Air Cargo"^^xsd:string .
+
+cv-ai4dm:NE a skos:Concept ;
+    skos:hiddenLabel "NE"^^xsd:string ;
+    skos:prefLabel "SkyEurope"^^xsd:string .
+
+cv-ai4dm:NF a skos:Concept ;
+    skos:hiddenLabel "NF"^^xsd:string ;
+    skos:prefLabel "Air Vanuatu"^^xsd:string .
+
+cv-ai4dm:NG a skos:Concept ;
+    skos:hiddenLabel "NG"^^xsd:string ;
+    skos:prefLabel "Lauda Air"^^xsd:string .
+
+cv-ai4dm:NH a skos:Concept ;
+    skos:hiddenLabel "NH"^^xsd:string ;
+    skos:prefLabel "All Nippon Airways"^^xsd:string .
+
+cv-ai4dm:NI a skos:Concept ;
+    skos:hiddenLabel "NI"^^xsd:string ;
+    skos:prefLabel "Portugalia"^^xsd:string .
+
+cv-ai4dm:NJ a skos:Concept ;
+    skos:hiddenLabel "NJ"^^xsd:string ;
+    skos:prefLabel "Nihon.jet"^^xsd:string,
+        "Nordic Global Airlines"^^xsd:string .
+
+cv-ai4dm:NK a skos:Concept ;
+    skos:hiddenLabel "NK"^^xsd:string ;
+    skos:prefLabel "Spirit Airlines"^^xsd:string .
+
+cv-ai4dm:NL a skos:Concept ;
+    skos:hiddenLabel "NL"^^xsd:string ;
+    skos:prefLabel "Shaheen Air International"^^xsd:string .
+
+cv-ai4dm:NM a skos:Concept ;
+    skos:hiddenLabel "NM"^^xsd:string ;
+    skos:prefLabel "Air Madrid"^^xsd:string,
+        "Mount Cook Airlines"^^xsd:string .
+
+cv-ai4dm:NN a skos:Concept ;
+    skos:hiddenLabel "NN"^^xsd:string ;
+    skos:prefLabel "VIM Airlines"^^xsd:string .
+
+cv-ai4dm:NO a skos:Concept ;
+    skos:hiddenLabel "NO"^^xsd:string ;
+    skos:prefLabel "Aus-Air"^^xsd:string,
+        "Neos"^^xsd:string,
+        "North Pacific Airlines"^^xsd:string .
+
+cv-ai4dm:NP a skos:Concept ;
+    skos:hiddenLabel "NP"^^xsd:string ;
+    skos:prefLabel "Nile Air"^^xsd:string .
+
+cv-ai4dm:NQ a skos:Concept ;
+    skos:hiddenLabel "NQ"^^xsd:string ;
+    skos:prefLabel "Air Japan"^^xsd:string .
+
+cv-ai4dm:NR a skos:Concept ;
+    skos:hiddenLabel "NR"^^xsd:string ;
+    skos:prefLabel "Jettor Airlines"^^xsd:string,
+        "Pamir Airways"^^xsd:string .
+
+cv-ai4dm:NS a skos:Concept ;
+    skos:hiddenLabel "NS"^^xsd:string ;
+    skos:prefLabel "Caucasus Airlines"^^xsd:string .
+
+cv-ai4dm:NT a skos:Concept ;
+    skos:hiddenLabel "NT"^^xsd:string ;
+    skos:prefLabel "Binter Canarias"^^xsd:string .
+
+cv-ai4dm:NU a skos:Concept ;
+    skos:hiddenLabel "NU"^^xsd:string ;
+    skos:prefLabel "Japan Transocean Air"^^xsd:string .
+
+cv-ai4dm:NV a skos:Concept ;
+    skos:hiddenLabel "NV"^^xsd:string ;
+    skos:prefLabel "Air Central"^^xsd:string,
+        "Naka Nihon Airlines Service"^^xsd:string .
+
+cv-ai4dm:NW a skos:Concept ;
+    skos:hiddenLabel "NW"^^xsd:string ;
+    skos:prefLabel "Northwest Airlines"^^xsd:string .
+
+cv-ai4dm:NX a skos:Concept ;
+    skos:hiddenLabel "NX"^^xsd:string ;
+    skos:prefLabel "Air Macau"^^xsd:string .
+
+cv-ai4dm:NY a skos:Concept ;
+    skos:hiddenLabel "NY"^^xsd:string ;
+    skos:prefLabel "Air Iceland"^^xsd:string .
+
+cv-ai4dm:NZ a skos:Concept ;
+    skos:hiddenLabel "NZ"^^xsd:string ;
+    skos:prefLabel "Air New Zealand"^^xsd:string .
+
+cv-ai4dm:O1 a skos:Concept ;
+    skos:hiddenLabel "O1"^^xsd:string ;
+    skos:prefLabel "Orbit Airlines Azerbaijan"^^xsd:string .
+
+cv-ai4dm:O2 a skos:Concept ;
+    skos:hiddenLabel "O2"^^xsd:string ;
+    skos:prefLabel "Oceanic Airlines"^^xsd:string .
+
+cv-ai4dm:O6 a skos:Concept ;
+    skos:hiddenLabel "O6"^^xsd:string ;
+    skos:prefLabel "Oceanair"^^xsd:string .
+
+cv-ai4dm:O7 a skos:Concept ;
+    skos:hiddenLabel "O7"^^xsd:string ;
+    skos:prefLabel "Ozjet Airlines"^^xsd:string .
+
+cv-ai4dm:O8 a skos:Concept ;
+    skos:hiddenLabel "O8"^^xsd:string ;
+    skos:prefLabel "Oasis Hong Kong Airlines"^^xsd:string .
+
+cv-ai4dm:OA a skos:Concept ;
+    skos:hiddenLabel "OA"^^xsd:string ;
+    skos:prefLabel "Olympic Airlines"^^xsd:string .
+
+cv-ai4dm:OB a skos:Concept ;
+    skos:hiddenLabel "OB"^^xsd:string ;
+    skos:prefLabel "Astrakhan Airlines"^^xsd:string .
+
+cv-ai4dm:OC a skos:Concept ;
+    skos:hiddenLabel "OC"^^xsd:string ;
+    skos:prefLabel "Catovair"^^xsd:string .
+
+cv-ai4dm:OD a skos:Concept ;
+    skos:hiddenLabel "OD"^^xsd:string ;
+    skos:prefLabel "Malindo Air"^^xsd:string,
+        "Zuliana de Aviacion"^^xsd:string .
+
+cv-ai4dm:OE a skos:Concept ;
+    skos:hiddenLabel "OE"^^xsd:string ;
+    skos:prefLabel "Asia Overnight Express"^^xsd:string,
+        "WestAir"^^xsd:string,
+        "WestAir Airlines"^^xsd:string,
+        "WestAir Airlines "^^xsd:string .
+
+cv-ai4dm:OF a skos:Concept ;
+    skos:hiddenLabel "OF"^^xsd:string ;
+    skos:prefLabel "Air Finland"^^xsd:string,
+        "Transports et Travaux A"^^xsd:string .
+
+cv-ai4dm:OG a skos:Concept ;
+    skos:hiddenLabel "OG"^^xsd:string ;
+    skos:prefLabel "1-2-go"^^xsd:string,
+        "AirOnix"^^xsd:string .
+
+cv-ai4dm:OH a skos:Concept ;
+    skos:hiddenLabel "OH"^^xsd:string ;
+    skos:prefLabel "Comair"^^xsd:string .
+
+cv-ai4dm:OI a skos:Concept ;
+    skos:hiddenLabel "OI"^^xsd:string ;
+    skos:prefLabel "Orchid Airlines"^^xsd:string .
+
+cv-ai4dm:OJ a skos:Concept ;
+    skos:hiddenLabel "OJ"^^xsd:string ;
+    skos:prefLabel "Overland Airways"^^xsd:string .
+
+cv-ai4dm:OK a skos:Concept ;
+    skos:hiddenLabel "OK"^^xsd:string ;
+    skos:prefLabel "Czech Airlines"^^xsd:string .
+
+cv-ai4dm:OL a skos:Concept ;
+    skos:hiddenLabel "OL"^^xsd:string ;
+    skos:prefLabel "Ostfriesische Lufttransport"^^xsd:string .
+
+cv-ai4dm:OM a skos:Concept ;
+    skos:hiddenLabel "OM"^^xsd:string ;
+    skos:prefLabel "MIAT Mongolian Airlines"^^xsd:string .
+
+cv-ai4dm:ON a skos:Concept ;
+    skos:hiddenLabel "ON"^^xsd:string ;
+    skos:prefLabel "Nauru Air Corporation"^^xsd:string,
+        "Our Airline"^^xsd:string .
+
+cv-ai4dm:OO a skos:Concept ;
+    skos:hiddenLabel "OO"^^xsd:string ;
+    skos:prefLabel "SkyWest"^^xsd:string .
+
+cv-ai4dm:OP a skos:Concept ;
+    skos:hiddenLabel "OP"^^xsd:string ;
+    skos:prefLabel "Air Pegasus"^^xsd:string,
+        "Chalk's Ocean Airways"^^xsd:string .
+
+cv-ai4dm:OQ a skos:Concept ;
+    skos:hiddenLabel "OQ"^^xsd:string ;
+    skos:prefLabel "Chongqing Airlines"^^xsd:string .
+
+cv-ai4dm:OR a skos:Concept ;
+    skos:hiddenLabel "OR"^^xsd:string ;
+    skos:prefLabel "Arkefly"^^xsd:string .
+
+cv-ai4dm:OS a skos:Concept ;
+    skos:hiddenLabel "OS"^^xsd:string ;
+    skos:prefLabel "Austrian Airlines"^^xsd:string .
+
+cv-ai4dm:OT a skos:Concept ;
+    skos:hiddenLabel "OT"^^xsd:string ;
+    skos:prefLabel "Aeropelican Air Services"^^xsd:string .
+
+cv-ai4dm:OU a skos:Concept ;
+    skos:hiddenLabel "OU"^^xsd:string ;
+    skos:prefLabel "Croatia Airlines"^^xsd:string .
+
+cv-ai4dm:OV a skos:Concept ;
+    skos:hiddenLabel "OV"^^xsd:string ;
+    skos:prefLabel "Estonian Air"^^xsd:string .
+
+cv-ai4dm:OW a skos:Concept ;
+    skos:hiddenLabel "OW"^^xsd:string ;
+    skos:prefLabel "Executive Airlines"^^xsd:string .
+
+cv-ai4dm:OX a skos:Concept ;
+    skos:hiddenLabel "OX"^^xsd:string ;
+    skos:prefLabel "Orient Thai Airlines"^^xsd:string .
+
+cv-ai4dm:OY a skos:Concept ;
+    skos:hiddenLabel "OY"^^xsd:string ;
+    skos:prefLabel "Omni Air International"^^xsd:string .
+
+cv-ai4dm:OZ a skos:Concept ;
+    skos:hiddenLabel "OZ"^^xsd:string ;
+    skos:prefLabel "Asiana Airlines"^^xsd:string,
+        "Ozark Air Lines"^^xsd:string .
+
+cv-ai4dm:P0 a skos:Concept ;
+    skos:hiddenLabel "P0"^^xsd:string ;
+    skos:prefLabel "Proflight Commuter Services"^^xsd:string .
+
+cv-ai4dm:P4 a skos:Concept ;
+    skos:hiddenLabel "P4"^^xsd:string ;
+    skos:prefLabel "Patriot Airways"^^xsd:string .
+
+cv-ai4dm:P5 a skos:Concept ;
+    skos:hiddenLabel "P5"^^xsd:string ;
+    skos:prefLabel "AeroRep"^^xsd:string .
+
+cv-ai4dm:P7 a skos:Concept ;
+    skos:hiddenLabel "P7"^^xsd:string ;
+    skos:prefLabel "Regional Paraguaya"^^xsd:string,
+        "Russian Sky Airlines"^^xsd:string .
+
+cv-ai4dm:P8 a skos:Concept ;
+    skos:hiddenLabel "P8"^^xsd:string ;
+    skos:prefLabel "Air Mekong"^^xsd:string,
+        "Pantanal Linhas Aéreas"^^xsd:string .
+
+cv-ai4dm:P9 a skos:Concept ;
+    skos:hiddenLabel "P9"^^xsd:string ;
+    skos:prefLabel "Nas Air"^^xsd:string,
+        "Perm Airlines"^^xsd:string,
+        "Peruvian Airlines"^^xsd:string .
+
+cv-ai4dm:PA a skos:Concept ;
+    skos:hiddenLabel "PA"^^xsd:string ;
+    skos:prefLabel "Florida Coastal Airlines"^^xsd:string,
+        "Pan American Airways"^^xsd:string,
+        "Pan American World Airways"^^xsd:string,
+        "Parmiss Airlines (IPV)"^^xsd:string .
+
+cv-ai4dm:PC a skos:Concept ;
+    skos:hiddenLabel "PC"^^xsd:string ;
+    skos:prefLabel "Air Fiji"^^xsd:string,
+        "Continental Airways"^^xsd:string,
+        "Pegasus Airlines"^^xsd:string .
+
+cv-ai4dm:PD a skos:Concept ;
+    skos:hiddenLabel "PD"^^xsd:string ;
+    skos:prefLabel "Porter Airlines"^^xsd:string .
+
+cv-ai4dm:PE a skos:Concept ;
+    skos:hiddenLabel "PE"^^xsd:string ;
+    skos:prefLabel "Air Europe"^^xsd:string .
+
+cv-ai4dm:PF a skos:Concept ;
+    skos:hiddenLabel "PF"^^xsd:string ;
+    skos:prefLabel "Palestinian Airlines"^^xsd:string,
+        "Primera Air"^^xsd:string .
+
+cv-ai4dm:PG a skos:Concept ;
+    skos:hiddenLabel "PG"^^xsd:string ;
+    skos:prefLabel "Bangkok Airways"^^xsd:string .
+
+cv-ai4dm:PH a skos:Concept ;
+    skos:hiddenLabel "PH"^^xsd:string ;
+    skos:prefLabel "Polynesian Airlines"^^xsd:string .
+
+cv-ai4dm:PI a skos:Concept ;
+    skos:hiddenLabel "PI"^^xsd:string ;
+    skos:prefLabel "Piedmont Airlines (1948-1989)"^^xsd:string,
+        "Sun Air (Fiji)"^^xsd:string .
+
+cv-ai4dm:PJ a skos:Concept ;
+    skos:hiddenLabel "PJ"^^xsd:string ;
+    skos:prefLabel "Air Saint Pierre"^^xsd:string .
+
+cv-ai4dm:PK a skos:Concept ;
+    skos:hiddenLabel "PK"^^xsd:string ;
+    skos:prefLabel "Pakistan International Airlines"^^xsd:string .
+
+cv-ai4dm:PL a skos:Concept ;
+    skos:hiddenLabel "PL"^^xsd:string ;
+    skos:prefLabel "Aeroper"^^xsd:string,
+        "Airstars"^^xsd:string .
+
+cv-ai4dm:PM a skos:Concept ;
+    skos:hiddenLabel "PM"^^xsd:string ;
+    skos:prefLabel "Tropic Air"^^xsd:string .
+
+cv-ai4dm:PN a skos:Concept ;
+    skos:hiddenLabel "PN"^^xsd:string ;
+    skos:prefLabel "West Air China"^^xsd:string .
+
+cv-ai4dm:PO a skos:Concept ;
+    skos:hiddenLabel "PO"^^xsd:string ;
+    skos:prefLabel "FlyPortugal"^^xsd:string,
+        "Polar Air Cargo"^^xsd:string .
+
+cv-ai4dm:PP a skos:Concept ;
+    skos:hiddenLabel "PP"^^xsd:string ;
+    skos:prefLabel "Air Indus"^^xsd:string .
+
+cv-ai4dm:PQ a skos:Concept ;
+    skos:hiddenLabel "PQ"^^xsd:string ;
+    skos:prefLabel "LSM Airlines"^^xsd:string,
+        "Panafrican Airways"^^xsd:string .
+
+cv-ai4dm:PR a skos:Concept ;
+    skos:hiddenLabel "PR"^^xsd:string ;
+    skos:prefLabel "Philippine Airlines"^^xsd:string .
+
+cv-ai4dm:PS a skos:Concept ;
+    skos:hiddenLabel "PS"^^xsd:string ;
+    skos:prefLabel "Pacific Southwest Airlines"^^xsd:string,
+        "Ukraine International Airlines"^^xsd:string .
+
+cv-ai4dm:PT a skos:Concept ;
+    skos:hiddenLabel "PT"^^xsd:string ;
+    skos:prefLabel "Capital Cargo International Airlines"^^xsd:string,
+        "Red Jet Andes"^^xsd:string,
+        "West Air Sweden"^^xsd:string .
+
+cv-ai4dm:PU a skos:Concept ;
+    skos:hiddenLabel "PU"^^xsd:string ;
+    skos:prefLabel "PLUNA"^^xsd:string .
+
+cv-ai4dm:PV a skos:Concept ;
+    skos:hiddenLabel "PV"^^xsd:string ;
+    skos:prefLabel "PAN Air"^^xsd:string .
+
+cv-ai4dm:PW a skos:Concept ;
+    skos:hiddenLabel "PW"^^xsd:string ;
+    skos:prefLabel "Precision Air"^^xsd:string .
+
+cv-ai4dm:PX a skos:Concept ;
+    skos:hiddenLabel "PX"^^xsd:string ;
+    skos:prefLabel "Air Niugini"^^xsd:string .
+
+cv-ai4dm:PY a skos:Concept ;
+    skos:hiddenLabel "PY"^^xsd:string ;
+    skos:prefLabel "Surinam Airways"^^xsd:string .
+
+cv-ai4dm:PZ a skos:Concept ;
+    skos:hiddenLabel "PZ"^^xsd:string ;
+    skos:prefLabel "TAM Mercosur"^^xsd:string .
+
+cv-ai4dm:Q2 a skos:Concept ;
+    skos:hiddenLabel "Q2"^^xsd:string ;
+    skos:prefLabel "Maldivian"^^xsd:string .
+
+cv-ai4dm:Q3 a skos:Concept ;
+    skos:hiddenLabel "Q3"^^xsd:string ;
+    skos:prefLabel "SOCHI AIR CHATER"^^xsd:string,
+        "Zambian Airways"^^xsd:string .
+
+cv-ai4dm:Q4 a skos:Concept ;
+    skos:hiddenLabel "Q4"^^xsd:string ;
+    skos:prefLabel "Mastertop Linhas Aereas"^^xsd:string,
+        "SOCHI AIR EXPRESS"^^xsd:string .
+
+cv-ai4dm:Q5 a skos:Concept ;
+    skos:hiddenLabel "Q5"^^xsd:string ;
+    skos:prefLabel "40-Mile Air"^^xsd:string .
+
+cv-ai4dm:Q6 a skos:Concept ;
+    skos:hiddenLabel "Q6"^^xsd:string ;
+    skos:prefLabel "Aero Condor Peru"^^xsd:string .
+
+cv-ai4dm:Q7 a skos:Concept ;
+    skos:hiddenLabel "Q7"^^xsd:string ;
+    skos:prefLabel "SkyBahamas Airlines"^^xsd:string .
+
+cv-ai4dm:Q8 a skos:Concept ;
+    skos:hiddenLabel "Q8"^^xsd:string ;
+    skos:prefLabel "Pacific East Asia Cargo Airlines"^^xsd:string .
+
+cv-ai4dm:Q9 a skos:Concept ;
+    skos:hiddenLabel "Q9"^^xsd:string ;
+    skos:prefLabel "Afrinat International Airlines"^^xsd:string,
+        "Arik Niger"^^xsd:string .
+
+cv-ai4dm:QA a skos:Concept ;
+    skos:hiddenLabel "QA"^^xsd:string ;
+    skos:prefLabel "Click (Mexicana)"^^xsd:string .
+
+cv-ai4dm:QB a skos:Concept ;
+    skos:hiddenLabel "QB"^^xsd:string ;
+    skos:prefLabel "Georgian National Airlines"^^xsd:string .
+
+cv-ai4dm:QC a skos:Concept ;
+    skos:hiddenLabel "QC"^^xsd:string ;
+    skos:prefLabel "Air Corridor"^^xsd:string,
+        "Camair-co"^^xsd:string .
+
+cv-ai4dm:QD a skos:Concept ;
+    skos:hiddenLabel "QD"^^xsd:string ;
+    skos:prefLabel "Air Class Lineas Aereas"^^xsd:string,
+        "Dobrolet"^^xsd:string .
+
+cv-ai4dm:QE a skos:Concept ;
+    skos:hiddenLabel "QE"^^xsd:string ;
+    skos:prefLabel "Crossair Europe"^^xsd:string .
+
+cv-ai4dm:QF a skos:Concept ;
+    skos:hiddenLabel "QF"^^xsd:string ;
+    skos:prefLabel "Qantas"^^xsd:string .
+
+cv-ai4dm:QG a skos:Concept ;
+    skos:hiddenLabel "QG"^^xsd:string ;
+    skos:prefLabel "Citilink Indonesia"^^xsd:string .
+
+cv-ai4dm:QH a skos:Concept ;
+    skos:hiddenLabel "QH"^^xsd:string ;
+    skos:prefLabel "Air Florida"^^xsd:string,
+        "Kyrgyzstan"^^xsd:string .
+
+cv-ai4dm:QI a skos:Concept ;
+    skos:hiddenLabel "QI"^^xsd:string ;
+    skos:prefLabel "Cimber Air"^^xsd:string .
+
+cv-ai4dm:QJ a skos:Concept ;
+    skos:hiddenLabel "QJ"^^xsd:string ;
+    skos:prefLabel "Jet Airways"^^xsd:string .
+
+cv-ai4dm:QK a skos:Concept ;
+    skos:hiddenLabel "QK"^^xsd:string ;
+    skos:prefLabel "Air Canada Jazz"^^xsd:string .
+
+cv-ai4dm:QL a skos:Concept ;
+    skos:hiddenLabel "QL"^^xsd:string ;
+    skos:prefLabel "Aero Lanka"^^xsd:string .
+
+cv-ai4dm:QM a skos:Concept ;
+    skos:hiddenLabel "QM"^^xsd:string ;
+    skos:prefLabel "Air Malawi"^^xsd:string .
+
+cv-ai4dm:QN a skos:Concept ;
+    skos:hiddenLabel "QN"^^xsd:string ;
+    skos:prefLabel "Air Armenia"^^xsd:string,
+        "Royal"^^xsd:string .
+
+cv-ai4dm:QO a skos:Concept ;
+    skos:hiddenLabel "QO"^^xsd:string ;
+    skos:prefLabel "Aeromexpress"^^xsd:string,
+        "Origin Pacific Airways"^^xsd:string .
+
+cv-ai4dm:QP a skos:Concept ;
+    skos:hiddenLabel "QP"^^xsd:string ;
+    skos:prefLabel "Air Kenya (Priv)"^^xsd:string .
+
+cv-ai4dm:QQ a skos:Concept ;
+    skos:hiddenLabel "QQ"^^xsd:string ;
+    skos:prefLabel "Alliance Airlines"^^xsd:string,
+        "Reno Air"^^xsd:string .
+
+cv-ai4dm:QR a skos:Concept ;
+    skos:hiddenLabel "QR"^^xsd:string ;
+    skos:prefLabel "Qatar Airways"^^xsd:string .
+
+cv-ai4dm:QS a skos:Concept ;
+    skos:hiddenLabel "QS"^^xsd:string ;
+    skos:prefLabel "African Safari Airways"^^xsd:string,
+        "Travel Service"^^xsd:string .
+
+cv-ai4dm:QT a skos:Concept ;
+    skos:hiddenLabel "QT"^^xsd:string ;
+    skos:prefLabel "TAMPA"^^xsd:string .
+
+cv-ai4dm:QU a skos:Concept ;
+    skos:hiddenLabel "QU"^^xsd:string ;
+    skos:prefLabel "East African"^^xsd:string .
+
+cv-ai4dm:QV a skos:Concept ;
+    skos:hiddenLabel "QV"^^xsd:string ;
+    skos:prefLabel "Lao Airlines"^^xsd:string .
+
+cv-ai4dm:QW a skos:Concept ;
+    skos:hiddenLabel "QW"^^xsd:string ;
+    skos:prefLabel "Blue Wings"^^xsd:string .
+
+cv-ai4dm:QX a skos:Concept ;
+    skos:hiddenLabel "QX"^^xsd:string ;
+    skos:prefLabel "Horizon Air"^^xsd:string .
+
+cv-ai4dm:QY a skos:Concept ;
+    skos:hiddenLabel "QY"^^xsd:string ;
+    skos:prefLabel "European Air Transport"^^xsd:string,
+        "Red Jet Canada"^^xsd:string .
+
+cv-ai4dm:QZ a skos:Concept ;
+    skos:hiddenLabel "QZ"^^xsd:string ;
+    skos:prefLabel "Indonesia AirAsia"^^xsd:string .
+
+cv-ai4dm:R0 a skos:Concept ;
+    skos:hiddenLabel "R0"^^xsd:string ;
+    skos:prefLabel "Royal Airlines"^^xsd:string .
+
+cv-ai4dm:R1 a skos:Concept ;
+    skos:hiddenLabel "R1"^^xsd:string ;
+    skos:prefLabel "Royal Southern Airlines."^^xsd:string,
+        "Sirin"^^xsd:string .
+
+cv-ai4dm:R2 a skos:Concept ;
+    skos:hiddenLabel "R2"^^xsd:string ;
+    skos:prefLabel "Orenburg Airlines"^^xsd:string .
+
+cv-ai4dm:R3 a skos:Concept ;
+    skos:hiddenLabel "R3"^^xsd:string ;
+    skos:prefLabel "Aircompany Yakutia"^^xsd:string .
+
+cv-ai4dm:R4 a skos:Concept ;
+    skos:hiddenLabel "R4"^^xsd:string ;
+    skos:prefLabel "Rossiya"^^xsd:string .
+
+cv-ai4dm:R5 a skos:Concept ;
+    skos:hiddenLabel "R5"^^xsd:string ;
+    skos:prefLabel "Jordan Aviation"^^xsd:string,
+        "Malta Air Charter"^^xsd:string .
+
+cv-ai4dm:R6 a skos:Concept ;
+    skos:hiddenLabel "R6"^^xsd:string ;
+    skos:prefLabel "RACSA"^^xsd:string .
+
+cv-ai4dm:R7 a skos:Concept ;
+    skos:hiddenLabel "R7"^^xsd:string ;
+    skos:prefLabel "Aserca Airlines"^^xsd:string .
+
+cv-ai4dm:R8 a skos:Concept ;
+    skos:hiddenLabel "R8"^^xsd:string ;
+    skos:prefLabel "AirRussia"^^xsd:string,
+        "Kyrgyzstan Airlines"^^xsd:string .
+
+cv-ai4dm:R9 a skos:Concept ;
+    skos:hiddenLabel "R9"^^xsd:string ;
+    skos:prefLabel "Camai Air"^^xsd:string .
+
+cv-ai4dm:RA a skos:Concept ;
+    skos:hiddenLabel "RA"^^xsd:string ;
+    skos:prefLabel "Nepal Airlines"^^xsd:string,
+        "Royal Nepal Airlines"^^xsd:string .
+
+cv-ai4dm:RB a skos:Concept ;
+    skos:hiddenLabel "RB"^^xsd:string ;
+    skos:prefLabel "Air Srpska"^^xsd:string,
+        "Syrian Arab Airlines"^^xsd:string .
+
+cv-ai4dm:RC a skos:Concept ;
+    skos:hiddenLabel "RC"^^xsd:string ;
+    skos:prefLabel "Atlantic Airways"^^xsd:string .
+
+cv-ai4dm:RD a skos:Concept ;
+    skos:hiddenLabel "RD"^^xsd:string ;
+    skos:prefLabel "Ryan International Airlines"^^xsd:string .
+
+cv-ai4dm:RE a skos:Concept ;
+    skos:hiddenLabel "RE"^^xsd:string ;
+    skos:prefLabel "Aer Arann"^^xsd:string .
+
+cv-ai4dm:RF a skos:Concept ;
+    skos:hiddenLabel "RF"^^xsd:string ;
+    skos:prefLabel "Florida West International Airways"^^xsd:string .
+
+cv-ai4dm:RG a skos:Concept ;
+    skos:hiddenLabel "RG"^^xsd:string ;
+    skos:prefLabel "VRG Linhas Aereas"^^xsd:string .
+
+cv-ai4dm:RH a skos:Concept ;
+    skos:hiddenLabel "RH"^^xsd:string ;
+    skos:prefLabel "Republic Express Airlines"^^xsd:string .
+
+cv-ai4dm:RI a skos:Concept ;
+    skos:hiddenLabel "RI"^^xsd:string ;
+    skos:prefLabel "Mandala Airlines"^^xsd:string .
+
+cv-ai4dm:RJ a skos:Concept ;
+    skos:hiddenLabel "RJ"^^xsd:string ;
+    skos:prefLabel "Royal Jordanian"^^xsd:string .
+
+cv-ai4dm:RK a skos:Concept ;
+    skos:hiddenLabel "RK"^^xsd:string ;
+    skos:prefLabel "Air Afrique"^^xsd:string,
+        "Royal Khmer Airlines"^^xsd:string .
+
+cv-ai4dm:RL a skos:Concept ;
+    skos:hiddenLabel "RL"^^xsd:string ;
+    skos:prefLabel "Royal Falcon"^^xsd:string .
+
+cv-ai4dm:RM a skos:Concept ;
+    skos:hiddenLabel "RM"^^xsd:string ;
+    skos:prefLabel "Rainbow Air US"^^xsd:string .
+
+cv-ai4dm:RN a skos:Concept ;
+    skos:hiddenLabel "RN"^^xsd:string ;
+    skos:prefLabel "Rainbow Air (RAI)"^^xsd:string .
+
+cv-ai4dm:RO a skos:Concept ;
+    skos:hiddenLabel "RO"^^xsd:string ;
+    skos:prefLabel "Tarom"^^xsd:string .
+
+cv-ai4dm:RP a skos:Concept ;
+    skos:hiddenLabel "RP"^^xsd:string ;
+    skos:prefLabel "Chautauqua Airlines"^^xsd:string .
+
+cv-ai4dm:RQ a skos:Concept ;
+    skos:hiddenLabel "RQ"^^xsd:string ;
+    skos:prefLabel "Kam Air"^^xsd:string .
+
+cv-ai4dm:RR a skos:Concept ;
+    skos:hiddenLabel "RR"^^xsd:string ;
+    skos:prefLabel "REXAIR VIRTUEL"^^xsd:string,
+        "Red Jet America"^^xsd:string,
+        "Royal Air Force"^^xsd:string .
+
+cv-ai4dm:RS a skos:Concept ;
+    skos:hiddenLabel "RS"^^xsd:string ;
+    skos:prefLabel "Intercontinental de Aviaci"^^xsd:string,
+        "Royal Air Force of Oman"^^xsd:string,
+        "Sky Regional"^^xsd:string .
+
+cv-ai4dm:RT a skos:Concept ;
+    skos:hiddenLabel "RT"^^xsd:string ;
+    skos:prefLabel "Real Tonga"^^xsd:string .
+
+cv-ai4dm:RU a skos:Concept ;
+    skos:hiddenLabel "RU"^^xsd:string ;
+    skos:prefLabel "AirBridge Cargo"^^xsd:string,
+        "Rainbow Air Euro"^^xsd:string,
+        "SkyKing Turks and Caicos Airways"^^xsd:string .
+
+cv-ai4dm:RV a skos:Concept ;
+    skos:hiddenLabel "RV"^^xsd:string ;
+    skos:prefLabel "Caspian Airlines"^^xsd:string .
+
+cv-ai4dm:RW a skos:Concept ;
+    skos:hiddenLabel "RW"^^xsd:string ;
+    skos:prefLabel "Republic Airlines"^^xsd:string .
+
+cv-ai4dm:RX a skos:Concept ;
+    skos:hiddenLabel "RX"^^xsd:string ;
+    skos:prefLabel "Aviaexpress"^^xsd:string,
+        "Rainbow Air Polynesia"^^xsd:string .
+
+cv-ai4dm:RY a skos:Concept ;
+    skos:hiddenLabel "RY"^^xsd:string ;
+    skos:prefLabel "Rainbow Air Canada"^^xsd:string,
+        "Reno Sky"^^xsd:string .
+
+cv-ai4dm:RZ a skos:Concept ;
+    skos:hiddenLabel "RZ"^^xsd:string ;
+    skos:prefLabel "Euro Exec Express"^^xsd:string .
+
+cv-ai4dm:S0 a skos:Concept ;
+    skos:hiddenLabel "S0"^^xsd:string ;
+    skos:prefLabel "Slok Air Gambia"^^xsd:string,
+        "Spike Airlines"^^xsd:string .
+
+cv-ai4dm:S1 a skos:Concept ;
+    skos:hiddenLabel "S1"^^xsd:string ;
+    skos:prefLabel "Serbian Airlines"^^xsd:string .
+
+cv-ai4dm:S2 a skos:Concept ;
+    skos:hiddenLabel "S2"^^xsd:string ;
+    skos:prefLabel "Air Sahara"^^xsd:string .
+
+cv-ai4dm:S3 a skos:Concept ;
+    skos:hiddenLabel "S3"^^xsd:string ;
+    skos:prefLabel "Santa Barbara Airlines"^^xsd:string .
+
+cv-ai4dm:S4 a skos:Concept ;
+    skos:hiddenLabel "S4"^^xsd:string ;
+    skos:prefLabel "SATA International"^^xsd:string .
+
+cv-ai4dm:S5 a skos:Concept ;
+    skos:hiddenLabel "S5"^^xsd:string ;
+    skos:prefLabel "Shuttle America"^^xsd:string,
+        "Trast Aero"^^xsd:string .
+
+cv-ai4dm:S6 a skos:Concept ;
+    skos:hiddenLabel "S6"^^xsd:string ;
+    skos:prefLabel "Salmon Air"^^xsd:string,
+        "Star Air"^^xsd:string .
+
+cv-ai4dm:S7 a skos:Concept ;
+    skos:hiddenLabel "S7"^^xsd:string ;
+    skos:prefLabel "S7 Airlines"^^xsd:string .
+
+cv-ai4dm:S8 a skos:Concept ;
+    skos:hiddenLabel "S8"^^xsd:string ;
+    skos:prefLabel "Chari Aviation Services"^^xsd:string,
+        "Shovkoviy Shlyah"^^xsd:string,
+        "Snowbird Airlines"^^xsd:string .
+
+cv-ai4dm:S9 a skos:Concept ;
+    skos:hiddenLabel "S9"^^xsd:string ;
+    skos:prefLabel "East African Safari Air"^^xsd:string,
+        "Starbow Airlines"^^xsd:string .
+
+cv-ai4dm:SA a skos:Concept ;
+    skos:hiddenLabel "SA"^^xsd:string ;
+    skos:prefLabel "South African Airways"^^xsd:string .
+
+cv-ai4dm:SB a skos:Concept ;
+    skos:hiddenLabel "SB"^^xsd:string ;
+    skos:prefLabel "Air Caledonie International"^^xsd:string .
+
+cv-ai4dm:SC a skos:Concept ;
+    skos:hiddenLabel "SC"^^xsd:string ;
+    skos:prefLabel "Shandong Airlines"^^xsd:string .
+
+cv-ai4dm:SD a skos:Concept ;
+    skos:hiddenLabel "SD"^^xsd:string ;
+    skos:prefLabel "Sudan Airways"^^xsd:string .
+
+cv-ai4dm:SE a skos:Concept ;
+    skos:hiddenLabel "SE"^^xsd:string ;
+    skos:prefLabel "XL Airways France"^^xsd:string .
+
+cv-ai4dm:SF a skos:Concept ;
+    skos:hiddenLabel "SF"^^xsd:string ;
+    skos:prefLabel "Air Charter International"^^xsd:string,
+        "Tassili Airlines"^^xsd:string .
+
+cv-ai4dm:SG a skos:Concept ;
+    skos:hiddenLabel "SG"^^xsd:string ;
+    skos:prefLabel "JetsGo"^^xsd:string,
+        "Spicejet"^^xsd:string .
+
+cv-ai4dm:SH a skos:Concept ;
+    skos:hiddenLabel "SH"^^xsd:string ;
+    skos:prefLabel "Aéris (Priv)"^^xsd:string,
+        "Fly Me Sweden"^^xsd:string,
+        "Sharp Airlines"^^xsd:string,
+        "TAN-SAHSA"^^xsd:string .
+
+cv-ai4dm:SI a skos:Concept ;
+    skos:hiddenLabel "SI"^^xsd:string ;
+    skos:prefLabel "Skynet Airlines"^^xsd:string .
+
+cv-ai4dm:SJ a skos:Concept ;
+    skos:hiddenLabel "SJ"^^xsd:string ;
+    skos:prefLabel "Sriwijaya Air"^^xsd:string .
+
+cv-ai4dm:SK a skos:Concept ;
+    skos:hiddenLabel "SK"^^xsd:string ;
+    skos:prefLabel "Scandinavian Airlines System"^^xsd:string .
+
+cv-ai4dm:SL a skos:Concept ;
+    skos:hiddenLabel "SL"^^xsd:string ;
+    skos:prefLabel "Rio Sul Servi"^^xsd:string,
+        "Thai Lion Air"^^xsd:string .
+
+cv-ai4dm:SM a skos:Concept ;
+    skos:hiddenLabel "SM"^^xsd:string ;
+    skos:prefLabel "Spirit of Manila Airlines"^^xsd:string,
+        "Swedline Express"^^xsd:string .
+
+cv-ai4dm:SN a skos:Concept ;
+    skos:hiddenLabel "SN"^^xsd:string ;
+    skos:prefLabel "Brussels Airlines"^^xsd:string .
+
+cv-ai4dm:SO a skos:Concept ;
+    skos:hiddenLabel "SO"^^xsd:string ;
+    skos:prefLabel "Salsa d\\\\'Haiti"^^xsd:string,
+        "Sosoliso Airlines"^^xsd:string,
+        "Superior Aviation"^^xsd:string .
+
+cv-ai4dm:SP a skos:Concept ;
+    skos:hiddenLabel "SP"^^xsd:string ;
+    skos:prefLabel "SATA Air Acores"^^xsd:string .
+
+cv-ai4dm:SQ a skos:Concept ;
+    skos:hiddenLabel "SQ"^^xsd:string ;
+    skos:prefLabel "Singapore Airlines"^^xsd:string,
+        "Singapore Airlines Cargo"^^xsd:string .
+
+cv-ai4dm:SR a skos:Concept ;
+    skos:hiddenLabel "SR"^^xsd:string ;
+    skos:prefLabel "Swissair"^^xsd:string .
+
+cv-ai4dm:SS a skos:Concept ;
+    skos:hiddenLabel "SS"^^xsd:string ;
+    skos:prefLabel "Corsairfly"^^xsd:string .
+
+cv-ai4dm:ST a skos:Concept ;
+    skos:hiddenLabel "ST"^^xsd:string ;
+    skos:prefLabel "Germania"^^xsd:string .
+
+cv-ai4dm:SU a skos:Concept ;
+    skos:hiddenLabel "SU"^^xsd:string ;
+    skos:prefLabel "Aeroflot Russian Airlines"^^xsd:string .
+
+cv-ai4dm:SV a skos:Concept ;
+    skos:hiddenLabel "SV"^^xsd:string ;
+    skos:prefLabel "Saudi Arabian Airlines"^^xsd:string .
+
+cv-ai4dm:SW a skos:Concept ;
+    skos:hiddenLabel "SW"^^xsd:string ;
+    skos:prefLabel "Air Namibia"^^xsd:string .
+
+cv-ai4dm:SX a skos:Concept ;
+    skos:hiddenLabel "SX"^^xsd:string ;
+    skos:prefLabel "Sky Work Airlines"^^xsd:string,
+        "SkyWork Airlines "^^xsd:string,
+        "Skybus Airlines"^^xsd:string,
+        "Starling Airlines Spain"^^xsd:string .
+
+cv-ai4dm:SY a skos:Concept ;
+    skos:hiddenLabel "SY"^^xsd:string ;
+    skos:prefLabel "Sun Country Airlines"^^xsd:string .
+
+cv-ai4dm:SZ a skos:Concept ;
+    skos:hiddenLabel "SZ"^^xsd:string ;
+    skos:prefLabel "Salzburg arrows"^^xsd:string .
+
+cv-ai4dm:T0 a skos:Concept ;
+    skos:hiddenLabel "T0"^^xsd:string ;
+    skos:prefLabel "TACA Peru"^^xsd:string .
+
+cv-ai4dm:T1 a skos:Concept ;
+    skos:hiddenLabel "T1"^^xsd:string ;
+    skos:prefLabel "TROPICAL LINHAS AEREAS"^^xsd:string .
+
+cv-ai4dm:T2 a skos:Concept ;
+    skos:hiddenLabel "T2"^^xsd:string ;
+    skos:prefLabel "Thai Air Cargo"^^xsd:string .
+
+cv-ai4dm:T3 a skos:Concept ;
+    skos:hiddenLabel "T3"^^xsd:string ;
+    skos:prefLabel "Eastern Airways"^^xsd:string .
+
+cv-ai4dm:T4 a skos:Concept ;
+    skos:hiddenLabel "T4"^^xsd:string ;
+    skos:prefLabel "Hellas Jet"^^xsd:string .
+
+cv-ai4dm:T5 a skos:Concept ;
+    skos:hiddenLabel "T5"^^xsd:string ;
+    skos:prefLabel "Turkmenistan Airlines"^^xsd:string .
+
+cv-ai4dm:T6 a skos:Concept ;
+    skos:hiddenLabel "T6"^^xsd:string ;
+    skos:prefLabel "Tavrey Airlines"^^xsd:string,
+        "Trans Pas Air"^^xsd:string .
+
+cv-ai4dm:T7 a skos:Concept ;
+    skos:hiddenLabel "T7"^^xsd:string ;
+    skos:prefLabel "Twin Jet"^^xsd:string .
+
+cv-ai4dm:T8 a skos:Concept ;
+    skos:hiddenLabel "T8"^^xsd:string ;
+    skos:prefLabel "TAN"^^xsd:string .
+
+cv-ai4dm:T9 a skos:Concept ;
+    skos:hiddenLabel "T9"^^xsd:string ;
+    skos:prefLabel "Thai Star Airlines"^^xsd:string,
+        "TransMeridian Airlines"^^xsd:string .
+
+cv-ai4dm:TA a skos:Concept ;
+    skos:hiddenLabel "TA"^^xsd:string ;
+    skos:prefLabel "Grupo TACA"^^xsd:string .
+
+cv-ai4dm:TB a skos:Concept ;
+    skos:hiddenLabel "TB"^^xsd:string ;
+    skos:prefLabel "TUI Airlines Belgium"^^xsd:string,
+        "TrasBrasil"^^xsd:string .
+
+cv-ai4dm:TC a skos:Concept ;
+    skos:hiddenLabel "TC"^^xsd:string ;
+    skos:prefLabel "Air Tanzania"^^xsd:string .
+
+cv-ai4dm:TD a skos:Concept ;
+    skos:hiddenLabel "TD"^^xsd:string ;
+    skos:prefLabel "Atlantis European Airways"^^xsd:string,
+        "Tulip Air"^^xsd:string .
+
+cv-ai4dm:TE a skos:Concept ;
+    skos:hiddenLabel "TE"^^xsd:string ;
+    skos:prefLabel "FlyLal"^^xsd:string .
+
+cv-ai4dm:TF a skos:Concept ;
+    skos:hiddenLabel "TF"^^xsd:string ;
+    skos:prefLabel "Malmö Aviation"^^xsd:string .
+
+cv-ai4dm:TG a skos:Concept ;
+    skos:hiddenLabel "TG"^^xsd:string ;
+    skos:prefLabel "Thai Airways International"^^xsd:string .
+
+cv-ai4dm:TH a skos:Concept ;
+    skos:hiddenLabel "TH"^^xsd:string ;
+    skos:prefLabel "BA Connect"^^xsd:string,
+        "TransBrasil Airlines"^^xsd:string,
+        "Transmile Air Services"^^xsd:string .
+
+cv-ai4dm:TI a skos:Concept ;
+    skos:hiddenLabel "TI"^^xsd:string ;
+    skos:prefLabel "Tol-Air Services"^^xsd:string,
+        "TransHolding"^^xsd:string .
+
+cv-ai4dm:TJ a skos:Concept ;
+    skos:hiddenLabel "TJ"^^xsd:string ;
+    skos:prefLabel "T.J. Air"^^xsd:string,
+        "Transportes Aéreos Nacionales de Selva"^^xsd:string .
+
+cv-ai4dm:TK a skos:Concept ;
+    skos:hiddenLabel "TK"^^xsd:string ;
+    skos:prefLabel "Turkish Airlines"^^xsd:string .
+
+cv-ai4dm:TL a skos:Concept ;
+    skos:hiddenLabel "TL"^^xsd:string ;
+    skos:prefLabel "Airnorth"^^xsd:string,
+        "Trans Mediterranean Airlines"^^xsd:string .
+
+cv-ai4dm:TM a skos:Concept ;
+    skos:hiddenLabel "TM"^^xsd:string ;
+    skos:prefLabel "Air Mozambique"^^xsd:string .
+
+cv-ai4dm:TN a skos:Concept ;
+    skos:hiddenLabel "TN"^^xsd:string ;
+    skos:prefLabel "Air Tahiti Nui"^^xsd:string .
+
+cv-ai4dm:TO a skos:Concept ;
+    skos:hiddenLabel "TO"^^xsd:string ;
+    skos:prefLabel "President Airlines"^^xsd:string,
+        "Transavia France"^^xsd:string .
+
+cv-ai4dm:TP a skos:Concept ;
+    skos:hiddenLabel "TP"^^xsd:string ;
+    skos:prefLabel "TAP Portugal"^^xsd:string .
+
+cv-ai4dm:TQ a skos:Concept ;
+    skos:hiddenLabel "TQ"^^xsd:string ;
+    skos:prefLabel "Tandem Aero"^^xsd:string,
+        "Texas Wings"^^xsd:string .
+
+cv-ai4dm:TR a skos:Concept ;
+    skos:hiddenLabel "TR"^^xsd:string ;
+    skos:prefLabel "Tiger Airways"^^xsd:string .
+
+cv-ai4dm:TS a skos:Concept ;
+    skos:hiddenLabel "TS"^^xsd:string ;
+    skos:prefLabel "Air Transat"^^xsd:string .
+
+cv-ai4dm:TT a skos:Concept ;
+    skos:hiddenLabel "TT"^^xsd:string ;
+    skos:prefLabel "Air Lithuania"^^xsd:string,
+        "Tiger Airways Australia"^^xsd:string .
+
+cv-ai4dm:TU a skos:Concept ;
+    skos:hiddenLabel "TU"^^xsd:string ;
+    skos:prefLabel "Tunisair"^^xsd:string .
+
+cv-ai4dm:TV a skos:Concept ;
+    skos:hiddenLabel "TV"^^xsd:string ;
+    skos:prefLabel "Virgin Express"^^xsd:string .
+
+cv-ai4dm:TW a skos:Concept ;
+    skos:hiddenLabel "TW"^^xsd:string ;
+    skos:prefLabel "Trans World Airlines"^^xsd:string,
+        "Tway Airlines"^^xsd:string .
+
+cv-ai4dm:TX a skos:Concept ;
+    skos:hiddenLabel "TX"^^xsd:string ;
+    skos:prefLabel "Air Caraïbes"^^xsd:string .
+
+cv-ai4dm:TY a skos:Concept ;
+    skos:hiddenLabel "TY"^^xsd:string ;
+    skos:prefLabel "Air Cal"^^xsd:string,
+        "Iberworld"^^xsd:string .
+
+cv-ai4dm:TZ a skos:Concept ;
+    skos:hiddenLabel "TZ"^^xsd:string ;
+    skos:prefLabel "Scoot"^^xsd:string .
+
+cv-ai4dm:U1 a skos:Concept ;
+    skos:hiddenLabel "U1"^^xsd:string ;
+    skos:prefLabel "AirOne Polska"^^xsd:string,
+        "Aviabus"^^xsd:string .
+
+cv-ai4dm:U2 a skos:Concept ;
+    skos:hiddenLabel "U2"^^xsd:string ;
+    skos:prefLabel "United Feeder Service"^^xsd:string,
+        "easyJet"^^xsd:string .
+
+cv-ai4dm:U3 a skos:Concept ;
+    skos:hiddenLabel "U3"^^xsd:string ;
+    skos:prefLabel "Avies"^^xsd:string .
+
+cv-ai4dm:U4 a skos:Concept ;
+    skos:hiddenLabel "U4"^^xsd:string ;
+    skos:prefLabel "PMTair"^^xsd:string .
+
+cv-ai4dm:U5 a skos:Concept ;
+    skos:hiddenLabel "U5"^^xsd:string ;
+    skos:prefLabel "USA3000 Airlines"^^xsd:string .
+
+cv-ai4dm:U6 a skos:Concept ;
+    skos:hiddenLabel "U6"^^xsd:string ;
+    skos:prefLabel "Ural Airlines"^^xsd:string .
+
+cv-ai4dm:U7 a skos:Concept ;
+    skos:hiddenLabel "U7"^^xsd:string ;
+    skos:prefLabel "Northern Dene Airways"^^xsd:string,
+        "USA Jet Airlines"^^xsd:string .
+
+cv-ai4dm:U8 a skos:Concept ;
+    skos:hiddenLabel "U8"^^xsd:string ;
+    skos:prefLabel "Armavia"^^xsd:string .
+
+cv-ai4dm:U9 a skos:Concept ;
+    skos:hiddenLabel "U9"^^xsd:string ;
+    skos:prefLabel "Tatarstan Airlines"^^xsd:string .
+
+cv-ai4dm:UA a skos:Concept ;
+    skos:hiddenLabel "UA"^^xsd:string ;
+    skos:prefLabel "United Airlines"^^xsd:string .
+
+cv-ai4dm:UB a skos:Concept ;
+    skos:hiddenLabel "UB"^^xsd:string ;
+    skos:prefLabel "Myanma Airways"^^xsd:string .
+
+cv-ai4dm:UD a skos:Concept ;
+    skos:hiddenLabel "UD"^^xsd:string ;
+    skos:prefLabel "Hex'Air"^^xsd:string .
+
+cv-ai4dm:UE a skos:Concept ;
+    skos:hiddenLabel "UE"^^xsd:string ;
+    skos:prefLabel "Nasair"^^xsd:string,
+        "Transeuropean Airlines"^^xsd:string .
+
+cv-ai4dm:UF a skos:Concept ;
+    skos:hiddenLabel "UF"^^xsd:string ;
+    skos:prefLabel "UM Airlines"^^xsd:string .
+
+cv-ai4dm:UG a skos:Concept ;
+    skos:hiddenLabel "UG"^^xsd:string ;
+    skos:prefLabel "Tuninter"^^xsd:string .
+
+cv-ai4dm:UH a skos:Concept ;
+    skos:hiddenLabel "UH"^^xsd:string ;
+    skos:prefLabel "US Helicopter Corporation"^^xsd:string .
+
+cv-ai4dm:UI a skos:Concept ;
+    skos:hiddenLabel "UI"^^xsd:string ;
+    skos:prefLabel "Eurocypria Airlines"^^xsd:string .
+
+cv-ai4dm:UJ a skos:Concept ;
+    skos:hiddenLabel "UJ"^^xsd:string ;
+    skos:prefLabel "AlMasria Universal Airlines"^^xsd:string .
+
+cv-ai4dm:UK a skos:Concept ;
+    skos:hiddenLabel "UK"^^xsd:string ;
+    skos:prefLabel "Air UK"^^xsd:string,
+        "Air Vistara"^^xsd:string,
+        "buzz"^^xsd:string .
+
+cv-ai4dm:UL a skos:Concept ;
+    skos:hiddenLabel "UL"^^xsd:string ;
+    skos:prefLabel "SriLankan Airlines"^^xsd:string .
+
+cv-ai4dm:UM a skos:Concept ;
+    skos:hiddenLabel "UM"^^xsd:string ;
+    skos:prefLabel "Air Zimbabwe"^^xsd:string .
+
+cv-ai4dm:UN a skos:Concept ;
+    skos:hiddenLabel "UN"^^xsd:string ;
+    skos:prefLabel "Transaero Airlines"^^xsd:string .
+
+cv-ai4dm:UO a skos:Concept ;
+    skos:hiddenLabel "UO"^^xsd:string ;
+    skos:prefLabel "Hong Kong Express Airways"^^xsd:string .
+
+cv-ai4dm:UP a skos:Concept ;
+    skos:hiddenLabel "UP"^^xsd:string ;
+    skos:prefLabel "Bahamasair"^^xsd:string .
+
+cv-ai4dm:UQ a skos:Concept ;
+    skos:hiddenLabel "UQ"^^xsd:string ;
+    skos:prefLabel "O'Connor Airlines"^^xsd:string,
+        "Skyjet Airlines"^^xsd:string .
+
+cv-ai4dm:UR a skos:Concept ;
+    skos:hiddenLabel "UR"^^xsd:string ;
+    skos:prefLabel "UTair-Express"^^xsd:string .
+
+cv-ai4dm:US a skos:Concept ;
+    skos:hiddenLabel "US"^^xsd:string ;
+    skos:prefLabel "US Airways"^^xsd:string .
+
+cv-ai4dm:UT a skos:Concept ;
+    skos:hiddenLabel "UT"^^xsd:string ;
+    skos:prefLabel "UTair Aviation"^^xsd:string .
+
+cv-ai4dm:UU a skos:Concept ;
+    skos:hiddenLabel "UU"^^xsd:string ;
+    skos:prefLabel "Air Austral"^^xsd:string .
+
+cv-ai4dm:UW a skos:Concept ;
+    skos:hiddenLabel "UW"^^xsd:string ;
+    skos:prefLabel "UVT Aero"^^xsd:string .
+
+cv-ai4dm:UX a skos:Concept ;
+    skos:hiddenLabel "UX"^^xsd:string ;
+    skos:prefLabel "Air Europa"^^xsd:string .
+
+cv-ai4dm:UY a skos:Concept ;
+    skos:hiddenLabel "UY"^^xsd:string ;
+    skos:prefLabel "Cameroon Airlines"^^xsd:string .
+
+cv-ai4dm:UZ a skos:Concept ;
+    skos:hiddenLabel "UZ"^^xsd:string ;
+    skos:prefLabel "El-Buraq Air Transport"^^xsd:string .
+
+cv-ai4dm:V0 a skos:Concept ;
+    skos:hiddenLabel "V0"^^xsd:string ;
+    skos:prefLabel "Conviasa"^^xsd:string .
+
+cv-ai4dm:V1 a skos:Concept ;
+    skos:hiddenLabel "V1"^^xsd:string ;
+    skos:prefLabel "VIA Líneas Aéreas"^^xsd:string .
+
+cv-ai4dm:V2 a skos:Concept ;
+    skos:hiddenLabel "V2"^^xsd:string ;
+    skos:prefLabel "Karat"^^xsd:string,
+        "Vision Airlines (V2)"^^xsd:string .
+
+cv-ai4dm:V3 a skos:Concept ;
+    skos:hiddenLabel "V3"^^xsd:string ;
+    skos:prefLabel "Carpatair"^^xsd:string .
+
+cv-ai4dm:V4 a skos:Concept ;
+    skos:hiddenLabel "V4"^^xsd:string ;
+    skos:prefLabel "Reem Air"^^xsd:string .
+
+cv-ai4dm:V5 a skos:Concept ;
+    skos:hiddenLabel "V5"^^xsd:string ;
+    skos:prefLabel "Avolar Aerolineas"^^xsd:string,
+        "Danube Wings (V5)"^^xsd:string,
+        "Royal Aruban Airline"^^xsd:string .
+
+cv-ai4dm:V6 a skos:Concept ;
+    skos:hiddenLabel "V6"^^xsd:string ;
+    skos:prefLabel "VIP Ecuador"^^xsd:string .
+
+cv-ai4dm:V7 a skos:Concept ;
+    skos:hiddenLabel "V7"^^xsd:string ;
+    skos:prefLabel "Air Senegal International"^^xsd:string,
+        "VOLOTEA Airways"^^xsd:string .
+
+cv-ai4dm:V8 a skos:Concept ;
+    skos:hiddenLabel "V8"^^xsd:string ;
+    skos:prefLabel "ATRAN Cargo Airlines"^^xsd:string .
+
+cv-ai4dm:V9 a skos:Concept ;
+    skos:hiddenLabel "V9"^^xsd:string ;
+    skos:prefLabel "BAL Bashkirian Airlines"^^xsd:string,
+        "Star1 Airlines"^^xsd:string .
+
+cv-ai4dm:VA a skos:Concept ;
+    skos:hiddenLabel "VA"^^xsd:string ;
+    skos:prefLabel "V Australia Airlines"^^xsd:string,
+        "Viasa"^^xsd:string,
+        "Virgin Australia"^^xsd:string .
+
+cv-ai4dm:VB a skos:Concept ;
+    skos:hiddenLabel "VB"^^xsd:string ;
+    skos:prefLabel "Birmingham European"^^xsd:string,
+        "Pacific Express"^^xsd:string .
+
+cv-ai4dm:VC a skos:Concept ;
+    skos:hiddenLabel "VC"^^xsd:string ;
+    skos:prefLabel "Ocean Airlines"^^xsd:string,
+        "Strategic Airlines"^^xsd:string,
+        "Voyageur Airways"^^xsd:string .
+
+cv-ai4dm:VD a skos:Concept ;
+    skos:hiddenLabel "VD"^^xsd:string ;
+    skos:prefLabel "Air Libert"^^xsd:string,
+        "Kunpeng Airlines"^^xsd:string,
+        "SwedJet Airways"^^xsd:string .
+
+cv-ai4dm:VE a skos:Concept ;
+    skos:hiddenLabel "VE"^^xsd:string ;
+    skos:prefLabel "Avensa"^^xsd:string,
+        "EUjet"^^xsd:string,
+        "Volare Airlines"^^xsd:string .
+
+cv-ai4dm:VF a skos:Concept ;
+    skos:hiddenLabel "VF"^^xsd:string ;
+    skos:prefLabel "Valuair"^^xsd:string .
+
+cv-ai4dm:VG a skos:Concept ;
+    skos:hiddenLabel "VG"^^xsd:string ;
+    skos:prefLabel "VLM Airlines"^^xsd:string .
+
+cv-ai4dm:VH a skos:Concept ;
+    skos:hiddenLabel "VH"^^xsd:string ;
+    skos:prefLabel "Virgin Pacific"^^xsd:string .
+
+cv-ai4dm:VI a skos:Concept ;
+    skos:hiddenLabel "VI"^^xsd:string ;
+    skos:prefLabel "Volga-Dnepr Airlines"^^xsd:string .
+
+cv-ai4dm:VJ a skos:Concept ;
+    skos:hiddenLabel "VJ"^^xsd:string ;
+    skos:prefLabel "Jatayu Airlines"^^xsd:string,
+        "Royal Air Cambodge"^^xsd:string .
+
+cv-ai4dm:VK a skos:Concept ;
+    skos:hiddenLabel "VK"^^xsd:string ;
+    skos:prefLabel "Virgin Nigeria Airways"^^xsd:string .
+
+cv-ai4dm:VL a skos:Concept ;
+    skos:hiddenLabel "VL"^^xsd:string ;
+    skos:prefLabel "Air VIA"^^xsd:string .
+
+cv-ai4dm:VM a skos:Concept ;
+    skos:hiddenLabel "VM"^^xsd:string ;
+    skos:prefLabel "Viaggio Air"^^xsd:string .
+
+cv-ai4dm:VN a skos:Concept ;
+    skos:hiddenLabel "VN"^^xsd:string ;
+    skos:prefLabel "Vietnam Airlines"^^xsd:string .
+
+cv-ai4dm:VO a skos:Concept ;
+    skos:hiddenLabel "VO"^^xsd:string ;
+    skos:prefLabel "Tyrolean Airways"^^xsd:string .
+
+cv-ai4dm:VP a skos:Concept ;
+    skos:hiddenLabel "VP"^^xsd:string ;
+    skos:prefLabel "VASP"^^xsd:string .
+
+cv-ai4dm:VQ a skos:Concept ;
+    skos:hiddenLabel "VQ"^^xsd:string ;
+    skos:prefLabel "Viking Hellas"^^xsd:string .
+
+cv-ai4dm:VR a skos:Concept ;
+    skos:hiddenLabel "VR"^^xsd:string ;
+    skos:prefLabel "TACV"^^xsd:string .
+
+cv-ai4dm:VS a skos:Concept ;
+    skos:hiddenLabel "VS"^^xsd:string ;
+    skos:prefLabel "Virgin Atlantic Airways"^^xsd:string .
+
+cv-ai4dm:VT a skos:Concept ;
+    skos:hiddenLabel "VT"^^xsd:string ;
+    skos:prefLabel "Air Tahiti"^^xsd:string .
+
+cv-ai4dm:VU a skos:Concept ;
+    skos:hiddenLabel "VU"^^xsd:string ;
+    skos:prefLabel "Air Ivoire"^^xsd:string .
+
+cv-ai4dm:VV a skos:Concept ;
+    skos:hiddenLabel "VV"^^xsd:string ;
+    skos:prefLabel "Aerosvit Airlines"^^xsd:string .
+
+cv-ai4dm:VW a skos:Concept ;
+    skos:hiddenLabel "VW"^^xsd:string ;
+    skos:prefLabel "Aeromar"^^xsd:string .
+
+cv-ai4dm:VX a skos:Concept ;
+    skos:hiddenLabel "VX"^^xsd:string ;
+    skos:prefLabel "Virgin America"^^xsd:string .
+
+cv-ai4dm:VY a skos:Concept ;
+    skos:hiddenLabel "VY"^^xsd:string ;
+    skos:prefLabel "Formosa Airlines"^^xsd:string,
+        "Vueling Airlines"^^xsd:string .
+
+cv-ai4dm:VZ a skos:Concept ;
+    skos:hiddenLabel "VZ"^^xsd:string ;
+    skos:prefLabel "MyTravel Airways"^^xsd:string .
+
+cv-ai4dm:W1 a skos:Concept ;
+    skos:hiddenLabel "W1"^^xsd:string ;
+    skos:prefLabel "World Experience Airline"^^xsd:string .
+
+cv-ai4dm:W2 a skos:Concept ;
+    skos:hiddenLabel "W2"^^xsd:string ;
+    skos:prefLabel "Canadian Western Airlines"^^xsd:string,
+        "Maastricht Airlines"^^xsd:string .
+
+cv-ai4dm:W3 a skos:Concept ;
+    skos:hiddenLabel "W3"^^xsd:string ;
+    skos:prefLabel "Arik Air"^^xsd:string,
+        "World Scale Airlines"^^xsd:string .
+
+cv-ai4dm:W4 a skos:Concept ;
+    skos:hiddenLabel "W4"^^xsd:string ;
+    skos:prefLabel "Aero Services Executive"^^xsd:string,
+        "AeroWorld "^^xsd:string .
+
+cv-ai4dm:W5 a skos:Concept ;
+    skos:hiddenLabel "W5"^^xsd:string ;
+    skos:prefLabel "Mahan Air"^^xsd:string .
+
+cv-ai4dm:W6 a skos:Concept ;
+    skos:hiddenLabel "W6"^^xsd:string ;
+    skos:prefLabel "Wizz Air"^^xsd:string .
+
+cv-ai4dm:W7 a skos:Concept ;
+    skos:hiddenLabel "W7"^^xsd:string ;
+    skos:prefLabel "Austral Brasil"^^xsd:string .
+
+cv-ai4dm:W8 a skos:Concept ;
+    skos:hiddenLabel "W8"^^xsd:string ;
+    skos:prefLabel "Cargojet Airways"^^xsd:string .
+
+cv-ai4dm:W9 a skos:Concept ;
+    skos:hiddenLabel "W9"^^xsd:string ;
+    skos:prefLabel "Abelag Aviation"^^xsd:string,
+        "Air Bagan"^^xsd:string,
+        "Eastwind Airlines"^^xsd:string .
+
+cv-ai4dm:WA a skos:Concept ;
+    skos:hiddenLabel "WA"^^xsd:string ;
+    skos:prefLabel "KLM Cityhopper"^^xsd:string,
+        "Western Airlines"^^xsd:string .
+
+cv-ai4dm:WB a skos:Concept ;
+    skos:hiddenLabel "WB"^^xsd:string ;
+    skos:prefLabel "Rwandair Express"^^xsd:string .
+
+cv-ai4dm:WC a skos:Concept ;
+    skos:hiddenLabel "WC"^^xsd:string ;
+    skos:prefLabel "Islena De Inversiones"^^xsd:string .
+
+cv-ai4dm:WD a skos:Concept ;
+    skos:hiddenLabel "WD"^^xsd:string ;
+    skos:prefLabel "Amsterdam Airlines"^^xsd:string,
+        "DAS Air Cargo"^^xsd:string .
+
+cv-ai4dm:WE a skos:Concept ;
+    skos:hiddenLabel "WE"^^xsd:string ;
+    skos:prefLabel "Centurion Air Cargo"^^xsd:string,
+        "Thai Smile Airways"^^xsd:string .
+
+cv-ai4dm:WF a skos:Concept ;
+    skos:hiddenLabel "WF"^^xsd:string ;
+    skos:prefLabel "Widerøe"^^xsd:string .
+
+cv-ai4dm:WG a skos:Concept ;
+    skos:hiddenLabel "WG"^^xsd:string ;
+    skos:prefLabel "Sunwing"^^xsd:string,
+        "Sunwing Airlines"^^xsd:string,
+        "Worldways"^^xsd:string .
+
+cv-ai4dm:WH a skos:Concept ;
+    skos:hiddenLabel "WH"^^xsd:string ;
+    skos:prefLabel "China Northwest Airlines"^^xsd:string,
+        "China Northwest Airlines (WH)"^^xsd:string .
+
+cv-ai4dm:WJ a skos:Concept ;
+    skos:hiddenLabel "WJ"^^xsd:string ;
+    skos:prefLabel "WebJet Linhas A"^^xsd:string .
+
+cv-ai4dm:WK a skos:Concept ;
+    skos:hiddenLabel "WK"^^xsd:string ;
+    skos:prefLabel "American Falcon"^^xsd:string,
+        "Edelweiss Air"^^xsd:string .
+
+cv-ai4dm:WL a skos:Concept ;
+    skos:hiddenLabel "WL"^^xsd:string ;
+    skos:prefLabel "CheapFlyingInternational"^^xsd:string .
+
+cv-ai4dm:WM a skos:Concept ;
+    skos:hiddenLabel "WM"^^xsd:string ;
+    skos:prefLabel "Windward Islands Airways"^^xsd:string .
+
+cv-ai4dm:WN a skos:Concept ;
+    skos:hiddenLabel "WN"^^xsd:string ;
+    skos:prefLabel "Southwest Airlines"^^xsd:string .
+
+cv-ai4dm:WO a skos:Concept ;
+    skos:hiddenLabel "WO"^^xsd:string ;
+    skos:prefLabel "World Airways"^^xsd:string .
+
+cv-ai4dm:WP a skos:Concept ;
+    skos:hiddenLabel "WP"^^xsd:string ;
+    skos:prefLabel "Island Air (WP)"^^xsd:string .
+
+cv-ai4dm:WQ a skos:Concept ;
+    skos:hiddenLabel "WQ"^^xsd:string ;
+    skos:prefLabel "PanAm World Airways"^^xsd:string .
+
+cv-ai4dm:WR a skos:Concept ;
+    skos:hiddenLabel "WR"^^xsd:string ;
+    skos:prefLabel "Royal Tongan Airlines"^^xsd:string,
+        "WestJet Encore"^^xsd:string .
+
+cv-ai4dm:WS a skos:Concept ;
+    skos:hiddenLabel "WS"^^xsd:string ;
+    skos:prefLabel "WestJet"^^xsd:string .
+
+cv-ai4dm:WU a skos:Concept ;
+    skos:hiddenLabel "WU"^^xsd:string ;
+    skos:prefLabel "Wizz Air Ukraine"^^xsd:string .
+
+cv-ai4dm:WV a skos:Concept ;
+    skos:hiddenLabel "WV"^^xsd:string ;
+    skos:prefLabel "Swe Fly"^^xsd:string .
+
+cv-ai4dm:WW a skos:Concept ;
+    skos:hiddenLabel "WW"^^xsd:string ;
+    skos:prefLabel "bmibaby"^^xsd:string .
+
+cv-ai4dm:WX a skos:Concept ;
+    skos:hiddenLabel "WX"^^xsd:string ;
+    skos:prefLabel "CityJet"^^xsd:string .
+
+cv-ai4dm:WY a skos:Concept ;
+    skos:hiddenLabel "WY"^^xsd:string ;
+    skos:prefLabel "Oman Air"^^xsd:string .
+
+cv-ai4dm:WZ a skos:Concept ;
+    skos:hiddenLabel "WZ"^^xsd:string ;
+    skos:prefLabel "Red Wings"^^xsd:string .
+
+cv-ai4dm:X1 a skos:Concept ;
+    skos:hiddenLabel "X1"^^xsd:string ;
+    skos:prefLabel "Nik Airways"^^xsd:string .
+
+cv-ai4dm:X3 a skos:Concept ;
+    skos:hiddenLabel "X3"^^xsd:string ;
+    skos:prefLabel "TUIfly"^^xsd:string .
+
+cv-ai4dm:X5 a skos:Concept ;
+    skos:hiddenLabel "X5"^^xsd:string ;
+    skos:prefLabel "Fly Romania"^^xsd:string .
+
+cv-ai4dm:X7 a skos:Concept ;
+    skos:hiddenLabel "X7"^^xsd:string ;
+    skos:prefLabel "Atlantic Air Services"^^xsd:string,
+        "Chitaavia"^^xsd:string .
+
+cv-ai4dm:X9 a skos:Concept ;
+    skos:hiddenLabel "X9"^^xsd:string ;
+    skos:prefLabel "FRA Air"^^xsd:string,
+        "Islands Express"^^xsd:string .
+
+cv-ai4dm:XA a skos:Concept ;
+    skos:hiddenLabel "XA"^^xsd:string ;
+    skos:prefLabel "XAIR USA"^^xsd:string .
+
+cv-ai4dm:XB a skos:Concept ;
+    skos:hiddenLabel "XB"^^xsd:string ;
+    skos:prefLabel "NEXT Brasil"^^xsd:string .
+
+cv-ai4dm:XE a skos:Concept ;
+    skos:hiddenLabel "XE"^^xsd:string ;
+    skos:prefLabel "ExpressJet"^^xsd:string .
+
+cv-ai4dm:XF a skos:Concept ;
+    skos:hiddenLabel "XF"^^xsd:string ;
+    skos:prefLabel "Vladivostok Air"^^xsd:string .
+
+cv-ai4dm:XG a skos:Concept ;
+    skos:hiddenLabel "XG"^^xsd:string ;
+    skos:prefLabel "Calima Aviacion"^^xsd:string .
+
+cv-ai4dm:XJ a skos:Concept ;
+    skos:hiddenLabel "XJ"^^xsd:string ;
+    skos:prefLabel "Mesaba Airlines"^^xsd:string .
+
+cv-ai4dm:XK a skos:Concept ;
+    skos:hiddenLabel "XK"^^xsd:string ;
+    skos:prefLabel "Corse-Mediterranee"^^xsd:string .
+
+cv-ai4dm:XL a skos:Concept ;
+    skos:hiddenLabel "XL"^^xsd:string ;
+    skos:prefLabel "Aerolane"^^xsd:string .
+
+cv-ai4dm:XM a skos:Concept ;
+    skos:hiddenLabel "XM"^^xsd:string ;
+    skos:prefLabel "Alitalia Express"^^xsd:string .
+
+cv-ai4dm:XN a skos:Concept ;
+    skos:hiddenLabel "XN"^^xsd:string ;
+    skos:prefLabel "Xpressair"^^xsd:string .
+
+cv-ai4dm:XO a skos:Concept ;
+    skos:hiddenLabel "XO"^^xsd:string ;
+    skos:prefLabel "China Xinhua Airlines"^^xsd:string,
+        "LTE International Airways"^^xsd:string .
+
+cv-ai4dm:XP a skos:Concept ;
+    skos:hiddenLabel "XP"^^xsd:string ;
+    skos:prefLabel "Caribbean Wings"^^xsd:string,
+        "XPTO"^^xsd:string,
+        "Xtra Airways"^^xsd:string .
+
+cv-ai4dm:XQ a skos:Concept ;
+    skos:hiddenLabel "XQ"^^xsd:string ;
+    skos:prefLabel "SunExpress"^^xsd:string .
+
+cv-ai4dm:XR a skos:Concept ;
+    skos:hiddenLabel "XR"^^xsd:string ;
+    skos:prefLabel "Skywest Australia"^^xsd:string .
+
+cv-ai4dm:XS a skos:Concept ;
+    skos:hiddenLabel "XS"^^xsd:string ;
+    skos:prefLabel "SITA"^^xsd:string,
+        "Texas Spirit"^^xsd:string .
+
+cv-ai4dm:XT a skos:Concept ;
+    skos:hiddenLabel "XT"^^xsd:string ;
+    skos:prefLabel "Air Exel"^^xsd:string .
+
+cv-ai4dm:XV a skos:Concept ;
+    skos:hiddenLabel "XV"^^xsd:string ;
+    skos:prefLabel "BVI Airways"^^xsd:string .
+
+cv-ai4dm:XW a skos:Concept ;
+    skos:hiddenLabel "XW"^^xsd:string ;
+    skos:prefLabel "Sky Express"^^xsd:string .
+
+cv-ai4dm:XX a skos:Concept ;
+    skos:hiddenLabel "XX"^^xsd:string ;
+    skos:prefLabel "Greenfly"^^xsd:string .
+
+cv-ai4dm:XY a skos:Concept ;
+    skos:hiddenLabel "XY"^^xsd:string ;
+    skos:prefLabel "Nas Air"^^xsd:string .
+
+cv-ai4dm:XZ a skos:Concept ;
+    skos:hiddenLabel "XZ"^^xsd:string ;
+    skos:prefLabel "Congo Express"^^xsd:string .
+
+cv-ai4dm:Y0 a skos:Concept ;
+    skos:hiddenLabel "Y0"^^xsd:string ;
+    skos:prefLabel "Yellow Air Taxi"^^xsd:string .
+
+cv-ai4dm:Y1 a skos:Concept ;
+    skos:hiddenLabel "Y1"^^xsd:string ;
+    skos:prefLabel "Yellowstone Club Private Shuttle"^^xsd:string .
+
+cv-ai4dm:Y4 a skos:Concept ;
+    skos:hiddenLabel "Y4"^^xsd:string ;
+    skos:prefLabel "Volaris"^^xsd:string .
+
+cv-ai4dm:Y5 a skos:Concept ;
+    skos:hiddenLabel "Y5"^^xsd:string ;
+    skos:prefLabel "Asia Wings"^^xsd:string,
+        "Pace Airlines"^^xsd:string .
+
+cv-ai4dm:Y7 a skos:Concept ;
+    skos:hiddenLabel "Y7"^^xsd:string ;
+    skos:prefLabel "NordStar Airlines"^^xsd:string .
+
+cv-ai4dm:Y8 a skos:Concept ;
+    skos:hiddenLabel "Y8"^^xsd:string ;
+    skos:prefLabel "Marusya Airways"^^xsd:string,
+        "Yangtze River Express"^^xsd:string .
+
+cv-ai4dm:Y9 a skos:Concept ;
+    skos:hiddenLabel "Y9"^^xsd:string ;
+    skos:prefLabel "Kish Air"^^xsd:string .
+
+cv-ai4dm:YC a skos:Concept ;
+    skos:hiddenLabel "YC"^^xsd:string ;
+    skos:prefLabel "Ciel Canadien"^^xsd:string .
+
+cv-ai4dm:YD a skos:Concept ;
+    skos:hiddenLabel "YD"^^xsd:string ;
+    skos:prefLabel "Gomelavia"^^xsd:string .
+
+cv-ai4dm:YE a skos:Concept ;
+    skos:hiddenLabel "YE"^^xsd:string ;
+    skos:prefLabel "Yellowtail"^^xsd:string .
+
+cv-ai4dm:YH a skos:Concept ;
+    skos:hiddenLabel "YH"^^xsd:string ;
+    skos:prefLabel "Yangon Airways Ltd."^^xsd:string .
+
+cv-ai4dm:YI a skos:Concept ;
+    skos:hiddenLabel "YI"^^xsd:string ;
+    skos:prefLabel "TUR Avrupa Hava YollarÄ±"^^xsd:string .
+
+cv-ai4dm:YK a skos:Concept ;
+    skos:hiddenLabel "YK"^^xsd:string ;
+    skos:prefLabel "Cyprus Turkish Airlines"^^xsd:string .
+
+cv-ai4dm:YL a skos:Concept ;
+    skos:hiddenLabel "YL"^^xsd:string ;
+    skos:prefLabel "Yamal Airlines"^^xsd:string .
+
+cv-ai4dm:YM a skos:Concept ;
+    skos:hiddenLabel "YM"^^xsd:string ;
+    skos:prefLabel "Montenegro Airlines"^^xsd:string .
+
+cv-ai4dm:YO a skos:Concept ;
+    skos:hiddenLabel "YO"^^xsd:string ;
+    skos:prefLabel "TransHolding System"^^xsd:string .
+
+cv-ai4dm:YP a skos:Concept ;
+    skos:hiddenLabel "YP"^^xsd:string ;
+    skos:prefLabel "Aero Lloyd (YP)"^^xsd:string .
+
+cv-ai4dm:YQ a skos:Concept ;
+    skos:hiddenLabel "YQ"^^xsd:string ;
+    skos:prefLabel "Polet Airlines (Priv)"^^xsd:string .
+
+cv-ai4dm:YR a skos:Concept ;
+    skos:hiddenLabel "YR"^^xsd:string ;
+    skos:prefLabel "SENIC AIRLINES"^^xsd:string .
+
+cv-ai4dm:YS a skos:Concept ;
+    skos:hiddenLabel "YS"^^xsd:string ;
+    skos:prefLabel "Régional"^^xsd:string .
+
+cv-ai4dm:YT a skos:Concept ;
+    skos:hiddenLabel "YT"^^xsd:string ;
+    skos:prefLabel "Air Togo"^^xsd:string,
+        "Yeti Airways"^^xsd:string .
+
+cv-ai4dm:YV a skos:Concept ;
+    skos:hiddenLabel "YV"^^xsd:string ;
+    skos:prefLabel "Mesa Airlines"^^xsd:string .
+
+cv-ai4dm:YW a skos:Concept ;
+    skos:hiddenLabel "YW"^^xsd:string ;
+    skos:prefLabel "Air Nostrum"^^xsd:string .
+
+cv-ai4dm:YX a skos:Concept ;
+    skos:hiddenLabel "YX"^^xsd:string ;
+    skos:prefLabel "Midwest Airlines"^^xsd:string .
+
+cv-ai4dm:YY a skos:Concept ;
+    skos:hiddenLabel "YY"^^xsd:string ;
+    skos:prefLabel "Virginwings"^^xsd:string .
+
+cv-ai4dm:YZ a skos:Concept ;
+    skos:hiddenLabel "YZ"^^xsd:string ;
+    skos:prefLabel "LSM AIRLINES "^^xsd:string .
+
+cv-ai4dm:Z0 a skos:Concept ;
+    skos:hiddenLabel "Z0"^^xsd:string ;
+    skos:prefLabel "All Argentina Express"^^xsd:string .
+
+cv-ai4dm:Z2 a skos:Concept ;
+    skos:hiddenLabel "Z2"^^xsd:string ;
+    skos:prefLabel "Zest Air"^^xsd:string .
+
+cv-ai4dm:Z3 a skos:Concept ;
+    skos:hiddenLabel "Z3"^^xsd:string ;
+    skos:prefLabel "Avient Aviation"^^xsd:string .
+
+cv-ai4dm:Z4 a skos:Concept ;
+    skos:hiddenLabel "Z4"^^xsd:string ;
+    skos:prefLabel "Zoom Airlines"^^xsd:string .
+
+cv-ai4dm:Z5 a skos:Concept ;
+    skos:hiddenLabel "Z5"^^xsd:string ;
+    skos:prefLabel "INAVIA Internacional"^^xsd:string .
+
+cv-ai4dm:Z6 a skos:Concept ;
+    skos:hiddenLabel "Z6"^^xsd:string ;
+    skos:prefLabel "ZABAIKAL AIRLINES"^^xsd:string .
+
+cv-ai4dm:Z7 a skos:Concept ;
+    skos:hiddenLabel "Z7"^^xsd:string ;
+    skos:prefLabel "ADC Airlines"^^xsd:string,
+        "REDjet"^^xsd:string,
+        "Zimbabwean Airlines"^^xsd:string .
+
+cv-ai4dm:Z8 a skos:Concept ;
+    skos:hiddenLabel "Z8"^^xsd:string ;
+    skos:prefLabel "Amaszonas"^^xsd:string .
+
+cv-ai4dm:Z9 a skos:Concept ;
+    skos:hiddenLabel "Z9"^^xsd:string ;
+    skos:prefLabel "Flightlink Tanzania"^^xsd:string .
+
+cv-ai4dm:ZA a skos:Concept ;
+    skos:hiddenLabel "ZA"^^xsd:string ;
+    skos:prefLabel "Access Air"^^xsd:string,
+        "Interavia Airlines"^^xsd:string .
+
+cv-ai4dm:ZB a skos:Concept ;
+    skos:hiddenLabel "ZB"^^xsd:string ;
+    skos:prefLabel "Air Bourbon"^^xsd:string,
+        "Monarch Airlines"^^xsd:string .
+
+cv-ai4dm:ZC a skos:Concept ;
+    skos:hiddenLabel "ZC"^^xsd:string ;
+    skos:prefLabel "Korongo Airlines"^^xsd:string .
+
+cv-ai4dm:ZE a skos:Concept ;
+    skos:hiddenLabel "ZE"^^xsd:string ;
+    skos:prefLabel "Arcus-Air Logistic"^^xsd:string,
+        "Eastar Jet"^^xsd:string,
+        "Lineas Aereas Azteca"^^xsd:string .
+
+cv-ai4dm:ZF a skos:Concept ;
+    skos:hiddenLabel "ZF"^^xsd:string ;
+    skos:prefLabel "Athens Airways"^^xsd:string .
+
+cv-ai4dm:ZG a skos:Concept ;
+    skos:hiddenLabel "ZG"^^xsd:string ;
+    skos:prefLabel "Viva Macau"^^xsd:string .
+
+cv-ai4dm:ZH a skos:Concept ;
+    skos:hiddenLabel "ZH"^^xsd:string ;
+    skos:prefLabel "Shenzhen Airlines"^^xsd:string .
+
+cv-ai4dm:ZI a skos:Concept ;
+    skos:hiddenLabel "ZI"^^xsd:string ;
+    skos:prefLabel "Aigle Azur"^^xsd:string .
+
+cv-ai4dm:ZJ a skos:Concept ;
+    skos:hiddenLabel "ZJ"^^xsd:string ;
+    skos:prefLabel "Zambezi Airlines (ZMA)"^^xsd:string .
+
+cv-ai4dm:ZK a skos:Concept ;
+    skos:hiddenLabel "ZK"^^xsd:string ;
+    skos:prefLabel "Great Lakes Airlines"^^xsd:string .
+
+cv-ai4dm:ZL a skos:Concept ;
+    skos:hiddenLabel "ZL"^^xsd:string ;
+    skos:prefLabel "Regional Express"^^xsd:string .
+
+cv-ai4dm:ZM a skos:Concept ;
+    skos:hiddenLabel "ZM"^^xsd:string ;
+    skos:prefLabel "Apache Air"^^xsd:string .
+
+cv-ai4dm:ZN a skos:Concept ;
+    skos:hiddenLabel "ZN"^^xsd:string ;
+    skos:prefLabel "Zenith International Airline"^^xsd:string .
+
+cv-ai4dm:ZP a skos:Concept ;
+    skos:hiddenLabel "ZP"^^xsd:string ;
+    skos:prefLabel "Silk Way Airlines"^^xsd:string,
+        "Zabaykalskii Airlines"^^xsd:string .
+
+cv-ai4dm:ZQ a skos:Concept ;
+    skos:hiddenLabel "ZQ"^^xsd:string ;
+    skos:prefLabel "Annsett New Zealand (NZA)"^^xsd:string,
+        "Locair"^^xsd:string .
+
+cv-ai4dm:ZS a skos:Concept ;
+    skos:hiddenLabel "ZS"^^xsd:string ;
+    skos:prefLabel "Sama Airlines"^^xsd:string .
+
+cv-ai4dm:ZT a skos:Concept ;
+    skos:hiddenLabel "ZT"^^xsd:string ;
+    skos:prefLabel "Titan Airways"^^xsd:string,
+        "Tomp Airlines"^^xsd:string .
+
+cv-ai4dm:ZU a skos:Concept ;
+    skos:hiddenLabel "ZU"^^xsd:string ;
+    skos:prefLabel "Helios Airways"^^xsd:string .
+
+cv-ai4dm:ZV a skos:Concept ;
+    skos:hiddenLabel "ZV"^^xsd:string ;
+    skos:prefLabel "Air Midwest"^^xsd:string,
+        "V Air"^^xsd:string .
+
+cv-ai4dm:ZW a skos:Concept ;
+    skos:hiddenLabel "ZW"^^xsd:string ;
+    skos:prefLabel "Air Wisconsin"^^xsd:string .
+
+cv-ai4dm:ZX a skos:Concept ;
+    skos:hiddenLabel "ZX"^^xsd:string ;
+    skos:prefLabel "Air Georgian"^^xsd:string,
+        "Japan Regio"^^xsd:string .
+
+cv-ai4dm:ZY a skos:Concept ;
+    skos:hiddenLabel "ZY"^^xsd:string ;
+    skos:prefLabel "Ada Air"^^xsd:string .
+
+cv-ai4dm:ZZ a skos:Concept ;
+    skos:hiddenLabel "ZZ"^^xsd:string ;
+    skos:prefLabel "Zz"^^xsd:string .
+
+cv-ai4dm:airline-iata-code a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+
+cv-ai4dm:iatas
+	a skos:Collection ;
+	skos:prefLabel "aircraft iata codes" ;
+	skos:member cv-ai4dm:0D ;
+	skos:member cv-ai4dm:0E ;
+	skos:member cv-ai4dm:0G ;
+	skos:member cv-ai4dm:0J ;
+	skos:member cv-ai4dm:0M ;
+	skos:member cv-ai4dm:0X ;
+	skos:member cv-ai4dm:0Y ;
+	skos:member cv-ai4dm:1A ;
+	skos:member cv-ai4dm:1B ;
+	skos:member cv-ai4dm:1C ;
+	skos:member cv-ai4dm:1D ;
+	skos:member cv-ai4dm:1E ;
+	skos:member cv-ai4dm:1F ;
+	skos:member cv-ai4dm:1G ;
+	skos:member cv-ai4dm:1H ;
+	skos:member cv-ai4dm:1I ;
+	skos:member cv-ai4dm:1K ;
+	skos:member cv-ai4dm:1L ;
+	skos:member cv-ai4dm:1M ;
+	skos:member cv-ai4dm:1N ;
+	skos:member cv-ai4dm:1P ;
+	skos:member cv-ai4dm:1Q ;
+	skos:member cv-ai4dm:1R ;
+	skos:member cv-ai4dm:1S ;
+	skos:member cv-ai4dm:1T ;
+	skos:member cv-ai4dm:1U ;
+	skos:member cv-ai4dm:1X ;
+	skos:member cv-ai4dm:1Y ;
+	skos:member cv-ai4dm:1Z ;
+	skos:member cv-ai4dm:2A ;
+	skos:member cv-ai4dm:2B ;
+	skos:member cv-ai4dm:2C ;
+	skos:member cv-ai4dm:2D ;
+	skos:member cv-ai4dm:2F ;
+	skos:member cv-ai4dm:2G ;
+	skos:member cv-ai4dm:2I ;
+	skos:member cv-ai4dm:2J ;
+	skos:member cv-ai4dm:2K ;
+	skos:member cv-ai4dm:2L ;
+	skos:member cv-ai4dm:2M ;
+	skos:member cv-ai4dm:2N ;
+	skos:member cv-ai4dm:2O ;
+	skos:member cv-ai4dm:2P ;
+	skos:member cv-ai4dm:2Q ;
+	skos:member cv-ai4dm:2R ;
+	skos:member cv-ai4dm:2S ;
+	skos:member cv-ai4dm:2T ;
+	skos:member cv-ai4dm:2U ;
+	skos:member cv-ai4dm:2W ;
+	skos:member cv-ai4dm:2X ;
+	skos:member cv-ai4dm:2Y ;
+	skos:member cv-ai4dm:2Z ;
+	skos:member cv-ai4dm:3C ;
+	skos:member cv-ai4dm:3D ;
+	skos:member cv-ai4dm:3E ;
+	skos:member cv-ai4dm:3G ;
+	skos:member cv-ai4dm:3I ;
+	skos:member cv-ai4dm:3J ;
+	skos:member cv-ai4dm:3K ;
+	skos:member cv-ai4dm:3L ;
+	skos:member cv-ai4dm:3M ;
+	skos:member cv-ai4dm:3N ;
+	skos:member cv-ai4dm:3O ;
+	skos:member cv-ai4dm:3P ;
+	skos:member cv-ai4dm:3Q ;
+	skos:member cv-ai4dm:3R ;
+	skos:member cv-ai4dm:3S ;
+	skos:member cv-ai4dm:3T ;
+	skos:member cv-ai4dm:3U ;
+	skos:member cv-ai4dm:3V ;
+	skos:member cv-ai4dm:3W ;
+	skos:member cv-ai4dm:3X ;
+	skos:member cv-ai4dm:4A ;
+	skos:member cv-ai4dm:4B ;
+	skos:member cv-ai4dm:4C ;
+	skos:member cv-ai4dm:4D ;
+	skos:member cv-ai4dm:4F ;
+	skos:member cv-ai4dm:4G ;
+	skos:member cv-ai4dm:4H ;
+	skos:member cv-ai4dm:4L ;
+	skos:member cv-ai4dm:4N ;
+	skos:member cv-ai4dm:4O ;
+	skos:member cv-ai4dm:4P ;
+	skos:member cv-ai4dm:4Q ;
+	skos:member cv-ai4dm:4R ;
+	skos:member cv-ai4dm:4S ;
+	skos:member cv-ai4dm:4T ;
+	skos:member cv-ai4dm:4U ;
+	skos:member cv-ai4dm:4X ;
+	skos:member cv-ai4dm:4Y ;
+	skos:member cv-ai4dm:4Z ;
+	skos:member cv-ai4dm:5A ;
+	skos:member cv-ai4dm:5B ;
+	skos:member cv-ai4dm:5C ;
+	skos:member cv-ai4dm:5D ;
+	skos:member cv-ai4dm:5F ;
+	skos:member cv-ai4dm:5H ;
+	skos:member cv-ai4dm:5J ;
+	skos:member cv-ai4dm:5K ;
+	skos:member cv-ai4dm:5L ;
+	skos:member cv-ai4dm:5M ;
+	skos:member cv-ai4dm:5N ;
+	skos:member cv-ai4dm:5P ;
+	skos:member cv-ai4dm:5Q ;
+	skos:member cv-ai4dm:5T ;
+	skos:member cv-ai4dm:5V ;
+	skos:member cv-ai4dm:5W ;
+	skos:member cv-ai4dm:5X ;
+	skos:member cv-ai4dm:5Y ;
+	skos:member cv-ai4dm:5Z ;
+	skos:member cv-ai4dm:6A ;
+	skos:member cv-ai4dm:6B ;
+	skos:member cv-ai4dm:6C ;
+	skos:member cv-ai4dm:6D ;
+	skos:member cv-ai4dm:6E ;
+	skos:member cv-ai4dm:6F ;
+	skos:member cv-ai4dm:6G ;
+	skos:member cv-ai4dm:6H ;
+	skos:member cv-ai4dm:6I ;
+	skos:member cv-ai4dm:6J ;
+	skos:member cv-ai4dm:6K ;
+	skos:member cv-ai4dm:6N ;
+	skos:member cv-ai4dm:6P ;
+	skos:member cv-ai4dm:6Q ;
+	skos:member cv-ai4dm:6R ;
+	skos:member cv-ai4dm:6T ;
+	skos:member cv-ai4dm:6U ;
+	skos:member cv-ai4dm:6V ;
+	skos:member cv-ai4dm:6W ;
+	skos:member cv-ai4dm:6Y ;
+	skos:member cv-ai4dm:6Z ;
+	skos:member cv-ai4dm:7A ;
+	skos:member cv-ai4dm:7B ;
+	skos:member cv-ai4dm:7C ;
+	skos:member cv-ai4dm:7E ;
+	skos:member cv-ai4dm:7F ;
+	skos:member cv-ai4dm:7G ;
+	skos:member cv-ai4dm:7H ;
+	skos:member cv-ai4dm:7I ;
+	skos:member cv-ai4dm:7J ;
+	skos:member cv-ai4dm:7K ;
+	skos:member cv-ai4dm:7L ;
+	skos:member cv-ai4dm:7M ;
+	skos:member cv-ai4dm:7N ;
+	skos:member cv-ai4dm:7P ;
+	skos:member cv-ai4dm:7Q ;
+	skos:member cv-ai4dm:7V ;
+	skos:member cv-ai4dm:7W ;
+	skos:member cv-ai4dm:7Y ;
+	skos:member cv-ai4dm:7Z ;
+	skos:member cv-ai4dm:8A ;
+	skos:member cv-ai4dm:8B ;
+	skos:member cv-ai4dm:8C ;
+	skos:member cv-ai4dm:8D ;
+	skos:member cv-ai4dm:8E ;
+	skos:member cv-ai4dm:8F ;
+	skos:member cv-ai4dm:8H ;
+	skos:member cv-ai4dm:8I ;
+	skos:member cv-ai4dm:8J ;
+	skos:member cv-ai4dm:8K ;
+	skos:member cv-ai4dm:8M ;
+	skos:member cv-ai4dm:8O ;
+	skos:member cv-ai4dm:8P ;
+	skos:member cv-ai4dm:8Q ;
+	skos:member cv-ai4dm:8R ;
+	skos:member cv-ai4dm:8S ;
+	skos:member cv-ai4dm:8T ;
+	skos:member cv-ai4dm:8U ;
+	skos:member cv-ai4dm:8V ;
+	skos:member cv-ai4dm:8W ;
+	skos:member cv-ai4dm:8Y ;
+	skos:member cv-ai4dm:8Z ;
+	skos:member cv-ai4dm:8z ;
+	skos:member cv-ai4dm:9A ;
+	skos:member cv-ai4dm:9C ;
+	skos:member cv-ai4dm:9E ;
+	skos:member cv-ai4dm:9F ;
+	skos:member cv-ai4dm:9H ;
+	skos:member cv-ai4dm:9I ;
+	skos:member cv-ai4dm:9J ;
+	skos:member cv-ai4dm:9K ;
+	skos:member cv-ai4dm:9L ;
+	skos:member cv-ai4dm:9N ;
+	skos:member cv-ai4dm:9O ;
+	skos:member cv-ai4dm:9P ;
+	skos:member cv-ai4dm:9Q ;
+	skos:member cv-ai4dm:9R ;
+	skos:member cv-ai4dm:9S ;
+	skos:member cv-ai4dm:9T ;
+	skos:member cv-ai4dm:9U ;
+	skos:member cv-ai4dm:9V ;
+	skos:member cv-ai4dm:9W ;
+	skos:member cv-ai4dm:9X ;
+	skos:member cv-ai4dm:9Y ;
+	skos:member cv-ai4dm:A1 ;
+	skos:member cv-ai4dm:A2 ;
+	skos:member cv-ai4dm:A3 ;
+	skos:member cv-ai4dm:A5 ;
+	skos:member cv-ai4dm:A6 ;
+	skos:member cv-ai4dm:A7 ;
+	skos:member cv-ai4dm:A8 ;
+	skos:member cv-ai4dm:A9 ;
+	skos:member cv-ai4dm:AA ;
+	skos:member cv-ai4dm:AB ;
+	skos:member cv-ai4dm:AC ;
+	skos:member cv-ai4dm:AD ;
+	skos:member cv-ai4dm:AF ;
+	skos:member cv-ai4dm:AH ;
+	skos:member cv-ai4dm:AI ;
+	skos:member cv-ai4dm:AJ ;
+	skos:member cv-ai4dm:AK ;
+	skos:member cv-ai4dm:AL ;
+	skos:member cv-ai4dm:AM ;
+	skos:member cv-ai4dm:AN ;
+	skos:member cv-ai4dm:AO ;
+	skos:member cv-ai4dm:AP ;
+	skos:member cv-ai4dm:AQ ;
+	skos:member cv-ai4dm:AR ;
+	skos:member cv-ai4dm:AS ;
+	skos:member cv-ai4dm:AT ;
+	skos:member cv-ai4dm:AU ;
+	skos:member cv-ai4dm:AV ;
+	skos:member cv-ai4dm:AW ;
+	skos:member cv-ai4dm:AX ;
+	skos:member cv-ai4dm:AY ;
+	skos:member cv-ai4dm:AZ ;
+	skos:member cv-ai4dm:B0 ;
+	skos:member cv-ai4dm:B1 ;
+	skos:member cv-ai4dm:B2 ;
+	skos:member cv-ai4dm:B3 ;
+	skos:member cv-ai4dm:B4 ;
+	skos:member cv-ai4dm:B5 ;
+	skos:member cv-ai4dm:B6 ;
+	skos:member cv-ai4dm:B7 ;
+	skos:member cv-ai4dm:B8 ;
+	skos:member cv-ai4dm:B9 ;
+	skos:member cv-ai4dm:BA ;
+	skos:member cv-ai4dm:BB ;
+	skos:member cv-ai4dm:BC ;
+	skos:member cv-ai4dm:BD ;
+	skos:member cv-ai4dm:BE ;
+	skos:member cv-ai4dm:BF ;
+	skos:member cv-ai4dm:BG ;
+	skos:member cv-ai4dm:BH ;
+	skos:member cv-ai4dm:BI ;
+	skos:member cv-ai4dm:BJ ;
+	skos:member cv-ai4dm:BK ;
+	skos:member cv-ai4dm:BL ;
+	skos:member cv-ai4dm:BO ;
+	skos:member cv-ai4dm:BP ;
+	skos:member cv-ai4dm:BQ ;
+	skos:member cv-ai4dm:BR ;
+	skos:member cv-ai4dm:BS ;
+	skos:member cv-ai4dm:BT ;
+	skos:member cv-ai4dm:BU ;
+	skos:member cv-ai4dm:BV ;
+	skos:member cv-ai4dm:BW ;
+	skos:member cv-ai4dm:BX ;
+	skos:member cv-ai4dm:BZ ;
+	skos:member cv-ai4dm:C0 ;
+	skos:member cv-ai4dm:C1 ;
+	skos:member cv-ai4dm:C2 ;
+	skos:member cv-ai4dm:C3 ;
+	skos:member cv-ai4dm:C4 ;
+	skos:member cv-ai4dm:C5 ;
+	skos:member cv-ai4dm:C6 ;
+	skos:member cv-ai4dm:C7 ;
+	skos:member cv-ai4dm:C8 ;
+	skos:member cv-ai4dm:C9 ;
+	skos:member cv-ai4dm:CA ;
+	skos:member cv-ai4dm:CB ;
+	skos:member cv-ai4dm:CC ;
+	skos:member cv-ai4dm:CD ;
+	skos:member cv-ai4dm:CE ;
+	skos:member cv-ai4dm:CF ;
+	skos:member cv-ai4dm:CG ;
+	skos:member cv-ai4dm:CI ;
+	skos:member cv-ai4dm:CJ ;
+	skos:member cv-ai4dm:CK ;
+	skos:member cv-ai4dm:CM ;
+	skos:member cv-ai4dm:CN ;
+	skos:member cv-ai4dm:CO ;
+	skos:member cv-ai4dm:CP ;
+	skos:member cv-ai4dm:CQ ;
+	skos:member cv-ai4dm:CR ;
+	skos:member cv-ai4dm:CS ;
+	skos:member cv-ai4dm:CT ;
+	skos:member cv-ai4dm:CU ;
+	skos:member cv-ai4dm:CV ;
+	skos:member cv-ai4dm:CW ;
+	skos:member cv-ai4dm:CY ;
+	skos:member cv-ai4dm:CZ ;
+	skos:member cv-ai4dm:D1 ;
+	skos:member cv-ai4dm:D2 ;
+	skos:member cv-ai4dm:D3 ;
+	skos:member cv-ai4dm:D4 ;
+	skos:member cv-ai4dm:D5 ;
+	skos:member cv-ai4dm:D6 ;
+	skos:member cv-ai4dm:D7 ;
+	skos:member cv-ai4dm:D8 ;
+	skos:member cv-ai4dm:DA ;
+	skos:member cv-ai4dm:DB ;
+	skos:member cv-ai4dm:DC ;
+	skos:member cv-ai4dm:DD ;
+	skos:member cv-ai4dm:DE ;
+	skos:member cv-ai4dm:DG ;
+	skos:member cv-ai4dm:DH ;
+	skos:member cv-ai4dm:DI ;
+	skos:member cv-ai4dm:DJ ;
+	skos:member cv-ai4dm:DK ;
+	skos:member cv-ai4dm:DL ;
+	skos:member cv-ai4dm:DM ;
+	skos:member cv-ai4dm:DN ;
+	skos:member cv-ai4dm:DO ;
+	skos:member cv-ai4dm:DP ;
+	skos:member cv-ai4dm:DQ ;
+	skos:member cv-ai4dm:DR ;
+	skos:member cv-ai4dm:DS ;
+	skos:member cv-ai4dm:DT ;
+	skos:member cv-ai4dm:DU ;
+	skos:member cv-ai4dm:DV ;
+	skos:member cv-ai4dm:DW ;
+	skos:member cv-ai4dm:DX ;
+	skos:member cv-ai4dm:DY ;
+	skos:member cv-ai4dm:DZ ;
+	skos:member cv-ai4dm:E0 ; 
+	skos:member cv-ai4dm:E1 ;
+	skos:member cv-ai4dm:E2 ;
+	skos:member cv-ai4dm:E3 ;
+	skos:member cv-ai4dm:E4 ;
+	skos:member cv-ai4dm:E5 ;
+	skos:member cv-ai4dm:E6 ;
+	skos:member cv-ai4dm:E7 ;
+	skos:member cv-ai4dm:E8 ;
+	skos:member cv-ai4dm:E9 ;
+	skos:member cv-ai4dm:EA ;
+	skos:member cv-ai4dm:EC ;
+	skos:member cv-ai4dm:ED ;
+	skos:member cv-ai4dm:EE ;
+	skos:member cv-ai4dm:EF ;
+	skos:member cv-ai4dm:EG ;
+	skos:member cv-ai4dm:EH ;
+	skos:member cv-ai4dm:EI ;
+	skos:member cv-ai4dm:EJ ;
+	skos:member cv-ai4dm:EK ;
+	skos:member cv-ai4dm:EL ;
+	skos:member cv-ai4dm:EM ;
+	skos:member cv-ai4dm:EN ;
+	skos:member cv-ai4dm:EO ;
+	skos:member cv-ai4dm:EP ;
+	skos:member cv-ai4dm:EQ ;
+	skos:member cv-ai4dm:ES ;
+	skos:member cv-ai4dm:ET ;
+	skos:member cv-ai4dm:EU ;
+	skos:member cv-ai4dm:EV ;
+	skos:member cv-ai4dm:EW ;
+	skos:member cv-ai4dm:EX ;
+	skos:member cv-ai4dm:EY ;
+	skos:member cv-ai4dm:EZ ;
+	skos:member cv-ai4dm:F1 ;
+	skos:member cv-ai4dm:F2 ;
+	skos:member cv-ai4dm:F4 ;
+	skos:member cv-ai4dm:F5 ;
+	skos:member cv-ai4dm:F6 ;
+	skos:member cv-ai4dm:F7 ;
+	skos:member cv-ai4dm:F8 ;
+	skos:member cv-ai4dm:F9 ;
+	skos:member cv-ai4dm:FA ;
+	skos:member cv-ai4dm:FB ;
+	skos:member cv-ai4dm:FD ;
+	skos:member cv-ai4dm:FE ;
+	skos:member cv-ai4dm:FF ;
+	skos:member cv-ai4dm:FG ;
+	skos:member cv-ai4dm:FH ;
+	skos:member cv-ai4dm:FI ;
+	skos:member cv-ai4dm:FJ ;
+	skos:member cv-ai4dm:FK ;
+	skos:member cv-ai4dm:FM ;
+	skos:member cv-ai4dm:FN ;
+	skos:member cv-ai4dm:FO ;
+	skos:member cv-ai4dm:FP ;
+	skos:member cv-ai4dm:FQ ;
+	skos:member cv-ai4dm:FR ;
+	skos:member cv-ai4dm:FS ;
+	skos:member cv-ai4dm:FT ;
+	skos:member cv-ai4dm:FU ;
+	skos:member cv-ai4dm:FV ;
+	skos:member cv-ai4dm:FW ;
+	skos:member cv-ai4dm:FX ;
+	skos:member cv-ai4dm:FZ ;
+	skos:member cv-ai4dm:G0 ;
+	skos:member cv-ai4dm:G1 ;
+	skos:member cv-ai4dm:G2 ;
+	skos:member cv-ai4dm:G3 ;
+	skos:member cv-ai4dm:G4 ;
+	skos:member cv-ai4dm:G5 ;
+	skos:member cv-ai4dm:G6 ;
+	skos:member cv-ai4dm:G7 ;
+	skos:member cv-ai4dm:G8 ;
+	skos:member cv-ai4dm:G9 ;
+	skos:member cv-ai4dm:GA ;
+	skos:member cv-ai4dm:GB ;
+	skos:member cv-ai4dm:GC ;
+	skos:member cv-ai4dm:GD ;
+	skos:member cv-ai4dm:GE ;
+	skos:member cv-ai4dm:GF ;
+	skos:member cv-ai4dm:GG ;
+	skos:member cv-ai4dm:GH ;
+	skos:member cv-ai4dm:GI ;
+	skos:member cv-ai4dm:GJ ;
+	skos:member cv-ai4dm:GK ;
+	skos:member cv-ai4dm:GL ;
+	skos:member cv-ai4dm:GM ;
+	skos:member cv-ai4dm:GN ;
+	skos:member cv-ai4dm:GO ;
+	skos:member cv-ai4dm:GP ;
+	skos:member cv-ai4dm:GQ ;
+	skos:member cv-ai4dm:GR ;
+	skos:member cv-ai4dm:GT ;
+	skos:member cv-ai4dm:GV ;
+	skos:member cv-ai4dm:GW ;
+	skos:member cv-ai4dm:GY ;
+	skos:member cv-ai4dm:GZ ;
+	skos:member cv-ai4dm:H1 ;
+	skos:member cv-ai4dm:H2 ;
+	skos:member cv-ai4dm:H3 ;
+	skos:member cv-ai4dm:H5 ;
+	skos:member cv-ai4dm:H7 ;
+	skos:member cv-ai4dm:H8 ;
+	skos:member cv-ai4dm:HA ;
+	skos:member cv-ai4dm:HB ;
+	skos:member cv-ai4dm:HC ;
+	skos:member cv-ai4dm:HD ;
+	skos:member cv-ai4dm:HE ;
+	skos:member cv-ai4dm:HF ;
+	skos:member cv-ai4dm:HG ;
+	skos:member cv-ai4dm:HH ;
+	skos:member cv-ai4dm:HI ;
+	skos:member cv-ai4dm:HJ ;
+	skos:member cv-ai4dm:HK ;
+	skos:member cv-ai4dm:HM ;
+	skos:member cv-ai4dm:HN ;
+	skos:member cv-ai4dm:HO ;
+	skos:member cv-ai4dm:HP ;
+	skos:member cv-ai4dm:HT ;
+	skos:member cv-ai4dm:HU ;
+	skos:member cv-ai4dm:HV ;
+	skos:member cv-ai4dm:HW ;
+	skos:member cv-ai4dm:HX ;
+	skos:member cv-ai4dm:HY ;
+	skos:member cv-ai4dm:HZ ;
+	skos:member cv-ai4dm:I4 ;
+	skos:member cv-ai4dm:I5 ;
+	skos:member cv-ai4dm:I6 ;
+	skos:member cv-ai4dm:I7 ;
+	skos:member cv-ai4dm:I8 ;
+	skos:member cv-ai4dm:I9 ;
+	skos:member cv-ai4dm:IB ;
+	skos:member cv-ai4dm:ID ;
+	skos:member cv-ai4dm:IE ;
+	skos:member cv-ai4dm:IF ;
+	skos:member cv-ai4dm:IG ;
+	skos:member cv-ai4dm:IH ;
+	skos:member cv-ai4dm:II ;
+	skos:member cv-ai4dm:IJ ;
+	skos:member cv-ai4dm:IK ;
+	skos:member cv-ai4dm:IL ;
+	skos:member cv-ai4dm:IM ;
+	skos:member cv-ai4dm:IN ;
+	skos:member cv-ai4dm:IO ;
+	skos:member cv-ai4dm:IP ;
+	skos:member cv-ai4dm:IR ;
+	skos:member cv-ai4dm:IS ;
+	skos:member cv-ai4dm:IT ;
+	skos:member cv-ai4dm:IV ;
+	skos:member cv-ai4dm:IW ;
+	skos:member cv-ai4dm:IX ;
+	skos:member cv-ai4dm:IY ;
+	skos:member cv-ai4dm:IZ ;
+	skos:member cv-ai4dm:J1 ;
+	skos:member cv-ai4dm:J3 ;
+	skos:member cv-ai4dm:J4 ;
+	skos:member cv-ai4dm:J5 ;
+	skos:member cv-ai4dm:J6 ;
+	skos:member cv-ai4dm:J7 ;
+	skos:member cv-ai4dm:J8 ;
+	skos:member cv-ai4dm:J9 ;
+	skos:member cv-ai4dm:JA ;
+	skos:member cv-ai4dm:JB ;
+	skos:member cv-ai4dm:JC ;
+	skos:member cv-ai4dm:JD ;
+	skos:member cv-ai4dm:JE ;
+	skos:member cv-ai4dm:JF ;
+	skos:member cv-ai4dm:JG ;
+	skos:member cv-ai4dm:JH ;
+	skos:member cv-ai4dm:JI ;
+	skos:member cv-ai4dm:JJ ;
+	skos:member cv-ai4dm:JK ;
+	skos:member cv-ai4dm:JL ;
+	skos:member cv-ai4dm:JM ;
+	skos:member cv-ai4dm:JN ;
+	skos:member cv-ai4dm:JO ;
+	skos:member cv-ai4dm:JP ;
+	skos:member cv-ai4dm:JQ ;
+	skos:member cv-ai4dm:JR ;
+	skos:member cv-ai4dm:JS ;
+	skos:member cv-ai4dm:JT ;
+	skos:member cv-ai4dm:JU ;
+	skos:member cv-ai4dm:JV ;
+	skos:member cv-ai4dm:JW ;
+	skos:member cv-ai4dm:JY ;
+	skos:member cv-ai4dm:JZ ;
+	skos:member cv-ai4dm:K1 ;
+	skos:member cv-ai4dm:K2 ;
+	skos:member cv-ai4dm:K3 ;
+	skos:member cv-ai4dm:K4 ;
+	skos:member cv-ai4dm:K5 ;
+	skos:member cv-ai4dm:K6 ;
+	skos:member cv-ai4dm:K7 ;
+	skos:member cv-ai4dm:K8 ;
+	skos:member cv-ai4dm:KA ;
+	skos:member cv-ai4dm:KB ;
+	skos:member cv-ai4dm:KC ;
+	skos:member cv-ai4dm:KD ;
+	skos:member cv-ai4dm:KE ;
+	skos:member cv-ai4dm:KF ;
+	skos:member cv-ai4dm:KG ;
+	skos:member cv-ai4dm:KH ;
+	skos:member cv-ai4dm:KI ;
+	skos:member cv-ai4dm:KJ ;
+	skos:member cv-ai4dm:KK ;
+	skos:member cv-ai4dm:KL ;
+	skos:member cv-ai4dm:KM ;
+	skos:member cv-ai4dm:KN ;
+	skos:member cv-ai4dm:KO ;
+	skos:member cv-ai4dm:KP ;
+	skos:member cv-ai4dm:KQ ;
+	skos:member cv-ai4dm:KS ;
+	skos:member cv-ai4dm:KT ;
+	skos:member cv-ai4dm:KU ;
+	skos:member cv-ai4dm:KW ;
+	skos:member cv-ai4dm:KX ;
+	skos:member cv-ai4dm:KY ;
+	skos:member cv-ai4dm:KZ ;
+	skos:member cv-ai4dm:L1 ;
+	skos:member cv-ai4dm:L2 ;
+	skos:member cv-ai4dm:L4 ;
+	skos:member cv-ai4dm:L5 ;
+	skos:member cv-ai4dm:L6 ;
+	skos:member cv-ai4dm:L8 ;
+	skos:member cv-ai4dm:L9 ;
+	skos:member cv-ai4dm:LA ;
+	skos:member cv-ai4dm:LB ;
+	skos:member cv-ai4dm:LC ;
+	skos:member cv-ai4dm:LD ;
+	skos:member cv-ai4dm:LE ;
+	skos:member cv-ai4dm:LF ;
+	skos:member cv-ai4dm:LG ;
+	skos:member cv-ai4dm:LH ;
+	skos:member cv-ai4dm:LI ;
+	skos:member cv-ai4dm:LJ ;
+	skos:member cv-ai4dm:LK ;
+	skos:member cv-ai4dm:LL ;
+	skos:member cv-ai4dm:LM ;
+	skos:member cv-ai4dm:LN ;
+	skos:member cv-ai4dm:LO ;
+	skos:member cv-ai4dm:LQ ;
+	skos:member cv-ai4dm:LR ;
+	skos:member cv-ai4dm:LS ;
+	skos:member cv-ai4dm:LT ;
+	skos:member cv-ai4dm:LU ;
+	skos:member cv-ai4dm:LV ;
+	skos:member cv-ai4dm:LW ;
+	skos:member cv-ai4dm:LX ;
+	skos:member cv-ai4dm:LY ;
+	skos:member cv-ai4dm:LZ ;
+	skos:member cv-ai4dm:M0 ;
+	skos:member cv-ai4dm:M2 ;
+	skos:member cv-ai4dm:M3 ;
+	skos:member cv-ai4dm:M4 ;
+	skos:member cv-ai4dm:M5 ;
+	skos:member cv-ai4dm:M6 ;
+	skos:member cv-ai4dm:M7 ;
+	skos:member cv-ai4dm:M8 ;
+	skos:member cv-ai4dm:M9 ;
+	skos:member cv-ai4dm:MA ;
+	skos:member cv-ai4dm:MB ;
+	skos:member cv-ai4dm:MC ;
+	skos:member cv-ai4dm:MD ;
+	skos:member cv-ai4dm:ME ;
+	skos:member cv-ai4dm:MF ;
+	skos:member cv-ai4dm:MG ;
+	skos:member cv-ai4dm:MH ;
+	skos:member cv-ai4dm:MI ;
+	skos:member cv-ai4dm:MJ ;
+	skos:member cv-ai4dm:MK ;
+	skos:member cv-ai4dm:ML ;
+	skos:member cv-ai4dm:MM ;
+	skos:member cv-ai4dm:MN ;
+	skos:member cv-ai4dm:MO ;
+	skos:member cv-ai4dm:MP ;
+	skos:member cv-ai4dm:MQ ;
+	skos:member cv-ai4dm:MR ;
+	skos:member cv-ai4dm:MS ;
+	skos:member cv-ai4dm:MT ;
+	skos:member cv-ai4dm:MU ;
+	skos:member cv-ai4dm:MV ;
+	skos:member cv-ai4dm:MX ;
+	skos:member cv-ai4dm:MZ ;
+	skos:member cv-ai4dm:N0 ;
+	skos:member cv-ai4dm:N1 ;
+	skos:member cv-ai4dm:N2 ;
+	skos:member cv-ai4dm:N3 ;
+	skos:member cv-ai4dm:N4 ;
+	skos:member cv-ai4dm:N5 ;
+	skos:member cv-ai4dm:N6 ;
+	skos:member cv-ai4dm:N7 ;
+	skos:member cv-ai4dm:N9 ;
+	skos:member cv-ai4dm:NB ;
+	skos:member cv-ai4dm:NC ;
+	skos:member cv-ai4dm:NE ;
+	skos:member cv-ai4dm:NF ;
+	skos:member cv-ai4dm:NG ;
+	skos:member cv-ai4dm:NH ;
+	skos:member cv-ai4dm:NI ;
+	skos:member cv-ai4dm:NJ ;
+	skos:member cv-ai4dm:NL ;
+	skos:member cv-ai4dm:NM ;
+	skos:member cv-ai4dm:NN ;
+	skos:member cv-ai4dm:NO ;
+	skos:member cv-ai4dm:NP ;
+	skos:member cv-ai4dm:NQ ;
+	skos:member cv-ai4dm:NR ;
+	skos:member cv-ai4dm:NS ;
+	skos:member cv-ai4dm:NT ;
+	skos:member cv-ai4dm:NU ;
+	skos:member cv-ai4dm:NV ;
+	skos:member cv-ai4dm:NW ;
+	skos:member cv-ai4dm:NX ;
+	skos:member cv-ai4dm:NY ;
+	skos:member cv-ai4dm:NZ ;
+	skos:member cv-ai4dm:O1 ;
+	skos:member cv-ai4dm:O2 ;
+	skos:member cv-ai4dm:O6 ;
+	skos:member cv-ai4dm:O7 ;
+	skos:member cv-ai4dm:O8 ;
+	skos:member cv-ai4dm:OA ;
+	skos:member cv-ai4dm:OB ;
+	skos:member cv-ai4dm:OC ;
+	skos:member cv-ai4dm:OD ;
+	skos:member cv-ai4dm:OF ;
+	skos:member cv-ai4dm:OG ;
+	skos:member cv-ai4dm:OH ;
+	skos:member cv-ai4dm:OI ;
+	skos:member cv-ai4dm:OJ ;
+	skos:member cv-ai4dm:OK ;
+	skos:member cv-ai4dm:OL ;
+	skos:member cv-ai4dm:OM ;
+	skos:member cv-ai4dm:ON ;
+	skos:member cv-ai4dm:OO ;
+	skos:member cv-ai4dm:OP ;
+	skos:member cv-ai4dm:OQ ;
+	skos:member cv-ai4dm:OR ;
+	skos:member cv-ai4dm:OS ;
+	skos:member cv-ai4dm:OT ;
+	skos:member cv-ai4dm:OV ;
+	skos:member cv-ai4dm:OW ;
+	skos:member cv-ai4dm:OX ;
+	skos:member cv-ai4dm:OY ;
+	skos:member cv-ai4dm:OZ ;
+	skos:member cv-ai4dm:P0 ;
+	skos:member cv-ai4dm:P4 ;
+	skos:member cv-ai4dm:P5 ;
+	skos:member cv-ai4dm:P7 ;
+	skos:member cv-ai4dm:P8 ;
+	skos:member cv-ai4dm:P9 ;
+	skos:member cv-ai4dm:PA ;
+	skos:member cv-ai4dm:PC ;
+	skos:member cv-ai4dm:PD ;
+	skos:member cv-ai4dm:PE ;
+	skos:member cv-ai4dm:PF ;
+	skos:member cv-ai4dm:PG ;
+	skos:member cv-ai4dm:PH ;
+	skos:member cv-ai4dm:PI ;
+	skos:member cv-ai4dm:PJ ;
+	skos:member cv-ai4dm:PK ;
+	skos:member cv-ai4dm:PM ;
+	skos:member cv-ai4dm:PO ;
+	skos:member cv-ai4dm:PP ;
+	skos:member cv-ai4dm:PQ ;
+	skos:member cv-ai4dm:PR ;
+	skos:member cv-ai4dm:PS ;
+	skos:member cv-ai4dm:PT ;
+	skos:member cv-ai4dm:PU ;
+	skos:member cv-ai4dm:PV ;
+	skos:member cv-ai4dm:PW ;
+	skos:member cv-ai4dm:PX ;
+	skos:member cv-ai4dm:PY ;
+	skos:member cv-ai4dm:PZ ;
+	skos:member cv-ai4dm:Q2 ;
+	skos:member cv-ai4dm:Q3 ;
+	skos:member cv-ai4dm:Q4 ;
+	skos:member cv-ai4dm:Q5 ;
+	skos:member cv-ai4dm:Q6 ;
+	skos:member cv-ai4dm:Q7 ;
+	skos:member cv-ai4dm:Q8 ;
+	skos:member cv-ai4dm:Q9 ;
+	skos:member cv-ai4dm:QA ;
+	skos:member cv-ai4dm:QB ;
+	skos:member cv-ai4dm:QC ;
+	skos:member cv-ai4dm:QD ;
+	skos:member cv-ai4dm:QE ;
+	skos:member cv-ai4dm:QF ;
+	skos:member cv-ai4dm:QG ;
+	skos:member cv-ai4dm:QH ;
+	skos:member cv-ai4dm:QI ;
+	skos:member cv-ai4dm:QJ ;
+	skos:member cv-ai4dm:QL ;
+	skos:member cv-ai4dm:QM ;
+	skos:member cv-ai4dm:QN ;
+	skos:member cv-ai4dm:QO ;
+	skos:member cv-ai4dm:QP ;
+	skos:member cv-ai4dm:QQ ;
+	skos:member cv-ai4dm:QR ;
+	skos:member cv-ai4dm:QS ;
+	skos:member cv-ai4dm:QT ;
+	skos:member cv-ai4dm:QU ;
+	skos:member cv-ai4dm:QV ;
+	skos:member cv-ai4dm:QW ;
+	skos:member cv-ai4dm:QY ;
+	skos:member cv-ai4dm:R0 ;
+	skos:member cv-ai4dm:R1 ;
+	skos:member cv-ai4dm:R2 ;
+	skos:member cv-ai4dm:R3 ;
+	skos:member cv-ai4dm:R4 ;
+	skos:member cv-ai4dm:R5 ;
+	skos:member cv-ai4dm:R6 ;
+	skos:member cv-ai4dm:R7 ;
+	skos:member cv-ai4dm:R8 ;
+	skos:member cv-ai4dm:RA ;
+	skos:member cv-ai4dm:RB ;
+	skos:member cv-ai4dm:RC ;
+	skos:member cv-ai4dm:RD ;
+	skos:member cv-ai4dm:RE ;
+	skos:member cv-ai4dm:RF ;
+	skos:member cv-ai4dm:RG ;
+	skos:member cv-ai4dm:RH ;
+	skos:member cv-ai4dm:RI ;
+	skos:member cv-ai4dm:RJ ;
+	skos:member cv-ai4dm:RK ;
+	skos:member cv-ai4dm:RL ;
+	skos:member cv-ai4dm:RM ;
+	skos:member cv-ai4dm:RN ;
+	skos:member cv-ai4dm:RO ;
+	skos:member cv-ai4dm:RP ;
+	skos:member cv-ai4dm:RQ ;
+	skos:member cv-ai4dm:RR ;
+	skos:member cv-ai4dm:RS ;
+	skos:member cv-ai4dm:RT ;
+	skos:member cv-ai4dm:RU ;
+	skos:member cv-ai4dm:RV ;
+	skos:member cv-ai4dm:RW ;
+	skos:member cv-ai4dm:RX ;
+	skos:member cv-ai4dm:RY ;
+	skos:member cv-ai4dm:RZ ;
+	skos:member cv-ai4dm:S0 ;
+	skos:member cv-ai4dm:S1 ;
+	skos:member cv-ai4dm:S2 ;
+	skos:member cv-ai4dm:S3 ;
+	skos:member cv-ai4dm:S4 ;
+	skos:member cv-ai4dm:S5 ;
+	skos:member cv-ai4dm:S6 ;
+	skos:member cv-ai4dm:S7 ;
+	skos:member cv-ai4dm:S8 ; 
+	skos:member cv-ai4dm:S9 ;
+	skos:member cv-ai4dm:SA ;
+	skos:member cv-ai4dm:SB ;
+	skos:member cv-ai4dm:SC ;
+	skos:member cv-ai4dm:SD ;
+	skos:member cv-ai4dm:SE ;
+	skos:member cv-ai4dm:SF ;
+	skos:member cv-ai4dm:SG ;
+	skos:member cv-ai4dm:SH ;
+	skos:member cv-ai4dm:SI ;
+	skos:member cv-ai4dm:SJ ;
+	skos:member cv-ai4dm:SK ;
+	skos:member cv-ai4dm:SL ;
+	skos:member cv-ai4dm:SM ;
+	skos:member cv-ai4dm:SN ;
+	skos:member cv-ai4dm:SO ;
+	skos:member cv-ai4dm:SP ;
+	skos:member cv-ai4dm:SR ;
+	skos:member cv-ai4dm:SS ;
+	skos:member cv-ai4dm:ST ;
+	skos:member cv-ai4dm:SU ;
+	skos:member cv-ai4dm:SV ;
+	skos:member cv-ai4dm:SW ;
+	skos:member cv-ai4dm:SX ;
+	skos:member cv-ai4dm:SY ;
+	skos:member cv-ai4dm:SZ ;
+	skos:member cv-ai4dm:T0 ;
+	skos:member cv-ai4dm:T1 ;
+	skos:member cv-ai4dm:T3 ;
+	skos:member cv-ai4dm:T4 ;
+	skos:member cv-ai4dm:T5 ;
+	skos:member cv-ai4dm:T6 ;
+	skos:member cv-ai4dm:T7 ;
+	skos:member cv-ai4dm:T8 ;
+	skos:member cv-ai4dm:T9 ;
+	skos:member cv-ai4dm:TA ;
+	skos:member cv-ai4dm:TB ;
+	skos:member cv-ai4dm:TC ;
+	skos:member cv-ai4dm:TD ;
+	skos:member cv-ai4dm:TE ;
+	skos:member cv-ai4dm:TF ;
+	skos:member cv-ai4dm:TG ;
+	skos:member cv-ai4dm:TH ;
+	skos:member cv-ai4dm:TI ;
+	skos:member cv-ai4dm:TJ ;
+	skos:member cv-ai4dm:TK ;
+	skos:member cv-ai4dm:TL ;
+	skos:member cv-ai4dm:TM ;
+	skos:member cv-ai4dm:TN ;
+	skos:member cv-ai4dm:TP ;
+	skos:member cv-ai4dm:TQ ;
+	skos:member cv-ai4dm:TR ;
+	skos:member cv-ai4dm:TS ;
+	skos:member cv-ai4dm:TT ;
+	skos:member cv-ai4dm:TU ;
+	skos:member cv-ai4dm:TV ;
+	skos:member cv-ai4dm:TW ;
+	skos:member cv-ai4dm:TX ;
+	skos:member cv-ai4dm:TY ;
+	skos:member cv-ai4dm:TZ ;
+	skos:member cv-ai4dm:U1 ;
+	skos:member cv-ai4dm:U2 ;
+	skos:member cv-ai4dm:U3 ;
+	skos:member cv-ai4dm:U4 ;
+	skos:member cv-ai4dm:U5 ;
+	skos:member cv-ai4dm:U6 ;
+	skos:member cv-ai4dm:U7 ;
+	skos:member cv-ai4dm:U8 ;
+	skos:member cv-ai4dm:U9 ;
+	skos:member cv-ai4dm:UA ;
+	skos:member cv-ai4dm:UB ;
+	skos:member cv-ai4dm:UD ;
+	skos:member cv-ai4dm:UE ;
+	skos:member cv-ai4dm:UF ;
+	skos:member cv-ai4dm:UG ;
+	skos:member cv-ai4dm:UH ;
+	skos:member cv-ai4dm:UI ;
+	skos:member cv-ai4dm:UJ ;
+	skos:member cv-ai4dm:UK ;
+	skos:member cv-ai4dm:UL ;
+	skos:member cv-ai4dm:UM ;
+	skos:member cv-ai4dm:UN ;
+	skos:member cv-ai4dm:UO ;
+	skos:member cv-ai4dm:UP ;
+	skos:member cv-ai4dm:UQ ;
+	skos:member cv-ai4dm:UR ;
+	skos:member cv-ai4dm:US ;
+	skos:member cv-ai4dm:UU ;
+	skos:member cv-ai4dm:UW ;
+	skos:member cv-ai4dm:UY ;
+	skos:member cv-ai4dm:UZ ;
+	skos:member cv-ai4dm:V0 ;
+	skos:member cv-ai4dm:V1 ;
+	skos:member cv-ai4dm:V2 ;
+	skos:member cv-ai4dm:V3 ;
+	skos:member cv-ai4dm:V4 ;
+	skos:member cv-ai4dm:V6 ;
+	skos:member cv-ai4dm:V8 ;
+	skos:member cv-ai4dm:VA ;
+	skos:member cv-ai4dm:VB ;
+	skos:member cv-ai4dm:VC ;
+	skos:member cv-ai4dm:VD ;
+	skos:member cv-ai4dm:VF ;
+	skos:member cv-ai4dm:VH ;
+	skos:member cv-ai4dm:VI ;
+	skos:member cv-ai4dm:VJ ;
+	skos:member cv-ai4dm:VK ;
+	skos:member cv-ai4dm:VL ;
+	skos:member cv-ai4dm:VM ;
+	skos:member cv-ai4dm:VO ;
+	skos:member cv-ai4dm:VQ ;
+	skos:member cv-ai4dm:VS ;
+	skos:member cv-ai4dm:VT ;
+	skos:member cv-ai4dm:VU ;
+	skos:member cv-ai4dm:VV ;
+	skos:member cv-ai4dm:VW ;
+	skos:member cv-ai4dm:VX ;
+	skos:member cv-ai4dm:VY ;
+	skos:member cv-ai4dm:VZ ;
+	skos:member cv-ai4dm:W2 ;
+	skos:member cv-ai4dm:W4 ;
+	skos:member cv-ai4dm:W5 ;
+	skos:member cv-ai4dm:W6 ;
+	skos:member cv-ai4dm:W7 ;
+	skos:member cv-ai4dm:W8 ;
+	skos:member cv-ai4dm:W9 ;
+	skos:member cv-ai4dm:WB ;
+	skos:member cv-ai4dm:WD ;
+	skos:member cv-ai4dm:WE ;
+	skos:member cv-ai4dm:WF ;
+	skos:member cv-ai4dm:WG ;
+	skos:member cv-ai4dm:WH ;
+	skos:member cv-ai4dm:WJ ;
+	skos:member cv-ai4dm:WK ;
+	skos:member cv-ai4dm:WL ;
+	skos:member cv-ai4dm:WM ;
+	skos:member cv-ai4dm:WN ;
+	skos:member cv-ai4dm:WO ;
+	skos:member cv-ai4dm:WP ;
+	skos:member cv-ai4dm:WQ ;
+	skos:member cv-ai4dm:WR ;
+	skos:member cv-ai4dm:WS ;
+	skos:member cv-ai4dm:WU ;
+	skos:member cv-ai4dm:WV ;
+	skos:member cv-ai4dm:WW ;
+	skos:member cv-ai4dm:WX ;
+	skos:member cv-ai4dm:WY ;
+	skos:member cv-ai4dm:WZ ;
+	skos:member cv-ai4dm:X1 ;
+	skos:member cv-ai4dm:X3 ;
+	skos:member cv-ai4dm:X5 ;
+	skos:member cv-ai4dm:X7 ;
+	skos:member cv-ai4dm:X9 ;
+	skos:member cv-ai4dm:XA ;
+	skos:member cv-ai4dm:XB ;
+	skos:member cv-ai4dm:XE ;
+	skos:member cv-ai4dm:XF ;
+	skos:member cv-ai4dm:XG ;
+	skos:member cv-ai4dm:XJ ;
+	skos:member cv-ai4dm:XK ;
+	skos:member cv-ai4dm:XL ;
+	skos:member cv-ai4dm:XM ;
+	skos:member cv-ai4dm:XN ;
+	skos:member cv-ai4dm:XO ;
+	skos:member cv-ai4dm:XP ;
+	skos:member cv-ai4dm:XQ ;
+	skos:member cv-ai4dm:XR ;
+	skos:member cv-ai4dm:XS ;
+	skos:member cv-ai4dm:XT ;
+	skos:member cv-ai4dm:XV ;
+	skos:member cv-ai4dm:XW ;
+	skos:member cv-ai4dm:XY ;
+	skos:member cv-ai4dm:XZ ;
+	skos:member cv-ai4dm:Y0 ;
+	skos:member cv-ai4dm:Y1 ;
+	skos:member cv-ai4dm:Y4 ;
+	skos:member cv-ai4dm:Y5 ;
+	skos:member cv-ai4dm:Y7 ;
+	skos:member cv-ai4dm:Y8 ;
+	skos:member cv-ai4dm:YC ;
+	skos:member cv-ai4dm:YE ;
+	skos:member cv-ai4dm:YH ;
+	skos:member cv-ai4dm:YI ;
+	skos:member cv-ai4dm:YK ;
+	skos:member cv-ai4dm:YL ;
+	skos:member cv-ai4dm:YM ;
+	skos:member cv-ai4dm:YO ;
+	skos:member cv-ai4dm:YP ;
+	skos:member cv-ai4dm:YQ ;
+	skos:member cv-ai4dm:YR ;
+	skos:member cv-ai4dm:YS ;
+	skos:member cv-ai4dm:YT ;
+	skos:member cv-ai4dm:YV ;
+	skos:member cv-ai4dm:YX ;
+	skos:member cv-ai4dm:YY ;
+	skos:member cv-ai4dm:YZ ;
+	skos:member cv-ai4dm:Z0 ;
+	skos:member cv-ai4dm:Z2 ;
+	skos:member cv-ai4dm:Z3 ;
+	skos:member cv-ai4dm:Z4 ;
+	skos:member cv-ai4dm:Z5 ;
+	skos:member cv-ai4dm:Z7 ;
+	skos:member cv-ai4dm:Z9 ;
+	skos:member cv-ai4dm:ZA ;
+	skos:member cv-ai4dm:ZB ;
+	skos:member cv-ai4dm:ZC ;
+	skos:member cv-ai4dm:ZE ;
+	skos:member cv-ai4dm:ZF ;
+	skos:member cv-ai4dm:ZG ;
+	skos:member cv-ai4dm:ZH ;
+	skos:member cv-ai4dm:ZI ;
+	skos:member cv-ai4dm:ZJ ;
+	skos:member cv-ai4dm:ZK ;
+	skos:member cv-ai4dm:ZL ;
+	skos:member cv-ai4dm:ZM ;
+	skos:member cv-ai4dm:ZN ;
+	skos:member cv-ai4dm:ZP ;
+	skos:member cv-ai4dm:ZQ ;
+	skos:member cv-ai4dm:ZS ;
+	skos:member cv-ai4dm:ZT ;
+	skos:member cv-ai4dm:ZU ;
+	skos:member cv-ai4dm:ZV ;
+	skos:member cv-ai4dm:ZW ;
+	skos:member cv-ai4dm:ZX ;
+	skos:member cv-ai4dm:ZY ;
+	skos:member cv-ai4dm:ZZ ;
+.

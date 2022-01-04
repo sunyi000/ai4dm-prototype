@@ -1,0 +1,27 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/institution-type
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:institution-type
+  a owl:Ontology ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+cv-ai4dm:institution-public a skos:Concept ;
+    skos:hiddenLabel "public"^^xsd:string ;
+    skos:prefLabel "public institution"^^xsd:string .
+
+cv-ai4dm:institution-private a skos:Concept ;
+    skos:hiddenLabel "private"^^xsd:string ;
+    skos:prefLabel "private institution"^^xsd:string .
+
+
+cv-ai4dm:insttypes
+	a skos:Collection ;
+	skos:prefLabel "institution types" ;
+	skos:member cv-ai4dm:institution-public ;
+	skos:member cv-ai4dm:institution-private ;
+.

@@ -1,0 +1,119 @@
+<mat-card *ngIf="flight_id">
+    <mat-card-title>Flight {{flight_id}}</mat-card-title>
+  
+        <div class="Row">
+            <div class=ColumnInfo>
+                <div class="block">
+                    <label>Flight Number</label>
+                    <input class="info" readonly name="flightno" type="text" value="{{flightno}}"/>
+                </div>        
+                <div class="block">
+                    <label>Flight Type</label>
+                    <input class="info" readonly name="flighttype" type="text" value="{{flightType}}"/>
+                </div>        
+                <div class="block">
+                    <label>Stops</label>
+                    <input class="info" readonly name="stops" type="text" value="{{stops}}"/>
+                </div>
+            </div>
+          
+        </div>   
+</mat-card>
+
+<mat-card>
+    <div class="row">
+        <mat-card-title>Ask questions about {{flight_id}}.</mat-card-title>
+        
+        <div class="Row">
+            <div class="Column">
+                <mat-form-field appearance="fill">
+                    <mat-label>Flights</mat-label>
+                    <mat-select id="allFlights" matNativeControl [(value)]="selectedFlight" name="flight" (selectionChange)="setFlight($event)">
+                    <mat-option>None</mat-option>
+                    <mat-option *ngFor="let a of allFlights" [value]="a.flight.value">
+                        {{a.flight.value}}
+                    </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="Column">
+                <mat-form-field appearance="fill">
+                    <mat-label>Questions</mat-label>
+                    <mat-select id="questionsdd" matNativeControl [(value)]="selectedQuestion" name="question" (selectionChange)="predictResult($event,'subj')">
+                    <mat-option>None</mat-option>
+                    <mat-option *ngFor="let q of questions" [value]="q.pred.value">
+                        {{q.pred.value}}
+                    </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="Column">
+                <mat-label class="question_subj"><b>Something</b></mat-label>
+            </div>
+        </div>
+
+
+        <div class="Row">
+            <div class="Column">
+                <mat-label class="question_subj"><b>Something</b></mat-label>
+            </div>
+            <div class="Column">
+                <mat-form-field appearance="fill">
+                    <mat-label>Questions</mat-label>
+                    <mat-select id="questionsddobj" matNativeControl [(value)]="selectedQuestionobj" name="questionobj" (selectionChange)="predictResult($event,'obj')">
+                    <mat-option>None</mat-option>
+                    <mat-option *ngFor="let q of questionsobj" [value]="q.pred.value">
+                        {{q.pred.value}}
+                    </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="Column">
+                <mat-label class="question_subj"><b>{{flight_id}}</b></mat-label>
+            </div>
+        </div>
+
+    </div>
+</mat-card>
+<mat-card>
+    <mat-card-title>Facts</mat-card-title>
+    <mat-form-field>
+      <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+    </mat-form-field>
+  
+      <table mat-table [dataSource]="colDatasource" matSort>
+          <ng-container *ngFor="let head of colheads; let colIndex = index" matColumnDef="{{head}}">
+                  <th mat-header-cell *matHeaderCellDef mat-sort-header>{{head}}</th>                              
+                  <td mat-cell *matCellDef="let element "> {{element[head].value}}</td>      
+          </ng-container>
+          <tr mat-header-row *matHeaderRowDef="colheads"></tr>
+          <tr mat-row *matRowDef="let head; columns: colheads;"
+       
+          ></tr>
+      </table>
+      
+      <mat-paginator  [pageSize]="10"
+          [pageSizeOptions]="[10, 25, 100]" showFirstLastButtons *ngIf = "colDatasource.data.length >0"></mat-paginator>
+</mat-card>
+
+<mat-card>
+  <mat-card-title>Prediction</mat-card-title>
+  <mat-form-field>
+      <input matInput (keyup)="applyFilterPrediction($event.target.value)" placeholder="Filter">
+    </mat-form-field>
+  
+  
+      <table mat-table [dataSource]="colPredictionDatasource" matSort>
+          <ng-container *ngFor="let head of colpheads; let colIndex = index" matColumnDef="{{head}}">
+                  <th mat-header-cell *matHeaderCellDef mat-sort-header>{{head}}</th>                              
+                  <td mat-cell *matCellDef="let element "> {{element[head].value}}</td>      
+          </ng-container>
+          <tr mat-header-row *matHeaderRowDef="colpheads"></tr>
+          <tr mat-row *matRowDef="let head; columns: colpheads;"
+          routerLink="/{{pagename}}/{{head.obj.value}}"></tr>
+      </table>
+      
+      <mat-paginator  [pageSize]="10"
+          [pageSizeOptions]="[10, 25, 100]" showFirstLastButtons *ngIf = "colPredictionDatasource.data.length >0"></mat-paginator>
+
+</mat-card>

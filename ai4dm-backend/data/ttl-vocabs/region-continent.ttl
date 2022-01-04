@@ -1,0 +1,50 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/region-continent
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cv-ai4dm:AF a skos:Concept ;
+    skos:hiddenLabel 3 ;
+    skos:prefLabel "AF"^^xsd:string .
+
+cv-ai4dm:AN a skos:Concept ;
+    skos:hiddenLabel 4 ;
+    skos:prefLabel "AN"^^xsd:string .
+
+cv-ai4dm:AS a skos:Concept ;
+    skos:hiddenLabel 1 ;
+    skos:prefLabel "AS"^^xsd:string .
+
+cv-ai4dm:EU a skos:Concept ;
+    skos:hiddenLabel 0 ;
+    skos:prefLabel "EU"^^xsd:string .
+
+cv-ai4dm:NA a skos:Concept ;
+    skos:hiddenLabel 2 ;
+    skos:prefLabel "NA"^^xsd:string .
+
+cv-ai4dm:OC a skos:Concept ;
+    skos:hiddenLabel 6 ;
+    skos:prefLabel "OC"^^xsd:string .
+
+cv-ai4dm:SA a skos:Concept ;
+    skos:hiddenLabel 5 ;
+    skos:prefLabel "SA"^^xsd:string .
+
+cv-ai4dm:continent a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+cv-ai4dm:continents
+	a skos:Collection ;
+	skos:prefLabel "continents" ;
+	skos:member cv-ai4dm:AF ;
+	skos:member cv-ai4dm:AN ;
+	skos:member cv-ai4dm:AS ;
+	skos:member cv-ai4dm:EU ;
+	skos:member cv-ai4dm:NA ;
+	skos:member cv-ai4dm:OC ;
+	skos:member cv-ai4dm:SA ;
+.

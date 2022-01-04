@@ -1,0 +1,231 @@
+# baseURI: http://dbpedia.org/ontology/data/ai4dm/institution-data
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://dbpedia.org/ontology/cv/ai4dm/
+# imports: http://dbpedia.org/ontology/data/ai4dm/ai4dm-data
+
+@prefix ai4dm: <http://dbpedia.org/ontology/ai4dm/> .
+@prefix ai4dm-data: <http://dbpedia.org/ontology/data/ai4dm/> .
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ai4dm-data:institution-Aalto%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-FI-18 ;
+    skos:hiddenLabel "1"^^xsd:string ;
+    skos:prefLabel "Aalto University"^^xsd:string .
+
+ai4dm-data:institution-Al-Quds%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-PS-JEN ;
+    skos:hiddenLabel "2"^^xsd:string ;
+    skos:prefLabel "Al-Quds University"^^xsd:string .
+
+ai4dm-data:institution-An-Nahjah%20National%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-PS-JRH ;
+    skos:hiddenLabel "3"^^xsd:string ;
+    skos:prefLabel "An-Nahjah National University"^^xsd:string .
+
+ai4dm-data:institution-Arab%20American%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-PS-KYS ;
+    skos:hiddenLabel "4"^^xsd:string ;
+    skos:prefLabel "Arab American University"^^xsd:string .
+
+ai4dm-data:institution-Athens%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-GR-A1 ;
+    skos:hiddenLabel "5"^^xsd:string ;
+    skos:prefLabel "Athens University"^^xsd:string .
+
+ai4dm-data:institution-Australian%20National%20Univeristy a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AU-ACT ;
+    skos:hiddenLabel "6"^^xsd:string ;
+    skos:prefLabel "Australian National Univeristy"^^xsd:string .
+
+ai4dm-data:institution-Birzeit%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-PS-NBS ;
+    skos:hiddenLabel "7"^^xsd:string ;
+    skos:prefLabel "Birzeit University"^^xsd:string .
+
+ai4dm-data:institution-Charles%20Darwin%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AU-NT ;
+    skos:hiddenLabel "8"^^xsd:string ;
+    skos:prefLabel "Charles Darwin University"^^xsd:string .
+
+ai4dm-data:institution-Civil%20Aviation%20College a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-private ;
+    ai4dm:hasRegion ai4dm-data:region-US-NY ;
+    skos:hiddenLabel "34"^^xsd:string ;
+    skos:prefLabel "Civil Aviation College"^^xsd:string .
+
+ai4dm-data:institution-Erasmus%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-NL-NH ;
+    skos:hiddenLabel "24"^^xsd:string ;
+    skos:prefLabel "Erasmus University"^^xsd:string .
+
+ai4dm-data:institution-Freie%20Universitaet%20Berlin a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-DE-BE ;
+    skos:hiddenLabel "9"^^xsd:string ;
+    skos:prefLabel "Freie Universitaet Berlin"^^xsd:string .
+
+ai4dm-data:institution-George%20Washington%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-US-WA ;
+    skos:hiddenLabel "36"^^xsd:string ;
+    skos:prefLabel "George Washington University"^^xsd:string .
+
+ai4dm-data:institution-Griffith%20%20Unviersity a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AU-QLD ;
+    skos:hiddenLabel "0"^^xsd:string ;
+    skos:prefLabel "Griffith  Unviersity"^^xsd:string .
+
+ai4dm-data:institution-Islamic%20Unviersity%20of%20Gaza a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-PS-GZA ;
+    skos:hiddenLabel "11"^^xsd:string ;
+    skos:prefLabel "Islamic Unviersity of Gaza"^^xsd:string .
+
+ai4dm-data:institution-Kabul%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AF-KAB ;
+    skos:hiddenLabel "12"^^xsd:string ;
+    skos:prefLabel "Kabul University"^^xsd:string .
+
+ai4dm-data:institution-Kateb%20Unviersity a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AF-KAB ;
+    skos:hiddenLabel "13"^^xsd:string ;
+    skos:prefLabel "Kateb Unviersity"^^xsd:string .
+
+ai4dm-data:institution-Monash%20Unviersity a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AU-VIC ;
+    skos:hiddenLabel "14"^^xsd:string ;
+    skos:prefLabel "Monash Unviersity"^^xsd:string .
+
+ai4dm-data:institution-Salam%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AF-KAB ;
+    skos:hiddenLabel "15"^^xsd:string ;
+    skos:prefLabel "Salam University"^^xsd:string .
+
+ai4dm-data:institution-Sorbonne%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-FR-IDF ;
+    skos:hiddenLabel "16"^^xsd:string ;
+    skos:prefLabel "Sorbonne University"^^xsd:string .
+
+ai4dm-data:institution-St%20Bonaventure%20University a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-private ;
+    ai4dm:hasRegion ai4dm-data:region-US-NY ;
+    skos:hiddenLabel "32"^^xsd:string ;
+    skos:prefLabel "St Bonaventure University"^^xsd:string .
+
+ai4dm-data:institution-Technical%20University%20of%20Brandenburg a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-DE-BR ;
+    skos:hiddenLabel "17"^^xsd:string ;
+    skos:prefLabel "Technical University of Brandenburg"^^xsd:string .
+
+ai4dm-data:institution-The%20British%20Unviersity%20in%20Dubai a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-private ;
+    ai4dm:hasRegion ai4dm-data:region-AE-DU ;
+    skos:hiddenLabel "26"^^xsd:string ;
+    skos:prefLabel "The British Unviersity in Dubai"^^xsd:string .
+
+ai4dm-data:institution-Trinity%20College%20Dublin a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-IE-D ;
+    skos:hiddenLabel "28"^^xsd:string ;
+    skos:prefLabel "Trinity College Dublin"^^xsd:string .
+
+ai4dm-data:institution-Univerisity%20of%20Karlsruhe a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-DE-BW ;
+    skos:hiddenLabel "27"^^xsd:string ;
+    skos:prefLabel "Univerisity of Karlsruhe"^^xsd:string .
+
+ai4dm-data:institution-Univeristy%20of%20Brussel a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-BE-BRU ;
+    skos:hiddenLabel "35"^^xsd:string ;
+    skos:prefLabel "Univeristy of Brussel"^^xsd:string .
+
+ai4dm-data:institution-University%20College%20Cork a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-IE-D ;
+    skos:hiddenLabel "31"^^xsd:string ;
+    skos:prefLabel "University College Cork"^^xsd:string .
+
+ai4dm-data:institution-University%20of%20Adelaide a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AU-SA ;
+    skos:hiddenLabel "18"^^xsd:string ;
+    skos:prefLabel "University of Adelaide"^^xsd:string .
+
+ai4dm-data:institution-University%20of%20Cambridge a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-GB-ENG ;
+    skos:hiddenLabel "19"^^xsd:string ;
+    skos:prefLabel "University of Cambridge"^^xsd:string .
+
+ai4dm-data:institution-University%20of%20London a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-GB-ENG ;
+    skos:hiddenLabel "33"^^xsd:string ;
+    skos:prefLabel "University of London"^^xsd:string .
+
+ai4dm-data:institution-University%20of%20North%20Florida a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-US-FL ;
+    skos:hiddenLabel "29"^^xsd:string ;
+    skos:prefLabel "University of North Florida"^^xsd:string .
+
+ai4dm-data:institution-University%20of%20Oxford a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-GB-ENG ;
+    skos:hiddenLabel "25"^^xsd:string ;
+    skos:prefLabel "University of Oxford"^^xsd:string .
+
+ai4dm-data:institution-University%20of%20Sydney a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AU-NSW ;
+    skos:hiddenLabel "20"^^xsd:string ;
+    skos:prefLabel "University of Sydney"^^xsd:string .
+
+ai4dm-data:institution-University%20of%20Tasmania a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AU-TAS ;
+    skos:hiddenLabel "21"^^xsd:string ;
+    skos:prefLabel "University of Tasmania"^^xsd:string .
+
+ai4dm-data:institution-University%20of%20Western%20Australia a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-AU-WA ;
+    skos:hiddenLabel "22"^^xsd:string ;
+    skos:prefLabel "University of Western Australia"^^xsd:string .
+
+ai4dm-data:institution-Unviersity%20of%20Manchester a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-GB-ENG ;
+    skos:hiddenLabel "23"^^xsd:string ;
+    skos:prefLabel "Unviersity of Manchester"^^xsd:string .
+
+ai4dm-data:institution-Unviersity%20of%20Western%20Ontario a ai4dm:Institution ;
+    ai4dm:hasInstitutionType ai4dm-data:institution-public ;
+    ai4dm:hasRegion ai4dm-data:region-CA-ON ;
+    skos:hiddenLabel "30"^^xsd:string ;
+    skos:prefLabel "Unviersity of Western Ontario"^^xsd:string .
+
+ai4dm-data:institution-data a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+

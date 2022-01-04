@@ -1,0 +1,140 @@
+<mat-card *ngIf="airline_id">
+    <mat-card-title>Airline Information</mat-card-title>
+  
+        <div class="Row">
+            <div class=ColumnInfo>
+                <div class="block">
+                    <label>Name</label>
+                    <input class="info" readonly name="name" type="text" value="{{description}}"/>
+                </div>
+                <div class="block">
+                    <label>Call Sign</label>
+                    <input class="info" readonly name="callsign" type="text" value="{{callsign}}"/>
+                </div>        
+                <div class="block">
+                    <label>Founded Date</label>
+                    <input class="info" readonly name="foundedDate" type="text" value="{{foundedDate}}"/>
+                </div>        
+                <div class="block">
+                    <label>Net Income</label>
+                    <input class="info" readonly name="netIncome" type="text" value="{{netIncome}}"/>
+                </div>
+            </div>
+            <div class=ColumnInfo>
+                <div class="block">
+                    <label>Fleet Size</label>
+                    <input class="info" readonly name="fleetSize" type="text" value="{{fleetSize}}"/>
+                </div>
+                <div class="block">
+                    <label>ICAO Code</label>
+                    <input class="info" readonly name="icao" type="text" value="{{icao}}"/>
+                </div>
+                <div class="block">
+                    <label>Country</label>
+                    <input class="info" readonly name="country" type="text" value="{{country}}"/>
+                </div>
+            </div>
+        </div>   
+</mat-card>
+<mat-card>
+        <div class="row">
+            <mat-card-title>Ask questions about {{description}}.</mat-card-title>
+            
+            <div class="Row">
+                <div class="Column">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Airlines</mat-label>
+                        <mat-select id="allAirlines" matNativeControl [(value)]="selectedAirline" name="airline" 
+                        (selectionChange)="setAirline($event)">
+                            <mat-option>None</mat-option>
+                            <mat-option *ngFor="let a of allAirlines" [value]="a.airlines.value">
+                                {{a.airlines.value}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="Column">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Questions</mat-label>
+                        <mat-select id="questionsal" matNativeControl [(value)]="selectedQuestion" name="question" 
+                        (selectionChange)="predictResult($event,'subj')">
+                        <mat-option>None</mat-option>
+                        <mat-option *ngFor="let q of questionsal" [value]="q.pred.value">
+                            {{q.pred.value}}
+                        </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="Column">
+                    <mat-label class="question_subj"><b>Something ???</b></mat-label>
+                </div>
+            </div>
+
+
+            <div class="Row">
+                <div class="Column">
+                    <mat-label class="question_subj"><b>Something</b></mat-label>
+                </div>
+                <div class="Column">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Questions</mat-label>
+                        <mat-select id="questionsalobj" matNativeControl [(value)]="selectedQuestionobj" name="questionobj" 
+                        (selectionChange)="predictResult($event,'obj')">
+                        <mat-option>None</mat-option>
+                        <mat-option *ngFor="let q of questionsalobj" [value]="q.pred.value">
+                            {{q.pred.value}}
+                        </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+                <div class="Column">
+                    <mat-label class="question_subj"><b>{{description}}</b></mat-label>
+                </div>
+            </div>
+
+        </div>
+</mat-card>
+<mat-card>
+      <mat-card-title>Facts</mat-card-title>
+      <mat-form-field>
+        <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+      </mat-form-field>
+    
+    
+        <table mat-table [dataSource]="colDatasource" matSort #sort="matSort">
+            <ng-container *ngFor="let head of colheads; let colIndex = index" matColumnDef="{{head}}">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header>{{head}}</th>                              
+                    <td mat-cell *matCellDef="let element "> {{element[head].value}}</td>      
+            </ng-container>
+            <tr mat-header-row *matHeaderRowDef="colheads"></tr>
+            <tr mat-row *matRowDef="let head; columns: colheads;"
+                routerLink="/{{pagename}}/{{head.obj.value}}"
+            ></tr>
+        </table>
+        
+        <mat-paginator  [pageSize]="10"
+            [pageSizeOptions]="[10, 25, 100]" showFirstLastButtons *ngIf = "colDatasource.data.length >0"></mat-paginator>
+</mat-card>
+
+<mat-card>
+    <mat-card-title>Prediction</mat-card-title>
+    <mat-form-field>
+        <input matInput (keyup)="applyFilterPrediction($event.target.value)" placeholder="Filter">
+      </mat-form-field>
+    
+    
+        <table mat-table [dataSource]="colPredictionDatasource" matSort #sor1="matSort">
+            <ng-container *ngFor="let head of colpheads; let colIndex = index" matColumnDef="{{head}}">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header>{{head}}</th>                              
+                    <td mat-cell *matCellDef="let element "> {{element[head].value}}</td>      
+            </ng-container>
+            <tr mat-header-row *matHeaderRowDef="colpheads"></tr>
+            <tr mat-row *matRowDef="let head; columns: colpheads;"
+            routerLink="/{{pagename}}/{{head.obj.value}}"></tr>
+        </table>
+        
+        <mat-paginator  [pageSize]="10"
+            [pageSizeOptions]="[10, 25, 100]" showFirstLastButtons *ngIf = "colPredictionDatasource.data.length >0"></mat-paginator>
+
+</mat-card>
+  <br>

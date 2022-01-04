@@ -1,0 +1,40 @@
+table {
+	width: 100% !important ;
+}
+  
+.mat-form-field {
+font-size: 14px;
+width: 100%;
+}
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+.mat-checkbox {
+  padding: 5px;
+
+}
+
+.mat-column-Airport {
+    padding-right: 24px;
+    /* text-align: center; */
+}
+
+  .mat-column-Country {
+    padding-right: 24px;
+    /* text-align: center; */
+}
+
+.mat-row .mat-cell {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+  .mat-row:hover .mat-cell {
+    border-color: currentColor;
+  }
+  
+  .airport-row-is-clicked {
+    font-weight: bold;
+  }

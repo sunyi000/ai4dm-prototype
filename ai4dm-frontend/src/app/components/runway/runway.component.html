@@ -1,0 +1,32 @@
+<mat-card>
+    <mat-card-title>Runway {{runway_id}}</mat-card-title>
+  
+        <div class="Row">
+            <div class=ColumnInfo>
+                <div class="block">
+                    <label>Located in Airport</label>
+                    <input class="info" readonly name="airport" type="text" value="{{airport_id}}"/>
+                </div>        
+                <div class="block">
+                    <label>Lighted</label>
+                    <input class="info" readonly name="lighted" type="text" value="{{lighted}}"/>
+                </div>        
+                <div class="block">
+                    <label>Surface</label>
+                    <input class="info" readonly name="surface" type="text" value="{{surface}}"/>
+                </div>
+                <div class="block">
+                    <label>Width</label>
+                    <input class="info" readonly name="width" type="text" value="{{width}}"/>
+                </div>
+            </div>
+
+            <div class="ColumnInfo">
+                <label>Able to land aircraft</label>
+                <ng-container *ngFor="let aircraft of aircrafts;" >
+                    <a class="info" name="runway-aircraft" type="text" routerLink = "/aircraft/{{aircraft}}">{{aircraft}}</a>
+                </ng-container>
+            </div>
+
+        </div>   
+</mat-card>

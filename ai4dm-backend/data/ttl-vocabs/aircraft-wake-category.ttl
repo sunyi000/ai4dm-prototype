@@ -1,0 +1,37 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/aircraft-wake-category
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+cv-ai4dm:H a skos:Concept ;
+    skos:hiddenLabel 3 ;
+    skos:prefLabel "H"^^xsd:string .
+
+cv-ai4dm:L a skos:Concept ;
+    skos:hiddenLabel 0 ;
+    skos:prefLabel "L"^^xsd:string .
+
+cv-ai4dm:M a skos:Concept ;
+    skos:hiddenLabel 1 ;
+    skos:prefLabel "M"^^xsd:string .
+
+cv-ai4dm:tbd a skos:Concept ;
+    skos:hiddenLabel 2 ;
+    skos:prefLabel "tbd"^^xsd:string .
+
+cv-ai4dm:wake_category a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+
+cv-ai4dm:wcs
+	a skos:Collection ;
+	skos:prefLabel "aircraft wake category" ;
+	skos:member cv-ai4dm:H ;
+	skos:member cv-ai4dm:L ;
+	skos:member cv-ai4dm:M ;
+	skos:member cv-ai4dm:tbd ;
+.

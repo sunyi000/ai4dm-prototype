@@ -1,0 +1,1736 @@
+# baseURI: http://dbpedia.org/ontology/data/ai4dm/countries-data
+# imports: http://www.w3.org/2004/02/skos/core
+# imports: http://dbpedia.org/ontology/cv/ai4dm/
+
+@prefix ai4dm: <http://dbpedia.org/ontology/ai4dm/> .
+@prefix ai4dm-data: <http://dbpedia.org/ontology/data/ai4dm/> .
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ai4dm-data:countries-data a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+ai4dm-data:country-AD a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:AD ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Andorra"^^xsd:anyURI ;
+    skos:hiddenLabel "AD"^^xsd:string ;
+    skos:prefLabel "Andorra"^^xsd:string .
+
+ai4dm-data:country-AE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:AE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/United_Arab_Emirates"^^xsd:anyURI ;
+    skos:hiddenLabel "AE"^^xsd:string ;
+    skos:prefLabel "United Arab Emirates"^^xsd:string .
+
+ai4dm-data:country-AF a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:AF ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Afghanistan"^^xsd:anyURI ;
+    skos:hiddenLabel "AF"^^xsd:string ;
+    skos:prefLabel "Afghanistan"^^xsd:string .
+
+ai4dm-data:country-AG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:AG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Antigua_and_Barbuda"^^xsd:anyURI ;
+    skos:hiddenLabel "AG"^^xsd:string ;
+    skos:prefLabel "Antigua and Barbuda"^^xsd:string .
+
+ai4dm-data:country-AI a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:AI ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Anguilla"^^xsd:anyURI ;
+    skos:hiddenLabel "AI"^^xsd:string ;
+    skos:prefLabel "Anguilla"^^xsd:string .
+
+ai4dm-data:country-AL a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:AL ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Albania"^^xsd:anyURI ;
+    skos:hiddenLabel "AL"^^xsd:string ;
+    skos:prefLabel "Albania"^^xsd:string .
+
+ai4dm-data:country-AM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:AM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Armenia"^^xsd:anyURI ;
+    skos:hiddenLabel "AM"^^xsd:string ;
+    skos:prefLabel "Armenia"^^xsd:string .
+
+ai4dm-data:country-AO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:AO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Angola"^^xsd:anyURI ;
+    skos:hiddenLabel "AO"^^xsd:string ;
+    skos:prefLabel "Angola"^^xsd:string .
+
+ai4dm-data:country-AQ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AN ;
+    ai4dm:hasCountryCode cv-ai4dm:AQ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Antarctica"^^xsd:anyURI ;
+    skos:hiddenLabel "AQ"^^xsd:string ;
+    skos:prefLabel "Antarctica"^^xsd:string .
+
+ai4dm-data:country-AR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:AR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Argentina"^^xsd:anyURI ;
+    skos:hiddenLabel "AR"^^xsd:string ;
+    skos:prefLabel "Argentina"^^xsd:string .
+
+ai4dm-data:country-AS a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:AS ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/American_Samoa"^^xsd:anyURI ;
+    skos:hiddenLabel "AS"^^xsd:string ;
+    skos:prefLabel "American Samoa"^^xsd:string .
+
+ai4dm-data:country-AT a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:AT ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Austria"^^xsd:anyURI ;
+    skos:hiddenLabel "AT"^^xsd:string ;
+    skos:prefLabel "Austria"^^xsd:string .
+
+ai4dm-data:country-AU a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:AU ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Australia"^^xsd:anyURI ;
+    skos:hiddenLabel "AU"^^xsd:string ;
+    skos:prefLabel "Australia"^^xsd:string .
+
+ai4dm-data:country-AW a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:AW ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Aruba"^^xsd:anyURI ;
+    skos:hiddenLabel "AW"^^xsd:string ;
+    skos:prefLabel "Aruba"^^xsd:string .
+
+ai4dm-data:country-AZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:AZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Azerbaijan"^^xsd:anyURI ;
+    skos:hiddenLabel "AZ"^^xsd:string ;
+    skos:prefLabel "Azerbaijan"^^xsd:string .
+
+ai4dm-data:country-BA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:BA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina"^^xsd:anyURI ;
+    skos:hiddenLabel "BA"^^xsd:string ;
+    skos:prefLabel "Bosnia and Herzegovina"^^xsd:string .
+
+ai4dm-data:country-BB a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:BB ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Barbados"^^xsd:anyURI ;
+    skos:hiddenLabel "BB"^^xsd:string ;
+    skos:prefLabel "Barbados"^^xsd:string .
+
+ai4dm-data:country-BD a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:BD ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Bangladesh"^^xsd:anyURI ;
+    skos:hiddenLabel "BD"^^xsd:string ;
+    skos:prefLabel "Bangladesh"^^xsd:string .
+
+ai4dm-data:country-BE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:BE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Belgium"^^xsd:anyURI ;
+    skos:hiddenLabel "BE"^^xsd:string ;
+    skos:prefLabel "Belgium"^^xsd:string .
+
+ai4dm-data:country-BF a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:BF ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Burkina_Faso"^^xsd:anyURI ;
+    skos:hiddenLabel "BF"^^xsd:string ;
+    skos:prefLabel "Burkina Faso"^^xsd:string .
+
+ai4dm-data:country-BG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:BG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Bulgaria"^^xsd:anyURI ;
+    skos:hiddenLabel "BG"^^xsd:string ;
+    skos:prefLabel "Bulgaria"^^xsd:string .
+
+ai4dm-data:country-BH a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:BH ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Bahrain"^^xsd:anyURI ;
+    skos:hiddenLabel "BH"^^xsd:string ;
+    skos:prefLabel "Bahrain"^^xsd:string .
+
+ai4dm-data:country-BI a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:BI ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Burundi"^^xsd:anyURI ;
+    skos:hiddenLabel "BI"^^xsd:string ;
+    skos:prefLabel "Burundi"^^xsd:string .
+
+ai4dm-data:country-BJ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:BJ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Benin"^^xsd:anyURI ;
+    skos:hiddenLabel "BJ"^^xsd:string ;
+    skos:prefLabel "Benin"^^xsd:string .
+
+ai4dm-data:country-BL a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:BL ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Saint_Barth�lemy"^^xsd:anyURI ;
+    skos:hiddenLabel "BL"^^xsd:string ;
+    skos:prefLabel "Saint Barth�lemy"^^xsd:string .
+
+ai4dm-data:country-BM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:BM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Bermuda"^^xsd:anyURI ;
+    skos:hiddenLabel "BM"^^xsd:string ;
+    skos:prefLabel "Bermuda"^^xsd:string .
+
+ai4dm-data:country-BN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:BN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Brunei"^^xsd:anyURI ;
+    skos:hiddenLabel "BN"^^xsd:string ;
+    skos:prefLabel "Brunei"^^xsd:string .
+
+ai4dm-data:country-BO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:BO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Bolivia"^^xsd:anyURI ;
+    skos:hiddenLabel "BO"^^xsd:string ;
+    skos:prefLabel "Bolivia"^^xsd:string .
+
+ai4dm-data:country-BQ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:BQ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Caribbean_Netherlands"^^xsd:anyURI ;
+    skos:hiddenLabel "BQ"^^xsd:string ;
+    skos:prefLabel "Caribbean Netherlands"^^xsd:string .
+
+ai4dm-data:country-BR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:BR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Brazil"^^xsd:anyURI ;
+    skos:hiddenLabel "BR"^^xsd:string ;
+    skos:prefLabel "Brazil"^^xsd:string .
+
+ai4dm-data:country-BS a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:BS ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Bahamas"^^xsd:anyURI ;
+    skos:hiddenLabel "BS"^^xsd:string ;
+    skos:prefLabel "Bahamas"^^xsd:string .
+
+ai4dm-data:country-BT a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:BT ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Bhutan"^^xsd:anyURI ;
+    skos:hiddenLabel "BT"^^xsd:string ;
+    skos:prefLabel "Bhutan"^^xsd:string .
+
+ai4dm-data:country-BW a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:BW ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Botswana"^^xsd:anyURI ;
+    skos:hiddenLabel "BW"^^xsd:string ;
+    skos:prefLabel "Botswana"^^xsd:string .
+
+ai4dm-data:country-BY a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:BY ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Belarus"^^xsd:anyURI ;
+    skos:hiddenLabel "BY"^^xsd:string ;
+    skos:prefLabel "Belarus"^^xsd:string .
+
+ai4dm-data:country-BZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:BZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Belize"^^xsd:anyURI ;
+    skos:hiddenLabel "BZ"^^xsd:string ;
+    skos:prefLabel "Belize"^^xsd:string .
+
+ai4dm-data:country-CA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:CA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Canada"^^xsd:anyURI ;
+    skos:hiddenLabel "CA"^^xsd:string ;
+    skos:prefLabel "Canada"^^xsd:string .
+
+ai4dm-data:country-CC a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:CC ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "CC"^^xsd:string ;
+    skos:prefLabel "Cocos (Keeling) Islands"^^xsd:string .
+
+ai4dm-data:country-CD a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:CD ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Congo_(Kinshasa)"^^xsd:anyURI ;
+    skos:hiddenLabel "CD"^^xsd:string ;
+    skos:prefLabel "Congo (Kinshasa)"^^xsd:string .
+
+ai4dm-data:country-CF a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:CF ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Central_African_Republic"^^xsd:anyURI ;
+    skos:hiddenLabel "CF"^^xsd:string ;
+    skos:prefLabel "Central African Republic"^^xsd:string .
+
+ai4dm-data:country-CG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:CG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Congo_(Brazzaville)"^^xsd:anyURI ;
+    skos:hiddenLabel "CG"^^xsd:string ;
+    skos:prefLabel "Congo (Brazzaville)"^^xsd:string .
+
+ai4dm-data:country-CH a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:CH ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Switzerland"^^xsd:anyURI ;
+    skos:hiddenLabel "CH"^^xsd:string ;
+    skos:prefLabel "Switzerland"^^xsd:string .
+
+ai4dm-data:country-CI a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:CI ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/C�te_d'Ivoire"^^xsd:anyURI ;
+    skos:hiddenLabel "CI"^^xsd:string ;
+    skos:prefLabel "C�te d'Ivoire"^^xsd:string .
+
+ai4dm-data:country-CK a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:CK ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Cook_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "CK"^^xsd:string ;
+    skos:prefLabel "Cook Islands"^^xsd:string .
+
+ai4dm-data:country-CL a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:CL ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Chile"^^xsd:anyURI ;
+    skos:hiddenLabel "CL"^^xsd:string ;
+    skos:prefLabel "Chile"^^xsd:string .
+
+ai4dm-data:country-CM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:CM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Cameroon"^^xsd:anyURI ;
+    skos:hiddenLabel "CM"^^xsd:string ;
+    skos:prefLabel "Cameroon"^^xsd:string .
+
+ai4dm-data:country-CN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:CN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/China"^^xsd:anyURI ;
+    skos:hiddenLabel "CN"^^xsd:string ;
+    skos:prefLabel "China"^^xsd:string .
+
+ai4dm-data:country-CO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:CO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Colombia"^^xsd:anyURI ;
+    skos:hiddenLabel "CO"^^xsd:string ;
+    skos:prefLabel "Colombia"^^xsd:string .
+
+ai4dm-data:country-CR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:CR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Costa_Rica"^^xsd:anyURI ;
+    skos:hiddenLabel "CR"^^xsd:string ;
+    skos:prefLabel "Costa Rica"^^xsd:string .
+
+ai4dm-data:country-CU a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:CU ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Cuba"^^xsd:anyURI ;
+    skos:hiddenLabel "CU"^^xsd:string ;
+    skos:prefLabel "Cuba"^^xsd:string .
+
+ai4dm-data:country-CV a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:CV ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Cape_Verde"^^xsd:anyURI ;
+    skos:hiddenLabel "CV"^^xsd:string ;
+    skos:prefLabel "Cape Verde"^^xsd:string .
+
+ai4dm-data:country-CW a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:CW ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Cura%C3%A7ao"^^xsd:anyURI ;
+    skos:hiddenLabel "CW"^^xsd:string ;
+    skos:prefLabel "Cura�ao"^^xsd:string .
+
+ai4dm-data:country-CX a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:CX ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Christmas_Island"^^xsd:anyURI ;
+    skos:hiddenLabel "CX"^^xsd:string ;
+    skos:prefLabel "Christmas Island"^^xsd:string .
+
+ai4dm-data:country-CY a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:CY ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Cyprus"^^xsd:anyURI ;
+    skos:hiddenLabel "CY"^^xsd:string ;
+    skos:prefLabel "Cyprus"^^xsd:string .
+
+ai4dm-data:country-CZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:CZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Czech_Republic"^^xsd:anyURI ;
+    skos:hiddenLabel "CZ"^^xsd:string ;
+    skos:prefLabel "Czech Republic"^^xsd:string .
+
+ai4dm-data:country-DE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:DE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Germany"^^xsd:anyURI ;
+    skos:hiddenLabel "DE"^^xsd:string ;
+    skos:prefLabel "Germany"^^xsd:string .
+
+ai4dm-data:country-DJ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:DJ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Djibouti"^^xsd:anyURI ;
+    skos:hiddenLabel "DJ"^^xsd:string ;
+    skos:prefLabel "Djibouti"^^xsd:string .
+
+ai4dm-data:country-DK a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:DK ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Denmark"^^xsd:anyURI ;
+    skos:hiddenLabel "DK"^^xsd:string ;
+    skos:prefLabel "Denmark"^^xsd:string .
+
+ai4dm-data:country-DM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:DM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Dominica"^^xsd:anyURI ;
+    skos:hiddenLabel "DM"^^xsd:string ;
+    skos:prefLabel "Dominica"^^xsd:string .
+
+ai4dm-data:country-DO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:DO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Dominican_Republic"^^xsd:anyURI ;
+    skos:hiddenLabel "DO"^^xsd:string ;
+    skos:prefLabel "Dominican Republic"^^xsd:string .
+
+ai4dm-data:country-DZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:DZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Algeria"^^xsd:anyURI ;
+    skos:hiddenLabel "DZ"^^xsd:string ;
+    skos:prefLabel "Algeria"^^xsd:string .
+
+ai4dm-data:country-EC a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:EC ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Ecuador"^^xsd:anyURI ;
+    skos:hiddenLabel "EC"^^xsd:string ;
+    skos:prefLabel "Ecuador"^^xsd:string .
+
+ai4dm-data:country-EE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:EE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Estonia"^^xsd:anyURI ;
+    skos:hiddenLabel "EE"^^xsd:string ;
+    skos:prefLabel "Estonia"^^xsd:string .
+
+ai4dm-data:country-EG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:EG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Egypt"^^xsd:anyURI ;
+    skos:hiddenLabel "EG"^^xsd:string ;
+    skos:prefLabel "Egypt"^^xsd:string .
+
+ai4dm-data:country-EH a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:EH ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Western_Sahara"^^xsd:anyURI ;
+    skos:hiddenLabel "EH"^^xsd:string ;
+    skos:prefLabel "Western Sahara"^^xsd:string .
+
+ai4dm-data:country-ER a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:ER ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Eritrea"^^xsd:anyURI ;
+    skos:hiddenLabel "ER"^^xsd:string ;
+    skos:prefLabel "Eritrea"^^xsd:string .
+
+ai4dm-data:country-ES a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:ES ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Spain"^^xsd:anyURI ;
+    skos:hiddenLabel "ES"^^xsd:string ;
+    skos:prefLabel "Spain"^^xsd:string .
+
+ai4dm-data:country-ET a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:ET ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Ethiopia"^^xsd:anyURI ;
+    skos:hiddenLabel "ET"^^xsd:string ;
+    skos:prefLabel "Ethiopia"^^xsd:string .
+
+ai4dm-data:country-FI a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:FI ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Finland"^^xsd:anyURI ;
+    skos:hiddenLabel "FI"^^xsd:string ;
+    skos:prefLabel "Finland"^^xsd:string .
+
+ai4dm-data:country-FJ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:FJ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Fiji"^^xsd:anyURI ;
+    skos:hiddenLabel "FJ"^^xsd:string ;
+    skos:prefLabel "Fiji"^^xsd:string .
+
+ai4dm-data:country-FK a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:FK ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Falkland_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "FK"^^xsd:string ;
+    skos:prefLabel "Falkland Islands"^^xsd:string .
+
+ai4dm-data:country-FM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:FM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia"^^xsd:anyURI ;
+    skos:hiddenLabel "FM"^^xsd:string ;
+    skos:prefLabel "Micronesia"^^xsd:string .
+
+ai4dm-data:country-FO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:FO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Faroe_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "FO"^^xsd:string ;
+    skos:prefLabel "Faroe Islands"^^xsd:string .
+
+ai4dm-data:country-FR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:FR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/France"^^xsd:anyURI ;
+    skos:hiddenLabel "FR"^^xsd:string ;
+    skos:prefLabel "France"^^xsd:string .
+
+ai4dm-data:country-GA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:GA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Gabon"^^xsd:anyURI ;
+    skos:hiddenLabel "GA"^^xsd:string ;
+    skos:prefLabel "Gabon"^^xsd:string .
+
+ai4dm-data:country-GB a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:GB ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/United_Kingdom"^^xsd:anyURI ;
+    skos:hiddenLabel "GB"^^xsd:string ;
+    skos:prefLabel "United Kingdom"^^xsd:string .
+
+ai4dm-data:country-GD a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:GD ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Grenada"^^xsd:anyURI ;
+    skos:hiddenLabel "GD"^^xsd:string ;
+    skos:prefLabel "Grenada"^^xsd:string .
+
+ai4dm-data:country-GE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:GE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Georgia_(country)"^^xsd:anyURI ;
+    skos:hiddenLabel "GE"^^xsd:string ;
+    skos:prefLabel "Georgia"^^xsd:string .
+
+ai4dm-data:country-GF a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:GF ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/French_Guiana"^^xsd:anyURI ;
+    skos:hiddenLabel "GF"^^xsd:string ;
+    skos:prefLabel "French Guiana"^^xsd:string .
+
+ai4dm-data:country-GG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:GG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Guernsey"^^xsd:anyURI ;
+    skos:hiddenLabel "GG"^^xsd:string ;
+    skos:prefLabel "Guernsey"^^xsd:string .
+
+ai4dm-data:country-GH a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:GH ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Ghana"^^xsd:anyURI ;
+    skos:hiddenLabel "GH"^^xsd:string ;
+    skos:prefLabel "Ghana"^^xsd:string .
+
+ai4dm-data:country-GI a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:GI ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Gibraltar"^^xsd:anyURI ;
+    skos:hiddenLabel "GI"^^xsd:string ;
+    skos:prefLabel "Gibraltar"^^xsd:string .
+
+ai4dm-data:country-GL a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:GL ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Greenland"^^xsd:anyURI ;
+    skos:hiddenLabel "GL"^^xsd:string ;
+    skos:prefLabel "Greenland"^^xsd:string .
+
+ai4dm-data:country-GM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:GM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Gambia"^^xsd:anyURI ;
+    skos:hiddenLabel "GM"^^xsd:string ;
+    skos:prefLabel "Gambia"^^xsd:string .
+
+ai4dm-data:country-GN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:GN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Guinea"^^xsd:anyURI ;
+    skos:hiddenLabel "GN"^^xsd:string ;
+    skos:prefLabel "Guinea"^^xsd:string .
+
+ai4dm-data:country-GP a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:GP ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Guadeloupe"^^xsd:anyURI ;
+    skos:hiddenLabel "GP"^^xsd:string ;
+    skos:prefLabel "Guadeloupe"^^xsd:string .
+
+ai4dm-data:country-GQ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:GQ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Equatorial_Guinea"^^xsd:anyURI ;
+    skos:hiddenLabel "GQ"^^xsd:string ;
+    skos:prefLabel "Equatorial Guinea"^^xsd:string .
+
+ai4dm-data:country-GR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:GR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Greece"^^xsd:anyURI ;
+    skos:hiddenLabel "GR"^^xsd:string ;
+    skos:prefLabel "Greece"^^xsd:string .
+
+ai4dm-data:country-GS a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AN ;
+    ai4dm:hasCountryCode cv-ai4dm:GS ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/South_Georgia_and_the_South_Sandwich_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "GS"^^xsd:string ;
+    skos:prefLabel "South Georgia and the South Sandwich Islands"^^xsd:string .
+
+ai4dm-data:country-GT a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:GT ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Guatemala"^^xsd:anyURI ;
+    skos:hiddenLabel "GT"^^xsd:string ;
+    skos:prefLabel "Guatemala"^^xsd:string .
+
+ai4dm-data:country-GU a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:GU ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Guam"^^xsd:anyURI ;
+    skos:hiddenLabel "GU"^^xsd:string ;
+    skos:prefLabel "Guam"^^xsd:string .
+
+ai4dm-data:country-GW a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:GW ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Guinea-Bissau"^^xsd:anyURI ;
+    skos:hiddenLabel "GW"^^xsd:string ;
+    skos:prefLabel "Guinea-Bissau"^^xsd:string .
+
+ai4dm-data:country-GY a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:GY ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Guyana"^^xsd:anyURI ;
+    skos:hiddenLabel "GY"^^xsd:string ;
+    skos:prefLabel "Guyana"^^xsd:string .
+
+ai4dm-data:country-HK a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:HK ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Hong_Kong"^^xsd:anyURI ;
+    skos:hiddenLabel "HK"^^xsd:string ;
+    skos:prefLabel "Hong Kong"^^xsd:string .
+
+ai4dm-data:country-HN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:HN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Honduras"^^xsd:anyURI ;
+    skos:hiddenLabel "HN"^^xsd:string ;
+    skos:prefLabel "Honduras"^^xsd:string .
+
+ai4dm-data:country-HR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:HR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Croatia"^^xsd:anyURI ;
+    skos:hiddenLabel "HR"^^xsd:string ;
+    skos:prefLabel "Croatia"^^xsd:string .
+
+ai4dm-data:country-HT a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:HT ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Haiti"^^xsd:anyURI ;
+    skos:hiddenLabel "HT"^^xsd:string ;
+    skos:prefLabel "Haiti"^^xsd:string .
+
+ai4dm-data:country-HU a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:HU ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Hungary"^^xsd:anyURI ;
+    skos:hiddenLabel "HU"^^xsd:string ;
+    skos:prefLabel "Hungary"^^xsd:string .
+
+ai4dm-data:country-ID a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:ID ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Indonesia"^^xsd:anyURI ;
+    skos:hiddenLabel "ID"^^xsd:string ;
+    skos:prefLabel "Indonesia"^^xsd:string .
+
+ai4dm-data:country-IE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:IE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Ireland"^^xsd:anyURI ;
+    skos:hiddenLabel "IE"^^xsd:string ;
+    skos:prefLabel "Ireland"^^xsd:string .
+
+ai4dm-data:country-IL a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:IL ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Israel"^^xsd:anyURI ;
+    skos:hiddenLabel "IL"^^xsd:string ;
+    skos:prefLabel "Israel"^^xsd:string .
+
+ai4dm-data:country-IM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:IM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Isle_of_Man"^^xsd:anyURI ;
+    skos:hiddenLabel "IM"^^xsd:string ;
+    skos:prefLabel "Isle of Man"^^xsd:string .
+
+ai4dm-data:country-IN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:IN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/India"^^xsd:anyURI ;
+    skos:hiddenLabel "IN"^^xsd:string ;
+    skos:prefLabel "India"^^xsd:string .
+
+ai4dm-data:country-IO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:IO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory"^^xsd:anyURI ;
+    skos:hiddenLabel "IO"^^xsd:string ;
+    skos:prefLabel "British Indian Ocean Territory"^^xsd:string .
+
+ai4dm-data:country-IQ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:IQ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Iraq"^^xsd:anyURI ;
+    skos:hiddenLabel "IQ"^^xsd:string ;
+    skos:prefLabel "Iraq"^^xsd:string .
+
+ai4dm-data:country-IR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:IR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Iran"^^xsd:anyURI ;
+    skos:hiddenLabel "IR"^^xsd:string ;
+    skos:prefLabel "Iran"^^xsd:string .
+
+ai4dm-data:country-IS a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:IS ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Iceland"^^xsd:anyURI ;
+    skos:hiddenLabel "IS"^^xsd:string ;
+    skos:prefLabel "Iceland"^^xsd:string .
+
+ai4dm-data:country-IT a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:IT ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Italy"^^xsd:anyURI ;
+    skos:hiddenLabel "IT"^^xsd:string ;
+    skos:prefLabel "Italy"^^xsd:string .
+
+ai4dm-data:country-JE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:JE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Jersey"^^xsd:anyURI ;
+    skos:hiddenLabel "JE"^^xsd:string ;
+    skos:prefLabel "Jersey"^^xsd:string .
+
+ai4dm-data:country-JM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:JM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Jamaica"^^xsd:anyURI ;
+    skos:hiddenLabel "JM"^^xsd:string ;
+    skos:prefLabel "Jamaica"^^xsd:string .
+
+ai4dm-data:country-JO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:JO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Jordan"^^xsd:anyURI ;
+    skos:hiddenLabel "JO"^^xsd:string ;
+    skos:prefLabel "Jordan"^^xsd:string .
+
+ai4dm-data:country-JP a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:JP ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Japan"^^xsd:anyURI ;
+    skos:hiddenLabel "JP"^^xsd:string ;
+    skos:prefLabel "Japan"^^xsd:string .
+
+ai4dm-data:country-KE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:KE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Kenya"^^xsd:anyURI ;
+    skos:hiddenLabel "KE"^^xsd:string ;
+    skos:prefLabel "Kenya"^^xsd:string .
+
+ai4dm-data:country-KG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:KG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Kyrgyzstan"^^xsd:anyURI ;
+    skos:hiddenLabel "KG"^^xsd:string ;
+    skos:prefLabel "Kyrgyzstan"^^xsd:string .
+
+ai4dm-data:country-KH a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:KH ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Cambodia"^^xsd:anyURI ;
+    skos:hiddenLabel "KH"^^xsd:string ;
+    skos:prefLabel "Cambodia"^^xsd:string .
+
+ai4dm-data:country-KI a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:KI ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Kiribati"^^xsd:anyURI ;
+    skos:hiddenLabel "KI"^^xsd:string ;
+    skos:prefLabel "Kiribati"^^xsd:string .
+
+ai4dm-data:country-KM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:KM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Comoros"^^xsd:anyURI ;
+    skos:hiddenLabel "KM"^^xsd:string ;
+    skos:prefLabel "Comoros"^^xsd:string .
+
+ai4dm-data:country-KN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:KN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis"^^xsd:anyURI ;
+    skos:hiddenLabel "KN"^^xsd:string ;
+    skos:prefLabel "Saint Kitts and Nevis"^^xsd:string .
+
+ai4dm-data:country-KP a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:KP ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/North_Korea"^^xsd:anyURI ;
+    skos:hiddenLabel "KP"^^xsd:string ;
+    skos:prefLabel "North Korea"^^xsd:string .
+
+ai4dm-data:country-KR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:KR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/South_Korea"^^xsd:anyURI ;
+    skos:hiddenLabel "KR"^^xsd:string ;
+    skos:prefLabel "South Korea"^^xsd:string .
+
+ai4dm-data:country-KW a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:KW ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Kuwait"^^xsd:anyURI ;
+    skos:hiddenLabel "KW"^^xsd:string ;
+    skos:prefLabel "Kuwait"^^xsd:string .
+
+ai4dm-data:country-KY a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:KY ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Cayman_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "KY"^^xsd:string ;
+    skos:prefLabel "Cayman Islands"^^xsd:string .
+
+ai4dm-data:country-KZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:KZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Kazakhstan"^^xsd:anyURI ;
+    skos:hiddenLabel "KZ"^^xsd:string ;
+    skos:prefLabel "Kazakhstan"^^xsd:string .
+
+ai4dm-data:country-LA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:LA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Laos"^^xsd:anyURI ;
+    skos:hiddenLabel "LA"^^xsd:string ;
+    skos:prefLabel "Laos"^^xsd:string .
+
+ai4dm-data:country-LB a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:LB ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Lebanon"^^xsd:anyURI ;
+    skos:hiddenLabel "LB"^^xsd:string ;
+    skos:prefLabel "Lebanon"^^xsd:string .
+
+ai4dm-data:country-LC a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:LC ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Saint_Lucia"^^xsd:anyURI ;
+    skos:hiddenLabel "LC"^^xsd:string ;
+    skos:prefLabel "Saint Lucia"^^xsd:string .
+
+ai4dm-data:country-LI a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:LI ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Liechtenstein"^^xsd:anyURI ;
+    skos:hiddenLabel "LI"^^xsd:string ;
+    skos:prefLabel "Liechtenstein"^^xsd:string .
+
+ai4dm-data:country-LK a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:LK ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Sri_Lanka"^^xsd:anyURI ;
+    skos:hiddenLabel "LK"^^xsd:string ;
+    skos:prefLabel "Sri Lanka"^^xsd:string .
+
+ai4dm-data:country-LR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:LR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Liberia"^^xsd:anyURI ;
+    skos:hiddenLabel "LR"^^xsd:string ;
+    skos:prefLabel "Liberia"^^xsd:string .
+
+ai4dm-data:country-LS a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:LS ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Lesotho"^^xsd:anyURI ;
+    skos:hiddenLabel "LS"^^xsd:string ;
+    skos:prefLabel "Lesotho"^^xsd:string .
+
+ai4dm-data:country-LT a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:LT ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Lithuania"^^xsd:anyURI ;
+    skos:hiddenLabel "LT"^^xsd:string ;
+    skos:prefLabel "Lithuania"^^xsd:string .
+
+ai4dm-data:country-LU a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:LU ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Luxembourg"^^xsd:anyURI ;
+    skos:hiddenLabel "LU"^^xsd:string ;
+    skos:prefLabel "Luxembourg"^^xsd:string .
+
+ai4dm-data:country-LV a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:LV ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Latvia"^^xsd:anyURI ;
+    skos:hiddenLabel "LV"^^xsd:string ;
+    skos:prefLabel "Latvia"^^xsd:string .
+
+ai4dm-data:country-LY a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:LY ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Libya"^^xsd:anyURI ;
+    skos:hiddenLabel "LY"^^xsd:string ;
+    skos:prefLabel "Libya"^^xsd:string .
+
+ai4dm-data:country-MA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:MA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Morocco"^^xsd:anyURI ;
+    skos:hiddenLabel "MA"^^xsd:string ;
+    skos:prefLabel "Morocco"^^xsd:string .
+
+ai4dm-data:country-MC a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:MC ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Monaco"^^xsd:anyURI ;
+    skos:hiddenLabel "MC"^^xsd:string ;
+    skos:prefLabel "Monaco"^^xsd:string .
+
+ai4dm-data:country-MD a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:MD ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Moldova"^^xsd:anyURI ;
+    skos:hiddenLabel "MD"^^xsd:string ;
+    skos:prefLabel "Moldova"^^xsd:string .
+
+ai4dm-data:country-ME a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:ME ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Montenegro"^^xsd:anyURI ;
+    skos:hiddenLabel "ME"^^xsd:string ;
+    skos:prefLabel "Montenegro"^^xsd:string .
+
+ai4dm-data:country-MF a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:MF ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Saint_Martin_(France)"^^xsd:anyURI ;
+    skos:hiddenLabel "MF"^^xsd:string ;
+    skos:prefLabel "Saint Martin"^^xsd:string .
+
+ai4dm-data:country-MG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:MG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Madagascar"^^xsd:anyURI ;
+    skos:hiddenLabel "MG"^^xsd:string ;
+    skos:prefLabel "Madagascar"^^xsd:string .
+
+ai4dm-data:country-MH a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:MH ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Marshall_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "MH"^^xsd:string ;
+    skos:prefLabel "Marshall Islands"^^xsd:string .
+
+ai4dm-data:country-MK a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:MK ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Macedonia"^^xsd:anyURI ;
+    skos:hiddenLabel "MK"^^xsd:string ;
+    skos:prefLabel "North Macedonia"^^xsd:string .
+
+ai4dm-data:country-ML a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:ML ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Mali"^^xsd:anyURI ;
+    skos:hiddenLabel "ML"^^xsd:string ;
+    skos:prefLabel "Mali"^^xsd:string .
+
+ai4dm-data:country-MM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:MM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Burma"^^xsd:anyURI ;
+    skos:hiddenLabel "MM"^^xsd:string ;
+    skos:prefLabel "Burma"^^xsd:string .
+
+ai4dm-data:country-MN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:MN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Mongolia"^^xsd:anyURI ;
+    skos:hiddenLabel "MN"^^xsd:string ;
+    skos:prefLabel "Mongolia"^^xsd:string .
+
+ai4dm-data:country-MO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:MO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Macau"^^xsd:anyURI ;
+    skos:hiddenLabel "MO"^^xsd:string ;
+    skos:prefLabel "Macau"^^xsd:string .
+
+ai4dm-data:country-MP a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:MP ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Northern_Mariana_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "MP"^^xsd:string ;
+    skos:prefLabel "Northern Mariana Islands"^^xsd:string .
+
+ai4dm-data:country-MQ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:MQ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Martinique"^^xsd:anyURI ;
+    skos:hiddenLabel "MQ"^^xsd:string ;
+    skos:prefLabel "Martinique"^^xsd:string .
+
+ai4dm-data:country-MR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:MR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Mauritania"^^xsd:anyURI ;
+    skos:hiddenLabel "MR"^^xsd:string ;
+    skos:prefLabel "Mauritania"^^xsd:string .
+
+ai4dm-data:country-MS a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:MS ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Montserrat"^^xsd:anyURI ;
+    skos:hiddenLabel "MS"^^xsd:string ;
+    skos:prefLabel "Montserrat"^^xsd:string .
+
+ai4dm-data:country-MT a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:MT ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Malta"^^xsd:anyURI ;
+    skos:hiddenLabel "MT"^^xsd:string ;
+    skos:prefLabel "Malta"^^xsd:string .
+
+ai4dm-data:country-MU a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:MU ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Mauritius"^^xsd:anyURI ;
+    skos:hiddenLabel "MU"^^xsd:string ;
+    skos:prefLabel "Mauritius"^^xsd:string .
+
+ai4dm-data:country-MV a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:MV ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Maldives"^^xsd:anyURI ;
+    skos:hiddenLabel "MV"^^xsd:string ;
+    skos:prefLabel "Maldives"^^xsd:string .
+
+ai4dm-data:country-MW a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:MW ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Malawi"^^xsd:anyURI ;
+    skos:hiddenLabel "MW"^^xsd:string ;
+    skos:prefLabel "Malawi"^^xsd:string .
+
+ai4dm-data:country-MX a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:MX ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Mexico"^^xsd:anyURI ;
+    skos:hiddenLabel "MX"^^xsd:string ;
+    skos:prefLabel "Mexico"^^xsd:string .
+
+ai4dm-data:country-MY a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:MY ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Malaysia"^^xsd:anyURI ;
+    skos:hiddenLabel "MY"^^xsd:string ;
+    skos:prefLabel "Malaysia"^^xsd:string .
+
+ai4dm-data:country-MZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:MZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Mozambique"^^xsd:anyURI ;
+    skos:hiddenLabel "MZ"^^xsd:string ;
+    skos:prefLabel "Mozambique"^^xsd:string .
+
+ai4dm-data:country-NC a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:NC ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/New_Caledonia"^^xsd:anyURI ;
+    skos:hiddenLabel "NC"^^xsd:string ;
+    skos:prefLabel "New Caledonia"^^xsd:string .
+
+ai4dm-data:country-NE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:NE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Niger"^^xsd:anyURI ;
+    skos:hiddenLabel "NE"^^xsd:string ;
+    skos:prefLabel "Niger"^^xsd:string .
+
+ai4dm-data:country-NF a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:NF ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Norfolk_Island"^^xsd:anyURI ;
+    skos:hiddenLabel "NF"^^xsd:string ;
+    skos:prefLabel "Norfolk Island"^^xsd:string .
+
+ai4dm-data:country-NG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:NG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Nigeria"^^xsd:anyURI ;
+    skos:hiddenLabel "NG"^^xsd:string ;
+    skos:prefLabel "Nigeria"^^xsd:string .
+
+ai4dm-data:country-NI a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:NI ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Nicaragua"^^xsd:anyURI ;
+    skos:hiddenLabel "NI"^^xsd:string ;
+    skos:prefLabel "Nicaragua"^^xsd:string .
+
+ai4dm-data:country-NL a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:NL ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Netherlands"^^xsd:anyURI ;
+    skos:hiddenLabel "NL"^^xsd:string ;
+    skos:prefLabel "Netherlands"^^xsd:string .
+
+ai4dm-data:country-NO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:NO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Norway"^^xsd:anyURI ;
+    skos:hiddenLabel "NO"^^xsd:string ;
+    skos:prefLabel "Norway"^^xsd:string .
+
+ai4dm-data:country-NP a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:NP ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Nepal"^^xsd:anyURI ;
+    skos:hiddenLabel "NP"^^xsd:string ;
+    skos:prefLabel "Nepal"^^xsd:string .
+
+ai4dm-data:country-NR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:NR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Nauru"^^xsd:anyURI ;
+    skos:hiddenLabel "NR"^^xsd:string ;
+    skos:prefLabel "Nauru"^^xsd:string .
+
+ai4dm-data:country-NU a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:NU ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Niue"^^xsd:anyURI ;
+    skos:hiddenLabel "NU"^^xsd:string ;
+    skos:prefLabel "Niue"^^xsd:string .
+
+ai4dm-data:country-NZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:NZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/New_Zealand"^^xsd:anyURI ;
+    skos:hiddenLabel "NZ"^^xsd:string ;
+    skos:prefLabel "New Zealand"^^xsd:string .
+
+ai4dm-data:country-OM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:OM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Oman"^^xsd:anyURI ;
+    skos:hiddenLabel "OM"^^xsd:string ;
+    skos:prefLabel "Oman"^^xsd:string .
+
+ai4dm-data:country-PA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:PA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Panama"^^xsd:anyURI ;
+    skos:hiddenLabel "PA"^^xsd:string ;
+    skos:prefLabel "Panama"^^xsd:string .
+
+ai4dm-data:country-PE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:PE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Per�"^^xsd:anyURI ;
+    skos:hiddenLabel "PE"^^xsd:string ;
+    skos:prefLabel "Per�"^^xsd:string .
+
+ai4dm-data:country-PF a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:PF ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/French_Polynesia"^^xsd:anyURI ;
+    skos:hiddenLabel "PF"^^xsd:string ;
+    skos:prefLabel "French Polynesia"^^xsd:string .
+
+ai4dm-data:country-PG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:PG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Papua_New_Guinea"^^xsd:anyURI ;
+    skos:hiddenLabel "PG"^^xsd:string ;
+    skos:prefLabel "Papua New Guinea"^^xsd:string .
+
+ai4dm-data:country-PH a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:PH ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Philippines"^^xsd:anyURI ;
+    skos:hiddenLabel "PH"^^xsd:string ;
+    skos:prefLabel "Philippines"^^xsd:string .
+
+ai4dm-data:country-PK a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:PK ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Pakistan"^^xsd:anyURI ;
+    skos:hiddenLabel "PK"^^xsd:string ;
+    skos:prefLabel "Pakistan"^^xsd:string .
+
+ai4dm-data:country-PL a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:PL ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Poland"^^xsd:anyURI ;
+    skos:hiddenLabel "PL"^^xsd:string ;
+    skos:prefLabel "Poland"^^xsd:string .
+
+ai4dm-data:country-PM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:PM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon"^^xsd:anyURI ;
+    skos:hiddenLabel "PM"^^xsd:string ;
+    skos:prefLabel "Saint Pierre and Miquelon"^^xsd:string .
+
+ai4dm-data:country-PN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:PN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Pitcairn"^^xsd:anyURI ;
+    skos:hiddenLabel "PN"^^xsd:string ;
+    skos:prefLabel "Pitcairn"^^xsd:string .
+
+ai4dm-data:country-PR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:PR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Puerto_Rico"^^xsd:anyURI ;
+    skos:hiddenLabel "PR"^^xsd:string ;
+    skos:prefLabel "Puerto Rico"^^xsd:string .
+
+ai4dm-data:country-PS a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:PS ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Palestinian_Territory"^^xsd:anyURI ;
+    skos:hiddenLabel "PS"^^xsd:string ;
+    skos:prefLabel "Palestinian Territory"^^xsd:string .
+
+ai4dm-data:country-PT a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:PT ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Portugal"^^xsd:anyURI ;
+    skos:hiddenLabel "PT"^^xsd:string ;
+    skos:prefLabel "Portugal"^^xsd:string .
+
+ai4dm-data:country-PW a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:PW ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Palau"^^xsd:anyURI ;
+    skos:hiddenLabel "PW"^^xsd:string ;
+    skos:prefLabel "Palau"^^xsd:string .
+
+ai4dm-data:country-PY a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:PY ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Paraguay"^^xsd:anyURI ;
+    skos:hiddenLabel "PY"^^xsd:string ;
+    skos:prefLabel "Paraguay"^^xsd:string .
+
+ai4dm-data:country-QA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:QA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Qatar"^^xsd:anyURI ;
+    skos:hiddenLabel "QA"^^xsd:string ;
+    skos:prefLabel "Qatar"^^xsd:string .
+
+ai4dm-data:country-RE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:RE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/R�union"^^xsd:anyURI ;
+    skos:hiddenLabel "RE"^^xsd:string ;
+    skos:prefLabel "R�union"^^xsd:string .
+
+ai4dm-data:country-RO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:RO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Romania"^^xsd:anyURI ;
+    skos:hiddenLabel "RO"^^xsd:string ;
+    skos:prefLabel "Romania"^^xsd:string .
+
+ai4dm-data:country-RS a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:RS ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Serbia"^^xsd:anyURI ;
+    skos:hiddenLabel "RS"^^xsd:string ;
+    skos:prefLabel "Serbia"^^xsd:string .
+
+ai4dm-data:country-RU a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:RU ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Russia"^^xsd:anyURI ;
+    skos:hiddenLabel "RU"^^xsd:string ;
+    skos:prefLabel "Russia"^^xsd:string .
+
+ai4dm-data:country-RW a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:RW ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Rwanda"^^xsd:anyURI ;
+    skos:hiddenLabel "RW"^^xsd:string ;
+    skos:prefLabel "Rwanda"^^xsd:string .
+
+ai4dm-data:country-SA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:SA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Saudi_Arabia"^^xsd:anyURI ;
+    skos:hiddenLabel "SA"^^xsd:string ;
+    skos:prefLabel "Saudi Arabia"^^xsd:string .
+
+ai4dm-data:country-SB a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:SB ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Solomon_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "SB"^^xsd:string ;
+    skos:prefLabel "Solomon Islands"^^xsd:string .
+
+ai4dm-data:country-SC a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:SC ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Seychelles"^^xsd:anyURI ;
+    skos:hiddenLabel "SC"^^xsd:string ;
+    skos:prefLabel "Seychelles"^^xsd:string .
+
+ai4dm-data:country-SD a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:SD ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Sudan"^^xsd:anyURI ;
+    skos:hiddenLabel "SD"^^xsd:string ;
+    skos:prefLabel "Sudan"^^xsd:string .
+
+ai4dm-data:country-SE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:SE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Sweden"^^xsd:anyURI ;
+    skos:hiddenLabel "SE"^^xsd:string ;
+    skos:prefLabel "Sweden"^^xsd:string .
+
+ai4dm-data:country-SG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:SG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Singapore"^^xsd:anyURI ;
+    skos:hiddenLabel "SG"^^xsd:string ;
+    skos:prefLabel "Singapore"^^xsd:string .
+
+ai4dm-data:country-SH a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:SH ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Saint_Helena"^^xsd:anyURI ;
+    skos:hiddenLabel "SH"^^xsd:string ;
+    skos:prefLabel "Saint Helena"^^xsd:string .
+
+ai4dm-data:country-SI a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:SI ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Slovenia"^^xsd:anyURI ;
+    skos:hiddenLabel "SI"^^xsd:string ;
+    skos:prefLabel "Slovenia"^^xsd:string .
+
+ai4dm-data:country-SK a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:SK ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Slovakia"^^xsd:anyURI ;
+    skos:hiddenLabel "SK"^^xsd:string ;
+    skos:prefLabel "Slovakia"^^xsd:string .
+
+ai4dm-data:country-SL a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:SL ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Sierra_Leone"^^xsd:anyURI ;
+    skos:hiddenLabel "SL"^^xsd:string ;
+    skos:prefLabel "Sierra Leone"^^xsd:string .
+
+ai4dm-data:country-SM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:SM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/San_Marino"^^xsd:anyURI ;
+    skos:hiddenLabel "SM"^^xsd:string ;
+    skos:prefLabel "San Marino"^^xsd:string .
+
+ai4dm-data:country-SN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:SN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Senegal"^^xsd:anyURI ;
+    skos:hiddenLabel "SN"^^xsd:string ;
+    skos:prefLabel "Senegal"^^xsd:string .
+
+ai4dm-data:country-SO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:SO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Somalia"^^xsd:anyURI ;
+    skos:hiddenLabel "SO"^^xsd:string ;
+    skos:prefLabel "Somalia"^^xsd:string .
+
+ai4dm-data:country-SR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:SR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Suriname"^^xsd:anyURI ;
+    skos:hiddenLabel "SR"^^xsd:string ;
+    skos:prefLabel "Suriname"^^xsd:string .
+
+ai4dm-data:country-SS a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:SS ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/South_Sudan"^^xsd:anyURI ;
+    skos:hiddenLabel "SS"^^xsd:string ;
+    skos:prefLabel "South Sudan"^^xsd:string .
+
+ai4dm-data:country-SV a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:SV ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/El_Salvador"^^xsd:anyURI ;
+    skos:hiddenLabel "SV"^^xsd:string ;
+    skos:prefLabel "El Salvador"^^xsd:string .
+
+ai4dm-data:country-SX a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:SX ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Sint_Maarten"^^xsd:anyURI ;
+    skos:hiddenLabel "SX"^^xsd:string ;
+    skos:prefLabel "Sint Maarten"^^xsd:string .
+
+ai4dm-data:country-SY a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:SY ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Syria"^^xsd:anyURI ;
+    skos:hiddenLabel "SY"^^xsd:string ;
+    skos:prefLabel "Syria"^^xsd:string .
+
+ai4dm-data:country-SZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:SZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Eswatini"^^xsd:anyURI ;
+    skos:hiddenLabel "SZ"^^xsd:string ;
+    skos:prefLabel "Eswatini"^^xsd:string .
+
+ai4dm-data:country-TC a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:TC ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "TC"^^xsd:string ;
+    skos:prefLabel "Turks and Caicos Islands"^^xsd:string .
+
+ai4dm-data:country-TD a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:TD ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Chad"^^xsd:anyURI ;
+    skos:hiddenLabel "TD"^^xsd:string ;
+    skos:prefLabel "Chad"^^xsd:string .
+
+ai4dm-data:country-TF a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AN ;
+    ai4dm:hasCountryCode cv-ai4dm:TF ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/French_Southern_Territories"^^xsd:anyURI ;
+    skos:hiddenLabel "TF"^^xsd:string ;
+    skos:prefLabel "French Southern Territories"^^xsd:string .
+
+ai4dm-data:country-TG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:TG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Togo"^^xsd:anyURI ;
+    skos:hiddenLabel "TG"^^xsd:string ;
+    skos:prefLabel "Togo"^^xsd:string .
+
+ai4dm-data:country-TH a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:TH ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Thailand"^^xsd:anyURI ;
+    skos:hiddenLabel "TH"^^xsd:string ;
+    skos:prefLabel "Thailand"^^xsd:string .
+
+ai4dm-data:country-TJ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:TJ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Tajikistan"^^xsd:anyURI ;
+    skos:hiddenLabel "TJ"^^xsd:string ;
+    skos:prefLabel "Tajikistan"^^xsd:string .
+
+ai4dm-data:country-TK a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:TK ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Tokelau"^^xsd:anyURI ;
+    skos:hiddenLabel "TK"^^xsd:string ;
+    skos:prefLabel "Tokelau"^^xsd:string .
+
+ai4dm-data:country-TL a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:TL ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Timor-Leste"^^xsd:anyURI ;
+    skos:hiddenLabel "TL"^^xsd:string ;
+    skos:prefLabel "Timor-Leste"^^xsd:string .
+
+ai4dm-data:country-TM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:TM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Turkmenistan"^^xsd:anyURI ;
+    skos:hiddenLabel "TM"^^xsd:string ;
+    skos:prefLabel "Turkmenistan"^^xsd:string .
+
+ai4dm-data:country-TN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:TN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Tunisia"^^xsd:anyURI ;
+    skos:hiddenLabel "TN"^^xsd:string ;
+    skos:prefLabel "Tunisia"^^xsd:string .
+
+ai4dm-data:country-TO a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:TO ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Tonga"^^xsd:anyURI ;
+    skos:hiddenLabel "TO"^^xsd:string ;
+    skos:prefLabel "Tonga"^^xsd:string .
+
+ai4dm-data:country-TR a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:TR ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Turkey"^^xsd:anyURI ;
+    skos:hiddenLabel "TR"^^xsd:string ;
+    skos:prefLabel "Turkey"^^xsd:string .
+
+ai4dm-data:country-TT a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:TT ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Trinidad_and_Tobago"^^xsd:anyURI ;
+    skos:hiddenLabel "TT"^^xsd:string ;
+    skos:prefLabel "Trinidad and Tobago"^^xsd:string .
+
+ai4dm-data:country-TV a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:TV ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Tuvalu"^^xsd:anyURI ;
+    skos:hiddenLabel "TV"^^xsd:string ;
+    skos:prefLabel "Tuvalu"^^xsd:string .
+
+ai4dm-data:country-TW a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:TW ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Taiwan"^^xsd:anyURI ;
+    skos:hiddenLabel "TW"^^xsd:string ;
+    skos:prefLabel "Taiwan"^^xsd:string .
+
+ai4dm-data:country-TZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:TZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Tanzania"^^xsd:anyURI ;
+    skos:hiddenLabel "TZ"^^xsd:string ;
+    skos:prefLabel "Tanzania"^^xsd:string .
+
+ai4dm-data:country-UA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:UA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Ukraine"^^xsd:anyURI ;
+    skos:hiddenLabel "UA"^^xsd:string ;
+    skos:prefLabel "Ukraine"^^xsd:string .
+
+ai4dm-data:country-UG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:UG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Uganda"^^xsd:anyURI ;
+    skos:hiddenLabel "UG"^^xsd:string ;
+    skos:prefLabel "Uganda"^^xsd:string .
+
+ai4dm-data:country-UM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:UM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/United_States_Minor_Outlying_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "UM"^^xsd:string ;
+    skos:prefLabel "United States Minor Outlying Islands"^^xsd:string .
+
+ai4dm-data:country-US a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:US ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/United_States"^^xsd:anyURI ;
+    skos:hiddenLabel "US"^^xsd:string ;
+    skos:prefLabel "United States"^^xsd:string .
+
+ai4dm-data:country-UY a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:UY ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Uruguay"^^xsd:anyURI ;
+    skos:hiddenLabel "UY"^^xsd:string ;
+    skos:prefLabel "Uruguay"^^xsd:string .
+
+ai4dm-data:country-UZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:UZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Uzbekistan"^^xsd:anyURI ;
+    skos:hiddenLabel "UZ"^^xsd:string ;
+    skos:prefLabel "Uzbekistan"^^xsd:string .
+
+ai4dm-data:country-VA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:VA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Vatican_City"^^xsd:anyURI ;
+    skos:hiddenLabel "VA"^^xsd:string ;
+    skos:prefLabel "Vatican City"^^xsd:string .
+
+ai4dm-data:country-VC a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:VC ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines"^^xsd:anyURI ;
+    skos:hiddenLabel "VC"^^xsd:string ;
+    skos:prefLabel "Saint Vincent and the Grenadines"^^xsd:string .
+
+ai4dm-data:country-VE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:SA ;
+    ai4dm:hasCountryCode cv-ai4dm:VE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Venezuela"^^xsd:anyURI ;
+    skos:hiddenLabel "VE"^^xsd:string ;
+    skos:prefLabel "Venezuela"^^xsd:string .
+
+ai4dm-data:country-VG a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:VG ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/British_Virgin_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "VG"^^xsd:string ;
+    skos:prefLabel "British Virgin Islands"^^xsd:string .
+
+ai4dm-data:country-VI a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:NA ;
+    ai4dm:hasCountryCode cv-ai4dm:VI ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/U.S._Virgin_Islands"^^xsd:anyURI ;
+    skos:hiddenLabel "VI"^^xsd:string ;
+    skos:prefLabel "U.S. Virgin Islands"^^xsd:string .
+
+ai4dm-data:country-VN a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:VN ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Vietnam"^^xsd:anyURI ;
+    skos:hiddenLabel "VN"^^xsd:string ;
+    skos:prefLabel "Vietnam"^^xsd:string .
+
+ai4dm-data:country-VU a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:VU ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Vanuatu"^^xsd:anyURI ;
+    skos:hiddenLabel "VU"^^xsd:string ;
+    skos:prefLabel "Vanuatu"^^xsd:string .
+
+ai4dm-data:country-WF a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:WF ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Wallis_and_Futuna"^^xsd:anyURI ;
+    skos:hiddenLabel "WF"^^xsd:string ;
+    skos:prefLabel "Wallis and Futuna"^^xsd:string .
+
+ai4dm-data:country-WS a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:OC ;
+    ai4dm:hasCountryCode cv-ai4dm:WS ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Samoa"^^xsd:anyURI ;
+    skos:hiddenLabel "WS"^^xsd:string ;
+    skos:prefLabel "Samoa"^^xsd:string .
+
+ai4dm-data:country-XK a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:EU ;
+    ai4dm:hasCountryCode cv-ai4dm:XK ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Kosovo"^^xsd:anyURI ;
+    skos:hiddenLabel "XK"^^xsd:string ;
+    skos:prefLabel "Kosovo"^^xsd:string .
+
+ai4dm-data:country-YE a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AS ;
+    ai4dm:hasCountryCode cv-ai4dm:YE ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Yemen"^^xsd:anyURI ;
+    skos:hiddenLabel "YE"^^xsd:string ;
+    skos:prefLabel "Yemen"^^xsd:string .
+
+ai4dm-data:country-YT a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:YT ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Mayotte"^^xsd:anyURI ;
+    skos:hiddenLabel "YT"^^xsd:string ;
+    skos:prefLabel "Mayotte"^^xsd:string .
+
+ai4dm-data:country-ZA a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:ZA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/South_Africa"^^xsd:anyURI ;
+    skos:hiddenLabel "ZA"^^xsd:string ;
+    skos:prefLabel "South Africa"^^xsd:string .
+
+ai4dm-data:country-ZM a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:ZM ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Zambia"^^xsd:anyURI ;
+    skos:hiddenLabel "ZM"^^xsd:string ;
+    skos:prefLabel "Zambia"^^xsd:string .
+
+ai4dm-data:country-ZW a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:ZW ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Zimbabwe"^^xsd:anyURI ;
+    skos:hiddenLabel "ZW"^^xsd:string ;
+    skos:prefLabel "Zimbabwe"^^xsd:string .
+
+ai4dm-data:country-ZZ a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:ZZ ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Unknown_or_unassigned_country"^^xsd:anyURI ;
+    skos:hiddenLabel "ZZ"^^xsd:string ;
+    skos:prefLabel "Unknown or unassigned country"^^xsd:string .
+
+ai4dm-data:country-nan a ai4dm:Country ;
+    ai4dm:hasContinent cv-ai4dm:AF ;
+    ai4dm:hasCountryCode cv-ai4dm:NA ;
+    ai4dm:hasWikiLink "https://en.wikipedia.org/wiki/Namibia"^^xsd:anyURI ;
+    skos:hiddenLabel "nan"^^xsd:string ;
+    skos:prefLabel "Namibia"^^xsd:string .
+

@@ -1,0 +1,41 @@
+# baseURI: http://dbpedia.org/ontology/cv/ai4dm/flight-type
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix cv-ai4dm: <http://dbpedia.org/ontology/cv/ai4dm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+cv-ai4dm:chartered a skos:Concept ;
+    skos:hiddenLabel "chartered"^^xsd:string ;
+    skos:prefLabel "chartered flights"^^xsd:string .
+
+cv-ai4dm:commercial-cargo a skos:Concept ;
+    skos:hiddenLabel "commercial-cargo"^^xsd:string ;
+    skos:prefLabel "commercial cargo flights"^^xsd:string .
+
+cv-ai4dm:commercial-passenger a skos:Concept ;
+    skos:hiddenLabel "commercial-passenger"^^xsd:string ;
+    skos:prefLabel "commercial passenger flights"^^xsd:string .
+
+cv-ai4dm:flight-type a owl:Ontology ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> .
+
+cv-ai4dm:non-commercial a skos:Concept ;
+    skos:hiddenLabel "non-commercial"^^xsd:string ;
+    skos:prefLabel "non-commercial flights"^^xsd:string .
+
+cv-ai4dm:spo a skos:Concept ;
+    skos:hiddenLabel "spo"^^xsd:string ;
+    skos:prefLabel "specialised operation flights"^^xsd:string .
+
+
+cv-ai4dm:flighttypes
+	a skos:Collection ;
+	skos:prefLabel "flight types" ;
+	skos:member cv-ai4dm:chartered ;
+	skos:member cv-ai4dm:commercial-cargo ;
+	skos:member cv-ai4dm:commercial-passenger ;
+	skos:member cv-ai4dm:non-commercial ;
+.

@@ -1,0 +1,42 @@
+<mat-card>
+    <mat-card-title>Upload new data</mat-card-title>
+
+    <div class="row">
+        <mat-form-field appearance="fill">
+            <mat-label>Select Data Provider</mat-label>
+            <mat-select [(ngModel)]="selectedDS" name="datasources">
+                <mat-option *ngFor="let ds of datasources" [value]="ds.value">
+                  {{ds.viewValue}}
+                </mat-option>
+              </mat-select>
+        </mat-form-field>
+
+    </div>
+    
+    <div class="row">
+        <mat-form-field appearance="fill">
+            <mat-label>Select Data Category</mat-label>
+            <mat-select [(ngModel)]="selectedCat" name="categories">
+                <mat-option *ngFor="let cat of categories" [value]="cat.value">
+                  {{cat.viewValue}}
+                </mat-option>
+              </mat-select>
+        </mat-form-field>
+        
+    </div>
+    
+    <div class="row">
+        <div class="form-group">
+            <label for="file">Choose File</label>
+            <input type="file"
+                   id="file"
+                   (change)="handleFileInput($event.target.files)">
+        
+            <button (click)="uploadFileToActivity()">
+                    Upload
+            </button>
+        </div>
+        
+    </div>
+</mat-card>
+

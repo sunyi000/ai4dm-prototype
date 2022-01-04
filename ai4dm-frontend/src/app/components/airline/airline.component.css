@@ -1,0 +1,108 @@
+.info{
+    margin-left: 100px !important;
+    border:none;
+}
+
+label{
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    font-weight: bold ;
+}
+
+
+table {
+	width: 100% !important ;
+}
+  
+.mat-form-field {
+font-size: 14px;
+width: 100%;
+}
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+.mat-checkbox {
+  padding: 5px;
+
+}
+
+.mat-column-aircraft {
+    padding-right: 24px;
+    text-align: center;
+}
+
+.mat-column-model {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 28% !important;
+    width: 10% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.mat-column-score {
+    background-color: rgb(176, 170, 255);
+    text-align: center;
+}
+
+.mat-column-rule {
+    background-color: rgb(170, 214, 255);
+}
+
+.mat-row .mat-cell {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+  .mat-row:hover .mat-cell {
+    border-color: currentColor;
+  }
+  
+  .airport-row-is-clicked {
+    font-weight: bold;
+  }
+
+  #questionsdd{
+      width: 600px;
+      padding: 5px;
+  }
+
+  .mat-form-field{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+  .Row {
+    display: table;
+    width: 100%; 
+    table-layout: fixed; 
+    border-spacing: 10px; 
+}
+.Column {
+    display: table-cell;
+    background-color: rgb(201, 200, 221); 
+    text-align: center;
+}
+
+.ColumnInfo {
+  display: table-cell;
+  text-align: center;
+}
+
+.question_subj{
+  align-content: center;
+  padding: auto;
+  margin: 0 auto;
+}
+
