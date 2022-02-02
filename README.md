@@ -10,7 +10,7 @@ Prerequisite
 
 # Ontology files
 - ai4dm-schema.ttl is the main schema for ai4dm kb. It imports the below files
-    - data-triples folder contains all instances in the ontology
+    - data-triples folder contains all instances in the ontology. (aircraft-model.ttl is not used for now)
     - ttl-vocabs contains the controlled vocabulary ontology which are imported by the main ai4dm ontology schema 
 
 # Steps to start the prototype application.
