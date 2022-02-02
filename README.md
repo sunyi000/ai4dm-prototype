@@ -2,6 +2,7 @@
 
 Prerequisite
 - install GraphDB and create a triple store, for example "ai4dm"
+- download AnyBURL, and take note of its binary location
 
 
 1 . ai4dm-backend is a standard Flask application.
