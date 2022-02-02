@@ -1,0 +1,505 @@
+@prefix : <http://dbpedia.org/ontology/ai4dm#> .
+@prefix cv: <http://dbpedia.org/ontology/cv/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cv-ai4dm: <http://localhost/cv/ai4dm> .
+@base <http://dbpedia.org/ontology/ai4dm> .
+
+<http://dbpedia.org/ontology/ai4dm> rdf:type owl:Ontology ;
+                                     owl:imports <http://xmlns.com/foaf/0.1/> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://dbpedia.org/ontology/ai4dm#boardFlight
+:boardFlight rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
+             rdfs:range <http://dbpedia.org/ontology/ai4dm/#Flight> .
+
+
+###  http://dbpedia.org/ontology/ai4dm#foundedBy
+:foundedBy rdf:type owl:ObjectProperty ;
+           owl:inverseOf :founderOf ;
+           rdfs:domain <http://xmlns.com/foaf/0.1/Organization> ;
+           rdfs:range <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+
+
+###  http://dbpedia.org/ontology/ai4dm#founderOf
+:founderOf rdf:type owl:ObjectProperty .
+
+###  http://dbpedia.org/ontology/ai4dm#capableOfLanding
+:capableOfLanding rdf:type owl:ObjectProperty .
+
+###  http://dbpedia.org/ontology/ai4dm#hasAircraft
+:hasAircraft rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://dbpedia.org/ontology/ai4dm/#Flight> ;
+             rdfs:range :Aircraft .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasAircraftEvent
+:hasAircraftEvent rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf :hasEvent ;
+                  rdfs:domain :Aircraft ;
+                  rdfs:range :Event .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasAlliance
+:hasAlliance rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Airline ;
+             rdfs:range :Airline .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasBase
+:hasBase rdf:type owl:ObjectProperty ;
+         owl:inverseOf :isBaseOf ;
+         rdfs:domain :Airline ;
+         rdfs:range :Airport .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasBirthPlace
+:hasBirthPlace rdf:type owl:ObjectProperty ;
+               owl:inverseOf :isBirthPlaceOf ;
+               rdfs:domain <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
+               rdfs:range :Region .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasCountry
+:hasCountry rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasDestination
+:hasDestination rdf:type owl:ObjectProperty ;
+                rdfs:domain <http://dbpedia.org/ontology/ai4dm/#Flight> .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasEmployer
+:hasEmployer rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
+             rdfs:range :Institution ,
+                        <http://xmlns.com/foaf/0.1/Organization> .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasEvent
+:hasEvent rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasFacility
+:hasFacility rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasFlight
+:hasFlight rdf:type owl:ObjectProperty ;
+           owl:inverseOf :isFlightOf ;
+           rdfs:domain :Airline ;
+           rdfs:range <http://dbpedia.org/ontology/ai4dm/#Flight> .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasFlightEvent
+:hasFlightEvent rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasEvent .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasFocusRegion
+:hasFocusRegion rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasHeadquarter
+:hasHeadquarter rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasKeyPeople
+:hasKeyPeople rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasNationality
+:hasNationality rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasOperator
+:hasOperator rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasOrigin
+:hasOrigin rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasRegion
+:hasRegion rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasRunway
+:hasRunway rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasSubsidary
+:hasSubsidary rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf <http://purl.org/dc/terms/hasPart> .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isAircraftEventOf
+:isAircraftEventOf rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isAircraftOf
+:isAircraftOf rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isAlumniOf
+:isAlumniOf rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isBaseOf
+:isBaseOf rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isBirthPlaceOf
+:isBirthPlaceOf rdf:type owl:ObjectProperty ;
+                rdfs:domain :Country ;
+                rdfs:range :Region .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isFacilityOf
+:isFacilityOf rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isFlightEventOf
+:isFlightEventOf rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isFlightOf
+:isFlightOf rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isRegionOf
+:isRegionOf rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isRunwayOf
+:isRunwayOf rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#isSubsidaryOf
+:isSubsidaryOf rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#land
+:land rdf:type owl:ObjectProperty ;
+      rdfs:domain :Aircraft ;
+      rdfs:range :Airport .
+
+
+###  http://dbpedia.org/ontology/ai4dm#ownedBy
+:ownedBy rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#regionServed
+:regionServed rdf:type owl:ObjectProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#targetAirport
+:targetAirport rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://purl.org/dc/terms/hasPart
+<http://purl.org/dc/terms/hasPart> rdf:type owl:ObjectProperty ;
+                                   rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://dbpedia.org/ontology/ai4dm#FlightType
+:FlightType rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf <http://purl.org/dc/terms/type> .
+
+
+###  http://dbpedia.org/ontology/ai4dm#aircraftModel
+:aircraftModel rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#airportType
+:airportType rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf <http://purl.org/dc/terms/type> .
+
+
+###  http://dbpedia.org/ontology/ai4dm#eventDate
+:eventDate rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#eventName
+:eventName rdf:type owl:DatatypeProperty ;
+           rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/ontology/ai4dm#fleetSize
+:fleetSize rdf:type owl:DatatypeProperty ;
+           rdfs:range xsd:integer .
+
+
+###  http://dbpedia.org/ontology/ai4dm#foundedDate
+:foundedDate rdf:type owl:DatatypeProperty ;
+             rdfs:range xsd:dateTime .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasAircraftLength
+:hasAircraftLength rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf :hasLength .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasAirportIdent
+:hasAirportIdent rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasApproachSpeed
+:hasApproachSpeed rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasCallsign
+:hasCallsign rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasContinent
+:hasContinent rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasCountryCode
+:hasCountryCode rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasElevation
+:hasElevation rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasEngineCount
+:hasEngineCount rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasEventID
+:hasEventID rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasEventType
+:hasEventType rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasFAAIdentifier
+:hasFAAIdentifier rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasFleetSize
+:hasFleetSize rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasFlightNo
+:hasFlightNo rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasGPSCode
+:hasGPSCode rdf:type owl:DatatypeProperty ;
+            rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasGearConfig
+:hasGearConfig rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasIataCode
+:hasIataCode rdf:type owl:DatatypeProperty ;
+             rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasIcaoCode
+:hasIcaoCode rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasInstitutionType
+:hasInstitutionType rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf <http://purl.org/dc/terms/type> .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasLength
+:hasLength rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasLighted
+:hasLighted rdf:type owl:DatatypeProperty ;
+            rdfs:range xsd:boolean .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasLocalCode
+:hasLocalCode rdf:type owl:DatatypeProperty ;
+              rdfs:range xsd:string .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasMTOW
+:hasMTOW rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasManufacturer
+:hasManufacturer rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasMaxRamp
+:hasMaxRamp rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasMunicipality
+:hasMunicipality rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasParkingArea
+:hasParkingArea rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasPhysicalClass
+:hasPhysicalClass rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasRegionCode
+:hasRegionCode rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasRunwayLength
+:hasRunwayLength rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :hasLength .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasStops
+:hasStops rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasSurface
+:hasSurface rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasTailHeight
+:hasTailHeight rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasWakeCategory
+:hasWakeCategory rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasWidth
+:hasWidth rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasWikiLink
+:hasWikiLink rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasWingSpan
+:hasWingSpan rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#hasWingtip
+:hasWingtip rdf:type owl:DatatypeProperty .
+
+
+###  http://dbpedia.org/ontology/ai4dm#netIncome
+:netIncome rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/dc/terms/type
+<http://purl.org/dc/terms/type> rdf:type owl:DatatypeProperty ;
+                                rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.opengis.net/ont/geosparql#Point
+<http://www.opengis.net/ont/geosparql#Point> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type owl:DatatypeProperty ;
+                                              rdfs:range xsd:float .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type owl:DatatypeProperty ;
+                                               rdfs:range xsd:float .
+
+
+###  http://www.w3.org/ns/prov#endedAtTime
+<http://www.w3.org/ns/prov#endedAtTime> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/ns/prov#startedAtTime
+<http://www.w3.org/ns/prov#startedAtTime> rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/ai4dm#Aircraft
+:Aircraft rdf:type owl:Class ;
+          owl:disjointWith :Airport ,
+                           :Event ,
+                           <http://dbpedia.org/ontology/ai4dm/#Flight> ;
+          rdfs:label "Aircraft" .
+
+
+###  http://dbpedia.org/ontology/ai4dm#Airline
+:Airline rdf:type owl:Class ;
+         rdfs:subClassOf <http://xmlns.com/foaf/0.1/Organization> ;
+         rdfs:label "Airline" .
+
+
+###  http://dbpedia.org/ontology/ai4dm#Airport
+:Airport rdf:type owl:Class ;
+         rdfs:label "Airport" .
+
+
+###  http://dbpedia.org/ontology/ai4dm#Country
+:Country rdf:type owl:Class ;
+         rdfs:label "Country" .
+
+
+###  http://dbpedia.org/ontology/ai4dm#Event
+:Event rdf:type owl:Class ;
+       rdfs:label "Event" .
+
+
+###  http://dbpedia.org/ontology/ai4dm#Facility
+:Facility rdf:type owl:Class ;
+          rdfs:subClassOf <http://xmlns.com/foaf/0.1/Organization> ;
+          rdfs:label "Facility" .
+
+
+###  http://dbpedia.org/ontology/ai4dm#Institution
+:Institution rdf:type owl:Class ;
+             rdfs:label "Institution" .
+
+
+###  http://dbpedia.org/ontology/ai4dm#Region
+:Region rdf:type owl:Class ;
+        rdfs:label "Region" .
+
+
+###  http://dbpedia.org/ontology/ai4dm#Runway
+:Runway rdf:type owl:Class ;
+        rdfs:label "Runway" .
+
+
+###  http://dbpedia.org/ontology/ai4dm/#Flight
+<http://dbpedia.org/ontology/ai4dm/#Flight> rdf:type owl:Class ;
+                                            rdfs:label "Flight" .
+
+
+###  http://www.w3.org/2000/10/swap/pim/contact#Person
+<http://www.w3.org/2000/10/swap/pim/contact#Person> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Organization
+<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
