@@ -15,7 +15,7 @@
     - ttl-vocabs contains the controlled vocabulary ontology which are imported by the main ai4dm ontology schema 
 
 ## Training files
-ai4dm-triples.txt contains data triples extracted from the kb. The triples describe attributes of an entity are excluded.
+ai4dm-triples.txt contains data triples extracted from the kb in txt format. The triples describe attributes of an entity are excluded.
 
 ## Steps to start the prototype application.
 
