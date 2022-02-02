@@ -12,7 +12,7 @@ Prerequisite
 Steps to start the prototype application.
 
 1. start GraphDB, create a triple store "ai4dm"
-2. load triples in all ttl files under ai4dm-backend/data
+2. load triples in all ttl files under ai4dm-backend/data (data-triples and ttl-vocabs folders, exclude aircraft-model.ttl)
 3. make sure GraphDB is running, and take notes of its url 
 4. update the GraphDB endpoint in config.py in ai4dm-backend
 5. start ai4dm-backend application
