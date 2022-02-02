@@ -16,8 +16,9 @@ Steps to start the prototype application.
 2. load triples in all ttl files under ai4dm-backend/data (data-triples and ttl-vocabs folders, exclude aircraft-model.ttl)
 3. make sure GraphDB is running, and take notes of its url 
 4. update the GraphDB endpoint in config.py in ai4dm-backend
-5. start ai4dm-backend application
-6. update endpoint in ai4dm-frontend. This endpoint is the Flask server side URL
-7. Install Angular10 and all its dependencies.
-8. start the ai4dm-frontend applications
-9. make sure CORS is enabled
+5. replace line 350 in app.py with anyBURL binary file location
+6. start ai4dm-backend application
+7. update endpoint in ai4dm-frontend. This endpoint is the Flask server side URL
+8. Install Angular10 and all its dependencies.
+9. start the ai4dm-frontend applications
+10. make sure CORS is enabled
