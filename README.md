@@ -1,22 +1,23 @@
 # ai4dm-prototype
 
-Prerequisite
+## Prerequisite
 - install GraphDB and create a triple store, for example "ai4dm"
 - download AnyBURL, and take note of its binary location
 
 
 1 . ai4dm-backend is a standard Flask application.
+
 2 . ai4dm-frontend is a Angular10 application.
 
-# Ontology files
+## Ontology files
 - ai4dm-schema.ttl is the main schema for ai4dm kb. It imports the below files
     - data-triples folder contains all instances in the ontology. (aircraft-model.ttl is not used for now)
     - ttl-vocabs contains the controlled vocabulary ontology which are imported by the main ai4dm ontology schema 
 
-# Training files
+## Training files
 ai4dm-triples.txt contains data triples extracted from the kb. The triples describe attributes of an entity are excluded.
 
-# Steps to start the prototype application.
+## Steps to start the prototype application.
 
 1. start GraphDB, create a triple store "ai4dm"
 2. load triples in all ttl files under ai4dm-backend/data (data-triples and ttl-vocabs folders, exclude aircraft-model.ttl)
