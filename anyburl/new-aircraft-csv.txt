@@ -1,0 +1,15 @@
+manufacturer	model	physical_class	no_of_engines	approach_speed	wingtip	wingspan	length	tail_height	MTOW	max_ramp	gear_config	icao	wake_category	parking_area	iata	airline	aircraft_id
+Sikorsky	Sea King	tbd		75.0	no winglets	65.0	51.75	19.33	12000.0	12.000	Seaplane	DHC6	L	3364.0	DHT	IOS.TY.AA.4K.PB.SB.P2.7F.IE.MD.NF.MH.FJ.HM.WJ.7P.BB.CG.3H.VT.8T.3S.6L.5C.HW.WM.BE.KX	633
+Beechcraft	Bonanza 35 (V35TC) rare as only 7 built	Piston	1	72.0	no winglets	33.5	26.42	7.58	3400.0	3.400	S	BE35	L	885.0			111
+Boeing	737-700. -700C	Jet	2	130.0	no winglets	112.58	110.33	41.58	154500.0	155.000	D	B737	M	12422.0	73G	DT.9W.AS.WN.AC.KY.W3.BA.A3.QR.LY.AM.CU.AV.QS.6R.RO.SK.AF.G3.VS.TG.HU.PS.3R.CZ.LH.4G.TK.FL.UN.ST.CA.L6.WY.UA.NS.KL.OS.BT.OK.RJ.SY.DL.MU.IB.AB.AY.CM.EK.KN.S2.SN.AT.NH	160
+Bombardier	Learjet 75	Jet	2	125.0	winglets	50.92	58.0	14	21500.0	21.750	D	LJ75		2953.0			291
+Grumman American	GA-7 Cougar	Piston	2	82.0	no winglets	36.83	28.67	10.33	3800.0	3.800	S	GA7	L	1056.0			488
+Aermacchi Macchi	M-346 Master	Jet	1	124.0	no winglets	31.89	37.69	16.1	20945.0	20.945	S	M346	M	1202.0			10
+Aermacchi Macchi	AL-60-B2	Piston	1	61.0	no winglets	38.83	28.0	10.67	3849.0	3.849	S	LA60	L	1087.0			7
+Beechcraft	Model 80 (Queen Air 80)	Piston	2	87.0	no winglets	45.88	35.5	14.25	8000.0	8.000	S	BE80	L	1629.0			132
+Comac	ARJ21-900 Xiangeng (Flying Phoenix) ER	Jet	2	140.0	winglets	89.5	119.25	27.67	104019.0	104	D	AJ27	M	10673.0	C27		391
+Morrisey Aircraft	OM-1 and OM-1-2 Bravo II	Piston	1	65.0	no winglets	26.42	21.42	13.2	23945	23.945	S			566.0			567
+Boeing	777-200	Jet	2	136.0	no winglets	199.92	209.08	61.5	535000.0	537.000	3D	B772	H	41799.0	772	DT.9W.VA.OZ.AC.US.GA.ET.LY.KE.SK.AF.TZ.SV.MH.AZ.NZ.TG.CX.AI.CZ.JL.TK.QF.UN.CA.UA.KL.OS.PG.SQ.KQ.DL.MU.CI.EK.BG.NH.SA	197
+Airbus	A380-800	Jet	4	145.0	wingtip fences	261.65	238.62	78.96	1267658.0	1.272.067	3D2	A388	H	62435.0	388	VA.US.BA.ET.KE.AF.AZ.VS.AI.LH.QF.MK.B6.UA.SQ.DL.IB.AY.EK	75
+Issoire Aviation	APM 20 Lionceau (Lion cub). APM 21 Lion	Piston	1	57.0	no winglets	28.42	21.65	7.88	1366.0	1366	S			615.0			531
+Embraer	EMB 190 AR	Jet	2	124.0	winglets	94.25	118.92	34.58	114199.0	114.552	D	E190	M	11208.0	E90	VA.EY.6W.AA.AC.IZ.US.9U.BA.ET.QR.AM.TA.AV.EN.AE.AP.AF.HG.SK.AZ.NZ.FB.JU.HU.AR.LX.PS.V0.CZ.LH.KC.JL.GS.B6.UX.S7.UA.NS.KL.OS.OK.RJ.SQ.KQ.MU.PW.A5.CI.IB.AB.AY.CM.EK.MF.TM.SN.AD.EQ.J2	435

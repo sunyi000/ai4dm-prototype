@@ -1,0 +1,2 @@
+aircraft-161	isAircraftOf	airline-DL
+airline-AF	hasAlliance	airline-DL

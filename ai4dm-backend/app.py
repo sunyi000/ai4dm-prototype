@@ -84,7 +84,7 @@ def get_prediction(subj,pred,t):
     df = helper.load_rules()
     df_col = df[df['rule'].str.startswith(pred)]
 
-    fpath="C://Users/ysun/Documents/griffith/ai4dm/anyburl/data/last_score.pkl"
+    fpath="/home/ysun/ai4dm-prototype/anyburl/last_score.pkl"
     if(os.path.exists(fpath)):
         f = open(fpath,"rb")
         df_last_score = pd.read_pickle(f)
@@ -347,7 +347,7 @@ def do_post_to_gdb(g,t):
     return r
 
 def retrain_anyburl():
-    os.chdir("C://Users/ysun/Documents/griffith/ai4dm/anyburl")
+    os.chdir("/home/ysun/ai4dm-prototype/anyburl")
     command = ['java','-Xmx3G','-cp','AnyBURL-JUNO.jar','de.unima.ki.anyburl.LearnReinforced','config-learn.properties']
     result = subprocess.run(command, stdout=PIPE,stderr=PIPE, universal_newlines=True)
 

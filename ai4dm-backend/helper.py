@@ -13,7 +13,7 @@ def results_in_json(results):
     return json_result
 
 def append_triple(g):
-    with open("C://Users/ysun/Documents/griffith/ai4dm/anyburl/data/ai4dm-triples-train.txt", "a",encoding="utf-8") as f:
+    with open("/home/ysun/ai4dm-prototype/anyburl/ai4dm-triples-train.txt", "a",encoding="utf-8") as f:
         for s,p,o in g:
             if (extract_part(p) in Config.preds) and (extract_part(s).isascii() and extract_part(o).isascii()):
                 f.write(extract_part(s) + "\t" + extract_part(p) + "\t" + extract_part(o) + "\n")
@@ -24,7 +24,7 @@ def sorted_uniq(r):
     return [r_sorted[sorted_ids.index(_id)] for _id in set(sorted_ids)]
 
 def load_rules():
-    rule_file = "C://Users/ysun/Documents/griffith/ai4dm/anyburl/rules/alpha-100"
+    rule_file = "/home/ysun/ai4dm-prototype/anyburl/alpha-100"
 
     df = pd.read_csv(rule_file, delimiter="\t", names=['n1', 'n2', 'score', 'rule'])
 
